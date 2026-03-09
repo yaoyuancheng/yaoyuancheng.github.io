@@ -3,267 +3,391 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>yaoyuancheng - 飞机大作战</title>
+    <title>yaoyuancheng | Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        :root {
+            --bg-primary: #0d1117;
+            --bg-secondary: #161b22;
+            --text-primary: #c9d1d9;
+            --text-secondary: #8b949e;
+            --accent: #58a6ff;
+            --accent-green: #2ea043;
+            --border: #30363d;
+        }
+
         body {
-            font-family: 'Segoe UI', 'Microsoft YaHei', sans-serif;
-            min-height: 100vh;
-            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
-            color: #fff;
-            overflow: hidden;
-            position: relative;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
         }
+
         .container {
-            text-align: center;
-            padding: 20px;
-            position: relative;
-            z-index: 10;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
         }
-        h1 {
+
+        /* Profile Header */
+        .profile-header {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 40px;
+            padding: 30px;
+            background: var(--bg-secondary);
+            border-radius: 12px;
+            border: 1px solid var(--border);
+        }
+
+        .avatar {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--accent), var(--accent-green));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3rem;
+            border: 3px solid var(--border);
+        }
+
+        .profile-info h1 {
             font-size: 2.5rem;
             margin-bottom: 10px;
-            background: linear-gradient(45deg, #00ffff, #ff00ff, #ffff00);
-            background-size: 400% 400%;
+            background: linear-gradient(135deg, var(--accent), var(--accent-green));
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
-            animation: gradient 3s ease infinite;
         }
-        .game-info {
+
+        .profile-info p {
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+            margin-bottom: 15px;
+        }
+
+        .social-links {
             display: flex;
-            justify-content: center;
-            gap: 30px;
-            margin: 20px 0;
-            font-size: 1.2rem;
+            gap: 15px;
         }
-        .game-info span {
-            padding: 10px 20px;
-            background: rgba(255, 255, 255, 0.1);
-            border-radius: 10px;
-            border: 2px solid rgba(0, 255, 255, 0.3);
-        }
-        #gameCanvas {
-            display: block;
-            margin: 0 auto;
-            background: linear-gradient(180deg, #0a0a2e 0%, #1a1a4e 100%);
-            border: 3px solid #00ffff;
-            border-radius: 10px;
-            box-shadow: 0 0 30px rgba(0, 255, 255, 0.5);
-        }
-        .controls {
-            margin-top: 20px;
-            font-size: 1rem;
-            color: #aaa;
-        }
-        .btn {
-            padding: 12px 30px;
-            font-size: 1.2rem;
-            background: linear-gradient(45deg, #00ffff, #00ff00);
-            border: none;
-            border-radius: 25px;
-            color: #000;
-            font-weight: bold;
-            cursor: pointer;
-            margin-top: 15px;
+
+        .social-links a {
+            color: var(--text-secondary);
+            font-size: 1.5rem;
             transition: all 0.3s;
         }
-        .btn:hover {
-            transform: scale(1.1);
-            box-shadow: 0 0 20px rgba(0, 255, 255, 0.8);
+
+        .social-links a:hover {
+            color: var(--accent);
+            transform: translateY(-3px);
         }
-        @keyframes gradient {
-            0% { background-position: 0% 50%; }
-            50% { background-position: 100% 50%; }
-            100% { background-position: 0% 50%; }
+
+        /* Stats */
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
         }
-        .particles {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            pointer-events: none;
-            z-index: 1;
+
+        .stat-card {
+            background: var(--bg-secondary);
+            padding: 25px;
+            border-radius: 12px;
+            border: 1px solid var(--border);
+            text-align: center;
+            transition: all 0.3s;
         }
-        .particle {
-            position: absolute;
-            width: 3px;
-            height: 3px;
-            background: rgba(0, 255, 255, 0.6);
-            border-radius: 50%;
-            animation: rise 10s infinite;
+
+        .stat-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--accent);
         }
-        @keyframes rise {
-            0% { opacity: 0; transform: translateY(100vh) scale(0); }
-            10% { opacity: 1; }
-            90% { opacity: 1; }
-            100% { opacity: 0; transform: translateY(-100vh) scale(1); }
+
+        .stat-card i {
+            font-size: 2rem;
+            color: var(--accent);
+            margin-bottom: 10px;
+        }
+
+        .stat-card h3 {
+            font-size: 2rem;
+            margin-bottom: 5px;
+        }
+
+        .stat-card p {
+            color: var(--text-secondary);
+        }
+
+        /* Skills */
+        .section {
+            margin-bottom: 40px;
+        }
+
+        .section-title {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .section-title i {
+            color: var(--accent);
+        }
+
+        .skills-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill-tag {
+            background: var(--bg-secondary);
+            padding: 10px 20px;
+            border-radius: 20px;
+            border: 1px solid var(--border);
+            font-size: 0.95rem;
+            transition: all 0.3s;
+        }
+
+        .skill-tag:hover {
+            border-color: var(--accent);
+            transform: translateY(-2px);
+        }
+
+        /* Projects */
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .project-card {
+            background: var(--bg-secondary);
+            padding: 25px;
+            border-radius: 12px;
+            border: 1px solid var(--border);
+            transition: all 0.3s;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--accent);
+        }
+
+        .project-card h3 {
+            margin-bottom: 10px;
+            color: var(--accent);
+        }
+
+        .project-card p {
+            color: var(--text-secondary);
+            margin-bottom: 15px;
+            font-size: 0.95rem;
+        }
+
+        .project-tags {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+
+        .project-tag {
+            background: rgba(88, 166, 255, 0.15);
+            color: var(--accent);
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 0.8rem;
+        }
+
+        /* Activity */
+        .activity-graph {
+            background: var(--bg-secondary);
+            padding: 30px;
+            border-radius: 12px;
+            border: 1px solid var(--border);
+            text-align: center;
+        }
+
+        .activity-graph p {
+            color: var(--text-secondary);
+            margin-bottom: 20px;
+        }
+
+        .contribution-grid {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            gap: 4px;
+            justify-items: center;
+        }
+
+        .contribution-cell {
+            width: 12px;
+            height: 12px;
+            border-radius: 2px;
+            background: var(--border);
+        }
+
+        .contribution-cell.active {
+            background: var(--accent-green);
+        }
+
+        .contribution-cell.more {
+            background: #238636;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: var(--text-secondary);
+            border-top: 1px solid var(--border);
+            margin-top: 40px;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .profile-header, .stat-card, .project-card {
+            animation: fadeIn 0.6s ease-out;
         }
     </style>
 </head>
 <body>
-    <div class="particles" id="particles"></div>
     <div class="container">
-        <h1>🛩️ 飞机大作战</h1>
-        <div class="game-info">
-            <span>得分：<strong id="score">0</strong></span>
-            <span>生命：<strong id="lives">❤️❤️❤️</strong></span>
+        <!-- Profile Header -->
+        <div class="profile-header">
+            <div class="avatar">👨‍💻</div>
+            <div class="profile-info">
+                <h1>yaoyuancheng</h1>
+                <p>Developer | Creator | Learner</p>
+                <div class="social-links">
+                    <a href="https://github.com/yaoyuancheng" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
         </div>
-        <canvas id="gameCanvas" width="600" height="400"></canvas>
-        <div class="controls">
-            <p>🎮 操作：← → 方向键或 A/D 移动，空格键发射子弹</p>
-            <p>💡 吃到蓝色道具加分，躲避红色障碍！</p>
-            <button class="btn" onclick="startGame()">开始游戏</button>
+
+        <!-- Stats -->
+        <div class="stats">
+            <div class="stat-card">
+                <i class="fas fa-code"></i>
+                <h3>3+</h3>
+                <p>Years Experience</p>
+            </div>
+            <div class="stat-card">
+                <i class="fas fa-project-diagram"></i>
+                <h3>10+</h3>
+                <p>Projects Completed</p>
+            </div>
+            <div class="stat-card">
+                <i class="fas fa-users"></i>
+                <h3>100+</h3>
+                <p>Happy Clients</p>
+            </div>
+            <div class="stat-card">
+                <i class="fas fa-coffee"></i>
+                <h3>∞</h3>
+                <p>Coffee Consumed</p>
+            </div>
         </div>
+
+        <!-- Skills -->
+        <div class="section">
+            <h2 class="section-title"><i class="fas fa-tools"></i> Skills</h2>
+            <div class="skills-grid">
+                <span class="skill-tag">JavaScript</span>
+                <span class="skill-tag">Python</span>
+                <span class="skill-tag">React</span>
+                <span class="skill-tag">Node.js</span>
+                <span class="skill-tag">TypeScript</span>
+                <span class="skill-tag">Git</span>
+                <span class="skill-tag">Docker</span>
+                <span class="skill-tag">Linux</span>
+                <span class="skill-tag">MongoDB</span>
+                <span class="skill-tag">PostgreSQL</span>
+                <span class="skill-tag">AWS</span>
+                <span class="skill-tag">Vue.js</span>
+            </div>
+        </div>
+
+        <!-- Projects -->
+        <div class="section">
+            <h2 class="section-title"><i class="fas fa-folder-open"></i> Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>🚀 Personal Portfolio</h3>
+                    <p>A modern portfolio website built with cutting-edge technologies</p>
+                    <div class="project-tags">
+                        <span class="project-tag">React</span>
+                        <span class="project-tag">Node.js</span>
+                        <span class="project-tag">MongoDB</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>🎮 Game Platform</h3>
+                    <p>Online gaming platform with real-time multiplayer features</p>
+                    <div class="project-tags">
+                        <span class="project-tag">Vue.js</span>
+                        <span class="project-tag">Socket.io</span>
+                        <span class="project-tag">Express</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>📱 Mobile App</h3>
+                    <p>Cross-platform mobile application for productivity</p>
+                    <div class="project-tags">
+                        <span class="project-tag">React Native</span>
+                        <span class="project-tag">Firebase</span>
+                        <span class="project-tag">Redux</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>🤖 AI Assistant</h3>
+                    <p>Intelligent chatbot powered by machine learning</p>
+                    <div class="project-tags">
+                        <span class="project-tag">Python</span>
+                        <span class="project-tag">TensorFlow</span>
+                        <span class="project-tag">NLP</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Activity -->
+        <div class="section">
+            <h2 class="section-title"><i class="fas fa-chart-line"></i> Activity</h2>
+            <div class="activity-graph">
+                <p>Contribution Graph (Last 365 Days)</p>
+                <div class="contribution-grid" id="contributions"></div>
+            </div>
+        </div>
+
+        <footer>
+            <p>© 2026 yaoyuancheng. Built with ❤️ and lots of ☕</p>
+        </footer>
     </div>
+
     <script>
-        // 粒子效果
-        const particlesContainer = document.getElementById('particles');
-        for (let i = 0; i < 30; i++) {
-            const particle = document.createElement('div');
-            particle.className = 'particle';
-            particle.style.left = Math.random() * 100 + '%';
-            particle.style.animationDelay = Math.random() * 10 + 's';
-            particle.style.animationDuration = (Math.random() * 10 + 10) + 's';
-            const colors = ['#00ffff', '#ff00ff', '#00ff00'];
-            particle.style.background = colors[Math.floor(Math.random() * colors.length)];
-            particlesContainer.appendChild(particle);
-        }
-
-        // 游戏逻辑
-        const canvas = document.getElementById('gameCanvas');
-        const ctx = canvas.getContext('2d');
-        let gameRunning = false;
-        let score = 0;
-        let lives = 3;
-        let player = { x: 275, y: 340, width: 50, height: 30 };
-        let bullets = [];
-        let obstacles = [];
-        let bonuses = [];
-        let keys = {};
-
-        document.addEventListener('keydown', (e) => {
-            keys[e.code] = true;
-            if (e.code === 'Space' && gameRunning) {
-                bullets.push({ x: player.x + player.width/2, y: player.y, width: 4, height: 15 });
+        // Generate contribution grid
+        const contributions = document.getElementById('contributions');
+        for (let i = 0; i < 224; i++) { // 32 weeks * 7 days
+            const cell = document.createElement('div');
+            cell.className = 'contribution-cell';
+            if (Math.random() > 0.6) {
+                cell.className += Math.random() > 0.5 ? ' active' : ' more';
             }
-        });
-        document.addEventListener('keyup', (e) => keys[e.code] = false);
-
-        function startGame() {
-            gameRunning = true;
-            score = 0;
-            lives = 3;
-            player.x = 275;
-            bullets = [];
-            obstacles = [];
-            bonuses = [];
-            updateScore();
-            gameLoop();
-            spawnObstacles();
-            spawnBonuses();
+            contributions.appendChild(cell);
         }
-
-        function updateScore() {
-            document.getElementById('score').textContent = score;
-            document.getElementById('lives').textContent = '❤️'.repeat(lives);
-        }
-
-        function spawnObstacles() {
-            if (!gameRunning) return;
-            obstacles.push({ x: Math.random() * 550, y: -30, width: 40, height: 40 });
-            setTimeout(spawnObstacles, 1500 - Math.min(score, 1000));
-        }
-
-        function spawnBonuses() {
-            if (!gameRunning) return;
-            bonuses.push({ x: Math.random() * 550, y: -30, width: 25, height: 25 });
-            setTimeout(spawnBonuses, 3000);
-        }
-
-        function update() {
-            if (keys['ArrowLeft'] || keys['KeyA']) player.x = Math.max(0, player.x - 5);
-            if (keys['ArrowRight'] || keys['KeyD']) player.x = Math.min(550, player.x + 5);
-
-            bullets.forEach((b, i) => {
-                b.y -= 8;
-                if (b.y < 0) bullets.splice(i, 1);
-            });
-
-            obstacles.forEach((obs, i) => {
-                obs.y += 3 + score/500;
-                if (obs.y > 400) {
-                    obstacles.splice(i, 1);
-                    score += 10;
-                    updateScore();
-                }
-                if (player.x < obs.x + obs.width && player.x + player.width > obs.x &&
-                    player.y < obs.y + obs.height && player.y + player.height > obs.y) {
-                    obstacles.splice(i, 1);
-                    lives--;
-                    updateScore();
-                    if (lives <= 0) {
-                        gameRunning = false;
-                        alert('游戏结束！得分：' + score);
-                    }
-                }
-            });
-
-            bonuses.forEach((bonus, i) => {
-                bonus.y += 2;
-                if (bonus.y > 400) bonuses.splice(i, 1);
-                if (player.x < bonus.x + bonus.width && player.x + player.width > bonus.x &&
-                    player.y < bonus.y + bonus.height && player.y + player.height > bonus.y) {
-                    bonuses.splice(i, 1);
-                    score += 50;
-                    updateScore();
-                }
-            });
-        }
-
-        function draw() {
-            ctx.clearRect(0, 0, 600, 400);
-            
-            // 绘制玩家飞机
-            ctx.fillStyle = '#00ffff';
-            ctx.beginPath();
-            ctx.moveTo(player.x + player.width/2, player.y);
-            ctx.lineTo(player.x, player.y + player.height);
-            ctx.lineTo(player.x + player.width, player.y + player.height);
-            ctx.closePath();
-            ctx.fill();
-
-            // 绘制子弹
-            ctx.fillStyle = '#ffff00';
-            bullets.forEach(b => {
-                ctx.fillRect(b.x, b.y, b.width, b.height);
-            });
-
-            // 绘制障碍
-            ctx.fillStyle = '#ff0044';
-            obstacles.forEach(obs => {
-                ctx.fillRect(obs.x, obs.y, obs.width, obs.height);
-            });
-
-            // 绘制奖励
-            ctx.fillStyle = '#00ff00';
-            bonuses.forEach(bonus => {
-                ctx.beginPath();
-                ctx.arc(bonus.x + 12, bonus.y + 12, 12, 0, Math.PI * 2);
-                ctx.fill();
-            });
-        }
-
-        function gameLoop() {
-            if (!gameRunning) return;
-            update();
-            draw();
-            requestAnimationFrame(gameLoop);
-        }
-
-        // 初始绘制
-        draw();
     </script>
 </body>
 </html>
