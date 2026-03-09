@@ -4,10 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>yaoyuancheng | Developer</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        
         :root {
             --bg-primary: #0d1117;
             --bg-secondary: #161b22;
@@ -17,21 +15,13 @@
             --accent-green: #2ea043;
             --border: #30363d;
         }
-
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
             background: var(--bg-primary);
             color: var(--text-primary);
             line-height: 1.6;
         }
-
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 40px 20px;
-        }
-
-        /* Profile Header */
+        .container { max-width: 900px; margin: 0 auto; padding: 40px 20px; }
         .profile-header {
             display: flex;
             align-items: center;
@@ -42,92 +32,43 @@
             border-radius: 12px;
             border: 1px solid var(--border);
         }
-
         .avatar {
             width: 120px;
             height: 120px;
             border-radius: 50%;
-            background: linear-gradient(135deg, var(--accent), var(--accent-green));
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 3rem;
+            object-fit: cover;
             border: 3px solid var(--border);
         }
-
         .profile-info h1 {
             font-size: 2.5rem;
             margin-bottom: 10px;
-            background: linear-gradient(135deg, var(--accent), var(--accent-green));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
+            color: var(--accent);
         }
-
-        .profile-info p {
-            color: var(--text-secondary);
-            font-size: 1.1rem;
-            margin-bottom: 15px;
-        }
-
-        .social-links {
-            display: flex;
-            gap: 15px;
-        }
-
+        .profile-info p { color: var(--text-secondary); margin-bottom: 15px; }
+        .social-links { display: flex; gap: 15px; }
         .social-links a {
             color: var(--text-secondary);
             font-size: 1.5rem;
-            transition: all 0.3s;
+            text-decoration: none;
         }
-
-        .social-links a:hover {
-            color: var(--accent);
-            transform: translateY(-3px);
-        }
-
-        /* Stats */
+        .social-links a:hover { color: var(--accent); }
         .stats {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
             gap: 20px;
             margin-bottom: 40px;
         }
-
         .stat-card {
             background: var(--bg-secondary);
             padding: 25px;
             border-radius: 12px;
             border: 1px solid var(--border);
             text-align: center;
-            transition: all 0.3s;
         }
-
-        .stat-card:hover {
-            transform: translateY(-5px);
-            border-color: var(--accent);
-        }
-
-        .stat-card i {
-            font-size: 2rem;
-            color: var(--accent);
-            margin-bottom: 10px;
-        }
-
-        .stat-card h3 {
-            font-size: 2rem;
-            margin-bottom: 5px;
-        }
-
-        .stat-card p {
-            color: var(--text-secondary);
-        }
-
-        /* Skills */
-        .section {
-            margin-bottom: 40px;
-        }
-
+        .stat-card .icon { font-size: 2rem; margin-bottom: 10px; }
+        .stat-card h3 { font-size: 2rem; margin-bottom: 5px; }
+        .stat-card p { color: var(--text-secondary); }
+        .section { margin-bottom: 40px; }
         .section-title {
             font-size: 1.8rem;
             margin-bottom: 20px;
@@ -135,68 +76,37 @@
             align-items: center;
             gap: 10px;
         }
-
-        .section-title i {
-            color: var(--accent);
-        }
-
+        .section-title span { color: var(--accent); }
         .skills-grid {
             display: flex;
             flex-wrap: wrap;
             gap: 10px;
         }
-
         .skill-tag {
             background: var(--bg-secondary);
             padding: 10px 20px;
             border-radius: 20px;
             border: 1px solid var(--border);
             font-size: 0.95rem;
-            transition: all 0.3s;
         }
-
-        .skill-tag:hover {
-            border-color: var(--accent);
-            transform: translateY(-2px);
-        }
-
-        /* Projects */
         .projects-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: 20px;
         }
-
         .project-card {
             background: var(--bg-secondary);
             padding: 25px;
             border-radius: 12px;
             border: 1px solid var(--border);
-            transition: all 0.3s;
         }
-
-        .project-card:hover {
-            transform: translateY(-5px);
-            border-color: var(--accent);
-        }
-
-        .project-card h3 {
-            margin-bottom: 10px;
-            color: var(--accent);
-        }
-
+        .project-card h3 { margin-bottom: 10px; color: var(--accent); }
         .project-card p {
             color: var(--text-secondary);
             margin-bottom: 15px;
             font-size: 0.95rem;
         }
-
-        .project-tags {
-            display: flex;
-            gap: 8px;
-            flex-wrap: wrap;
-        }
-
+        .project-tags { display: flex; gap: 8px; flex-wrap: wrap; }
         .project-tag {
             background: rgba(88, 166, 255, 0.15);
             color: var(--accent);
@@ -204,8 +114,6 @@
             border-radius: 12px;
             font-size: 0.8rem;
         }
-
-        /* Activity */
         .activity-graph {
             background: var(--bg-secondary);
             padding: 30px;
@@ -213,35 +121,20 @@
             border: 1px solid var(--border);
             text-align: center;
         }
-
-        .activity-graph p {
-            color: var(--text-secondary);
-            margin-bottom: 20px;
-        }
-
+        .activity-graph p { color: var(--text-secondary); margin-bottom: 20px; }
         .contribution-grid {
-            display: grid;
-            grid-template-columns: repeat(7, 1fr);
+            display: flex;
+            flex-wrap: wrap;
             gap: 4px;
-            justify-items: center;
+            justify-content: center;
         }
-
         .contribution-cell {
             width: 12px;
             height: 12px;
             border-radius: 2px;
             background: var(--border);
         }
-
-        .contribution-cell.active {
-            background: var(--accent-green);
-        }
-
-        .contribution-cell.more {
-            background: #238636;
-        }
-
-        /* Footer */
+        .contribution-cell.active { background: var(--accent-green); }
         footer {
             text-align: center;
             padding: 30px;
@@ -249,61 +142,49 @@
             border-top: 1px solid var(--border);
             margin-top: 40px;
         }
-
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(20px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-
-        .profile-header, .stat-card, .project-card {
-            animation: fadeIn 0.6s ease-out;
-        }
     </style>
 </head>
 <body>
     <div class="container">
-        <!-- Profile Header -->
         <div class="profile-header">
-            <img class="avatar" src="avatar.svg" alt="yaoyuancheng avatar" style="object-fit: cover;">
+            <img class="avatar" src="avatar.svg" alt="yaoyuancheng avatar">
             <div class="profile-info">
                 <h1>yaoyuancheng</h1>
                 <p>Developer | Creator | Learner</p>
                 <div class="social-links">
-                    <a href="https://github.com/yaoyuancheng" target="_blank"><i class="fab fa-github"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-linkedin"></i></a>
-                    <a href="#"><i class="fas fa-envelope"></i></a>
+                    <a href="https://github.com/yaoyuancheng" target="_blank">⌨️</a>
+                    <a href="#">🐦</a>
+                    <a href="#">💼</a>
+                    <a href="#">📧</a>
                 </div>
             </div>
         </div>
 
-        <!-- Stats -->
         <div class="stats">
             <div class="stat-card">
-                <i class="fas fa-code"></i>
+                <div class="icon">💻</div>
                 <h3>3+</h3>
                 <p>Years Experience</p>
             </div>
             <div class="stat-card">
-                <i class="fas fa-project-diagram"></i>
+                <div class="icon">📁</div>
                 <h3>10+</h3>
                 <p>Projects Completed</p>
             </div>
             <div class="stat-card">
-                <i class="fas fa-users"></i>
+                <div class="icon">👥</div>
                 <h3>100+</h3>
                 <p>Happy Clients</p>
             </div>
             <div class="stat-card">
-                <i class="fas fa-coffee"></i>
+                <div class="icon">☕</div>
                 <h3>∞</h3>
                 <p>Coffee Consumed</p>
             </div>
         </div>
 
-        <!-- Skills -->
         <div class="section">
-            <h2 class="section-title"><i class="fas fa-tools"></i> Skills</h2>
+            <h2 class="section-title"><span>🛠️</span> Skills</h2>
             <div class="skills-grid">
                 <span class="skill-tag">JavaScript</span>
                 <span class="skill-tag">Python</span>
@@ -320,9 +201,8 @@
             </div>
         </div>
 
-        <!-- Projects -->
         <div class="section">
-            <h2 class="section-title"><i class="fas fa-folder-open"></i> Projects</h2>
+            <h2 class="section-title"><span>📁</span> Projects</h2>
             <div class="projects-grid">
                 <div class="project-card">
                     <h3>🚀 Personal Portfolio</h3>
@@ -363,9 +243,8 @@
             </div>
         </div>
 
-        <!-- Activity -->
         <div class="section">
-            <h2 class="section-title"><i class="fas fa-chart-line"></i> Activity</h2>
+            <h2 class="section-title"><span>📊</span> Activity</h2>
             <div class="activity-graph">
                 <p>Contribution Graph (Last 365 Days)</p>
                 <div class="contribution-grid" id="contributions"></div>
@@ -378,16 +257,14 @@
     </div>
 
     <script>
-        // Generate contribution grid
         const contributions = document.getElementById('contributions');
-        for (let i = 0; i < 224; i++) { // 32 weeks * 7 days
-            const cell = document.createElement('div');
-            cell.className = 'contribution-cell';
-            if (Math.random() > 0.6) {
-                cell.className += Math.random() > 0.5 ? ' active' : ' more';
-            }
-            contributions.appendChild(cell);
-        }
+        const html = Array(224).fill(0).map((_, i) => {
+            const active = Math.random() > 0.6;
+            const more = Math.random() > 0.5;
+            const className = active ? (more ? 'active' : 'more') : '';
+            return `<div class="contribution-cell ${className}"></div>`;
+        }).join('');
+        contributions.innerHTML = html;
     </script>
 </body>
 </html>
