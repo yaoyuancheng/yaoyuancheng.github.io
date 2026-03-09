@@ -7,25 +7,148 @@
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: 'Segoe UI', 'Microsoft YaHei', sans-serif;
             min-height: 100vh;
             display: flex;
             justify-content: center;
             align-items: center;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: #0a0a0a;
             color: #fff;
+            overflow: hidden;
+            position: relative;
         }
-        .container { text-align: center; }
-        h1 { font-size: 3.5rem; margin-bottom: 1rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.2); }
-        p { font-size: 1.5rem; opacity: 0.9; }
-        .emoji { font-size: 4rem; margin-bottom: 1rem; }
+        .container {
+            text-align: center;
+            z-index: 10;
+            position: relative;
+        }
+        .emoji {
+            font-size: 5rem;
+            margin-bottom: 1.5rem;
+            animation: float 3s ease-in-out infinite;
+            display: inline-block;
+            filter: drop-shadow(0 0 20px rgba(0, 255, 255, 0.8));
+        }
+        h1 {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(45deg, #00ffff, #ff00ff, #ffff00, #00ff00);
+            background-size: 400% 400%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            animation: gradient 5s ease infinite, glow 2s ease-in-out infinite alternate;
+            text-shadow: 0 0 30px rgba(0, 255, 255, 0.5);
+            letter-spacing: 3px;
+        }
+        p {
+            font-size: 1.5rem;
+            color: #aaa;
+            opacity: 0.9;
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+        }
+        @keyframes gradient {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        @keyframes glow {
+            0% { filter: drop-shadow(0 0 10px rgba(0, 255, 255, 0.5)); }
+            100% { filter: drop-shadow(0 0 30px rgba(255, 0, 255, 0.8)); }
+        }
+        @keyframes float {
+            0%, 100% { transform: translateY(0) rotate(0deg); }
+            50% { transform: translateY(-20px) rotate(10deg); }
+        }
+        .particles {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 1;
+        }
+        .particle {
+            position: absolute;
+            width: 3px;
+            height: 3px;
+            background: rgba(0, 255, 255, 0.6);
+            border-radius: 50%;
+            animation: rise 10s infinite;
+        }
+        @keyframes rise {
+            0% {
+                opacity: 0;
+                transform: translateY(100vh) scale(0);
+            }
+            10% {
+                opacity: 1;
+            }
+            90% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0;
+                transform: translateY(-100vh) scale(1);
+            }
+        }
+        .cyber-line {
+            position: absolute;
+            width: 2px;
+            height: 100px;
+            background: linear-gradient(to bottom, transparent, #00ffff, transparent);
+            animation: fall 3s infinite;
+        }
+        @keyframes fall {
+            0% {
+                transform: translateY(-100px);
+                opacity: 0;
+            }
+            50% {
+                opacity: 1;
+            }
+            100% {
+                transform: translateY(100vh);
+                opacity: 0;
+            }
+        }
     </style>
 </head>
 <body>
+    <div class="particles" id="particles"></div>
     <div class="container">
-        <div class="emoji">👋</div>
+        <div class="emoji">🚀</div>
         <h1>Hello, World!</h1>
         <p>Welcome to yaoyuancheng's page</p>
     </div>
+    <script>
+        // 创建粒子效果
+        const particlesContainer = document.getElementById('particles');
+        for (let i = 0; i < 50; i++) {
+            const particle = document.createElement('div');
+            particle.className = 'particle';
+            particle.style.left = Math.random() * 100 + '%';
+            particle.style.animationDelay = Math.random() * 10 + 's';
+            particle.style.animationDuration = (Math.random() * 10 + 10) + 's';
+            
+            // 随机颜色
+            const colors = ['#00ffff', '#ff00ff', '#ffff00', '#00ff00', '#ff0066'];
+            particle.style.background = colors[Math.floor(Math.random() * colors.length)];
+            particle.style.boxShadow = `0 0 ${Math.random() * 20 + 10}px ${particle.style.background}`;
+            
+            particlesContainer.appendChild(particle);
+        }
+        
+        // 创建霓虹线条效果
+        for (let i = 0; i < 10; i++) {
+            const line = document.createElement('div');
+            line.className = 'cyber-line';
+            line.style.left = Math.random() * 100 + '%';
+            line.style.animationDelay = Math.random() * 5 + 's';
+            line.style.height = (Math.random() * 100 + 50) + 'px';
+            document.body.appendChild(line);
+        }
+    </script>
 </body>
 </html>
