@@ -3,323 +3,882 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>量子力学简介</title>
+    <title>火凤论坛 - 综合讨论社区</title>
     <style>
+        :root {
+            --primary: #6a6aff;
+            --primary-dark: #4a4acc;
+            --bg-dark: #0a0a1a;
+            --bg-card: #1e1e3f;
+            --bg-hover: #2a2a4f;
+            --text-main: #e0e0ff;
+            --text-muted: #9999cc;
+            --border: #3a3a6a;
+            --success: #4ade80;
+            --warning: #fbbf24;
+            --danger: #f87171;
+        }
+
         * { margin: 0; padding: 0; box-sizing: border-box; }
+
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', sans-serif;
-            background: linear-gradient(135deg, #0a0a1a 0%, #1a1a3a 100%);
-            color: #e0e0ff;
-            line-height: 1.7;
-            padding: 20px;
+            background: var(--bg-dark);
+            color: var(--text-main);
+            line-height: 1.6;
+            min-height: 100vh;
         }
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-        }
+
+        /* Header */
         .header {
-            margin-bottom: 40px;
-            padding-bottom: 30px;
-            border-bottom: 2px solid #3a3a6a;
-            text-align: center;
+            background: linear-gradient(180deg, rgba(30,30,60,0.95) 0%, rgba(10,10,30,0.95) 100%);
+            border-bottom: 2px solid var(--border);
+            padding: 12px 20px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            backdrop-filter: blur(10px);
         }
-        .avatar {
-            width: 100px;
-            height: 100px;
-            border-radius: 50%;
-            margin-bottom: 20px;
-            object-fit: cover;
-            border: 3px solid #6a6aff;
-            box-shadow: 0 0 20px rgba(106, 106, 255, 0.5);
-        }
-        h1 {
-            font-size: 2.8rem;
+
+        .logo {
+            font-size: 1.5rem;
             font-weight: 700;
-            margin-bottom: 10px;
-            background: linear-gradient(90deg, #6a6aff, #ff6adf);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
-        .tagline {
-            color: #aaaaff;
-            font-size: 1.2rem;
-            font-weight: 300;
-        }
-        .section {
-            margin-bottom: 45px;
-        }
-        .section-title {
-            font-size: 1.8rem;
-            font-weight: 600;
-            margin-bottom: 25px;
+            color: var(--primary);
+            text-decoration: none;
             display: flex;
             align-items: center;
-            gap: 12px;
-            color: #8a8aff;
+            gap: 8px;
         }
-        .section-title::before {
-            content: '⚛️';
-            font-size: 1.5rem;
-        }
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 25px;
-        }
-        .card {
-            background: rgba(30, 30, 60, 0.8);
-            padding: 25px;
-            border-radius: 12px;
-            border: 1px solid #3a3a6a;
-            backdrop-filter: blur(10px);
-            transition: all 0.3s ease;
-        }
-        .card:hover {
-            background: rgba(40, 40, 80, 0.9);
-            transform: translateY(-5px);
-            box-shadow: 0 10px 30px rgba(106, 106, 255, 0.2);
-            border-color: #6a6aff;
-        }
-        .card h3 {
-            font-size: 1.3rem;
-            margin-bottom: 15px;
-            color: #b8b8ff;
-        }
-        .card p {
-            color: #ccccff;
-            font-size: 1rem;
-            line-height: 1.7;
-        }
-        .tags {
+
+        .logo span { color: var(--text-main); }
+
+        .header-actions {
             display: flex;
-            flex-wrap: wrap;
             gap: 10px;
-            margin-top: 18px;
+            align-items: center;
         }
-        .tag {
-            background: rgba(106, 106, 255, 0.2);
-            padding: 6px 14px;
-            border-radius: 8px;
+
+        .btn {
+            background: var(--primary);
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 6px;
+            cursor: pointer;
             font-size: 0.9rem;
-            color: #aaaaff;
-            border: 1px solid rgba(106, 106, 255, 0.3);
+            transition: all 0.2s;
+            text-decoration: none;
+            display: inline-block;
         }
-        .skills {
+
+        .btn:hover { background: var(--primary-dark); transform: translateY(-1px); }
+        .btn-outline { background: transparent; border: 1px solid var(--primary); color: var(--primary); }
+        .btn-outline:hover { background: var(--primary); color: white; }
+        .btn-sm { padding: 6px 12px; font-size: 0.8rem; }
+
+        /* Layout */
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+            display: grid;
+            grid-template-columns: 220px 1fr 280px;
+            gap: 20px;
+        }
+
+        @media (max-width: 1024px) {
+            .container { grid-template-columns: 200px 1fr; }
+            .sidebar-right { display: none; }
+        }
+
+        @media (max-width: 768px) {
+            .container { grid-template-columns: 1fr; }
+            .sidebar-left { display: none; }
+        }
+
+        /* Sidebar */
+        .sidebar {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 15px;
+            height: fit-content;
+            position: sticky;
+            top: 80px;
+        }
+
+        .sidebar-title {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 12px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .nav-item {
+            display: block;
+            padding: 10px 12px;
+            margin-bottom: 4px;
+            border-radius: 6px;
+            color: var(--text-main);
+            text-decoration: none;
+            transition: all 0.2s;
+            cursor: pointer;
+        }
+
+        .nav-item:hover, .nav-item.active {
+            background: var(--bg-hover);
+            color: var(--primary);
+        }
+
+        .nav-item .icon { margin-right: 8px; }
+
+        /* Main Content */
+        .main-content {
+            min-width: 0;
+        }
+
+        /* Post List */
+        .post-list {
             display: flex;
-            flex-wrap: wrap;
+            flex-direction: column;
             gap: 12px;
         }
-        .skill {
-            background: rgba(106, 106, 255, 0.15);
-            padding: 10px 20px;
+
+        .post-item {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
             border-radius: 8px;
-            font-size: 1rem;
-            color: #c8c8ff;
-            border: 1px solid rgba(106, 106, 255, 0.25);
+            padding: 16px;
+            cursor: pointer;
             transition: all 0.2s;
         }
-        .skill:hover {
-            background: rgba(106, 106, 255, 0.25);
-            border-color: #6a6aff;
+
+        .post-item:hover {
+            background: var(--bg-hover);
+            border-color: var(--primary);
+            transform: translateX(4px);
         }
-        .socials {
+
+        .post-header {
             display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+
+        .post-avatar {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--primary), #ff6adf);
+            display: flex;
+            align-items: center;
             justify-content: center;
-            gap: 25px;
-            margin-top: 30px;
-            flex-wrap: wrap;
+            font-weight: 700;
+            color: white;
+            font-size: 0.8rem;
         }
-        .socials a {
-            color: #aaaaff;
-            text-decoration: none;
-            font-size: 1rem;
-            padding: 12px 24px;
-            background: rgba(106, 106, 255, 0.1);
-            border-radius: 8px;
-            transition: all 0.2s;
-            border: 1px solid rgba(106, 106, 255, 0.2);
+
+        .post-meta {
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
         }
-        .socials a:hover {
-            background: rgba(106, 106, 255, 0.2);
-            border-color: #6a6aff;
-            color: #d8d8ff;
-        }
-        .quote {
-            background: rgba(30, 30, 60, 0.6);
-            padding: 25px;
-            border-left: 4px solid #6a6aff;
-            border-radius: 0 12px 12px 0;
-            color: #aaaaff;
-            font-style: italic;
-            margin: 30px 0;
-            font-size: 1.1rem;
-        }
-        .highlight {
-            color: #ff6adf;
+
+        .post-author {
             font-weight: 600;
+            color: var(--text-main);
+            font-size: 0.95rem;
         }
-        .subtitle {
-            color: #8888cc;
+
+        .post-time {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+        }
+
+        .post-tag {
+            background: rgba(106, 106, 255, 0.2);
+            color: var(--primary);
+            padding: 4px 10px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            margin-left: auto;
+        }
+
+        .post-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: var(--text-main);
+        }
+
+        .post-preview {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            line-height: 1.6;
+            margin-bottom: 12px;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .post-actions {
+            display: flex;
+            gap: 15px;
+            color: var(--text-muted);
+            font-size: 0.85rem;
+        }
+
+        .post-action {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            cursor: pointer;
+            transition: color 0.2s;
+        }
+
+        .post-action:hover { color: var(--primary); }
+        .post-action.active { color: var(--primary); }
+
+        /* Sidebar Right */
+        .widget {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 15px;
+        }
+
+        .widget-title {
             font-size: 1rem;
-           margin-top: 5px;
-            font-weight: 300;
+            font-weight: 600;
+            margin-bottom: 12px;
+            color: var(--text-main);
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
         }
+
+        .tag-cloud {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .tag {
+            background: rgba(106, 106, 255, 0.15);
+            color: var(--primary);
+            padding: 6px 12px;
+            border-radius: 6px;
+            font-size: 0.8rem;
+            cursor: pointer;
+            transition: all 0.2s;
+            border: 1px solid transparent;
+        }
+
+        .tag:hover {
+            background: rgba(106, 106, 255, 0.25);
+            border-color: var(--primary);
+        }
+
+        .stat-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+            font-size: 0.9rem;
+        }
+
+        .stat-item:last-child { border-bottom: none; }
+        .stat-label { color: var(--text-muted); }
+        .stat-value { color: var(--text-main); font-weight: 600; }
+
+        /* Create Post Modal */
+        .modal-overlay {
+            display: none;
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(0,0,0,0.7);
+            backdrop-filter: blur(4px);
+            z-index: 2000;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal-overlay.active { display: flex; }
+
+        .modal {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            width: 90%;
+            max-width: 600px;
+            max-height: 90vh;
+            overflow-y: auto;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+        }
+
+        .modal-header {
+            padding: 20px;
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .modal-title { font-size: 1.3rem; font-weight: 600; color: var(--text-main); }
+
+        .modal-close {
+            background: none;
+            border: none;
+            color: var(--text-muted);
+            font-size: 1.5rem;
+            cursor: pointer;
+            padding: 4px;
+        }
+
+        .modal-close:hover { color: var(--text-main); }
+
+        .modal-body { padding: 20px; }
+
+        .form-group { margin-bottom: 16px; }
+
+        .form-label {
+            display: block;
+            margin-bottom: 6px;
+            font-size: 0.9rem;
+            color: var(--text-muted);
+        }
+
+        .form-input, .form-textarea, .form-select {
+            width: 100%;
+            background: rgba(0,0,0,0.3);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            padding: 10px 12px;
+            color: var(--text-main);
+            font-family: inherit;
+            font-size: 0.95rem;
+        }
+
+        .form-textarea { min-height: 120px; resize: vertical; }
+
+        .form-input:focus, .form-textarea:focus, .form-select:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(106, 106, 255, 0.1);
+        }
+
+        .modal-footer {
+            padding: 20px;
+            border-top: 1px solid var(--border);
+            display: flex;
+            justify-content: flex-end;
+            gap: 10px;
+        }
+
+        /* Post Detail */
+        .post-detail {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 24px;
+            margin-bottom: 20px;
+        }
+
+        .detail-title {
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-bottom: 16px;
+            color: var(--text-main);
+        }
+
+        .detail-content {
+            color: var(--text-main);
+            font-size: 1rem;
+            line-height: 1.8;
+            margin-bottom: 24px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .comments-section {
+            margin-top: 20px;
+        }
+
+        .comment {
+            padding: 16px;
+            margin-bottom: 12px;
+            background: rgba(0,0,0,0.2);
+            border-radius: 8px;
+            border-left: 3px solid var(--primary);
+        }
+
+        .comment-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 8px;
+            font-size: 0.9rem;
+        }
+
+        .comment-author { color: var(--primary); font-weight: 600; }
+        .comment-time { color: var(--text-muted); font-size: 0.85rem; }
+        .comment-content { color: var(--text-main); line-height: 1.7; }
+
+        .comment-form {
+            margin-top: 20px;
+            padding: 16px;
+            background: rgba(0,0,0,0.2);
+            border-radius: 8px;
+        }
+
+        .back-btn {
+            background: none;
+            border: none;
+            color: var(--primary);
+            cursor: pointer;
+            font-size: 0.9rem;
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .back-btn:hover { text-decoration: underline; }
+
+        /* Utility */
+        .hidden { display: none !important; }
+        .text-muted { color: var(--text-muted); }
+        .mt-4 { margin-top: 1rem; }
+        .mb-4 { margin-bottom: 1rem; }
+
+        /* Responsive */
         @media (max-width: 600px) {
-            h1 { font-size: 2.2rem; }
-            .grid { grid-template-columns: 1fr; }
-            .section-title { font-size: 1.5rem; }
+            .container { padding: 10px; }
+            .post-title { font-size: 1.1rem; }
+            .detail-title { font-size: 1.4rem; }
         }
     </style>
 </head>
 <body>
+    <header class="header">
+        <a href="#" class="logo">
+            🔥 火凤论坛
+        </a>
+        <div class="header-actions">
+            <button class="btn btn-outline btn-sm" onclick="showCreateModal()">📝 发帖</button>
+            <button class="btn btn-sm" onclick="toggleTheme()">🌓</button>
+        </div>
+    </header>
+
     <div class="container">
-        <div class="header">
-            <img class="avatar" src="avatar-cyber.svg" alt="量子avatar">
-            <h1>量子力学</h1>
-            <p class="tagline">探索微观世界的奇妙规则</p>
-            <p class="subtitle">从波粒二象性到量子纠缠</p>
-        </div>
+        <!-- Left Sidebar -->
+        <aside class="sidebar sidebar-left">
+            <div class="sidebar-title">板块导航</div>
+            <nav>
+                <a class="nav-item active" data-category="all" onclick="filterCategory('all')">
+                    <span class="icon">🏠</span>全部帖子
+                </a>
+                <a class="nav-item" data-category="tech" onclick="filterCategory('tech')">
+                    <span class="icon">💻</span>技术讨论
+                </a>
+                <a class="nav-item" data-category="stock" onclick="filterCategory('stock')">
+                    <span class="icon">📈</span>股票金融
+                </a>
+                <a class="nav-item" data-category="life" onclick="filterCategory('life')">
+                    <span class="icon">☕</span>生活闲聊
+                </a>
+                <a class="nav-item" data-category="qa" onclick="filterCategory('qa')">
+                    <span class="icon">❓</span>问答求助
+                </a>
+                <a class="nav-item" data-category="news" onclick="filterCategory('news')">
+                    <span class="icon">📰</span>新闻资讯
+                </a>
+            </nav>
 
-        <div class="quote">
-            "上帝不掷骰子。" —— 爱因斯坦对量子力学的质疑，却开启了<br>
-            "上帝不仅掷骰子，而且他把骰子掷到我们看不见的地方。" —— 玻尔回应
-        </div>
+            <div class="sidebar-title" style="margin-top: 20px;">我的信息</div>
+            <div class="stat-item">
+                <span class="stat-label">发帖数</span>
+                <span class="stat-value" id="myPosts">0</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">积分</span>
+                <span class="stat-value">128</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">等级</span>
+                <span class="stat-value">Lv.3</span>
+            </div>
+        </aside>
 
-        <div class="section">
-            <h2 class="section-title">什么是量子力学？</h2>
-            <div class="grid">
-                <div class="card">
-                    <h3>🔬 基本定义</h3>
-                    <p>量子力学是描述<span class="highlight">微观粒子</span>（如电子、光子）行为的基础物理学理论。它揭示了我们日常生活中熟悉的经典物理定律在原子和亚原子尺度上不再适用。</p>
-                </div>
-                <div class="card">
-                    <h3>⏳ 历史发展</h3>
-                    <p>19世纪末，经典物理学遇到"紫外灾变"等难题。1900年普朗克提出<span class="highlight">量子假说</span>，能量是一份一份的。随后爱因斯坦、玻尔、海森堡、薛定谔等人共同建立了量子力学体系。</p>
+        <!-- Main Content -->
+        <main class="main-content" id="mainContent">
+            <!-- Post List View -->
+            <div id="postListView">
+                <div class="post-list" id="postList">
+                    <!-- Posts will be rendered here -->
                 </div>
             </div>
-        </div>
 
-        <div class="section">
-            <h2 class="section-title">核心概念</h2>
-            <div class="grid">
-                <div class="card">
-                    <h3>🌊 波粒二象性</h3>
-                    <p>微观粒子既表现出<span class="highlight">粒子性</span>（有确定质量、电荷），又表现出<span class="highlight">波动性</span>（干涉、衍射）。光既是波又是粒子（光子），电子同样如此。</p>
+            <!-- Post Detail View -->
+            <div id="postDetailView" class="hidden">
+                <button class="back-btn" onclick="backToList()">← 返回列表</button>
+                <div class="post-detail" id="postDetail">
+                    <!-- Post content will be rendered here -->
                 </div>
-                <div class="card">
-                    <h3>🎲 不确定性原理</h3>
-                    <p>海森堡发现：我们无法同时精确知道粒子的<span class="highlight">位置</span>和<span class="highlight">动量</span>。这对共轭量存在一个根本的测量极限：Δx·Δp ≥ ħ/2。</p>
-                </div>
-                <div class="card">
-                    <h3>🔀 量子叠加</h3>
-                    <p>量子系统可以处于多个状态的<span class="highlight">线性组合</span>中，直到被测量才会坍缩到一个确定状态。著名的思想实验"薛定谔的猫"就是叠加态的比喻。</p>
-                </div>
-                <div class="card">
-                    <h3>👥 量子纠缠</h3>
-                    <p>两个或多个粒子可以形成纠缠态，无论它们相距多远，测量其中一个会瞬间影响另一个。爱因斯坦称之为"<span class="highlight">鬼魅般的超距作用</span>"。</p>
+                <div class="comments-section">
+                    <h3 style="margin-bottom: 16px; color: var(--text-main);">评论 (<span id="commentCount">0</span>)</h3>
+                    <div class="comment-form">
+                        <div class="form-group">
+                            <textarea class="form-textarea" id="commentInput" placeholder="写下你的评论..."></textarea>
+                        </div>
+                        <button class="btn" onclick="addComment()">发表评论</button>
+                    </div>
+                    <div id="commentsList" style="margin-top: 20px;">
+                        <!-- Comments will be rendered here -->
+                    </div>
                 </div>
             </div>
-        </div>
+        </main>
 
-        <div class="section">
-            <h2 class="section-title">主要方程</h2>
-            <div class="card">
-                <h3>📐 薛定谔方程</h3>
-                <p style="font-family: 'Courier New', monospace; background: rgba(0,0,0,0.3); padding: 15px; border-radius: 8px; margin-top: 10px; color: #ffffcc;">
-                    iħ ∂/∂t |ψ⟩ = Ĥ |ψ⟩
-                </p>
-                <p style="margin-top: 15px;">这是量子力学的核心方程，描述量子态 |ψ⟩ 如何随时间演化。其中 ħ 是约化普朗克常数，Ĥ 是哈密顿算符。</p>
-            </div>
-        </div>
-
-        <div class="section">
-            <h2 class="section-title">现代应用</h2>
-            <div class="grid">
-                <div class="card">
-                    <h3>💻 量子计算</h3>
-                    <p>利用量子比特（qubit）的叠加和纠缠特性，量子计算机可以并行处理海量信息，在<span class="highlight">密码学、优化、材料模拟</span>等领域具有革命性潜力。</p>
-                </div>
-                <div class="card">
-                    <h3>🔐 量子通信</h3>
-                    <p>量子密钥分发（QKD）利用量子不可克隆定理，实现理论上<span class="highlight">绝对安全</span>的通信。任何窃听都会扰动量子态而被察觉。</p>
-                </div>
-                <div class="card">
-                    <h3>🔬 量子传感</h3>
-                    <p>量子系统对微小扰动极其敏感，可用于制造超高精度的<span class="highlight">原子钟、磁力计、引力波探测器</span>等。</p>
-                </div>
-                <div class="card">
-                    <h3>🧬 量子生物学</h3>
-                    <p>探索量子效应在生物系统中的作用，如光合作用中的<span class="highlight">量子相干</span>、鸟类导航中的量子纠缠等前沿课题。</p>
+        <!-- Right Sidebar -->
+        <aside class="sidebar sidebar-right">
+            <div class="widget">
+                <div class="widget-title">🔥 热门标签</div>
+                <div class="tag-cloud" id="tagCloud">
+                    <!-- Tags will be rendered here -->
                 </div>
             </div>
-        </div>
 
-        <div class="section">
-            <h2 class="section-title">学习资源</h2>
-            <div class="grid">
-                <div class="card">
-                    <h3>📚 经典教材</h3>
-                    <p>• 《量子力学教程》——曾谨言<br>
-                       • 《量子力学》—— Griffiths<br>
-                       • 《量子力学概念》—— Feynman<br>
-                       • 《上帝掷骰子吗？》—— 曹天元（科普）</p>
+            <div class="widget">
+                <div class="widget-title">📊 论坛统计</div>
+                <div class="stat-item">
+                    <span class="stat-label">帖子总数</span>
+                    <span class="stat-value" id="totalPosts">0</span>
                 </div>
-                <div class="card">
-                    <h3>🌐 在线课程</h3>
-                    <p>• MIT OpenCourseWare<br>
-                       • 中国大学MOOC（北京大学、清华大学）<br>
-                       • 3Blue1Brown 量子力学动画讲解<br>
-                       • edX、Coursera 相关课程</p>
+                <div class="stat-item">
+                    <span class="stat-label">今日发帖</span>
+                    <span class="stat-value" id="todayPosts">0</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">总评论数</span>
+                    <span class="stat-value" id="totalComments">0</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">在线用户</span>
+                    <span class="stat-value">1</span>
                 </div>
             </div>
-        </div>
 
-        <div class="section">
-            <h2 class="section-title">著名实验</h2>
-            <div class="grid">
-                <div class="card">
-                    <h3>⚡ 双缝实验</h3>
-                    <p>单个粒子也能与自己干涉，证明<span class="highlight">波粒二象性</span>。观测行为本身会影响结果，体现测量问题。</p>
-                </div>
-                <div class="card">
-                    <h3>🔬 EPR佯谬与贝尔实验</h3>
-                    <p>验证量子纠缠和<span class="highlight">非定域性</span>，证明量子力学无法用经典隐变量理论解释。</p>
-                </div>
-                <div class="card">
-                    <h3>⚛️ 量子擦除实验</h3>
-                    <p>展示光子的"过去"如何被现在的测量选择所影响，深入理解量子叠加与信息的关系。</p>
+            <div class="widget">
+                <div class="widget-title">📌 论坛规则</div>
+                <div style="font-size: 0.85rem; color: var(--text-muted); line-height: 1.7;">
+                    <p>1. 文明交流，相互尊重</p>
+                    <p>2. 禁止发布违规内容</p>
+                    <p>3. 发帖前请搜索重复</p>
+                    <p>4. 股票建议仅供讨论</p>
                 </div>
             </div>
-        </div>
+        </aside>
+    </div>
 
-        <div class="section">
-            <h2 class="section-title">相关技能</h2>
-            <div class="skills">
-                <span class="skill">📐 线性代数</span>
-                <span class="skill">🧮 微积分</span>
-                <span class="skill">🔢 复数理论</span>
-                <span class="skill">🧩 微分方程</span>
-                <span class="skill">🏗️ 泛函分析</span>
-                <span class="skill">🔬 实验物理</span>
-                <span class="skill">💻 量子编程 (Qiskit)</span>
-                <span class="skill">🤖 量子机器学习</span>
+    <!-- Create Post Modal -->
+    <div class="modal-overlay" id="createModal">
+        <div class="modal">
+            <div class="modal-header">
+                <h3 class="modal-title">发布新帖</h3>
+                <button class="modal-close" onclick="hideCreateModal()">×</button>
             </div>
-        </div>
-
-        <div class="section">
-            <h2 class="section-title">联系与交流</h2>
-            <p style="color: #aaaaff; margin-bottom: 20px; line-height: 1.8;">
-                量子力学是20世纪最伟大的科学成就之一，它改变了我们对现实本质的理解。<br>
-                如果你对量子物理感兴趣，欢迎交流讨论！<br><br>
-                <span class="highlight">"如果谁不为量子力学感到困惑，那他一定还没理解它。"</span> —— 费曼
-            </p>
-            <div class="socials">
-                <a href="https://github.com/yaoyuancheng" target="_blank">GitHub</a>
-                <a href="#">量子论坛</a>
-                <a href="#">学术讨论</a>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label class="form-label">标题</label>
+                    <input type="text" class="form-input" id="postTitle" placeholder="请输入帖子标题...">
+                </div>
+                <div class="form-group">
+                    <label class="form-label">板块</label>
+                    <select class="form-select" id="postCategory">
+                        <option value="tech">💻 技术讨论</option>
+                        <option value="stock">📈 股票金融</option>
+                        <option value="life">☕ 生活闲聊</option>
+                        <option value="qa">❓ 问答求助</option>
+                        <option value="news">📰 新闻资讯</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">标签 (用逗号分隔)</label>
+                    <input type="text" class="form-input" id="postTags" placeholder="例如: 量子力学, 科普, 讨论">
+                </div>
+                <div class="form-group">
+                    <label class="form-label">内容</label>
+                    <textarea class="form-textarea" id="postContent" placeholder="详细描述你的想法..."></textarea>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-outline" onclick="hideCreateModal()">取消</button>
+                <button class="btn" onclick="createPost()">发布</button>
             </div>
         </div>
     </div>
+
+    <script>
+        // Data Management
+        const STORAGE_KEY = 'firebird_forum_posts';
+        const defaultPosts = [
+            {
+                id: 'welcome-001',
+                title: '欢迎来到火凤论坛！',
+                author: '火凤 (管理员)',
+                time: Date.now() - 3600000 * 2,
+                category: 'news',
+                tags: ['公告', '论坛'],
+                content: '欢迎来到火凤论坛！这是一个综合讨论社区，你可以在这里：\n\n💬 讨论技术话题\n📈 分享股票行情\n☕ 闲聊生活点滴\n❓ 提问求解答\n\n请遵守论坛规则，文明发言。祝大家交流愉快！',
+                views: 156,
+                upvotes: 12,
+                commentCount: 3,
+                comments: [
+                    { id: 'c1', author: 'testuser', time: Date.now() - 1800000, content: '论坛很棒！期待更多功能。' }
+                ]
+            }
+        ];
+
+        let posts = JSON.parse(localStorage.getItem(STORAGE_KEY)) || defaultPosts;
+        let currentFilter = 'all';
+        let currentPostId = null;
+
+        // Save posts to localStorage
+        function savePosts() {
+            localStorage.setItem(STORAGE_KEY, JSON.stringify(posts));
+            updateStats();
+        }
+
+        // Category names
+        const categoryNames = {
+            all: '全部',
+            tech: '技术讨论',
+            stock: '股票金融',
+            life: '生活闲聊',
+            qa: '问答求助',
+            news: '新闻资讯'
+        };
+
+        // Format relative time
+        function formatTime(ms) {
+            const diff = Date.now() - ms;
+            const minutes = Math.floor(diff / 60000);
+            const hours = Math.floor(diff / 3600000);
+            const days = Math.floor(diff / 86400000);
+
+            if (minutes < 1) return '刚刚';
+            if (minutes < 60) return `${minutes}分钟前`;
+            if (hours < 24) return `${hours}小时前`;
+            return `${days}天前`;
+        }
+
+        // Render post list
+        function renderPostList() {
+            const filtered = currentFilter === 'all' ? posts : posts.filter(p => p.category === currentFilter);
+            const container = document.getElementById('postList');
+            
+            container.innerHTML = filtered.sort((a,b) => b.time - a.time).map(post => `
+                <div class="post-item" onclick="showPostDetail('${post.id}')">
+                    <div class="post-header">
+                        <div class="post-avatar">${post.author.charAt(0)}</div>
+                        <div class="post-meta">
+                            <div class="post-author">${post.author}</div>
+                            <div class="post-time">${formatTime(post.time)} · ${categoryNames[post.category]}</div>
+                        </div>
+                        <span class="post-tag">${categoryNames[post.category]}</span>
+                    </div>
+                    <h3 class="post-title">${post.title}</h3>
+                    <p class="post-preview">${post.content}</p>
+                    <div class="post-actions">
+                        <span class="post-action">👁️ ${post.views}</span>
+                        <span class="post-action">👍 ${post.upvotes}</span>
+                        <span class="post-action">💬 ${post.commentCount}</span>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        // Render tag cloud
+        function renderTagCloud() {
+            const allTags = {};
+            posts.forEach(p => {
+                p.tags.forEach(tag => {
+                    allTags[tag] = (allTags[tag] || 0) + 1;
+                });
+            });
+
+            const sorted = Object.entries(allTags).sort((a,b) => b[1] - a[1]).slice(0, 10);
+            document.getElementById('tagCloud').innerHTML = sorted.map(([tag, count]) => 
+                `<span class="tag">#${tag} (${count})</span>`
+            ).join('');
+        }
+
+        // Update statistics
+        function updateStats() {
+            document.getElementById('totalPosts').textContent = posts.length;
+            document.getElementById('myPosts').textContent = posts.filter(p => p.author.includes('火凤')).length;
+            document.getElementById('totalComments').textContent = posts.reduce((sum, p) => sum + p.comments.length, 0);
+
+            const today = new Date().setHours(0,0,0,0);
+            const todayCount = posts.filter(p => p.time > today).length;
+            document.getElementById('todayPosts').textContent = todayCount;
+        }
+
+        // Filter by category
+        function filterCategory(cat) {
+            currentFilter = cat;
+            document.querySelectorAll('.nav-item').forEach(el => {
+                el.classList.toggle('active', el.dataset.category === cat);
+            });
+            renderPostList();
+        }
+
+        // Show post detail
+        function showPostDetail(postId) {
+            const post = posts.find(p => p.id === postId);
+            if (!post) return;
+
+            currentPostId = postId;
+            post.views++;
+
+            document.getElementById('postListView').classList.add('hidden');
+            document.getElementById('postDetailView').classList.remove('hidden');
+
+            document.getElementById('postDetail').innerHTML = `
+                <div class="detail-title">${post.title}</div>
+                <div style="display:flex; gap:12px; align-items:center; margin-bottom:16px; color:var(--text-muted); font-size:0.9rem;">
+                    <span>👤 ${post.author}</span>
+                    <span>🕐 ${formatTime(post.time)}</span>
+                    <span>📂 ${categoryNames[post.category]}</span>
+                    <span>👁️ ${post.views}</span>
+                    <span>👍 ${post.upvotes}</span>
+                </div>
+                <div class="detail-content">${post.content.replace(/\n/g, '<br>')}</div>
+                <div class="tag-cloud" style="margin-bottom:20px;">
+                    ${post.tags.map(tag => `<span class="tag">#${tag}</span>`).join('')}
+                </div>
+                <div style="display:flex; gap:10px;">
+                    <button class="btn btn-sm" onclick="upvotePost('${post.id}')">👍 赞同 (${post.upvotes})</button>
+                </div>
+            `;
+
+            renderComments(post);
+            savePosts();
+        }
+
+        // Back to list
+        function backToList() {
+            document.getElementById('postDetailView').classList.add('hidden');
+            document.getElementById('postListView').classList.remove('hidden');
+            currentPostId = null;
+            renderPostList();
+        }
+
+        // Render comments
+        function renderComments(post) {
+            document.getElementById('commentCount').textContent = post.comments.length;
+            const container = document.getElementById('commentsList');
+            container.innerHTML = post.comments.sort((a,b) => b.time - a.time).map(comment => `
+                <div class="comment">
+                    <div class="comment-header">
+                        <span class="comment-author">${comment.author}</span>
+                        <span class="comment-time">${formatTime(comment.time)}</span>
+                    </div>
+                    <div class="comment-content">${comment.content.replace(/\n/g, '<br>')}</div>
+                </div>
+            `).join('');
+        }
+
+        // Add comment
+        function addComment() {
+            if (!currentPostId) return;
+            const content = document.getElementById('commentInput').value.trim();
+            if (!content) return alert('请输入评论内容');
+
+            const post = posts.find(p => p.id === currentPostId);
+            post.comments.push({
+                id: 'c' + Date.now(),
+                author: '我 (访客)',
+                time: Date.now(),
+                content
+            });
+            post.commentCount++;
+            document.getElementById('commentInput').value = '';
+            renderComments(post);
+            savePosts();
+        }
+
+        // Upvote post
+        function upvotePost(postId) {
+            const post = posts.find(p => p.id === postId);
+            if (post) {
+                post.upvotes++;
+                savePosts();
+                showPostDetail(postId);
+            }
+        }
+
+        // Create post modal
+        function showCreateModal() {
+            document.getElementById('createModal').classList.add('active');
+        }
+
+        function hideCreateModal() {
+            document.getElementById('createModal').classList.remove('active');
+            document.getElementById('postTitle').value = '';
+            document.getElementById('postContent').value = '';
+            document.getElementById('postTags').value = '';
+        }
+
+        // Create new post
+        function createPost() {
+            const title = document.getElementById('postTitle').value.trim();
+            const category = document.getElementById('postCategory').value;
+            const tags = document.getElementById('postTags').value.split(',').map(t => t.trim()).filter(t => t);
+            const content = document.getElementById('postContent').value.trim();
+
+            if (!title || !content) return alert('请填写标题和内容');
+
+            const newPost = {
+                id: 'post-' + Date.now(),
+                title,
+                author: '我 (访客)',
+                time: Date.now(),
+                category,
+                tags: tags.length ? tags : ['未分类'],
+                content,
+                views: 0,
+                upvotes: 0,
+                commentCount: 0,
+                comments: []
+            };
+
+            posts.unshift(newPost);
+            savePosts();
+            hideCreateModal();
+            renderPostList();
+            renderTagCloud();
+            alert('发布成功！');
+        }
+
+        // Theme toggle (simple)
+        function toggleTheme() {
+            document.body.classList.toggle('light-theme');
+            // In real implementation, would switch CSS variables
+        }
+
+        // Init
+        renderPostList();
+        renderTagCloud();
+        updateStats();
+    </script>
 </body>
 </html>
