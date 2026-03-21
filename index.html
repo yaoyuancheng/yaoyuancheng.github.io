@@ -1,884 +1,94 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>火凤论坛 - 综合讨论社区</title>
+    <title>Yao Yuancheng</title>
     <style>
-        :root {
-            --primary: #6a6aff;
-            --primary-dark: #4a4acc;
-            --bg-dark: #0a0a1a;
-            --bg-card: #1e1e3f;
-            --bg-hover: #2a2a4f;
-            --text-main: #e0e0ff;
-            --text-muted: #9999cc;
-            --border: #3a3a6a;
-            --success: #4ade80;
-            --warning: #fbbf24;
-            --danger: #f87171;
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
-
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', sans-serif;
-            background: var(--bg-dark);
-            color: var(--text-main);
-            line-height: 1.6;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
             min-height: 100vh;
-        }
-
-        /* Header */
-        .header {
-            background: linear-gradient(180deg, rgba(30,30,60,0.95) 0%, rgba(10,10,30,0.95) 100%);
-            border-bottom: 2px solid var(--border);
-            padding: 12px 20px;
-            position: sticky;
-            top: 0;
-            z-index: 1000;
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
             align-items: center;
-            backdrop-filter: blur(10px);
+            color: #e0e0e0;
         }
-
-        .logo {
-            font-size: 1.5rem;
-            font-weight: 700;
-            color: var(--primary);
-            text-decoration: none;
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
-
-        .logo span { color: var(--text-main); }
-
-        .header-actions {
-            display: flex;
-            gap: 10px;
-            align-items: center;
-        }
-
-        .btn {
-            background: var(--primary);
-            color: white;
-            border: none;
-            padding: 8px 16px;
-            border-radius: 6px;
-            cursor: pointer;
-            font-size: 0.9rem;
-            transition: all 0.2s;
-            text-decoration: none;
-            display: inline-block;
-        }
-
-        .btn:hover { background: var(--primary-dark); transform: translateY(-1px); }
-        .btn-outline { background: transparent; border: 1px solid var(--primary); color: var(--primary); }
-        .btn-outline:hover { background: var(--primary); color: white; }
-        .btn-sm { padding: 6px 12px; font-size: 0.8rem; }
-
-        /* Layout */
         .container {
-            max-width: 1400px;
-            margin: 0 auto;
-            padding: 20px;
-            display: grid;
-            grid-template-columns: 220px 1fr 280px;
-            gap: 20px;
-        }
-
-        @media (max-width: 1024px) {
-            .container { grid-template-columns: 200px 1fr; }
-            .sidebar-right { display: none; }
-        }
-
-        @media (max-width: 768px) {
-            .container { grid-template-columns: 1fr; }
-            .sidebar-left { display: none; }
-        }
-
-        /* Sidebar */
-        .sidebar {
-            background: var(--bg-card);
-            border: 1px solid var(--border);
-            border-radius: 8px;
-            padding: 15px;
-            height: fit-content;
-            position: sticky;
-            top: 80px;
-        }
-
-        .sidebar-title {
-            font-size: 0.9rem;
-            color: var(--text-muted);
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            margin-bottom: 12px;
-            padding-bottom: 8px;
-            border-bottom: 1px solid var(--border);
-        }
-
-        .nav-item {
-            display: block;
-            padding: 10px 12px;
-            margin-bottom: 4px;
-            border-radius: 6px;
-            color: var(--text-main);
-            text-decoration: none;
-            transition: all 0.2s;
-            cursor: pointer;
-        }
-
-        .nav-item:hover, .nav-item.active {
-            background: var(--bg-hover);
-            color: var(--primary);
-        }
-
-        .nav-item .icon { margin-right: 8px; }
-
-        /* Main Content */
-        .main-content {
-            min-width: 0;
-        }
-
-        /* Post List */
-        .post-list {
-            display: flex;
-            flex-direction: column;
-            gap: 12px;
-        }
-
-        .post-item {
-            background: var(--bg-card);
-            border: 1px solid var(--border);
-            border-radius: 8px;
-            padding: 16px;
-            cursor: pointer;
-            transition: all 0.2s;
-        }
-
-        .post-item:hover {
-            background: var(--bg-hover);
-            border-color: var(--primary);
-            transform: translateX(4px);
-        }
-
-        .post-header {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            margin-bottom: 10px;
-        }
-
-        .post-avatar {
-            width: 32px;
-            height: 32px;
-            border-radius: 50%;
-            background: linear-gradient(135deg, var(--primary), #ff6adf);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-weight: 700;
-            color: white;
-            font-size: 0.8rem;
-        }
-
-        .post-meta {
-            display: flex;
-            flex-direction: column;
-            gap: 2px;
-        }
-
-        .post-author {
-            font-weight: 600;
-            color: var(--text-main);
-            font-size: 0.95rem;
-        }
-
-        .post-time {
-            font-size: 0.8rem;
-            color: var(--text-muted);
-        }
-
-        .post-tag {
-            background: rgba(106, 106, 255, 0.2);
-            color: var(--primary);
-            padding: 4px 10px;
-            border-radius: 4px;
-            font-size: 0.75rem;
-            margin-left: auto;
-        }
-
-        .post-title {
-            font-size: 1.2rem;
-            font-weight: 600;
-            margin-bottom: 8px;
-            color: var(--text-main);
-        }
-
-        .post-preview {
-            color: var(--text-muted);
-            font-size: 0.95rem;
-            line-height: 1.6;
-            margin-bottom: 12px;
-            display: -webkit-box;
-            -webkit-line-clamp: 3;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
-        }
-
-        .post-actions {
-            display: flex;
-            gap: 15px;
-            color: var(--text-muted);
-            font-size: 0.85rem;
-        }
-
-        .post-action {
-            display: flex;
-            align-items: center;
-            gap: 4px;
-            cursor: pointer;
-            transition: color 0.2s;
-        }
-
-        .post-action:hover { color: var(--primary); }
-        .post-action.active { color: var(--primary); }
-
-        /* Sidebar Right */
-        .widget {
-            background: var(--bg-card);
-            border: 1px solid var(--border);
-            border-radius: 8px;
-            padding: 15px;
-            margin-bottom: 15px;
-        }
-
-        .widget-title {
-            font-size: 1rem;
-            font-weight: 600;
-            margin-bottom: 12px;
-            color: var(--text-main);
-            padding-bottom: 8px;
-            border-bottom: 1px solid var(--border);
-        }
-
-        .tag-cloud {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 8px;
-        }
-
-        .tag {
-            background: rgba(106, 106, 255, 0.15);
-            color: var(--primary);
-            padding: 6px 12px;
-            border-radius: 6px;
-            font-size: 0.8rem;
-            cursor: pointer;
-            transition: all 0.2s;
-            border: 1px solid transparent;
-        }
-
-        .tag:hover {
-            background: rgba(106, 106, 255, 0.25);
-            border-color: var(--primary);
-        }
-
-        .stat-item {
-            display: flex;
-            justify-content: space-between;
-            padding: 8px 0;
-            border-bottom: 1px solid rgba(255,255,255,0.05);
-            font-size: 0.9rem;
-        }
-
-        .stat-item:last-child { border-bottom: none; }
-        .stat-label { color: var(--text-muted); }
-        .stat-value { color: var(--text-main); font-weight: 600; }
-
-        /* Create Post Modal */
-        .modal-overlay {
-            display: none;
-            position: fixed;
-            top: 0; left: 0; right: 0; bottom: 0;
-            background: rgba(0,0,0,0.7);
-            backdrop-filter: blur(4px);
-            z-index: 2000;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .modal-overlay.active { display: flex; }
-
-        .modal {
-            background: var(--bg-card);
-            border: 1px solid var(--border);
-            border-radius: 12px;
-            width: 90%;
+            text-align: center;
+            padding: 2rem;
             max-width: 600px;
-            max-height: 90vh;
-            overflow-y: auto;
-            box-shadow: 0 20px 40px rgba(0,0,0,0.5);
         }
-
-        .modal-header {
-            padding: 20px;
-            border-bottom: 1px solid var(--border);
+        .avatar {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 4px solid #4a9eff;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 0 30px rgba(74, 158, 255, 0.3);
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            background: linear-gradient(90deg, #4a9eff, #00d4ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .bio {
+            font-size: 1.2rem;
+            color: #a0a0a0;
+            margin-bottom: 1.5rem;
+        }
+        .tags {
             display: flex;
-            justify-content: space-between;
-            align-items: center;
+            justify-content: center;
+            gap: 0.8rem;
+            flex-wrap: wrap;
+            margin-bottom: 2rem;
         }
-
-        .modal-title { font-size: 1.3rem; font-weight: 600; color: var(--text-main); }
-
-        .modal-close {
-            background: none;
-            border: none;
-            color: var(--text-muted);
-            font-size: 1.5rem;
-            cursor: pointer;
-            padding: 4px;
-        }
-
-        .modal-close:hover { color: var(--text-main); }
-
-        .modal-body { padding: 20px; }
-
-        .form-group { margin-bottom: 16px; }
-
-        .form-label {
-            display: block;
-            margin-bottom: 6px;
+        .tag {
+            background: rgba(74, 158, 255, 0.15);
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
             font-size: 0.9rem;
-            color: var(--text-muted);
+            border: 1px solid rgba(74, 158, 255, 0.3);
         }
-
-        .form-input, .form-textarea, .form-select {
-            width: 100%;
-            background: rgba(0,0,0,0.3);
-            border: 1px solid var(--border);
-            border-radius: 6px;
-            padding: 10px 12px;
-            color: var(--text-main);
-            font-family: inherit;
-            font-size: 0.95rem;
-        }
-
-        .form-textarea { min-height: 120px; resize: vertical; }
-
-        .form-input:focus, .form-textarea:focus, .form-select:focus {
-            outline: none;
-            border-color: var(--primary);
-            box-shadow: 0 0 0 3px rgba(106, 106, 255, 0.1);
-        }
-
-        .modal-footer {
-            padding: 20px;
-            border-top: 1px solid var(--border);
+        .links {
             display: flex;
-            justify-content: flex-end;
-            gap: 10px;
+            justify-content: center;
+            gap: 1.5rem;
         }
-
-        /* Post Detail */
-        .post-detail {
-            background: var(--bg-card);
-            border: 1px solid var(--border);
-            border-radius: 8px;
-            padding: 24px;
-            margin-bottom: 20px;
-        }
-
-        .detail-title {
-            font-size: 1.8rem;
-            font-weight: 700;
-            margin-bottom: 16px;
-            color: var(--text-main);
-        }
-
-        .detail-content {
-            color: var(--text-main);
+        .link {
+            color: #4a9eff;
+            text-decoration: none;
             font-size: 1rem;
-            line-height: 1.8;
-            margin-bottom: 24px;
-            padding-bottom: 20px;
-            border-bottom: 1px solid var(--border);
+            transition: opacity 0.3s;
         }
-
-        .comments-section {
-            margin-top: 20px;
-        }
-
-        .comment {
-            padding: 16px;
-            margin-bottom: 12px;
-            background: rgba(0,0,0,0.2);
-            border-radius: 8px;
-            border-left: 3px solid var(--primary);
-        }
-
-        .comment-header {
-            display: flex;
-            justify-content: space-between;
-            margin-bottom: 8px;
-            font-size: 0.9rem;
-        }
-
-        .comment-author { color: var(--primary); font-weight: 600; }
-        .comment-time { color: var(--text-muted); font-size: 0.85rem; }
-        .comment-content { color: var(--text-main); line-height: 1.7; }
-
-        .comment-form {
-            margin-top: 20px;
-            padding: 16px;
-            background: rgba(0,0,0,0.2);
-            border-radius: 8px;
-        }
-
-        .back-btn {
-            background: none;
-            border: none;
-            color: var(--primary);
-            cursor: pointer;
-            font-size: 0.9rem;
-            margin-bottom: 16px;
-            display: flex;
-            align-items: center;
-            gap: 4px;
-        }
-
-        .back-btn:hover { text-decoration: underline; }
-
-        /* Utility */
-        .hidden { display: none !important; }
-        .text-muted { color: var(--text-muted); }
-        .mt-4 { margin-top: 1rem; }
-        .mb-4 { margin-bottom: 1rem; }
-
-        /* Responsive */
-        @media (max-width: 600px) {
-            .container { padding: 10px; }
-            .post-title { font-size: 1.1rem; }
-            .detail-title { font-size: 1.4rem; }
+        .link:hover {
+            opacity: 0.7;
         }
     </style>
 </head>
 <body>
-    <header class="header">
-        <a href="#" class="logo">
-            🔥 火凤论坛
-        </a>
-        <div class="header-actions">
-            <button class="btn btn-outline btn-sm" onclick="showCreateModal()">📝 发帖</button>
-            <button class="btn btn-sm" onclick="toggleTheme()">🌓</button>
-        </div>
-    </header>
-
     <div class="container">
-        <!-- Left Sidebar -->
-        <aside class="sidebar sidebar-left">
-            <div class="sidebar-title">板块导航</div>
-            <nav>
-                <a class="nav-item active" data-category="all" onclick="filterCategory('all')">
-                    <span class="icon">🏠</span>全部帖子
-                </a>
-                <a class="nav-item" data-category="tech" onclick="filterCategory('tech')">
-                    <span class="icon">💻</span>技术讨论
-                </a>
-                <a class="nav-item" data-category="stock" onclick="filterCategory('stock')">
-                    <span class="icon">📈</span>股票金融
-                </a>
-                <a class="nav-item" data-category="life" onclick="filterCategory('life')">
-                    <span class="icon">☕</span>生活闲聊
-                </a>
-                <a class="nav-item" data-category="qa" onclick="filterCategory('qa')">
-                    <span class="icon">❓</span>问答求助
-                </a>
-                <a class="nav-item" data-category="news" onclick="filterCategory('news')">
-                    <span class="icon">📰</span>新闻资讯
-                </a>
-            </nav>
-
-            <div class="sidebar-title" style="margin-top: 20px;">我的信息</div>
-            <div class="stat-item">
-                <span class="stat-label">发帖数</span>
-                <span class="stat-value" id="myPosts">0</span>
-            </div>
-            <div class="stat-item">
-                <span class="stat-label">积分</span>
-                <span class="stat-value">128</span>
-            </div>
-            <div class="stat-item">
-                <span class="stat-label">等级</span>
-                <span class="stat-value">Lv.3</span>
-            </div>
-        </aside>
-
-        <!-- Main Content -->
-        <main class="main-content" id="mainContent">
-            <!-- Post List View -->
-            <div id="postListView">
-                <div class="post-list" id="postList">
-                    <!-- Posts will be rendered here -->
-                </div>
-            </div>
-
-            <!-- Post Detail View -->
-            <div id="postDetailView" class="hidden">
-                <button class="back-btn" onclick="backToList()">← 返回列表</button>
-                <div class="post-detail" id="postDetail">
-                    <!-- Post content will be rendered here -->
-                </div>
-                <div class="comments-section">
-                    <h3 style="margin-bottom: 16px; color: var(--text-main);">评论 (<span id="commentCount">0</span>)</h3>
-                    <div class="comment-form">
-                        <div class="form-group">
-                            <textarea class="form-textarea" id="commentInput" placeholder="写下你的评论..."></textarea>
-                        </div>
-                        <button class="btn" onclick="addComment()">发表评论</button>
-                    </div>
-                    <div id="commentsList" style="margin-top: 20px;">
-                        <!-- Comments will be rendered here -->
-                    </div>
-                </div>
-            </div>
-        </main>
-
-        <!-- Right Sidebar -->
-        <aside class="sidebar sidebar-right">
-            <div class="widget">
-                <div class="widget-title">🔥 热门标签</div>
-                <div class="tag-cloud" id="tagCloud">
-                    <!-- Tags will be rendered here -->
-                </div>
-            </div>
-
-            <div class="widget">
-                <div class="widget-title">📊 论坛统计</div>
-                <div class="stat-item">
-                    <span class="stat-label">帖子总数</span>
-                    <span class="stat-value" id="totalPosts">0</span>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-label">今日发帖</span>
-                    <span class="stat-value" id="todayPosts">0</span>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-label">总评论数</span>
-                    <span class="stat-value" id="totalComments">0</span>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-label">在线用户</span>
-                    <span class="stat-value">1</span>
-                </div>
-            </div>
-
-            <div class="widget">
-                <div class="widget-title">📌 论坛规则</div>
-                <div style="font-size: 0.85rem; color: var(--text-muted); line-height: 1.7;">
-                    <p>1. 文明交流，相互尊重</p>
-                    <p>2. 禁止发布违规内容</p>
-                    <p>3. 发帖前请搜索重复</p>
-                    <p>4. 股票建议仅供讨论</p>
-                </div>
-            </div>
-        </aside>
-    </div>
-
-    <!-- Create Post Modal -->
-    <div class="modal-overlay" id="createModal">
-        <div class="modal">
-            <div class="modal-header">
-                <h3 class="modal-title">发布新帖</h3>
-                <button class="modal-close" onclick="hideCreateModal()">×</button>
-            </div>
-            <div class="modal-body">
-                <div class="form-group">
-                    <label class="form-label">标题</label>
-                    <input type="text" class="form-input" id="postTitle" placeholder="请输入帖子标题...">
-                </div>
-                <div class="form-group">
-                    <label class="form-label">板块</label>
-                    <select class="form-select" id="postCategory">
-                        <option value="tech">💻 技术讨论</option>
-                        <option value="stock">📈 股票金融</option>
-                        <option value="life">☕ 生活闲聊</option>
-                        <option value="qa">❓ 问答求助</option>
-                        <option value="news">📰 新闻资讯</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label class="form-label">标签 (用逗号分隔)</label>
-                    <input type="text" class="form-input" id="postTags" placeholder="例如: 量子力学, 科普, 讨论">
-                </div>
-                <div class="form-group">
-                    <label class="form-label">内容</label>
-                    <textarea class="form-textarea" id="postContent" placeholder="详细描述你的想法..."></textarea>
-                </div>
-            </div>
-            <div class="modal-footer">
-                <button class="btn btn-outline" onclick="hideCreateModal()">取消</button>
-                <button class="btn" onclick="createPost()">发布</button>
-            </div>
+        <img src="https://avatars.githubusercontent.com/u/8936180?v=4" alt="Avatar" class="avatar">
+        <h1>Yao Yuancheng</h1>
+        <p class="bio">Building cool things with AI</p>
+        <div class="tags">
+            <span class="tag">🎵 Music Lover</span>
+            <span class="tag">🤖 AI Enthusiast</span>
+            <span class="tag">💻 Builder</span>
+            <span class="tag">🦒 OpenClaw</span>
+        </div>
+        <div class="links">
+            <a href="https://github.com/yaoyuancheng" class="link">GitHub</a>
         </div>
     </div>
-
-    <script>
-        // Data Management
-        const STORAGE_KEY = 'firebird_forum_posts';
-        const defaultPosts = [
-            {
-                id: 'welcome-001',
-                title: '欢迎来到火凤论坛！',
-                author: '火凤 (管理员)',
-                time: Date.now() - 3600000 * 2,
-                category: 'news',
-                tags: ['公告', '论坛'],
-                content: '欢迎来到火凤论坛！这是一个综合讨论社区，你可以在这里：\n\n💬 讨论技术话题\n📈 分享股票行情\n☕ 闲聊生活点滴\n❓ 提问求解答\n\n请遵守论坛规则，文明发言。祝大家交流愉快！',
-                views: 156,
-                upvotes: 12,
-                commentCount: 3,
-                comments: [
-                    { id: 'c1', author: 'testuser', time: Date.now() - 1800000, content: '论坛很棒！期待更多功能。' }
-                ]
-            }
-        ];
-
-        let posts = JSON.parse(localStorage.getItem(STORAGE_KEY)) || defaultPosts;
-        let currentFilter = 'all';
-        let currentPostId = null;
-
-        // Save posts to localStorage
-        function savePosts() {
-            localStorage.setItem(STORAGE_KEY, JSON.stringify(posts));
-            updateStats();
-        }
-
-        // Category names
-        const categoryNames = {
-            all: '全部',
-            tech: '技术讨论',
-            stock: '股票金融',
-            life: '生活闲聊',
-            qa: '问答求助',
-            news: '新闻资讯'
-        };
-
-        // Format relative time
-        function formatTime(ms) {
-            const diff = Date.now() - ms;
-            const minutes = Math.floor(diff / 60000);
-            const hours = Math.floor(diff / 3600000);
-            const days = Math.floor(diff / 86400000);
-
-            if (minutes < 1) return '刚刚';
-            if (minutes < 60) return `${minutes}分钟前`;
-            if (hours < 24) return `${hours}小时前`;
-            return `${days}天前`;
-        }
-
-        // Render post list
-        function renderPostList() {
-            const filtered = currentFilter === 'all' ? posts : posts.filter(p => p.category === currentFilter);
-            const container = document.getElementById('postList');
-            
-            container.innerHTML = filtered.sort((a,b) => b.time - a.time).map(post => `
-                <div class="post-item" onclick="showPostDetail('${post.id}')">
-                    <div class="post-header">
-                        <div class="post-avatar">${post.author.charAt(0)}</div>
-                        <div class="post-meta">
-                            <div class="post-author">${post.author}</div>
-                            <div class="post-time">${formatTime(post.time)} · ${categoryNames[post.category]}</div>
-                        </div>
-                        <span class="post-tag">${categoryNames[post.category]}</span>
-                    </div>
-                    <h3 class="post-title">${post.title}</h3>
-                    <p class="post-preview">${post.content}</p>
-                    <div class="post-actions">
-                        <span class="post-action">👁️ ${post.views}</span>
-                        <span class="post-action">👍 ${post.upvotes}</span>
-                        <span class="post-action">💬 ${post.commentCount}</span>
-                    </div>
-                </div>
-            `).join('');
-        }
-
-        // Render tag cloud
-        function renderTagCloud() {
-            const allTags = {};
-            posts.forEach(p => {
-                p.tags.forEach(tag => {
-                    allTags[tag] = (allTags[tag] || 0) + 1;
-                });
-            });
-
-            const sorted = Object.entries(allTags).sort((a,b) => b[1] - a[1]).slice(0, 10);
-            document.getElementById('tagCloud').innerHTML = sorted.map(([tag, count]) => 
-                `<span class="tag">#${tag} (${count})</span>`
-            ).join('');
-        }
-
-        // Update statistics
-        function updateStats() {
-            document.getElementById('totalPosts').textContent = posts.length;
-            document.getElementById('myPosts').textContent = posts.filter(p => p.author.includes('火凤')).length;
-            document.getElementById('totalComments').textContent = posts.reduce((sum, p) => sum + p.comments.length, 0);
-
-            const today = new Date().setHours(0,0,0,0);
-            const todayCount = posts.filter(p => p.time > today).length;
-            document.getElementById('todayPosts').textContent = todayCount;
-        }
-
-        // Filter by category
-        function filterCategory(cat) {
-            currentFilter = cat;
-            document.querySelectorAll('.nav-item').forEach(el => {
-                el.classList.toggle('active', el.dataset.category === cat);
-            });
-            renderPostList();
-        }
-
-        // Show post detail
-        function showPostDetail(postId) {
-            const post = posts.find(p => p.id === postId);
-            if (!post) return;
-
-            currentPostId = postId;
-            post.views++;
-
-            document.getElementById('postListView').classList.add('hidden');
-            document.getElementById('postDetailView').classList.remove('hidden');
-
-            document.getElementById('postDetail').innerHTML = `
-                <div class="detail-title">${post.title}</div>
-                <div style="display:flex; gap:12px; align-items:center; margin-bottom:16px; color:var(--text-muted); font-size:0.9rem;">
-                    <span>👤 ${post.author}</span>
-                    <span>🕐 ${formatTime(post.time)}</span>
-                    <span>📂 ${categoryNames[post.category]}</span>
-                    <span>👁️ ${post.views}</span>
-                    <span>👍 ${post.upvotes}</span>
-                </div>
-                <div class="detail-content">${post.content.replace(/\n/g, '<br>')}</div>
-                <div class="tag-cloud" style="margin-bottom:20px;">
-                    ${post.tags.map(tag => `<span class="tag">#${tag}</span>`).join('')}
-                </div>
-                <div style="display:flex; gap:10px;">
-                    <button class="btn btn-sm" onclick="upvotePost('${post.id}')">👍 赞同 (${post.upvotes})</button>
-                </div>
-            `;
-
-            renderComments(post);
-            savePosts();
-        }
-
-        // Back to list
-        function backToList() {
-            document.getElementById('postDetailView').classList.add('hidden');
-            document.getElementById('postListView').classList.remove('hidden');
-            currentPostId = null;
-            renderPostList();
-        }
-
-        // Render comments
-        function renderComments(post) {
-            document.getElementById('commentCount').textContent = post.comments.length;
-            const container = document.getElementById('commentsList');
-            container.innerHTML = post.comments.sort((a,b) => b.time - a.time).map(comment => `
-                <div class="comment">
-                    <div class="comment-header">
-                        <span class="comment-author">${comment.author}</span>
-                        <span class="comment-time">${formatTime(comment.time)}</span>
-                    </div>
-                    <div class="comment-content">${comment.content.replace(/\n/g, '<br>')}</div>
-                </div>
-            `).join('');
-        }
-
-        // Add comment
-        function addComment() {
-            if (!currentPostId) return;
-            const content = document.getElementById('commentInput').value.trim();
-            if (!content) return alert('请输入评论内容');
-
-            const post = posts.find(p => p.id === currentPostId);
-            post.comments.push({
-                id: 'c' + Date.now(),
-                author: '我 (访客)',
-                time: Date.now(),
-                content
-            });
-            post.commentCount++;
-            document.getElementById('commentInput').value = '';
-            renderComments(post);
-            savePosts();
-        }
-
-        // Upvote post
-        function upvotePost(postId) {
-            const post = posts.find(p => p.id === postId);
-            if (post) {
-                post.upvotes++;
-                savePosts();
-                showPostDetail(postId);
-            }
-        }
-
-        // Create post modal
-        function showCreateModal() {
-            document.getElementById('createModal').classList.add('active');
-        }
-
-        function hideCreateModal() {
-            document.getElementById('createModal').classList.remove('active');
-            document.getElementById('postTitle').value = '';
-            document.getElementById('postContent').value = '';
-            document.getElementById('postTags').value = '';
-        }
-
-        // Create new post
-        function createPost() {
-            const title = document.getElementById('postTitle').value.trim();
-            const category = document.getElementById('postCategory').value;
-            const tags = document.getElementById('postTags').value.split(',').map(t => t.trim()).filter(t => t);
-            const content = document.getElementById('postContent').value.trim();
-
-            if (!title || !content) return alert('请填写标题和内容');
-
-            const newPost = {
-                id: 'post-' + Date.now(),
-                title,
-                author: '我 (访客)',
-                time: Date.now(),
-                category,
-                tags: tags.length ? tags : ['未分类'],
-                content,
-                views: 0,
-                upvotes: 0,
-                commentCount: 0,
-                comments: []
-            };
-
-            posts.unshift(newPost);
-            savePosts();
-            hideCreateModal();
-            renderPostList();
-            renderTagCloud();
-            alert('发布成功！');
-        }
-
-        // Theme toggle (simple)
-        function toggleTheme() {
-            document.body.classList.toggle('light-theme');
-            // In real implementation, would switch CSS variables
-        }
-
-        // Init
-        renderPostList();
-        renderTagCloud();
-        updateStats();
-    </script>
 </body>
 </html>
