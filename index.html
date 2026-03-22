@@ -11,24 +11,97 @@
             box-sizing: border-box;
         }
         
-        :root {
-            --primary: #ff6b35;
-            --secondary: #004e89;
-            --accent1: #00b4d8;
-            --accent2: #7b2cbf;
-            --accent3: #2ec4b6;
-            --accent4: #e71d36;
-            --bg-light: #f8f9fa;
-            --bg-white: #ffffff;
-            --text-dark: #2d3436;
-            --text-muted: #636e72;
-        }
-        
         body {
             font-family: 'PingFang SC', 'Microsoft YaHei', sans-serif;
-            background: var(--bg-light);
-            color: var(--text-dark);
-            line-height: 1.8;
+            overflow: hidden;
+            background: #0a0a1a;
+        }
+        
+        /* 渐变背景 */
+        .gradient-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            z-index: 0;
+        }
+        
+        /* 粒子画布 */
+        #particleCanvas {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+        }
+        
+        /* 内容层 */
+        .content {
+            position: relative;
+            z-index: 2;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+            padding: 2rem;
+            pointer-events: none;
+        }
+        
+        .content > * {
+            pointer-events: auto;
+        }
+        
+        h1 {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(90deg, #00d4ff, #7b2cbf, #ff6b6b);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            animation: glow 3s ease-in-out infinite;
+            text-shadow: 0 0 30px rgba(0, 212, 255, 0.5);
+        }
+        
+        @keyframes glow {
+            0%, 100% { filter: brightness(1); }
+            50% { filter: brightness(1.3); }
+        }
+        
+        .subtitle {
+            font-size: 1.5rem;
+            color: rgba(255, 255, 255, 0.8);
+            margin-bottom: 2rem;
+            max-width: 600px;
+        }
+        
+        .tagline {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 3rem;
+        }
+        
+        .tag {
+            padding: 0.5rem 1.5rem;
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 30px;
+            font-size: 1rem;
+            backdrop-filter: blur(10px);
+            transition: all 0.3s;
+        }
+        
+        .tag:hover {
+            background: rgba(0, 212, 255, 0.3);
+            border-color: #00d4ff;
+            transform: scale(1.05);
         }
         
         /* 导航 */
@@ -37,23 +110,19 @@
             top: 0;
             left: 0;
             right: 0;
-            background: rgba(255, 255, 255, 0.95);
-            backdrop-filter: blur(10px);
-            z-index: 100;
-            padding: 1rem 2rem;
+            padding: 1.5rem 3rem;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+            z-index: 10;
+            background: rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(10px);
         }
         
         .logo {
             font-size: 1.5rem;
             font-weight: bold;
-            background: linear-gradient(90deg, var(--primary), var(--accent2));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
+            color: white;
         }
         
         .nav-links {
@@ -63,319 +132,25 @@
         }
         
         .nav-links a {
-            color: var(--text-dark);
+            color: rgba(255, 255, 255, 0.8);
             text-decoration: none;
             font-size: 0.9rem;
-            font-weight: 500;
             transition: color 0.3s;
         }
         
         .nav-links a:hover {
-            color: var(--primary);
+            color: #00d4ff;
         }
         
-        /* 章节通用样式 */
-        section {
-            min-height: 100vh;
-            padding: 6rem 2rem 4rem;
-        }
-        
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            width: 100%;
-        }
-        
-        h1 {
-            font-size: 3.5rem;
-            margin-bottom: 1rem;
-            text-align: center;
-        }
-        
-        h2 {
-            font-size: 2.5rem;
-            margin-bottom: 2rem;
-            text-align: center;
-            position: relative;
-            color: var(--text-dark);
-        }
-        
-        h2::after {
-            content: '';
-            display: block;
-            width: 60px;
-            height: 4px;
-            background: linear-gradient(90deg, var(--primary), var(--accent2));
-            margin: 1rem auto 0;
-            border-radius: 2px;
-        }
-        
-        /* 首页 */
-        #home {
-            background: linear-gradient(135deg, #ff6b35 0%, #f7931e 50%, #00b4d8 100%);
-            text-align: center;
-            color: white;
-            position: relative;
-            overflow: hidden;
-        }
-        
-        #home::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-            opacity: 0.5;
-        }
-        
-        #home h1 {
-            font-size: 4rem;
-            color: white;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
-            position: relative;
-            z-index: 1;
-        }
-        
-        .subtitle {
-            font-size: 1.5rem;
-            margin-bottom: 2rem;
-            position: relative;
-            z-index: 1;
-        }
-        
-        /* 介绍卡片 */
-        .intro-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 2rem;
-            margin-top: 3rem;
-        }
-        
-        .card {
-            background: var(--bg-white);
-            border-radius: 20px;
-            padding: 2rem;
-            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
-            transition: transform 0.3s, box-shadow 0.3s;
-            border-top: 5px solid var(--primary);
-        }
-        
-        .card:nth-child(2) {
-            border-top-color: var(--accent1);
-        }
-        
-        .card:nth-child(3) {
-            border-top-color: var(--accent2);
-        }
-        
-        .card:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 20px 60px rgba(0,0,0,0.15);
-        }
-        
-        .card-icon {
-            font-size: 3rem;
-            margin-bottom: 1rem;
-        }
-        
-        .card h3 {
-            font-size: 1.5rem;
-            margin-bottom: 1rem;
-            color: var(--secondary);
-        }
-        
-        /* 历史时间线 */
-        #history {
-            background: linear-gradient(180deg, #f8f9fa 0%, #e9ecef 100%);
-        }
-        
-        .timeline {
-            position: relative;
-            margin-top: 3rem;
-            max-width: 800px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        
-        .timeline::before {
-            content: '';
-            position: absolute;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 4px;
-            height: 100%;
-            background: linear-gradient(180deg, var(--primary), var(--accent1), var(--accent2));
-            border-radius: 2px;
-        }
-        
-        .timeline-item {
-            display: flex;
-            margin-bottom: 2rem;
-            align-items: center;
-            position: relative;
-        }
-        
-        .timeline-item:nth-child(odd) {
-            flex-direction: row;
-        }
-        
-        .timeline-item:nth-child(even) {
-            flex-direction: row-reverse;
-        }
-        
-        .timeline-content {
-            width: 45%;
-            background: white;
-            padding: 1.5rem;
-            border-radius: 16px;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
-        }
-        
-        .timeline-year {
-            font-size: 1.3rem;
-            font-weight: bold;
-            color: var(--primary);
-            margin-bottom: 0.5rem;
-        }
-        
-        .timeline-dot {
-            width: 20px;
-            height: 20px;
-            background: var(--primary);
-            border-radius: 50%;
-            position: absolute;
-            left: 50%;
-            transform: translateX(-50%);
-            border: 4px solid white;
-            box-shadow: 0 0 0 3px var(--primary);
-        }
-        
-        .timeline-item:nth-child(2) .timeline-dot { background: var(--accent1); box-shadow: 0 0 0 3px var(--accent1); }
-        .timeline-item:nth-child(3) .timeline-dot { background: var(--accent2); box-shadow: 0 0 0 3px var(--accent2); }
-        .timeline-item:nth-child(4) .timeline-dot { background: var(--accent3); box-shadow: 0 0 0 3px var(--accent3); }
-        .timeline-item:nth-child(5) .timeline-dot { background: var(--accent4); box-shadow: 0 0 0 3px var(--accent4); }
-        
-        /* 现状 */
-        #current {
-            background: var(--bg-white);
-        }
-        
-        .research-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-            gap: 2rem;
-            margin-top: 3rem;
-        }
-        
-        .research-card {
-            background: linear-gradient(135deg, #fff 0%, #f8f9fa 100%);
-            border-radius: 20px;
-            padding: 2rem;
-            border-left: 5px solid var(--accent1);
-            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
-            transition: transform 0.3s;
-        }
-        
-        .research-card:nth-child(2) { border-left-color: var(--accent2); }
-        .research-card:nth-child(3) { border-left-color: var(--accent3); }
-        .research-card:nth-child(4) { border-left-color: var(--accent4); }
-        
-        .research-card:hover {
-            transform: scale(1.02);
-        }
-        
-        .tag {
-            display: inline-block;
-            padding: 0.3rem 0.8rem;
-            background: var(--accent1);
-            color: white;
-            border-radius: 20px;
-            font-size: 0.8rem;
-            margin-bottom: 1rem;
-        }
-        
-        .research-card:nth-child(2) .tag { background: var(--accent2); }
-        .research-card:nth-child(3) .tag { background: var(--accent3); }
-        .research-card:nth-child(4) .tag { background: var(--accent4); }
-        
-        /* 未来应用 */
-        #future {
-            background: linear-gradient(180deg, #e9ecef 0%, #dee2e6 100%);
-        }
-        
-        .future-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 1.5rem;
-            margin-top: 3rem;
-        }
-        
-        .future-item {
-            text-align: center;
-            padding: 2rem;
-            background: white;
-            border-radius: 20px;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
-            transition: transform 0.3s;
-        }
-        
-        .future-item:hover {
-            transform: translateY(-5px);
-        }
-        
-        .future-icon {
-            font-size: 3.5rem;
-            margin-bottom: 1rem;
-        }
-        
-        .future-item h3 {
-            font-size: 1.1rem;
-            margin-bottom: 0.5rem;
-            color: var(--secondary);
-        }
-        
-        /* 展望 */
-        .outlook-section {
-            background: linear-gradient(135deg, var(--accent2) 0%, var(--primary) 100%);
-            color: white;
-            text-align: center;
-        }
-        
-        .outlook-section h2 {
-            color: white;
-        }
-        
-        .outlook-section h2::after {
-            background: white;
-        }
-        
-        .outlook-section p {
-            max-width: 700px;
-            margin: 0 auto;
-            font-size: 1.3rem;
-        }
-        
-        /* 页脚 */
-        footer {
-            background: var(--text-dark);
-            color: white;
-            padding: 2rem;
-            text-align: center;
-        }
-        
-        footer p {
-            opacity: 0.8;
-        }
-        
-        /* 滚动提示 */
+        /* 向下滚动提示 */
         .scroll-hint {
             position: absolute;
-            bottom: 2rem;
+            bottom: 3rem;
             left: 50%;
             transform: translateX(-50%);
             animation: bounce 2s infinite;
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 0.9rem;
         }
         
         @keyframes bounce {
@@ -383,37 +158,19 @@
             50% { transform: translateX(-50%) translateY(10px); }
         }
         
-        .scroll-hint span {
-            display: block;
-            width: 20px;
-            height: 20px;
-            border-right: 3px solid white;
-            border-bottom: 3px solid white;
-            transform: rotate(45deg);
-            margin: 0 auto;
-        }
-        
         /* 响应式 */
         @media (max-width: 768px) {
             h1 { font-size: 2.5rem; }
-            h2 { font-size: 1.8rem; }
-            
+            .subtitle { font-size: 1.1rem; }
+            nav { padding: 1rem 1.5rem; }
             .nav-links { display: none; }
-            
-            .timeline::before { left: 20px; }
-            
-            .timeline-item,
-            .timeline-item:nth-child(even) {
-                flex-direction: row;
-                padding-left: 50px;
-            }
-            
-            .timeline-content { width: 100%; }
-            .timeline-dot { left: 20px; }
         }
     </style>
 </head>
 <body>
+    <div class="gradient-bg"></div>
+    <canvas id="particleCanvas"></canvas>
+    
     <nav>
         <div class="logo">🔬 超导探索</div>
         <ul class="nav-links">
@@ -423,199 +180,152 @@
             <li><a href="#future">未来应用</a></li>
         </ul>
     </nav>
-
-    <!-- 首页 -->
-    <section id="home">
-        <div class="container">
-            <h1>超导现象</h1>
-            <p class="subtitle">探索未来的神奇材料 | 零电阻的奇迹</p>
-            <div class="intro-grid">
-                <div class="card">
-                    <div class="card-icon">⚡</div>
-                    <h3>零电阻</h3>
-                    <p>超导体在低于临界温度时，电阻突然降为零，电流可以无损耗地永久流动</p>
-                </div>
-                <div class="card">
-                    <div class="card-icon">🧲</div>
-                    <h3>完全抗磁性</h3>
-                    <p>超导体能够排斥内部磁场，产生著名的"迈斯纳效应"，实现磁悬浮</p>
-                </div>
-                <div class="card">
-                    <div class="card-icon">💎</div>
-                    <h3>宏观量子现象</h3>
-                    <p>超导是一种宏观尺度下的量子效应，展现出神奇量子特性</p>
-                </div>
-            </div>
+    
+    <div class="content">
+        <h1>超导现象</h1>
+        <p class="subtitle">探索未来的神奇材料 | 零电阻的奇迹</p>
+        <div class="tagline">
+            <span class="tag">⚡ 零电阻</span>
+            <span class="tag">🧲 完全抗磁性</span>
+            <span class="tag">💎 宏观量子现象</span>
         </div>
-        <div class="scroll-hint">
-            <span></span>
-        </div>
-    </section>
-
-    <!-- 什么是超导 -->
-    <section id="intro">
-        <div class="container">
-            <h2>什么是 <span style="color: var(--primary);">超导</span></h2>
-            <div style="max-width: 800px; margin: 0 auto; text-align: center;">
-                <p style="font-size: 1.2rem; color: var(--text-muted); margin-bottom: 2rem;">
-                    超导（Superconductivity）是一种物理学现象，指某些材料在低于特定温度（临界温度）时，电阻突然降为零，同时完全排斥内部磁场。
-                </p>
-                <div class="intro-grid">
-                    <div class="card" style="border-top-color: var(--primary);">
-                        <h3>零电阻效应</h3>
-                        <p>当温度下降到临界温度以下，材料的电阻突然变为零。这意味着电流可以在没有能量损耗的情况下永久流动。</p>
-                    </div>
-                    <div class="card" style="border-top-color: var(--accent1);">
-                        <h3>迈斯纳效应</h3>
-                        <p>超导体完全排斥内部磁场，使磁力线无法穿透。这导致超导体可以悬浮在磁铁上方，形成神奇的磁悬浮现象。</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- 历史发展 -->
-    <section id="history">
-        <div class="container">
-            <h2>百年 <span style="color: var(--accent2);">发展历程</span></h2>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-content">
-                        <div class="timeline-year">1911年</div>
-                        <p>荷兰物理学家海克·卡梅林·昂尼斯发现汞在4.2K（-269°C）时电阻突然降为零，超导现象首次被发现。</p>
-                    </div>
-                    <div class="timeline-dot"></div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-content">
-                        <div class="timeline-year">1933年</div>
-                        <p>迈斯纳和奥克森菲尔德发现超导体的完全抗磁性，即"迈斯纳效应"，超导研究进入新阶段。</p>
-                    </div>
-                    <div class="timeline-dot"></div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-content">
-                        <div class="timeline-year">1957年</div>
-                        <p>巴丁、库珀、施里弗提出BCS理论，从微观层面解释了超导现象的机制，奠定了理论基础。</p>
-                    </div>
-                    <div class="timeline-dot"></div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-content">
-                        <div class="timeline-year">1986年</div>
-                        <p>IBM苏黎世研究院的柏诺兹和缪勒发现铜氧化物高温超导体，临界温度首次突破40K，超越液氮沸点。</p>
-                    </div>
-                    <div class="timeline-dot"></div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-content">
-                        <div class="timeline-year">2020年</div>
-                        <p>美国团队在267GPa高压下实现15°C室温超导，是超导研究的里程碑式突破。</p>
-                    </div>
-                    <div class="timeline-dot"></div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- 研究现状 -->
-    <section id="current">
-        <div class="container">
-            <h2>科技 <span style="color: var(--accent3);">研究现状</span></h2>
-            <div class="research-grid">
-                <div class="research-card">
-                    <span class="tag">高温超导</span>
-                    <h3>铜氧化物超导体</h3>
-                    <p>目前已实现液氮温度（77K）以上的高温超导，在电力传输、磁悬浮等领域已有实际应用。</p>
-                </div>
-                <div class="research-card">
-                    <span class="tag">室温超导</span>
-                    <h3>高压氢化物</h3>
-                    <p>在极端高压条件下（百万大气压），某些氢化物材料可在室温附近实现超导，但应用受限。</p>
-                </div>
-                <div class="research-card">
-                    <span class="tag">镍基超导</span>
-                    <h3>新型材料突破</h3>
-                    <p>薛其坤院士团队使镍基材料成为第三类在常压下实现超导的材料，开启新研究方向。</p>
-                </div>
-                <div class="research-card">
-                    <span class="tag">中国领先</span>
-                    <h3>国产化进程</h3>
-                    <p>中国在高温超导带材、超导磁体等领域实现重大突破，达到国际领先水平。</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- 未来应用 -->
-    <section id="future">
-        <div class="container">
-            <h2>未来 <span style="color: var(--accent4);">应用前景</span></h2>
-            <div class="future-grid">
-                <div class="future-item">
-                    <div class="future-icon">🚄</div>
-                    <h3>磁悬浮交通</h3>
-                    <p>超导磁悬浮列车可达到600km/h以上，日本磁悬浮已达603km/h商业运行速度。</p>
-                </div>
-                <div class="future-item">
-                    <div class="future-icon">⚡</div>
-                    <h3>超导输电</h3>
-                    <p>零电阻特性使超导电缆传输电力无损耗，可大幅提升电网效率，城市电网已开始试用。</p>
-                </div>
-                <div class="future-item">
-                    <div class="future-icon">🏥</div>
-                    <h3>医疗成像</h3>
-                    <p>核磁共振（MRI）设备依赖超导磁体，是目前最普及的医学诊断工具之一。</p>
-                </div>
-                <div class="future-item">
-                    <div class="future-icon">🔬</div>
-                    <h3>科学研究</h3>
-                    <p>大型粒子加速器、对撞机需要超导磁体，如欧洲强子对撞机使用了27公里超导磁体。</p>
-                </div>
-                <div class="future-item">
-                    <div class="future-icon">💻</div>
-                    <h3>量子计算</h3>
-                    <p>超导量子比特是量子计算机的主要实现方案之一，IBM、Google等巨头已推出量子处理器。</p>
-                </div>
-                <div class="future-item">
-                    <div class="future-icon">🔋</div>
-                    <h3>可控核聚变</h3>
-                    <p>超导磁体是约束等离子体的关键部件，ITER等聚变装置依赖超导技术。</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- 结语 -->
-    <section class="outlook-section">
-        <div class="container" style="text-align: center;">
-            <h2>展望 <span style="color: #ffd700;">未来</span></h2>
-            <p>
-                室温超导一直是人类的梦想。如果能在常压下实现室温超导，将引发能源、交通、医疗等领域的革命性变革。
-                虽然道路漫长，但科学家们从未停止探索。超导的故事，还在继续...
-            </p>
-            <p style="margin-top: 3rem; font-size: 1.5rem;">
-                —— 探索科学，引领未来 —
-            </p>
-        </div>
-    </section>
-
-    <footer>
-        <p>🔬 超导现象科普 | 探索未来的神奇材料</p>
-        <p style="margin-top: 0.5rem; font-size: 0.9rem; opacity: 0.6;">
-            内容仅供参考，如有疏漏请指正
-        </p>
-    </footer>
-
+        <p class="scroll-hint">向下滚动探索更多 ↓</p>
+    </div>
+    
     <script>
-        // 平滑滚动
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
-            });
+        // 粒子动画系统
+        const canvas = document.getElementById('particleCanvas');
+        const ctx = canvas.getContext('2d');
+        
+        let particles = [];
+        let mouse = { x: null, y: null, radius: 150 };
+        
+        // 调整画布大小
+        function resize() {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+        }
+        resize();
+        window.addEventListener('resize', resize);
+        
+        // 鼠标交互
+        window.addEventListener('mousemove', (e) => {
+            mouse.x = e.x;
+            mouse.y = e.y;
+        });
+        
+        window.addEventListener('mouseout', () => {
+            mouse.x = null;
+            mouse.y = null;
+        });
+        
+        // 粒子类
+        class Particle {
+            constructor() {
+                this.x = Math.random() * canvas.width;
+                this.y = Math.random() * canvas.height;
+                this.size = Math.random() * 2 + 1;
+                this.speedX = (Math.random() - 0.5) * 0.5;
+                this.speedY = (Math.random() - 0.5) * 0.5;
+                this.color = `hsl(${Math.random() * 60 + 180}, 100%, 70%)`;
+            }
+            
+            update() {
+                this.x += this.speedX;
+                this.y += this.speedY;
+                
+                // 边界检测
+                if (this.x < 0 || this.x > canvas.width) this.speedX *= -1;
+                if (this.y < 0 || this.y > canvas.height) this.speedY *= -1;
+                
+                // 鼠标交互
+                if (mouse.x != null) {
+                    let dx = mouse.x - this.x;
+                    let dy = mouse.y - this.y;
+                    let distance = Math.sqrt(dx * dx + dy * dy);
+                    
+                    if (distance < mouse.radius) {
+                        const forceDirectionX = dx / distance;
+                        const forceDirectionY = dy / distance;
+                        const force = (mouse.radius - distance) / mouse.radius;
+                        const directionX = forceDirectionX * force * 3;
+                        const directionY = forceDirectionY * force * 3;
+                        
+                        this.x -= directionX;
+                        this.y -= directionY;
+                    }
+                }
+            }
+            
+            draw() {
+                ctx.fillStyle = this.color;
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+                ctx.fill();
+            }
+        }
+        
+        // 初始化粒子
+        function init() {
+            particles = [];
+            let particleCount = Math.floor((canvas.width * canvas.height) / 15000);
+            for (let i = 0; i < particleCount; i++) {
+                particles.push(new Particle());
+            }
+        }
+        
+        // 连接线
+        function connect() {
+            for (let a = 0; a < particles.length; a++) {
+                for (let b = a; b < particles.length; b++) {
+                    let dx = particles[a].x - particles[b].x;
+                    let dy = particles[a].y - particles[b].y;
+                    let distance = Math.sqrt(dx * dx + dy * dy);
+                    
+                    if (distance < 120) {
+                        let opacity = 1 - (distance / 120);
+                        ctx.strokeStyle = `rgba(0, 212, 255, ${opacity * 0.2})`;
+                        ctx.lineWidth = 0.5;
+                        ctx.beginPath();
+                        ctx.moveTo(particles[a].x, particles[a].y);
+                        ctx.lineTo(particles[b].x, particles[b].y);
+                        ctx.stroke();
+                    }
+                }
+            }
+        }
+        
+        // 动画循环
+        function animate() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            
+            for (let i = 0; i < particles.length; i++) {
+                particles[i].update();
+                particles[i].draw();
+            }
+            
+            connect();
+            requestAnimationFrame(animate);
+        }
+        
+        init();
+        animate();
+        
+        // 点击效果
+        canvas.addEventListener('click', (e) => {
+            for (let i = 0; i < 5; i++) {
+                let p = new Particle();
+                p.x = e.x;
+                p.y = e.y;
+                p.speedX = (Math.random() - 0.5) * 3;
+                p.speedY = (Math.random() - 0.5) * 3;
+                particles.push(p);
+            }
+            
+            // 限制粒子数量
+            if (particles.length > 300) {
+                particles.splice(0, 50);
+            }
         });
     </script>
 </body>
