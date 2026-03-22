@@ -1,94 +1,651 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yao Yuancheng</title>
+    <title>超导现象 - 探索未来的神奇材料</title>
     <style>
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
+        
+        :root {
+            --primary: #00d4ff;
+            --secondary: #7b2cbf;
+            --accent: #ff6b6b;
+            --bg-dark: #0a0a1a;
+            --bg-card: #12122a;
+            --text: #e0e0e0;
+            --text-muted: #a0a0a0;
+        }
+        
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
-            min-height: 100vh;
+            font-family: 'PingFang SC', 'Microsoft YaHei', sans-serif;
+            background: var(--bg-dark);
+            color: var(--text);
+            line-height: 1.8;
+            overflow-x: hidden;
+        }
+        
+        /* 背景动画 */
+        .bg-animation {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 0;
+            overflow: hidden;
+        }
+        
+        .bg-animation::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: 
+                radial-gradient(ellipse at 20% 20%, rgba(0, 212, 255, 0.1) 0%, transparent 50%),
+                radial-gradient(ellipse at 80% 80%, rgba(123, 44, 191, 0.1) 0%, transparent 50%);
+            animation: drift 20s ease-in-out infinite;
+        }
+        
+        @keyframes drift {
+            0%, 100% { transform: translate(0, 0) rotate(0deg); }
+            50% { transform: translate(-2%, -2%) rotate(1deg); }
+        }
+        
+        /* 导航 */
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: rgba(10, 10, 26, 0.9);
+            backdrop-filter: blur(10px);
+            z-index: 100;
+            padding: 1rem 2rem;
             display: flex;
-            justify-content: center;
+            justify-content: space-between;
             align-items: center;
-            color: #e0e0e0;
+            border-bottom: 1px solid rgba(0, 212, 255, 0.2);
         }
-        .container {
-            text-align: center;
-            padding: 2rem;
-            max-width: 600px;
-        }
-        .avatar {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            border: 4px solid #4a9eff;
-            margin-bottom: 1.5rem;
-            box-shadow: 0 0 30px rgba(74, 158, 255, 0.3);
-        }
-        h1 {
-            font-size: 2.5rem;
-            margin-bottom: 0.5rem;
-            background: linear-gradient(90deg, #4a9eff, #00d4ff);
+        
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            background: linear-gradient(90deg, var(--primary), var(--secondary));
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
         }
-        .bio {
-            font-size: 1.2rem;
-            color: #a0a0a0;
-            margin-bottom: 1.5rem;
-        }
-        .tags {
+        
+        .nav-links {
             display: flex;
-            justify-content: center;
-            gap: 0.8rem;
-            flex-wrap: wrap;
-            margin-bottom: 2rem;
+            gap: 2rem;
+            list-style: none;
         }
-        .tag {
-            background: rgba(74, 158, 255, 0.15);
-            padding: 0.5rem 1rem;
-            border-radius: 20px;
-            font-size: 0.9rem;
-            border: 1px solid rgba(74, 158, 255, 0.3);
-        }
-        .links {
-            display: flex;
-            justify-content: center;
-            gap: 1.5rem;
-        }
-        .link {
-            color: #4a9eff;
+        
+        .nav-links a {
+            color: var(--text);
             text-decoration: none;
-            font-size: 1rem;
-            transition: opacity 0.3s;
+            font-size: 0.9rem;
+            transition: color 0.3s;
+            position: relative;
         }
-        .link:hover {
-            opacity: 0.7;
+        
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--primary);
+            transition: width 0.3s;
+        }
+        
+        .nav-links a:hover {
+            color: var(--primary);
+        }
+        
+        .nav-links a:hover::after {
+            width: 100%;
+        }
+        
+        /* 章节通用样式 */
+        section {
+            min-height: 100vh;
+            padding: 6rem 2rem 4rem;
+            position: relative;
+            z-index: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            width: 100%;
+        }
+        
+        h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+        
+        h2 {
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+            text-align: center;
+            position: relative;
+        }
+        
+        h2::after {
+            content: '';
+            display: block;
+            width: 60px;
+            height: 3px;
+            background: linear-gradient(90deg, var(--primary), var(--secondary));
+            margin: 1rem auto 0;
+        }
+        
+        .highlight {
+            color: var(--primary);
+        }
+        
+        /* 首页 */
+        #home {
+            text-align: center;
+            background: linear-gradient(180deg, var(--bg-dark) 0%, #0d0d20 100%);
+        }
+        
+        #home h1 {
+            font-size: 4rem;
+            background: linear-gradient(90deg, #fff, var(--primary), var(--secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 2rem;
+            animation: glow 3s ease-in-out infinite;
+        }
+        
+        @keyframes glow {
+            0%, 100% { filter: brightness(1); }
+            50% { filter: brightness(1.2); }
+        }
+        
+        .subtitle {
+            font-size: 1.5rem;
+            color: var(--text-muted);
+            margin-bottom: 3rem;
+        }
+        
+        .scroll-hint {
+            position: absolute;
+            bottom: 3rem;
+            left: 50%;
+            transform: translateX(-50%);
+            animation: bounce 2s infinite;
+        }
+        
+        @keyframes bounce {
+            0%, 100% { transform: translateX(-50%) translateY(0); }
+            50% { transform: translateX(-50%) translateY(10px); }
+        }
+        
+        .scroll-hint span {
+            display: block;
+            width: 20px;
+            height: 20px;
+            border-right: 2px solid var(--primary);
+            border-bottom: 2px solid var(--primary);
+            transform: rotate(45deg);
+            margin: 0 auto;
+        }
+        
+        /* 介绍卡片 */
+        .intro-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+        
+        .card {
+            background: var(--bg-card);
+            border-radius: 16px;
+            padding: 2rem;
+            border: 1px solid rgba(0, 212, 255, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0, 212, 255, 0.1);
+        }
+        
+        .card-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        
+        .card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: var(--primary);
+        }
+        
+        .card p {
+            color: var(--text-muted);
+        }
+        
+        /* 历史时间线 */
+        .timeline {
+            position: relative;
+            margin-top: 3rem;
+        }
+        
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 2px;
+            height: 100%;
+            background: linear-gradient(180deg, var(--primary), var(--secondary));
+        }
+        
+        .timeline-item {
+            display: flex;
+            margin-bottom: 3rem;
+            align-items: center;
+        }
+        
+        .timeline-item:nth-child(odd) {
+            flex-direction: row;
+        }
+        
+        .timeline-item:nth-child(even) {
+            flex-direction: row-reverse;
+        }
+        
+        .timeline-content {
+            width: 45%;
+            background: var(--bg-card);
+            padding: 1.5rem;
+            border-radius: 12px;
+            border: 1px solid rgba(0, 212, 255, 0.1);
+        }
+        
+        .timeline-year {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+        }
+        
+        .timeline-dot {
+            width: 16px;
+            height: 16px;
+            background: var(--primary);
+            border-radius: 50%;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            box-shadow: 0 0 20px var(--primary);
+        }
+        
+        /* 现状 */
+        .research-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+        
+        .research-card {
+            background: linear-gradient(135deg, var(--bg-card), #1a1a3a);
+            border-radius: 16px;
+            padding: 2rem;
+            border: 1px solid rgba(123, 44, 191, 0.3);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .research-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--primary), var(--secondary));
+        }
+        
+        .tag {
+            display: inline-block;
+            padding: 0.3rem 0.8rem;
+            background: rgba(0, 212, 255, 0.1);
+            border-radius: 20px;
+            font-size: 0.8rem;
+            color: var(--primary);
+            margin-bottom: 1rem;
+        }
+        
+        /* 未来应用 */
+        .future-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+        
+        .future-item {
+            text-align: center;
+            padding: 2rem;
+            background: var(--bg-card);
+            border-radius: 16px;
+            transition: transform 0.3s;
+        }
+        
+        .future-item:hover {
+            transform: scale(1.05);
+        }
+        
+        .future-icon {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+        }
+        
+        .future-item h3 {
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+            color: var(--accent);
+        }
+        
+        /* 页脚 */
+        footer {
+            background: var(--bg-card);
+            padding: 3rem 2rem;
+            text-align: center;
+            border-top: 1px solid rgba(0, 212, 255, 0.1);
+        }
+        
+        footer p {
+            color: var(--text-muted);
+        }
+        
+        /* 响应式 */
+        @media (max-width: 768px) {
+            h1 { font-size: 2.5rem; }
+            h2 { font-size: 1.8rem; }
+            
+            .nav-links {
+                display: none;
+            }
+            
+            .timeline::before {
+                left: 20px;
+            }
+            
+            .timeline-item,
+            .timeline-item:nth-child(even) {
+                flex-direction: row;
+                padding-left: 50px;
+            }
+            
+            .timeline-content {
+                width: 100%;
+            }
+            
+            .timeline-dot {
+                left: 20px;
+            }
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <img src="https://avatars.githubusercontent.com/u/8936180?v=4" alt="Avatar" class="avatar">
-        <h1>Yao Yuancheng</h1>
-        <p class="bio">Building cool things with AI</p>
-        <div class="tags">
-            <span class="tag">🎵 Music Lover</span>
-            <span class="tag">🤖 AI Enthusiast</span>
-            <span class="tag">💻 Builder</span>
-            <span class="tag">🦒 OpenClaw</span>
+    <div class="bg-animation"></div>
+    
+    <nav>
+        <div class="logo">🔬 超导探索</div>
+        <ul class="nav-links">
+            <li><a href="#intro">什么是超导</a></li>
+            <li><a href="#history">发展历史</a></li>
+            <li><a href="#current">研究现状</a></li>
+            <li><a href="#future">未来应用</a></li>
+        </ul>
+    </nav>
+
+    <!-- 首页 -->
+    <section id="home">
+        <div class="container">
+            <h1>超导现象</h1>
+            <p class="subtitle">探索未来的神奇材料 | 零电阻的奇迹</p>
+            <div class="intro-grid">
+                <div class="card">
+                    <div class="card-icon">⚡</div>
+                    <h3>零电阻</h3>
+                    <p>超导体在低于临界温度时，电阻突然降为零，电流可以无损耗地永久流动</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🧲</div>
+                    <h3>完全抗磁性</h3>
+                    <p>超导体能够排斥内部磁场，产生著名的"迈斯纳效应"，实现磁悬浮</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">💎</div>
+                    <h3>宏观量子现象</h3>
+                    <p>超导是一种宏观尺度下的量子效应，展现出神奇量子特性</p>
+                </div>
+            </div>
         </div>
-        <div class="links">
-            <a href="https://github.com/yaoyuancheng" class="link">GitHub</a>
+        <div class="scroll-hint">
+            <span></span>
         </div>
-    </div>
+    </section>
+
+    <!-- 什么是超导 -->
+    <section id="intro">
+        <div class="container">
+            <h2>什么是 <span class="highlight">超导</span></h2>
+            <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+                <p style="font-size: 1.2rem; color: var(--text-muted); margin-bottom: 2rem;">
+                    超导（Superconductivity）是一种物理学现象，指某些材料在低于特定温度（临界温度）时，电阻突然降为零，同时完全排斥内部磁场。
+                </p>
+                <div class="intro-grid">
+                    <div class="card">
+                        <h3>零电阻效应</h3>
+                        <p>当温度下降到临界温度以下，材料的电阻突然变为零。这意味着电流可以在没有能量损耗的情况下永久流动。</p>
+                    </div>
+                    <div class="card">
+                        <h3>迈斯纳效应</h3>
+                        <p>超导体完全排斥内部磁场，使磁力线无法穿透。这导致超导体可以悬浮在磁铁上方，形成神奇的磁悬浮现象。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 历史发展 -->
+    <section id="history">
+        <div class="container">
+            <h2>百年 <span class="highlight">发展历程</span></h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-year">1911年</div>
+                        <p>荷兰物理学家海克·卡梅林·昂尼斯发现汞在4.2K（-269°C）时电阻突然降为零，超导现象首次被发现。</p>
+                    </div>
+                    <div class="timeline-dot"></div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-year">1933年</div>
+                        <p>迈斯纳和奥克森菲尔德发现超导体的完全抗磁性，即"迈斯纳效应"，超导研究进入新阶段。</p>
+                    </div>
+                    <div class="timeline-dot"></div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-year">1957年</div>
+                        <p>巴丁、库珀、施里弗提出BCS理论，从微观层面解释了超导现象的机制，奠定了理论基础。</p>
+                    </div>
+                    <div class="timeline-dot"></div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-year">1986年</div>
+                        <p>IBM苏黎世研究院的柏诺兹和缪勒发现铜氧化物高温超导体，临界温度首次突破40K，超越液氮沸点。</p>
+                    </div>
+                    <div class="timeline-dot"></div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-year">2020年</div>
+                        <p>美国团队在267GPa高压下实现15°C室温超导，是超导研究的里程碑式突破。</p>
+                    </div>
+                    <div class="timeline-dot"></div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-year">2024-2025年</div>
+                        <p>中国科学家在高温超导领域取得重大突破，南方科技大学等团队发现新的高压超导材料。</p>
+                    </div>
+                    <div class="timeline-dot"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 研究现状 -->
+    <section id="current">
+        <div class="container">
+            <h2>科技 <span class="highlight">研究现状</span></h2>
+            <div class="research-grid">
+                <div class="research-card">
+                    <span class="tag">高温超导</span>
+                    <h3>铜氧化物超导体</h3>
+                    <p>目前已实现液氮温度（77K）以上的高温超导，在电力传输、磁悬浮等领域已有实际应用。</p>
+                </div>
+                <div class="research-card">
+                    <span class="tag">室温超导</span>
+                    <h3>高压氢化物</h3>
+                    <p>在极端高压条件下（百万大气压），某些氢化物材料可在室温附近实现超导，但应用受限。</p>
+                </div>
+                <div class="research-card">
+                    <span class="tag">镍基超导</span>
+                    <h3>新型材料突破</h3>
+                    <p>薛其坤院士团队使镍基材料成为第三类在常压下实现超导的材料，开启新研究方向。</p>
+                </div>
+                <div class="research-card">
+                    <span class="tag">中国领先</span>
+                    <h3">国产化进程</h3>
+                    <p>中国在高温超导带材、超导磁体等领域实现重大突破，达到国际领先水平。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 未来应用 -->
+    <section id="future">
+        <div class="container">
+            <h2>未来 <span class="highlight">应用前景</span></h2>
+            <div class="future-grid">
+                <div class="future-item">
+                    <div class="future-icon">🚄</div>
+                    <h3>磁悬浮交通</h3>
+                    <p>超导磁悬浮列车可达到600km/h以上，日本磁悬浮已达603km/h商业运行速度。</p>
+                </div>
+                <div class="future-item">
+                    <div class="future-icon">⚡</div>
+                    <h3>超导输电</h3>
+                    <p>零电阻特性使超导电缆传输电力无损耗，可大幅提升电网效率，城市电网已开始试用。</p>
+                </div>
+                <div class="future-item">
+                    <div class="future-icon">🏥</div>
+                    <h3>医疗成像</h3>
+                    <p>核磁共振（MRI）设备依赖超导磁体，是目前最普及的医学诊断工具之一。</p>
+                </div>
+                <div class="future-item">
+                    <div class="future-icon">🔬</div>
+                    <h3>科学研究</h3>
+                    <p>大型粒子加速器、对撞机需要超导磁体，如欧洲强子对撞机使用了27公里超导磁体。</p>
+                </div>
+                <div class="future-item">
+                    <div class="future-icon">💻</div>
+                    <h3>量子计算</h3>
+                    <p>超导量子比特是量子计算机的主要实现方案之一，IBM、Google等巨头已推出量子处理器。</p>
+                </div>
+                <div class="future-item">
+                    <div class="future-icon">🔋</div>
+                    <h3>可控核聚变</h3>
+                    <p>超导磁体是约束等离子体的关键部件，ITER等聚变装置依赖超导技术。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 结语 -->
+    <section style="min-height: 50vh;">
+        <div class="container" style="text-align: center;">
+            <h2>展望 <span class="highlight">未来</span></h2>
+            <p style="max-width: 700px; margin: 0 auto; font-size: 1.3rem; color: var(--text-muted);">
+                室温超导一直是人类的梦想。如果能在常压下实现室温超导，将引发能源、交通、医疗等领域的革命性变革。
+                虽然道路漫长，但科学家们从未停止探索。超导的故事，还在继续...
+            </p>
+            <p style="margin-top: 3rem; color: var(--primary);">
+                —— 探索科学，引领未来 —
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        <p>🔬 超导现象科普 | 探索未来的神奇材料</p>
+        <p style="margin-top: 1rem; font-size: 0.9rem;">
+            内容仅供参考，如有疏漏请指正
+        </p>
+    </footer>
+
+    <script>
+        // 平滑滚动
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // 滚动动画
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.card, .research-card, .future-item, .timeline-content').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(30px)';
+            el.style.transition = 'opacity 0.6s, transform 0.6s';
+            observer.observe(el);
+        });
+    </script>
 </body>
 </html>
