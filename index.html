@@ -2,7 +2,7 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>超导现象 - 探索未来的神奇材料</title>
     <style>
         * {
@@ -11,20 +11,25 @@
             box-sizing: border-box;
         }
         
-        body {
-            font-family: 'PingFang SC', 'Microsoft YaHei', sans-serif;
-            overflow: hidden;
-            background: #0a0a1a;
+        html {
+            scroll-behavior: smooth;
         }
         
-        /* 渐变背景 */
+        body {
+            font-family: 'PingFang SC', 'Microsoft YaHei', sans-serif;
+            overflow-x: hidden;
+            background: #1a1a2e;
+            color: white;
+        }
+        
+        /* 渐变背景 - 与浏览器颜色融合 */
         .gradient-bg {
             position: fixed;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
-            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            background: linear-gradient(180deg, #0d1117 0%, #161b22 50%, #21262d 100%);
             z-index: 0;
         }
         
@@ -38,8 +43,49 @@
             z-index: 1;
         }
         
-        /* 内容层 */
-        .content {
+        /* 导航 */
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            padding: 1rem 1.5rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 100;
+            background: rgba(13, 17, 23, 0.85);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+        
+        .logo {
+            font-size: 1.2rem;
+            font-weight: bold;
+            background: linear-gradient(90deg, #58a6ff, #8b949e);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .nav-links {
+            display: flex;
+            gap: 1.5rem;
+            list-style: none;
+        }
+        
+        .nav-links a {
+            color: #8b949e;
+            text-decoration: none;
+            font-size: 0.85rem;
+            transition: color 0.3s;
+        }
+        
+        .nav-links a:hover {
+            color: #58a6ff;
+        }
+        
+        /* Hero 区域 */
+        .hero {
             position: relative;
             z-index: 2;
             min-height: 100vh;
@@ -48,122 +94,293 @@
             justify-content: center;
             align-items: center;
             text-align: center;
-            color: white;
-            padding: 2rem;
-            pointer-events: none;
-        }
-        
-        .content > * {
-            pointer-events: auto;
+            padding: 6rem 1.5rem 2rem;
         }
         
         h1 {
-            font-size: 4rem;
+            font-size: clamp(2.5rem, 8vw, 4rem);
             margin-bottom: 1rem;
-            background: linear-gradient(90deg, #00d4ff, #7b2cbf, #ff6b6b);
+            background: linear-gradient(90deg, #58a6ff, #a371f7, #f778ba);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
-            animation: glow 3s ease-in-out infinite;
-            text-shadow: 0 0 30px rgba(0, 212, 255, 0.5);
-        }
-        
-        @keyframes glow {
-            0%, 100% { filter: brightness(1); }
-            50% { filter: brightness(1.3); }
         }
         
         .subtitle {
-            font-size: 1.5rem;
-            color: rgba(255, 255, 255, 0.8);
+            font-size: clamp(1rem, 3vw, 1.5rem);
+            color: #8b949e;
             margin-bottom: 2rem;
             max-width: 600px;
         }
         
         .tagline {
             display: flex;
-            gap: 1rem;
+            gap: 0.8rem;
             flex-wrap: wrap;
             justify-content: center;
             margin-bottom: 3rem;
         }
         
         .tag {
-            padding: 0.5rem 1.5rem;
-            background: rgba(255, 255, 255, 0.1);
-            border: 1px solid rgba(255, 255, 255, 0.2);
-            border-radius: 30px;
-            font-size: 1rem;
-            backdrop-filter: blur(10px);
+            padding: 0.5rem 1.2rem;
+            background: rgba(88, 166, 255, 0.15);
+            border: 1px solid rgba(88, 166, 255, 0.3);
+            border-radius: 20px;
+            font-size: 0.9rem;
+            color: #58a6ff;
             transition: all 0.3s;
         }
         
         .tag:hover {
-            background: rgba(0, 212, 255, 0.3);
-            border-color: #00d4ff;
+            background: rgba(88, 166, 255, 0.25);
             transform: scale(1.05);
         }
         
-        /* 导航 */
-        nav {
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            padding: 1.5rem 3rem;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            z-index: 10;
-            background: rgba(0, 0, 0, 0.3);
-            backdrop-filter: blur(10px);
-        }
-        
-        .logo {
-            font-size: 1.5rem;
-            font-weight: bold;
-            color: white;
-        }
-        
-        .nav-links {
-            display: flex;
-            gap: 2rem;
-            list-style: none;
-        }
-        
-        .nav-links a {
-            color: rgba(255, 255, 255, 0.8);
-            text-decoration: none;
-            font-size: 0.9rem;
-            transition: color 0.3s;
-        }
-        
-        .nav-links a:hover {
-            color: #00d4ff;
-        }
-        
-        /* 向下滚动提示 */
+        /* 滚动提示 */
         .scroll-hint {
             position: absolute;
-            bottom: 3rem;
+            bottom: 2rem;
             left: 50%;
             transform: translateX(-50%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: #8b949e;
+            font-size: 0.8rem;
             animation: bounce 2s infinite;
-            color: rgba(255, 255, 255, 0.6);
-            font-size: 0.9rem;
+        }
+        
+        .scroll-hint::after {
+            content: '';
+            width: 1px;
+            height: 30px;
+            background: linear-gradient(to bottom, #58a6ff, transparent);
+            margin-top: 8px;
         }
         
         @keyframes bounce {
             0%, 100% { transform: translateX(-50%) translateY(0); }
-            50% { transform: translateX(-50%) translateY(10px); }
+            50% { transform: translateX(-50%) translateY(8px); }
         }
         
-        /* 响应式 */
+        /* 移动端滚动指示器（替代鼠标） */
+        .touch-scroll-hint {
+            display: none;
+            position: fixed;
+            bottom: 1.5rem;
+            right: 1.5rem;
+            z-index: 100;
+            width: 50px;
+            height: 50px;
+            background: rgba(88, 166, 255, 0.2);
+            border: 1px solid rgba(88, 166, 255, 0.4);
+            border-radius: 50%;
+            justify-content: center;
+            align-items: center;
+            color: #58a6ff;
+            font-size: 1.2rem;
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { opacity: 0.6; }
+            50% { opacity: 1; }
+        }
+        
         @media (max-width: 768px) {
-            h1 { font-size: 2.5rem; }
-            .subtitle { font-size: 1.1rem; }
-            nav { padding: 1rem 1.5rem; }
-            .nav-links { display: none; }
+            .touch-scroll-hint {
+                display: flex;
+            }
+            .nav-links {
+                display: none;
+            }
+        }
+        
+        /* 内容区块 */
+        .section {
+            position: relative;
+            z-index: 10;
+            padding: 4rem 1.5rem;
+            background: rgba(22, 27, 34, 0.95);
+            border-top: 1px solid rgba(255,255,255,0.05);
+        }
+        
+        .section h2 {
+            font-size: 2rem;
+            margin-bottom: 2rem;
+            text-align: center;
+            color: #f0f6fc;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        
+        /* 知识卡片 */
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+        
+        .card {
+            background: rgba(33, 38, 45, 0.8);
+            border: 1px solid rgba(88, 166, 255, 0.2);
+            border-radius: 12px;
+            padding: 1.5rem;
+            transition: all 0.3s;
+        }
+        
+        .card:hover {
+            border-color: rgba(88, 166, 255, 0.5);
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+        
+        .card h3 {
+            color: #58a6ff;
+            margin-bottom: 0.8rem;
+            font-size: 1.2rem;
+        }
+        
+        .card p {
+            color: #8b949e;
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+        
+        /* 时间轴 */
+        .timeline {
+            position: relative;
+            padding: 2rem 0;
+        }
+        
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 2px;
+            height: 100%;
+            background: linear-gradient(to bottom, #58a6ff, #a371f7);
+        }
+        
+        .timeline-item {
+            position: relative;
+            margin-bottom: 2rem;
+            padding-left: calc(50% + 30px);
+        }
+        
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: calc(50% - 5px);
+            width: 10px;
+            height: 10px;
+            background: #58a6ff;
+            border-radius: 50%;
+        }
+        
+        @media (max-width: 768px) {
+            .timeline::before {
+                left: 20px;
+            }
+            .timeline-item {
+                padding-left: 50px;
+            }
+            .timeline-item::before {
+                left: 15px;
+            }
+        }
+        
+        .timeline-year {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #58a6ff;
+            margin-bottom: 0.5rem;
+        }
+        
+        .timeline-content {
+            background: rgba(33, 38, 45, 0.8);
+            border-radius: 8px;
+            padding: 1rem;
+            color: #8b949e;
+        }
+        
+        /* 页脚 */
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #8b949e;
+            font-size: 0.9rem;
+            background: #0d1117;
+            border-top: 1px solid rgba(255,255,255,0.05);
+        }
+        
+        /* 视频区域 */
+        .video-section {
+            background: linear-gradient(135deg, #161b22 0%, #1a1a2e 100%);
+            padding: 4rem 1.5rem;
+            text-align: center;
+        }
+        
+        .video-container {
+            max-width: 800px;
+            margin: 2rem auto 0;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.4);
+        }
+        
+        .video-container video {
+            width: 100%;
+            display: block;
+        }
+        
+        /* 底部固定导航（移动端） */
+        .bottom-nav {
+            display: none;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(13, 17, 23, 0.95);
+            backdrop-filter: blur(12px);
+            padding: 0.8rem;
+            z-index: 100;
+            border-top: 1px solid rgba(255,255,255,0.1);
+        }
+        
+        @media (max-width: 768px) {
+            .bottom-nav {
+                display: flex;
+                justify-content: space-around;
+            }
+            .section {
+                padding-bottom: 5rem;
+            }
+        }
+        
+        .bottom-nav a {
+            color: #8b949e;
+            text-decoration: none;
+            font-size: 0.75rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 4px;
+            transition: color 0.3s;
+        }
+        
+        .bottom-nav a.active,
+        .bottom-nav a:hover {
+            color: #58a6ff;
+        }
+        
+        .bottom-nav-icon {
+            font-size: 1.2rem;
         }
     </style>
 </head>
@@ -172,73 +389,232 @@
     <canvas id="particleCanvas"></canvas>
     
     <nav>
-        <div class="logo">🔬 超导探索</div>
+        <div class="logo">⚛️ 超导探索</div>
         <ul class="nav-links">
-            <li><a href="#intro">什么是超导</a></li>
-            <li><a href="#history">发展历史</a></li>
-            <li><a href="#current">研究现状</a></li>
-            <li><a href="#future">未来应用</a></li>
+            <li><a href="#intro">简介</a></li>
+            <li><a href="#history">历史</a></li>
+            <li><a href="#current">现状</a></li>
+            <li><a href="#future">未来</a></li>
+            <li><a href="#video">视频</a></li>
         </ul>
     </nav>
     
-    <div class="content">
+    <!-- Hero 区域 -->
+    <section class="hero" id="intro">
         <h1>超导现象</h1>
-        <p class="subtitle">探索未来的神奇材料 | 零电阻的奇迹</p>
+        <p class="subtitle">探索零电阻的奇妙世界 | 触摸未来的科技前沿</p>
         <div class="tagline">
             <span class="tag">⚡ 零电阻</span>
             <span class="tag">🧲 完全抗磁性</span>
             <span class="tag">💎 宏观量子现象</span>
         </div>
-        <p class="scroll-hint">向下滚动探索更多 ↓</p>
+        <div class="scroll-hint">
+            向下滚动探索
+        </div>
+    </section>
+    
+    <!-- 什么是超导 -->
+    <section class="section" id="what">
+        <div class="container">
+            <h2>什么是超导？</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>⚡ 零电阻</h3>
+                    <p>当材料冷却到临界温度以下时，电阻突然降为零，电流可以无损耗地永久流动。</p>
+                </div>
+                <div class="card">
+                    <h3>🧲 迈斯纳效应</h3>
+                    <p>超导体内部磁场被完全排斥，实现完美的抗磁性，磁铁可以在超导体上方悬浮。</p>
+                </div>
+                <div class="card">
+                    <h3>💎 库珀对</h3>
+                    <p>电子配对形成库珀对，在晶格中无阻碍地运动，产生超导电流。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- 历史发展 -->
+    <section class="section" id="history">
+        <div class="container">
+            <h2>发展历程</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-year">1911</div>
+                    <div class="timeline-content">昂内斯发现汞的超导现象，开启超导研究纪元</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">1933</div>
+                    <div class="timeline-content">迈斯纳发现完全抗磁性现象</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">1957</div>
+                    <div class="timeline-content">BCS理论解释超导微观机制</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">1986</div>
+                    <div class="timeline-content">铜氧化物高温超导体被发现</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-year">2023</div>
+                    <div class="timeline-content">室温超导实验取得突破性进展</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- 研究现状 -->
+    <section class="section" id="current">
+        <div class="container">
+            <h2>研究现状</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>🔥 高温超导</h3>
+                    <p>铜氧化物和铁基超导体临界温度持续提升，最高已达164K。</p>
+                </div>
+                <div class="card">
+                    <h3>🌡️ 室温超导</h3>
+                    <p>2023年LK-99和氢化物体系带来新希望，但仍需验证。</p>
+                </div>
+                <div class="card">
+                    <h3>🔬 镍基超导</h3>
+                    <p>新型镍基超导材料成为研究热点，展现巨大潜力。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- 视频演示 -->
+    <section class="video-section" id="video">
+        <div class="container">
+            <h2>🎬 超导原理演示</h2>
+            <div class="video-container">
+                <video controls playsinline>
+                    <source src="https://cdn.hailuoai.com/matrix_agent/20260322/video_generation/gen_result/120204_9fcb/workspace/.watermark/superconductor_demo.mp4" type="video/mp4">
+                    您的浏览器不支持视频播放
+                </video>
+            </div>
+            <p style="color: #8b949e; margin-top: 1rem; font-size: 0.9rem;">电子无阻力流动 · 冷却过程 · 迈斯纳效应</p>
+        </div>
+    </section>
+    
+    <!-- 未来应用 -->
+    <section class="section" id="future">
+        <div class="container">
+            <h2>未来应用</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>🚄 磁悬浮列车</h3>
+                    <p>超导磁悬浮将实现更快、更节能的陆地交通。</p>
+                </div>
+                <div class="card">
+                    <h3">⚡ 超导输电</h3>
+                    <p>无损耗输电将彻底改变能源传输格局。</p>
+                </div>
+                <div class="card">
+                    <h3>🏥 医疗MRI</h3>
+                    <p>更便宜、更普及的核磁共振成像设备。</p>
+                </div>
+                <div class="card">
+                    <h3>💻 量子计算</h3>
+                    <p>超导量子比特是量子计算机的核心技术。</p>
+                </div>
+                <div class="card">
+                    <h3>☀️ 可控核聚变</h3>
+                    <p>超导磁体约束等离子体，实现清洁能源梦想。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p>🔬 超导科普 | 探索未来的神奇材料</p>
+    </footer>
+    
+    <!-- 移动端底部导航 -->
+    <div class="bottom-nav">
+        <a href="#intro">
+            <span class="bottom-nav-icon">🏠</span>
+            <span>首页</span>
+        </a>
+        <a href="#history">
+            <span class="bottom-nav-icon">📜</span>
+            <span>历史</span>
+        </a>
+        <a href="#current">
+            <span class="bottom-nav-icon">🔬</span>
+            <span>现状</span>
+        </a>
+        <a href="#future">
+            <span class="bottom-nav-icon">🚀</span>
+            <span>未来</span>
+        </a>
+    </div>
+    
+    <!-- 触摸滚动提示 -->
+    <div class="touch-scroll-hint" onclick="scrollToNext()">
+        ↓
     </div>
     
     <script>
-        // 粒子动画系统
+        // 粒子动画系统 - 与浏览器颜色融合
         const canvas = document.getElementById('particleCanvas');
         const ctx = canvas.getContext('2d');
         
         let particles = [];
-        let mouse = { x: null, y: null, radius: 150 };
+        let mouse = { x: null, y: null, radius: 120 };
         
         // 调整画布大小
         function resize() {
             canvas.width = window.innerWidth;
             canvas.height = window.innerHeight;
+            init();
         }
         resize();
         window.addEventListener('resize', resize);
         
-        // 鼠标交互
+        // 鼠标/触摸交互
         window.addEventListener('mousemove', (e) => {
             mouse.x = e.x;
             mouse.y = e.y;
         });
         
-        window.addEventListener('mouseout', () => {
+        window.addEventListener('touchmove', (e) => {
+            if (e.touches.length > 0) {
+                mouse.x = e.touches[0].clientX;
+                mouse.y = e.touches[0].clientY;
+            }
+        }, { passive: true });
+        
+        window.addEventListener('touchend', () => {
             mouse.x = null;
             mouse.y = null;
         });
         
-        // 粒子类
+        // 粒子类 - 使用GitHub暗色主题配色
         class Particle {
             constructor() {
                 this.x = Math.random() * canvas.width;
                 this.y = Math.random() * canvas.height;
                 this.size = Math.random() * 2 + 1;
-                this.speedX = (Math.random() - 0.5) * 0.5;
-                this.speedY = (Math.random() - 0.5) * 0.5;
-                this.color = `hsl(${Math.random() * 60 + 180}, 100%, 70%)`;
+                this.speedX = (Math.random() - 0.5) * 0.4;
+                this.speedY = (Math.random() - 0.5) * 0.4;
+                // GitHub主题色：蓝色、紫色、灰色
+                const colors = ['#58a6ff', '#a371f7', '#8b949e', '#f778ba', '#3fb950'];
+                this.color = colors[Math.floor(Math.random() * colors.length)];
             }
             
             update() {
                 this.x += this.speedX;
                 this.y += this.speedY;
                 
-                // 边界检测
-                if (this.x < 0 || this.x > canvas.width) this.speedX *= -1;
-                if (this.y < 0 || this.y > canvas.height) this.speedY *= -1;
+                // 边界环绕
+                if (this.x < 0) this.x = canvas.width;
+                if (this.x > canvas.width) this.x = 0;
+                if (this.y < 0) this.y = canvas.height;
+                if (this.y > canvas.height) this.y = 0;
                 
-                // 鼠标交互
+                // 鼠标/触摸交互
                 if (mouse.x != null) {
                     let dx = mouse.x - this.x;
                     let dy = mouse.y - this.y;
@@ -248,8 +624,8 @@
                         const forceDirectionX = dx / distance;
                         const forceDirectionY = dy / distance;
                         const force = (mouse.radius - distance) / mouse.radius;
-                        const directionX = forceDirectionX * force * 3;
-                        const directionY = forceDirectionY * force * 3;
+                        const directionX = forceDirectionX * force * 2;
+                        const directionY = forceDirectionY * force * 2;
                         
                         this.x -= directionX;
                         this.y -= directionY;
@@ -259,17 +635,19 @@
             
             draw() {
                 ctx.fillStyle = this.color;
+                ctx.globalAlpha = 0.7;
                 ctx.beginPath();
                 ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
                 ctx.fill();
+                ctx.globalAlpha = 1;
             }
         }
         
         // 初始化粒子
         function init() {
             particles = [];
-            let particleCount = Math.floor((canvas.width * canvas.height) / 15000);
-            for (let i = 0; i < particleCount; i++) {
+            let count = window.innerWidth < 768 ? 60 : 120;
+            for (let i = 0; i < count; i++) {
                 particles.push(new Particle());
             }
         }
@@ -277,14 +655,14 @@
         // 连接线
         function connect() {
             for (let a = 0; a < particles.length; a++) {
-                for (let b = a; b < particles.length; b++) {
+                for (let b = a + 1; b < particles.length; b++) {
                     let dx = particles[a].x - particles[b].x;
                     let dy = particles[a].y - particles[b].y;
                     let distance = Math.sqrt(dx * dx + dy * dy);
                     
-                    if (distance < 120) {
-                        let opacity = 1 - (distance / 120);
-                        ctx.strokeStyle = `rgba(0, 212, 255, ${opacity * 0.2})`;
+                    if (distance < 100) {
+                        let opacity = 1 - (distance / 100);
+                        ctx.strokeStyle = `rgba(88, 166, 255, ${opacity * 0.15})`;
                         ctx.lineWidth = 0.5;
                         ctx.beginPath();
                         ctx.moveTo(particles[a].x, particles[a].y);
@@ -311,21 +689,56 @@
         init();
         animate();
         
-        // 点击效果
-        canvas.addEventListener('click', (e) => {
-            for (let i = 0; i < 5; i++) {
-                let p = new Particle();
-                p.x = e.x;
-                p.y = e.y;
-                p.speedX = (Math.random() - 0.5) * 3;
-                p.speedY = (Math.random() - 0.5) * 3;
-                particles.push(p);
-            }
+        // 移动端滚动函数
+        let currentSection = 0;
+        const sections = ['intro', 'what', 'history', 'current', 'video', 'future'];
+        
+        function scrollToNext() {
+            currentSection = (currentSection + 1) % sections.length;
+            document.getElementById(sections[currentSection]).scrollIntoView({ behavior: 'smooth' });
+        }
+        
+        // 触摸滑动检测
+        let touchStartY = 0;
+        document.addEventListener('touchstart', (e) => {
+            touchStartY = e.touches[0].clientY;
+        }, { passive: true });
+        
+        document.addEventListener('touchend', (e) => {
+            let touchEndY = e.changedTouches[0].clientY;
+            let diff = touchStartY - touchEndY;
             
-            // 限制粒子数量
-            if (particles.length > 300) {
-                particles.splice(0, 50);
+            if (Math.abs(diff) > 50) {
+                if (diff > 0) {
+                    // 向上滑 - 滚到下一屏
+                    currentSection = Math.min(currentSection + 1, sections.length - 1);
+                } else {
+                    // 向下滑 - 滚到上一屏
+                    currentSection = Math.max(currentSection - 1, 0);
+                }
+                document.getElementById(sections[currentSection]).scrollIntoView({ behavior: 'smooth' });
             }
+        }, { passive: true });
+        
+        // 底部导航高亮
+        const bottomNavLinks = document.querySelectorAll('.bottom-nav a');
+        const allSections = document.querySelectorAll('.section, .hero, .video-section');
+        
+        window.addEventListener('scroll', () => {
+            let current = '';
+            allSections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                if (scrollY >= sectionTop - 200) {
+                    current = section.getAttribute('id');
+                }
+            });
+            
+            bottomNavLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === '#' + current) {
+                    link.classList.add('active');
+                }
+            });
         });
     </script>
 </body>
