@@ -1,0 +1,33 @@
+# Site settings
+title: "Yuancheng Yao's Blog"
+description: "Building cool things with AI | OpenClaw contributor | 🦒 giraffe lover"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://yaoyuancheng.github.io" # the base hostname & protocol for your site
+github_username: yaoyuancheng
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Minima theme settings
+minima:
+  skin: auto
+  date_format: "%Y-%m-%d"
+  social_links:
+    github: yaoyuancheng
+    twitter: # Add your Twitter handle
+    linkedin: # Add your LinkedIn profile
+
+# SEO
+author: Yuancheng Yao
+email: # Add your email
+twitter:
+  username: # Add your Twitter handle
+  card: summary
+
+# Custom variables
+tagline: "AI Engineer & Open Source Contributor"
+avatar: "https://avatars.githubusercontent.com/u/8936180?v=4"
