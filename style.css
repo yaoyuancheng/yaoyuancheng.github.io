@@ -1,0 +1,532 @@
+/* ===== Reset & Base ===== */
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --bg: #0f0f1a;
+  --surface: #1a1a2e;
+  --surface-light: #252542;
+  --primary: #6c63ff;
+  --primary-light: #8b83ff;
+  --accent: #ff6584;
+  --accent-light: #ff8fa3;
+  --gold: #ffc857;
+  --green: #4ecdc4;
+  --text: #e8e8f0;
+  --text-secondary: #9898b8;
+  --text-muted: #6a6a8a;
+  --radius: 16px;
+  --radius-sm: 10px;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Noto Sans SC', -apple-system, BlinkMacSystemFont, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.8;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+}
+
+/* ===== Header ===== */
+header {
+  background: var(--surface);
+  border-bottom: 1px solid rgba(108, 99, 255, 0.15);
+  padding: 0 16px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+.header-content {
+  max-width: 700px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 56px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo-icon {
+  font-size: 1.3rem;
+}
+
+.logo-text {
+  font-size: 1.05rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, var(--primary-light), var(--accent));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.day-badge {
+  background: var(--surface-light);
+  padding: 4px 14px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--primary-light);
+  border: 1px solid rgba(108, 99, 255, 0.25);
+}
+
+/* ===== Hero ===== */
+.lesson-hero {
+  text-align: center;
+  padding: 40px 20px 24px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.hero-icon {
+  font-size: 3.5rem;
+  margin-bottom: 16px;
+  animation: float 3s ease-in-out infinite;
+  display: inline-block;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+
+.lesson-title {
+  font-size: 1.65rem;
+  font-weight: 900;
+  line-height: 1.3;
+  margin-bottom: 8px;
+  background: linear-gradient(135deg, #fff 30%, var(--primary-light));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.lesson-date {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 6px;
+}
+
+.lesson-subtitle {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  font-weight: 300;
+}
+
+/* ===== Progress Bar ===== */
+.progress-bar-container {
+  max-width: 700px;
+  margin: 0 auto 20px;
+  padding: 0 20px;
+}
+
+.progress-info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  margin-bottom: 6px;
+}
+
+.progress-track {
+  background: var(--surface-light);
+  border-radius: 10px;
+  height: 4px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--primary), var(--accent));
+  border-radius: 10px;
+  width: 0%;
+  transition: width 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* ===== Content Sections ===== */
+.content-sections {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 16px 40px;
+}
+
+.section {
+  background: var(--surface);
+  border-radius: var(--radius);
+  padding: 24px 20px;
+  margin-bottom: 16px;
+  border: 1px solid rgba(108, 99, 255, 0.08);
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.section-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.section-icon {
+  font-size: 1.4rem;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--surface-light);
+  border-radius: 10px;
+}
+
+.section-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.section-body {
+  font-size: 0.92rem;
+  color: var(--text-secondary);
+  line-height: 1.9;
+}
+
+.section-body p {
+  margin-bottom: 12px;
+}
+
+.section-body p:last-child {
+  margin-bottom: 0;
+}
+
+/* ===== Tip Box ===== */
+.tip-box {
+  background: linear-gradient(135deg, rgba(108, 99, 255, 0.1), rgba(255, 101, 132, 0.05));
+  border-left: 3px solid var(--primary);
+  border-radius: var(--radius-sm);
+  padding: 16px 18px;
+  margin: 16px 0;
+}
+
+.tip-box.gold {
+  border-left-color: var(--gold);
+  background: linear-gradient(135deg, rgba(255, 200, 87, 0.08), rgba(255, 200, 87, 0.02));
+}
+
+.tip-box.green {
+  border-left-color: var(--green);
+  background: linear-gradient(135deg, rgba(78, 205, 196, 0.08), rgba(78, 205, 196, 0.02));
+}
+
+.tip-box.accent {
+  border-left-color: var(--accent);
+  background: linear-gradient(135deg, rgba(255, 101, 132, 0.08), rgba(255, 101, 132, 0.02));
+}
+
+.tip-label {
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 4px;
+}
+
+.tip-box .tip-label { color: var(--primary-light); }
+.tip-box.gold .tip-label { color: var(--gold); }
+.tip-box.green .tip-label { color: var(--green); }
+.tip-box.accent .tip-label { color: var(--accent); }
+
+.tip-box p {
+  font-size: 0.88rem;
+  margin-bottom: 0 !important;
+}
+
+/* ===== Case Study ===== */
+.case-card {
+  background: var(--surface-light);
+  border-radius: var(--radius-sm);
+  padding: 18px;
+  margin: 14px 0;
+}
+
+.case-card.positive {
+  border-left: 3px solid var(--green);
+}
+
+.case-card.negative {
+  border-left: 3px solid var(--accent);
+}
+
+.case-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 6px;
+}
+
+.case-card.positive .case-label { color: var(--green); }
+.case-card.negative .case-label { color: var(--accent); }
+
+.case-content {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+.case-content p {
+  margin-bottom: 8px !important;
+}
+
+.case-content p:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* ===== Comparison Table ===== */
+.comparison {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 14px 0;
+}
+
+.comp-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.comp-before, .comp-after {
+  padding: 12px 14px;
+  border-radius: var(--radius-sm);
+  font-size: 0.85rem;
+}
+
+.comp-before {
+  background: rgba(255, 101, 132, 0.08);
+  border: 1px solid rgba(255, 101, 132, 0.15);
+  color: var(--accent-light);
+  position: relative;
+}
+
+.comp-before::before {
+  content: "❌ 之前";
+  display: block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  margin-bottom: 4px;
+  opacity: 0.7;
+}
+
+.comp-after {
+  background: rgba(78, 205, 196, 0.08);
+  border: 1px solid rgba(78, 205, 196, 0.15);
+  color: var(--green);
+  position: relative;
+}
+
+.comp-after::before {
+  content: "✅ 优化后";
+  display: block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  margin-bottom: 4px;
+  opacity: 0.7;
+}
+
+/* ===== Practice Box ===== */
+.practice-box {
+  background: linear-gradient(135deg, rgba(255, 200, 87, 0.06), rgba(255, 101, 132, 0.04));
+  border: 1px dashed rgba(255, 200, 87, 0.25);
+  border-radius: var(--radius);
+  padding: 20px;
+  margin: 14px 0;
+}
+
+.practice-box .tip-label {
+  color: var(--gold);
+}
+
+.practice-box p {
+  font-size: 0.9rem;
+  margin-bottom: 10px !important;
+}
+
+.practice-box p:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* ===== Quote ===== */
+.quote-block {
+  text-align: center;
+  padding: 24px 16px;
+  position: relative;
+}
+
+.quote-block::before {
+  content: '"';
+  font-size: 3rem;
+  color: var(--primary);
+  opacity: 0.3;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  line-height: 1;
+}
+
+.quote-text {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--text);
+  line-height: 1.6;
+  margin-bottom: 8px;
+}
+
+.quote-author {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+/* ===== List styling ===== */
+.section-body ul, .section-body ol {
+  padding-left: 20px;
+  margin: 10px 0;
+}
+
+.section-body li {
+  margin-bottom: 8px;
+}
+
+.section-body li:last-child {
+  margin-bottom: 0;
+}
+
+.section-body strong {
+  color: var(--text);
+  font-weight: 600;
+}
+
+/* ===== Navigation ===== */
+.lesson-nav {
+  max-width: 700px;
+  margin: 0 auto 30px;
+  padding: 0 16px;
+  display: flex;
+  gap: 12px;
+}
+
+.nav-btn {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 14px 20px;
+  border: 1px solid rgba(108, 99, 255, 0.2);
+  border-radius: var(--radius-sm);
+  background: var(--surface);
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: inherit;
+}
+
+.nav-btn:not(:disabled):hover {
+  border-color: var(--primary);
+  color: var(--text);
+  background: var(--surface-light);
+}
+
+.nav-btn:not(:disabled):active {
+  transform: scale(0.97);
+}
+
+.nav-btn:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+/* ===== Footer ===== */
+footer {
+  text-align: center;
+  padding: 24px 16px 40px;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+/* ===== Skeleton Loading ===== */
+.skeleton {
+  background: linear-gradient(90deg, var(--surface) 25%, var(--surface-light) 50%, var(--surface) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+  border-radius: var(--radius);
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 480px) {
+  .lesson-title {
+    font-size: 1.35rem;
+  }
+
+  .hero-icon {
+    font-size: 2.8rem;
+  }
+
+  .comparison {
+    gap: 8px;
+  }
+
+  .comp-row {
+    grid-template-columns: 1fr;
+  }
+
+  .section {
+    padding: 20px 16px;
+  }
+}
+
+@media (min-width: 768px) {
+  .lesson-title {
+    font-size: 2rem;
+  }
+
+  .hero-icon {
+    font-size: 4rem;
+  }
+}
+
+/* ===== Animations ===== */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

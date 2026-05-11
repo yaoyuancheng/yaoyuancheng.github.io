@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="theme-color" content="#1a1a2e">
+  <title>每日表达力 — 提升汇总表达能力</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="app">
+    <header>
+      <div class="header-content">
+        <div class="logo">
+          <span class="logo-icon">📖</span>
+          <span class="logo-text">每日表达力</span>
+        </div>
+        <div class="header-right">
+          <span id="dayCounter" class="day-badge">第 1 天</span>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="lesson-hero" id="lessonHero">
+        <div class="hero-icon" id="heroIcon">💡</div>
+        <h1 class="lesson-title" id="lessonTitle">加载中...</h1>
+        <p class="lesson-date" id="lessonDate"></p>
+        <p class="lesson-subtitle" id="lessonSubtitle"></p>
+      </div>
+
+      <div class="progress-bar-container">
+        <div class="progress-info">
+          <span>今日进度</span>
+          <span id="progressText">0%</span>
+        </div>
+        <div class="progress-track">
+          <div class="progress-fill" id="progressFill"></div>
+        </div>
+      </div>
+
+      <div class="content-sections" id="contentSections">
+        <!-- Content rendered by JavaScript -->
+      </div>
+
+      <nav class="lesson-nav" id="lessonNav">
+        <button class="nav-btn" id="prevBtn" disabled>
+          <span class="nav-arrow">←</span>
+          <span class="nav-label">前一天</span>
+        </button>
+        <button class="nav-btn" id="nextBtn">
+          <span class="nav-label">后一天</span>
+          <span class="nav-arrow">→</span>
+        </button>
+      </nav>
+    </main>
+
+    <footer>
+      <p>每日早7点更新 · 坚持练习，提升表达力</p>
+    </footer>
+  </div>
+
+  <script src="content.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
