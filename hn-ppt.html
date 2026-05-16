@@ -1210,6 +1210,12 @@
     document.body.classList.toggle('low-power', window.__lowPowerMode);
     addEventListener('DOMContentLoaded', updateHint, {once:true});
   })();
+  /* CDN 加载安全兜底: 3 秒后强制显示所有内容 */
+  setTimeout(() => {
+    if (!document.body.classList.contains('motion-ready')) {
+      document.querySelectorAll('[data-anim]').forEach(el => { el.style.opacity = '1'; el.style.transform = 'none'; });
+    }
+  }, 3000);
 </script>
 
 <canvas id="bg-grid" class="bg"></canvas>
