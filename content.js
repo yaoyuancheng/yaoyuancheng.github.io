@@ -8460,5 +8460,94 @@ const lessons = {
         author: '—— 改编自 拉尔夫·沃尔多·爱默生（Ralph Waldo Emerson）论沉默的哲思'
       }
     ]
+  },
+  107: {
+    title: '追问的艺术——好问题,把对话带进心里',
+    icon: '🧭',
+    subtitle: '昨天你学会了停——今天学停之后的下一步:问——同样一句"你还好吗"——有人问出了客套——有人问出了真心——高手听懂了不说话——开口就问出对方自己都没说出口的话——会问的人——永远不缺朋友——',
+    sections: [
+      {
+        icon: '🎯',
+        title: '核心概念',
+        type: 'text',
+        content: [
+          '先做个自测:朋友说"我最近工作不太顺"——你怎么接?——"没事没事——换一家呗"——话题终结——"我也好烦啊我跟你说……"——话题跑偏——"顺才怪了——天天加班谁顺"——火上浇油——如果你的回答都是这样的——你不是不会安慰——你是不会问——',
+          '真相是:<strong>倾诉的人需要的不是答案——是继续说的理由</strong>——他抛出那句"不太顺"——其实是在试探:你能接住吗?——你说得越多——他越觉得"算了不说了"——而你只问一句"哪方面让你最累?"——他的嘴就像开了闸——',
+          '注意:追问不是审讯——不是"然后呢然后呢"的连环追问——是<strong>顺着对方的情绪往前走一步</strong>——让他觉得:跟你说话——我总能多说一点——',
+          '一句话总结:<strong>答案在对方心里——你的问题是钥匙</strong>——会安慰的人有十句道理——会追问的人只有一句"然后呢"——但后者走进了心里——',
+        ]
+      },
+      {
+        icon: '🧠',
+        title: '为什么追问比安慰更有用？',
+        type: 'tip',
+        tipType: 'gold',
+        label: '沟通心理',
+        content: [
+          '先说结论:<strong>安慰是把话堵回去——追问是把话引出来</strong>——安慰的潜台词是"行了——我懂你——别说了"——追问的潜台词是"我在——你继续说"——前者给结论——后者给空间——',
+          '心理学研究发现:人在倾诉时——如果被打断三次以上——就会放弃表达——而如果每次停顿后都收到"嗯——然后呢"这样的轻推——倾诉量会翻倍——<strong>一句"然后呢"的含金量——超过十句"别难过"</strong>——',
+          '为什么好问题有魔力?——因为<strong>人在回答自己问题的时候——最容易想通</strong>——你问他"你觉得最难的环节是什么"——他答着答着——自己就找到了答案——你什么都没教——他却觉得你帮了大忙——这就是教练式沟通的秘密——',
+          '注意顺序:<strong>先接住——再深挖</strong>——对方说"我分手了"——你先说"那一定很难受"——等他情绪落了地——再问"你们——是发生了什么吗?"——顺序反了——就成了八卦——',
+        ]
+      },
+      {
+        icon: '📊',
+        title: '经典案例对比',
+        type: 'comparison',
+        rows: [
+          {
+            before: '场景:同事小林下班时叹气:"哎——今天又被领导批了——"——你:"领导就那样——别往心里去——我们部门不都这样吗——上次他还当众说我呢——你听我的——该摸鱼摸鱼——别太认真——"——小林:"……嗯——你说得对——"——然后他再也没跟你说过心事——<br><br>👉 结果:你给出了满分的道理——却亲手关上了他心门的门——他要的不是一个同病相怜的战友——是一个能让他把"被批"背后的委屈说出口的人——',
+            after: '同一个场景——同一句话——换一种问法:<br><br>小林:"哎——今天又被领导批了——"——你:"被批的感觉——不好受吧——"(先接住)——小林(叹气):"其实也不是大事——就是方案改了三版——"——你:"嗯——然后呢?"——小林:"改就改吧——关键是第三版——我明明是按他上回说的改的——他居然说不记得了——"——你:"那你会不会觉得——自己的努力没被看见?"——小林(愣住):"你别说——还真是——"——然后他噼里啪啦把憋了一周的话全倒了出来——<br><br>👉 结果:你全程只说了三句话——小林却觉得"跟你聊完——整个人都轻了"——<strong>你给的不是建议——是让他自己把结解开的机会</strong>——',
+          }
+        ]
+      },
+      {
+        icon: '📋',
+        title: '追问三步法——让对话自然深入',
+        type: 'text',
+        content: [
+          '<strong>第一步:先接住——再开口问</strong><br>对方抛出一句情绪话——你的第一句永远是接情绪:"听起来挺不容易的"——"这事搁谁都得烦"——情绪没落地之前——任何问题都像审讯——先让他的情绪有个落脚点——你的问题才有资格被听到——',
+          '<strong>第二步:问感受——不问结论</strong><br>别问"那你打算怎么办?"(压力)——要问"你现在什么感受?"(打开)——"你觉得问题出在哪?"(让他做侦探)——"如果再选一次——你会怎么选?"(给他掌控感)——<strong>好的问题——不问结果——问过程——不问对错——问感受</strong>——',
+          '<strong>第三步:用"然后呢"当油门</strong><br>"然后呢?"——"还有呢?"——"你觉得呢?"——这三句话是对话的黄金油门——对方每次停顿——轻轻踩一脚——不催促——不评判——不接话——只表达"我还在听——请继续"——你会发现——他说的远远比你预想的多——',
+          '记住口诀:<strong>先接住——再问感受——最后"然后呢"</strong>——三步走完——你什么都没说——他却把心掏给你看了——',
+        ]
+      },
+      {
+        icon: '🎬',
+        title: '场景案例',
+        type: 'case',
+        cases: [
+          {
+            type: 'negative',
+            label: '反面示范',
+            title: '审讯式追问:被"十万个为什么"问跑的朋友',
+            content: '阿杰兴冲冲找你说:"我最近在学吉他!"——你:"学吉他干嘛?——报班花了多少钱?——老师男的女的?——多久能学会?——学会了你打算干嘛?——能考级吗?"——阿杰(笑容逐渐消失):"就……随便学学——"然后低头玩手机——<br><br>👉 结果:你问的问题比记者的还专业——但每一条都在要"答案"——不是在要"故事"——阿杰想分享的是"我好开心"——你问的全是"怎么操作"——<strong>质问式提问在要答案——倾听式提问在要故事</strong>——要答案的问话——问不出真心话——',
+          },
+          {
+            type: 'positive',
+            label: '正面示范',
+            title: '温柔的追问:把新人问哭的那句"然后呢"',
+            content: '组里新来的小鹿一周没说话——中午你递了杯奶茶:"这周——是不是压力很大?"——小鹿:"还……还好——"——你没追问——只是"嗯"了一声继续吃饭——过了一会儿小鹿自己开口:"其实我连需求文档都看不懂——"——你:"嗯——"——小鹿:"我都不敢问——怕显得我很笨——"——你:"如果是我刚来——我可能比你还慌——"(接住)——小鹿(眼眶有点红):"真的吗?——"——你:"你觉得自己最卡的是哪部分?"——小鹿说了二十分钟——走的时候说:"谢谢你——今天是我来公司第一次觉得——有人懂我——"<br><br>👉 结果:你全程没给一条建议——只用了"嗯"和两个问题——却让一个差点崩溃的新人活了过来——<strong>好的追问——是让对方感觉自己被重视——而不是被审问</strong>——',
+          }
+        ]
+      },
+      {
+        icon: '📝',
+        title: '今日练习',
+        type: 'practice',
+        content: [
+          '<strong>练习一(今天花3分钟——"查查你的问题库存")</strong><br>回想今天说过的所有话——圈出里面的"问句"——然后分类:📍 A类:要答案的(几点开会?——多少钱?)——B类:要故事的(后来呢?——你当时什么感觉?)——统计一下:你的B类问题有几个?——如果少于两个——说明你的对话一直在浅水区——该往深了游了——',
+          '<strong>练习二(今天花5分钟——"一句然后呢")</strong><br>今天找一个人聊天——规定自己:他说的每一件事——你都用"然后呢"或"还有呢"接——别的什么也不说——📍 你会惊讶地发现:①对方会自动把话越说越深②你少说十句——关系近三分③原来你身边藏着这么多故事——晚上复盘:你"然后呢"了几次?——对方多说了多少话?——',
+          '<strong>练习三(今天花10分钟——"一次情绪追问")</strong><br>今天找一个正在烦恼的人(家人朋友同事都行)——📍 规则:①先接情绪:"听起来很不容易"②只问感受类问题:"你现在最难受的是什么?""你觉得哪块最让你心烦?"③全程不给建议——不评价——只点头和"嗯"——结束后问他:"跟我聊完——是更烦了还是轻松点了?"——如果他说"轻松多了"——你就掌握了第107天最值钱的本事:把话问进人心里的本事——记住——<strong>会问的人——不是在收集信息——是在送温暖</strong>——',
+        ]
+      },
+      {
+        icon: '💎',
+        title: '今日金句',
+        type: 'quote',
+        quote: 'A good question is a door that opens onto another person\'s world, and the one who asks it well holds the rarest of keys. We spend our lives learning to speak, and almost no time learning to ask; yet it is the question that turns a stranger into a friend, a surface conversation into a shared heart. Advice is cheap — it costs nothing and changes nothing; but a question asked at the right moment, with real interest behind it, tells the other person: your life matters to me, your answer is worth waiting for. The great talkers fill the room; the great questioners fill the other person\'s eyes with light, because nothing makes a person feel more seen than being asked, with genuine curiosity, about the one subject they know better than anyone — themselves. So ask more. Ask about the feeling behind the fact, the story behind the silence, the fear behind the brave face. And when the other person stops to think, do not rush in to fill the quiet — that pause is the moment your question is doing its deepest work. In the end, we do not remember the people who spoke well to us. We remember the ones who asked us, and then truly listened. Ask, and you will receive the gift that no amount of talking can ever buy: another human being, opening their heart to you.',
+        author: '—— 改编自 苏格拉底（Socrates）式追问的对话哲思'
+      }
+    ]
   }
 }
