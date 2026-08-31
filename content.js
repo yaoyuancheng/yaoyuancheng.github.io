@@ -9032,5 +9032,86 @@ const lessons = {
         author: '—— 改编自布琳·布朗（Brené Brown）关于宽恕与自我慈悲的理念'
       }
     ]
+  },
+  114: {
+    title: '重启的艺术——原谅之后，让关系重新上路',
+    icon: '🌅',
+    subtitle: '昨天你站在原谅的位置——学会了接住道歉——也放过自己——可是——原谅之后呢——你们之间——像一张揉皱又抚平的纸——能写字了——却还留着折痕——话题绕着那道折痕走——见面微微僵——想靠近——又不知从哪一句开口——其实——<strong>原谅是心里的休战——重启才是关系的新生</strong>——今天学:原谅之后——怎么让关系重新上路——不翻旧账——不装没事——像一棵树——伤疤还在——但新芽已经从旁边长出来了——',
+    sections: [
+      {
+        icon: '🎯',
+        title: '核心概念',
+        type: 'text',
+        content: [
+          '原谅之后——很多关系卡在一个奇怪的中间地带:不恨了——也不亲了——能说话——说不了心里话——像两扇门都开了——中间却横着一道看不见的门槛——跨过去的那一步——就叫<strong>重启</strong>——',
+          '重启不是"回到从前"——从前回不去了——也不该回去——重启是<strong>重新开始</strong>:两个人不再做"旧故事的续集"——而是合写一本新书——所以重启有三大误区——',
+          '<strong>误区一:重启=旧事重提</strong>——不——反复复盘"那件事"——不是重启——是复诊——真正重启的人——把旧事归档——只留一句"我都记着呢"——然后把注意力搬回今天——',
+          '<strong>误区二:重启=假装没事</strong>——不——谁也不提——关系只会停在冰面下——假装没事是最远的距离——重启恰恰要<strong>承认有事发生过</strong>——然后明确地说"但我还想和你继续"——',
+          '<strong>误区三:重启=单方面期待</strong>——不——你不能用"我都原谅你了"去绑架对方立刻热络——重启是邀请——不是要求——你打开门——对方要不要走进来——是他的速度——你只管把门留好——',
+          '记住——<strong>原谅解决的是"过去"——重启经营的是"以后"</strong>——一个放得下——一个抬得起——缺一个——关系都只能停在原地——'
+        ]
+      },
+      {
+        icon: '🧠',
+        title: '为什么重启这么难？',
+        type: 'tip',
+        tipType: 'gold',
+        label: '关系心理学',
+        content: [
+          '心理学上有个现象叫<strong>"折痕效应"</strong>——一张纸折过之后——即使抚平——折痕处的纤维也变了——纸永远不会回到"没折过"的状态——关系也一样——那道裂痕改变了你们的相处结构——你们之间从此多了一个"敏感区"——双方都会本能地绕着走——绕着绕着——话题枯了——关系就淡了——',
+          '第二道坎是<strong>归因惯性</strong>——人对"发生过的事"有解释惯性:他上次失信了——大脑就会自动把"他会再次失信"写进对他的默认设定——原谅说服了你的心——却没说服你的预判——所以你嘴里说没事——身体却还留着防御姿势——',
+          '第三道坎最隐蔽——<strong>尴尬税</strong>——两个人心里都知道那件事——谁先提——谁就像在伤口上按了一下——所以双方都在等对方先动——谁也不动——关系就冻在"礼貌"里——破冰需要有人先付一点勇气——而重启的秘诀是:<strong>不聊那件事——只聊下一步</strong>——把那道坎——变成你们共同迈过的第一个台阶——'
+        ]
+      },
+      {
+        icon: '📊',
+        title: '经典案例对比',
+        type: 'comparison',
+        rows: [
+          {
+            before: '大刘和发小阿强因为借钱闹翻——三年后——阿强还了钱——道了歉——大刘也说了"算了"——但从此两人再没单独吃过饭——聚会上碰面——客客气气——敬酒只碰杯不碰心——微信里只剩逢年过节的群发祝福——大刘跟老婆说"早就翻篇了"——可每次看朋友圈里阿强给别人点赞——他都会愣一下——',
+            after: '大刘和发小阿强因为借钱闹翻——三年后——阿强还了钱——道了歉——大刘说了"算了"——又补了一句:"钱的事翻篇了——咱们的事——我想接着写——周末那家老火锅——你敢不敢来?"——阿强去了——两人没提那三万块——只聊了当年一起偷着去网吧的事——买单时大刘说"下回我请"——阿强说"轮流来"——没有和解宣言——只有一句"下回"——<strong>重启——就是从"下回"开始的</strong>——',
+          },
+          {
+            before: '小静和闺蜜因为男友的事决裂——半年后闺蜜道歉——小静原谅了——但每次见面——闺蜜总小心翼翼解释当年:"那时候我真的不是那个意思——你听我说……"——小静越听越累:"都过去了还解释什么"——闺蜜委屈:"我不是怕你还介意吗"——两人把"那件事"来回翻烤了半年——越烤越焦——最后默契地不再约了——',
+            after: '小静和闺蜜因为男友的事决裂——半年后闺蜜道歉——小静原谅了——第二天她发了条消息:"那件事——我翻篇了——从今天起——它是我们共同的历史——不是我们的日常——新规矩:谁提它——谁请奶茶"——之后两人真的没再提——开始约新展览——学新菜——聊天里出现了越来越多"现在"和"以后"——三个月后闺蜜说:"你知道吗——我们现在聊的天——比闹翻前还多"——<strong>关系的活水——从来不流经旧河道</strong>——',
+          }
+        ]
+      },
+      {
+        icon: '🎬',
+        title: '场景案例',
+        type: 'case',
+        cases: [
+          {
+            icon: '🥀',
+            title: '冰面式重启:原谅了，但关系冻住了',
+            content: '老周和同事小吴因为一次项目甩锅闹僵——后来误会澄清——小吴道了歉——老周也点了头——可从那以后——两人在茶水间遇见——都只点一下头——开会不接话——合作项目能推就推——年底评优——老周心里清楚小吴干得不错——但就是没投他——小吴后来找别人喝闷酒:"他都说原谅我了——怎么感觉比不原谅还冷?"——<br><br>👉 问题出在哪?<strong>原谅是"我放下"——重启是"我们继续"</strong>——老周完成了自己的部分——小吴完成了道歉的部分——但没有人启动"继续"——两个人站在各自的岸上——等对方先架桥——桥永远不会自己长出来——',
+          },
+          {
+            icon: '🌱',
+            title: '三步式重启:一句开场白，一次新邀约，一条新规则',
+            content: '小赵和姐姐因为分家产吵过架——冷静下来互相道了歉——也说了原谅——但吃饭还是各坐各的——母亲生日那天——小赵打电话:"妈生日你订蛋糕还是我订?"——就这一句——姐姐愣了两秒:"我来订吧——你记着买红蜡烛——妈喜欢"——电话挂掉——两人都松了口气——生日当天——小赵把蛋糕端上来时说了句:"姐——以后每年咱俩轮流订——这是咱家的规矩"——<br><br>👉 关键在哪?重启只需要三样东西:<strong>①一句不翻旧账的开场白(聊具体的事——不聊那件事)——②一次往前看的新邀约(共同的行动——订蛋糕、看展、跑步)——③一条面向未来的新规则("轮流来""谁提谁请")</strong>——不用宣布"我们和好了"——用三件小事——把关系从"过去"搬回"现在"——',
+          }
+        ]
+      },
+      {
+        icon: '📝',
+        title: '今日练习',
+        type: 'practice',
+        content: [
+          '<strong>练习一(今天花3分钟——"给你的关系做个折痕体检")</strong><br>选一段你原谅过、却还没热起来的关系——对号入座:📍 你们还在绕着那个话题走?→ 折痕未处理——📍 见了面只谈公事/客套?→ 冰面已形成——📍 你其实有点想靠近——但怕尴尬?→ 桥没架——📍 你们已经自然地聊新话题了?→ 恭喜——你在重启的路上了——中了两条以上——今天就开始练习二——',
+          '<strong>练习二(今天花5分钟——"写三句重启开场白")</strong><br>不用想大动作——就写三句"往前看"的话:①一句聊具体事的:"周末那个展你去看吗?"——②一句给共同行动的:"下个月团建咱俩一组呗?"——③一句立新规矩的:"以后这事咱们只聊一次——聊完就翻篇"——📍 规则:不写"当年""那次""你当初"——只写"现在"和"以后"——写完挑一句——今晚就发——',
+          '<strong>练习三(今天花10分钟——"发起一次往前看的邀约")</strong><br>选一个你想重启的人——主动发起一件<strong>新的事</strong>:新展览、新馆子、新活动——规则:①不提旧事——一句都不提——②明确表示"我想和你继续"——哪怕就一句"好久没一起吃饭了"——③接受任何结果:对方答应——很好——对方犹豫——说"不急——你随时说"——对方拒绝——也不追问——晚上问自己:我付了那点"尴尬税"之后——世界塌了吗?——记住——<strong>重启不需要大场面——只需要你先迈的那一步</strong>——',
+        ]
+      },
+      {
+        icon: '💎',
+        title: '今日金句',
+        type: 'quote',
+        quote: 'To forgive is to close a door; to begin again is to open a window in a room you thought would stay dark. Forgiveness frees you from the past, but only a new beginning gives the future somewhere to live. Do not mistake silence for peace — a forgiven relationship that never speaks again is not healed, it is merely archived. Real healing does not sit still; it invites the other to tea, it shares the burden of the cake, it speaks of next week and next year with the casual confidence of someone who has decided to stay. There are conversations we owe each other after the apology: not about what happened, but about what happens now. So let the wound become a scar and the scar become simply a part of the story you tell about how you chose each other again. For the deepest courage is not in admitting you were wrong, nor in pardoning those who were — it is in saying, quietly, to the one who hurt you: I would still like to write the next chapter with you. And the truest renewal is not the return of what was lost, but the arrival of something that never existed before — born from two people who refused to let one dark season own the whole book.',
+        author: '—— 改编自 约翰·戈特曼（John Gottman）关于关系修复与重新连接的理念'
+      }
+    ]
   }
 }
