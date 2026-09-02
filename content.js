@@ -9192,5 +9192,84 @@ const lessons = {
         author: '—— 改编自 卡里·纪伯伦（Kahlil Gibran）关于告别与放下的哲思'
       }
     ]
+  },
+  116: {
+    title: '遇见的艺术——告别之后，让新的故事开场',
+    icon: '🌅',
+    subtitle: '昨天学了告别——把该结束的——体面收场——今天学告别的下半场——遇见——告别不是把门关上就完了——它是把一间旧房间腾出来——而腾出来的房间——总要住进新人——问题是——你愿不愿意开门——以及——开门之后——别让旧家具堵着路——',
+    sections: [
+      {
+        icon: '🎯',
+        title: '核心概念',
+        type: 'text',
+        content: [
+          '有一种人——告别做得干净利落——却从此停在空房间里——把"结束一段关系"过成了"结束所有关系"——他们不是不想遇见新人——而是不知道怎么把"旧的一页"翻成"新的一章"——今天讲的——就是告别之后的那一步——<strong>遇见</strong>——',
+          '先说破一个误解:<strong>遇见不是缘分砸中你——而是一种沟通能力</strong>——缘分负责安排你和新的人出现在同一间屋子里——但让两个人从"同屋"变成"同行"的——是你说出口的第一句话、发出的第一个邀约、给出去的第一个信任——这些——全是沟通的活儿——',
+          '好好遇见一个人——只需要三件事——<strong>①清场:给旧故事一个位置——而不是让它占着客厅</strong>(怀念不丢人——把回忆收进抽屉——别让它堵在门口)——<strong>②除味:别拿旧人的尺子量新人</strong>(他不需要"比他高/比他幽默/比他靠谱"——他只需要是他自己)——<strong>③开门:主动发出小邀约</strong>(新关系不是等来的——是一顿午饭、一次顺路、一句"我跟你一组"攒出来的)——',
+          '记住——<strong>重启——是把旧桥修好——遇见——是另起一座新桥</strong>——旧桥有旧桥的风景——新桥有新桥的方向——一个放得下过去的人——才有手去推开新的门——'
+        ]
+      },
+      {
+        icon: '🧠',
+        title: '为什么告别之后，遇见这么难？',
+        type: 'tip',
+        tipType: 'gold',
+        label: '关系心理学',
+        content: [
+          '心理学上有个现象叫<strong>"锚定效应"</strong>——也叫参照系效应——刚结束一段重要关系的人——心里都挂着一把"旧尺子"——前任有多好、旧友有多懂我、过去的相处有多默契——于是新人一出现——大脑自动用这把尺子量他——量出来的结果几乎永远是"不如"——不是新人真的差——是<strong>你的尺子过期了</strong>——它是为一段已经结束的关系定制的——',
+          '第二道坎是<strong>注意力残留</strong>——心理学发现——当大脑还忙着处理旧回忆时——眼前的新信息会被自动过滤——失恋初期的人走在街上"看见"的全是像前任的人——不是巧合——是大脑还在播旧频道——把旧频道的音量调小——新频道的信号——才进得来——',
+          '第三道坎最隐蔽——<strong>等缘分的误区</strong>——人际关系研究里有个著名的<strong>"邀约—回应循环"</strong>:一切关系——都是从一个小信号开始的——你问一句路、他答一句——你约午饭、他赴约——循环每转一圈——关系就近一寸——可刚受过伤的人——往往收起了所有信号——坐在原地等"对的人"来敲门——却不知道——<strong>门铃是双向的——你不按——别人不知道你在家</strong>——',
+        ]
+      },
+      {
+        icon: '📊',
+        title: '经典案例对比',
+        type: 'comparison',
+        rows: [
+          {
+            before: '小雨和前男友分手一年——嘴上说翻篇了——可置顶的对话框没删——一起听的歌还在循环——连吃饭都习惯性点他爱吃的菜——朋友给她介绍对象——她见面第一句就问:"他有我前男友高吗?"——聊到一半又说:"他还没我前男友有趣"——介绍人后来跟朋友说:"你这朋友是不是还没放下啊——要不缓缓再介绍"——小雨很委屈:"我明明都放下了——只是觉得他们确实不如他啊"——',
+            after: '小雨和前男友分手一年——她做了个"清场仪式":把合影收进旧盒子——歌单换成新的——置顶清空——然后给自己立了条规矩:<strong>认识新人的时候——不许提前男友——一次都不许</strong>——朋友再介绍——她去——聊到一半脑子又冒出"他不如他"——她就在心里喊停:"旧尺子退下——这是一把新尺子——量他本人"——后来她发现——那个"没前男友高"的人——会在她加班时默默点好外卖——那个"没他有趣"的人——听她讲冷笑话会认真笑——一年后她说:"原来不是他们不如他——是我的回忆太亮——晃得我看不清眼前的人"——<strong>遇见新的人——不是找一个旧人的替代品——而是认识一个全新的世界</strong>——',
+          },
+          {
+            before: '阿杰换城市工作——人生地不熟——他把这当成"修炼孤独"——下班就回出租屋——周末打游戏——同事约饭他摆手:"你们去吧——我认生"——半年过去——他在这座城市一个朋友都没有——深夜胃疼去医院——翻遍通讯录——找不到一个能叫来陪他的人——他给老家的兄弟打电话:"以前觉得一个人挺好——现在才知道——孤独不是清高——是没开门"——',
+            after: '阿杰换城市工作——人生地不熟——他给自己定了个规矩:<strong>每周发出三个"小邀请"</strong>——不急着交朋友——只攒"一起做过事的人"——周一向同事问:"你中午常去的那家面馆——好吃吗?带我一个?"——周三对合租室友说:"我想夜跑——你熟路吗——一起?"——周末去兴趣班——主动跟旁边的人说:"这个动作我没学会——你教教我?"——三个月后——面馆搭子变成了饭友——跑友变成了球友——兴趣班的同学拉他进了群——他生日那天——手机响了一整天——晚上他给家里打电话:"妈——我在这座城市——有饭搭子了"——<strong>新生活不是等来的——是三个小邀请、三个小邀请——这样攒出来的</strong>——',
+          }
+        ]
+      },
+      {
+        icon: '🎬',
+        title: '场景案例',
+        type: 'case',
+        cases: [
+          {
+            icon: '🪑',
+            title: '空椅子式等待:把门留着，却把灯关了',
+            content: '老陈退休后社交圈一下子空了——老同事渐行渐远——孩子在外地——他每天的生活就是买菜、做饭、看电视——女儿劝他参加社区活动——他说:"都是些陌生人——跟他们也聊不到一块去——我这把年纪——也不指望交什么新朋友了"——一年后他变得沉默寡言——女儿发现——爸爸连买菜都开始挑人少的时段去——<br><br>👉 问题出在哪?他以为"不指望了"是豁达——其实是<strong>害怕再投入一段关系又要承受失去——于是干脆关闭了所有入口</strong>——他把门留着——却把灯关了——外面的人看见屋里没亮光——自然不会来敲门——新关系进不来——不是因为没有对的人路过——而是因为<strong>房子看起来不像有人在住</strong>——',
+          },
+          {
+            icon: '🌅',
+            title: '三步式遇见:清场、除味、开门',
+            content: '同样退休的老周——主动做了三件事——第一步"清场":他把老同事的合影整理成相册——摆在书架上显眼的位置——笑着说:"老朋友放书架上——不占客厅——客厅要留给新客人"——第二步"除味":他给自己立规矩——跟新朋友聊天——不开口就是"我以前那个老伙计啊——人家可是……"——因为总拿旧人当标准——新人永远接不上话——第三步"开门":他报了社区的书法班——第一节课就主动跟同桌说:"我临帖老写得歪——你帮我看看?"——一来二去——同桌成了他的字友——又拉他进了钓鱼群——再后来——社区的活动通知——都有人专门转给他——<br><br>👉 关键在哪?遇见不需要你忘记过去——只需要你<strong>把过去放对位置(清场)——收好旧尺子(除味)——然后从一个小邀约开始动起来(开门)</strong>——老周从没忘记老同事——但他的客厅——重新亮起了灯——',
+          }
+        ]
+      },
+      {
+        icon: '📝',
+        title: '今日练习',
+        type: 'practice',
+        content: [
+          '<strong>练习一(今天花3分钟——"给旧章节一个书签")</strong><br>把你心里还"占着位置"的旧关系盘点一遍——然后做三件事:📍 清点:置顶的对话、循环的歌、固定的老路线——它们还在天天陪你吗?——📍 归位:决定每一样的去处——值得留的——收进"回忆收藏夹"——不值得留的——删掉——📍 让位:把收好的东西从"每天看得见的地方"移走——记住:给回忆一个书签——不是扔掉那本书——只是让它别再天天自动翻开——',
+          '<strong>练习二(今天花5分钟——"撕掉旧尺子")</strong><br>拿出一张纸——写下你理想中"新的朋友/新的另一半"该有的样子——写完后逐条审问:📍 这条标准——是"我真正需要的"——还是"前任/旧友恰好具备的"?("要会讲笑话"——也许只是你习惯了有人在旁边逗笑)——📍 凡是从旧人身上抄来的尺子——划掉——并在旁边改写一条面向未来的新标准("要会讲笑话"→"能接住我讲的笑话——也行")——📍 最后大声念一遍新清单——你会发现——放下旧人——不是降低标准——是把标准还给自己——',
+          '<strong>练习三(今天花10分钟——"发出三个小邀请")</strong><br>这是今天的重头戏——主动向三个(半)陌生人发出"小邀请":①问一个具体的本地问题("这附近哪家店你常去?")——②约一个具体的小行动("中午一起吃饭?我请你尝一家新开的")——③在共同活动里递一个橄榄枝("我跟你一组吧")——规则:①不求结果——发出去就算赢——对方拒绝——笑着说"没事——下次"——②不查户口——小邀请就是小邀请——别一上来就约"一辈子"——③完成后记一笔:哪个邀请你最不敢发?为什么?——晚上问自己:门铃响了三次——天塌了吗?——记住——<strong>遇见不是等待一场奇迹——而是亲手攒出一连串小事</strong>——',
+        ]
+      },
+      {
+        icon: '💎',
+        title: '今日金句',
+        type: 'quote',
+        quote: 'There is a room in every heart that holds the people we have loved and lost, and after a farewell we often keep the door shut, believing that to open it again would betray what the room once held. But the room was never meant to be a museum — it was meant to be lived in. The dying fire does not dishonor the warmth it once gave by refusing to be relit; it honors it by becoming ash that feeds the new flame. So it is with us: we do not betray a finished love by beginning another — we betray it only by measuring every newcomer against a ghost, asking whether she laughs like her, whether he stands as tall as him — weighing the living against the memory, which always wins, because memory kindly edits out the quarrels. Throw away the old ruler. A new person is not a substitute for an old one; a new person is a new country, and you must learn its language from its first word. And do not wait for fate to ring the bell — fate is lazy, it only puts two people in the same room; the door is opened by a question about the menu, an invitation to walk the same direction, a small brave "would you like to". Great friendships and great loves are not struck by lightning; they are stitched together by a hundred small invitations, each one a thread, each one a step closer to someone who was always a stranger until you chose to make them not one. So after the goodbye, mourn with dignity — and then sweep the room, set the old photographs on a high shelf where they may watch over you without blocking the door, and leave the light on. For a heart that dares to meet again is not one that has forgotten; it is one that has learned that love is not a possession to be guarded but a door to be opened — again, and again, and again.',
+        author: '—— 改编自 赫尔曼·黑塞（Hermann Hesse）关于破壳与新生的哲思'
+      }
+    ]
   }
 }
