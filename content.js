@@ -9863,6 +9863,98 @@ const lessons = {
         quote: 'Every quarrel leaves behind two ledgers: the one where the wrong is recorded, and the one where the hurt is kept. An apology may clear the first, but the second is written in a language the mind does not easily erase — the language of evenings spent replaying what was said, and of silences that outlast the argument itself. To forgive is to close a debt; to truly turn the page is harder — it is to trust that this chapter, though it stung, is finished, and to refuse to lend its old ink to every new page. The couples who master this do not forget more quickly; they simply stop paying the bills of yesterday with the words of today. So when the account is settled, close the book with your own hand — speak the last word, seal the page, and let tomorrow begin unburdened. For the past is not a prison to those who have learned to visit it without moving in.',
         author: '—— 原创:致每一个原谅了别人、却还没放过自己记性的人'
       }
+    ],
+  },
+  124: {
+    title: '重认的艺术——翻篇之后，重新认识眼前这个人',
+    icon: '🔍',
+    subtitle: '昨天学会了翻篇——账清了——页翻了——你俩说好重新开始——可是——重新开始之后你看他的眼神——好像还是旧的:他主动做了一件事——你心想"太阳打西边出来了"——他偶尔一次疏漏——你心里立刻盖章"看吧——老样子"——旧账是个本子——翻篇就合上了——旧眼光是个筛子——你没扔——它就会把对方所有的新动作——都滤成旧证据——今天学:翻篇之后——怎么把对方从"旧档案"里放出来——重新认识眼前这个人——',
+    sections: [
+      {
+        icon: '🎯',
+        title: '核心概念',
+        type: 'text',
+        content: [
+          '有没有注意过一种眼神——明明矛盾已经解决了——可那人看你时——还带着一种"我早就看透你"的意味——你做什么——都被解读成旧剧本的续集——这就是翻篇之后的暗礁:账清了——眼光没换——',
+          '<strong>翻篇清的是账——重认换的是眼光</strong><br>翻篇处理的是"过去那件事"——重认处理的是"往后怎么看他"——很多人只做了前一半:账本合上了——标签没撕——心里那行小字还在:"他这人——不靠谱""她就是这样——情绪化"——账是死的——翻过去就完了——标签是活的——它会把对方每一个新动作——都拖回旧案底——',
+          '什么是<strong>旧档案</strong>:大脑爱省力——会把一个人无数次的表现——压缩成一句总判决——从今往后——他做一百件新事——你都不细看——只看"符不符合那句判决"——判决说他不靠谱——他迟到一次——铁证——准时十次——"装的吧"——',
+          '什么是<strong>重认</strong>:把人从"结论"还原成"过程"——他不是一句判决——他是个每天都在更新的活人——今天的他做了什么——就给今天的他记一笔新的——旧印象当参考——不当判决——',
+          '划一条底线:重认不是睁眼说瞎话——不是给错误开脱——是<strong>只对今天的事下今天的判断</strong>——对了就是对了——错了就是错了——不追加历史罪名——也不预支未来刑罚——',
+          '一句话:<strong>翻篇是给过去结账——重认是给未来开户——旧账不清——新账没法记——旧眼光不换——眼前的新人也看不见</strong>——',
+        ]
+      },
+      {
+        icon: '🧠',
+        title: '为什么"翻篇了"，眼光还是旧的?',
+        type: 'tip',
+        tipType: 'gold',
+        label: '认知科学',
+        content: [
+          '心理学里有个著名的现象叫<strong>确认偏误</strong>:一旦你对一个人形成判断——大脑就变成一台"搜证机器"——自动搜集符合判断的证据——自动忽略相反的证据——他做对十件事——你记不住——做错一件——你说"果然"——',
+          '更隐蔽的是<strong>信念固着</strong>:就算当初判断的依据被推翻——判决也很难撤销——实验里——当人们被告知自己判断的依据是假的——大多数人仍然坚持原结论——只是换一套理由继续——放到关系里就是:他明明已经改了一年——你心里那句"他早晚会露馅"——依然在岗——',
+          '最要命的一层叫<strong>期望效应</strong>,也就是皮格马利翁效应:你按"他不靠谱"对待他——处处查岗——事事备份——逢人就叹"我能指望他吗"——他接收到的信号是"你不信我"——而被信任——恰恰是一个人变好的燃料——燃料被抽走——他真的更不靠谱了——然后你摊手:"看——我没说错吧"——<strong>标签不是被对方坐实的——是被你的眼光喂大的</strong>——',
+          '所以——旧眼光不是"记性好"——是大脑在省电——省下的是几度电——错过的是一个人的更新——',
+          '一句话:<strong>你眼里的他——可能是三年前的存档——重认——就是把这存档打开——按下刷新键</strong>——',
+        ]
+      },
+      {
+        icon: '📊',
+        title: '经典案例对比',
+        type: 'comparison',
+        rows: [
+          {
+            before: '阿岚和男友半年前大吵一回——因为他答应的事总落空——两人对完账、翻了篇——男友也确实在改:开始记事——开始守约——可阿岚的眼睛没换——他第一次主动报备行程——她心想"做贼心虚吧"——他加班晚归——她心想"看——又来了"——他送她礼物——她第一反应"是不是又在补什么窟窿"——直到有一次他真的忘了接她——阿岚脱口而出:"我就知道——老毛病改不了"——他沉默了很久——说:"这半年——我做的那些——你一件都没算数,是吗?"——阿岚愣住了——她才发现——账她早翻了——眼光她一秒没换——判决书还压在枕头底下——旧眼光比旧账更伤人——旧账讨的是过去——旧眼光判的是无期——',
+            after: '同一场吵架——小满多走了一步:翻篇那天她给自己立了条"重认"规矩——每周记一条"他和旧印象不一样"的事——哪怕很小——他第一次主动报备——她没说风凉话——只回了一句:"谢谢你告诉我"——他第一次说到做到——她在心里默默给他记了一笔——三个月后她发现——心里的档案真的换页了:以前提到他——跳出来的是"不靠谱"三个字——现在跳出来的是具体的事——那次守约——那次主动——那次她随口说想吃的店他记了半个月——后来他偶尔真有疏漏——小满也有情绪——但她说的是"这次怎么回事"——而不是"你果然"——<strong>翻篇是给关系松绑——重认是给关系松土——松了土的关系——才有下一次生长</strong>——'
+          }
+        ]
+      },
+      {
+        icon: '🎬',
+        title: '场景案例',
+        type: 'case',
+        cases: [
+          {
+            icon: '🧊',
+            title: '旧眼光:一句"我还不了解你?"，判了无期',
+            content: '有个很扎心的场景:妻子兴冲冲说想学插花——丈夫脱口而出:"你?三分钟热度——当年学吉他不就学了两周?别浪费钱了"——她没再提——一年后——丈夫在朋友家做客——看到墙上挂着一幅插花作品——朋友说:"这是你太太上周送我的——她在花艺班学了快一年了"——丈夫愣在原地——她在班上拿了奖——作品被人收藏——他一件都不知道——为什么不告诉他?她的原话是:"在他眼里——我永远是那个三分钟热度的人——说了干嘛"——<br><br>👉 问题出在哪?丈夫不是不爱——他只是拿一张旧照片——对着一个活人——说了句"我还不了解你?"——这句话一出口——对方的心门就自动关小一格——因为人最怕的不是被说错——是被"判死"——<strong>"我还不了解你"——是关系里最温柔的判词——也是最残忍的——它宣判了这段关系里——再也不会有惊喜</strong>——',
+          },
+          {
+            icon: '🪴',
+            title: '重认:把"我知道你"换成"我看看这一版"',
+            content: '阿岩的做法相反:妻子说想学插花时——他脑子里那句"三分钟热度"都到嘴边了——他停了一秒——换了个问法:"说说看——这次为什么想学?"——她讲完——他说:"先报一期试试——学完插一束给我看看?"——后来的事有点出人意料:她学完了整整一年——家里每周都有新花——阿岩后来坦白:他当时其实并不看好——但他给了"这一版"的她一次面试机会——而新版本——比旧档案里那个人——好看太多了——<br><br>👉 秘诀在哪?他把"我知道你"换成了"我看看这一版的你"——旧印象只当参考——不当判决——<strong>重认不是赌对方一定变好——是不赌他"一定不会变"这口气——给人一次面试——而不是直接判他出局</strong>——',
+          }
+        ]
+      },
+      {
+        icon: '✍️',
+        title: '实操方法:重认四步，把眼光也翻篇',
+        type: 'text',
+        content: [
+          '账翻篇了——顺手把眼光也翻篇——四步更新你的眼睛:',
+          '<strong>① 撕判决——把总判决拆成具体事</strong><br>把"他就是这样的人"——改写成"他那天做了那件事"——判决针对人——人变了判决还挂着——具体针对事——事过去了就过去了——<strong>判决一次是无期——记一次事是流水——人要按流水更新——不能按判决定性</strong>——',
+          '<strong>② 记新账——每周存一条"新鲜证据"</strong><br>每周记一条"他和旧印象不一样"的小事——哪怕只是"他记得我说过的话"——记满一个月——你会发现档案真的换页了——<strong>旧眼光靠反复回忆维持——新眼光靠持续记录养成</strong>——',
+          '<strong>③ 问更新——永远取最新版本</strong><br>别再说"我知道你怎么想"——改成"你现在怎么看?"——旧答案是存档——新答案才是他本人——<strong>用最新的回答——覆盖最旧的印象——别拿三年前的答案——考今天的人</strong>——',
+          '<strong>④ 说更新——让新版本被看见</strong><br>看到变化要说出口:"我发现你最近……不太一样了"——这句话是双份礼物:你更新了档案——他知道自己在你这儿——还有资格变好——<strong>人不会被骂成更好的样子——只会被"看见进步"喂成更好的样子</strong>——',
+          '口诀:<strong>撕判决——记新账——问更新——说更新——翻篇是给过去结账——重认是让眼前的人重新被看见</strong>——',
+        ]
+      },
+      {
+        icon: '📝',
+        title: '今日练习',
+        type: 'practice',
+        content: [
+          '<strong>练习一(今晚——"翻旧档")</strong><br>写下你对最亲近的人心里那句总判决("他就是……的人")——然后列出三件"不符合这句判决"的具体事——你会发现——判决是压缩包——解压之后——往往水分不小——<strong>旧眼光最怕的不是被反驳——是被翻开细看</strong>——',
+          '<strong>练习二(本周——"新鲜证据周")</strong><br>挑一个人——连续七天——每天记一条"他和旧印象不一样"的事——不用告诉对方——第七天回看——<strong>不是他变了——是你的眼睛换了镜头</strong>——',
+          '<strong>练习三(给未来——"说出更新")</strong><br>找个合适的时刻——对那个人说一句"我发现你最近……"——把这个更新说出口——然后看对方的表情——<strong>被看见变化的人——会更有力气继续变好——你的一句"你不一样了"——可能就是他等了很久的那次面试结果</strong>——',
+        ]
+      },
+      {
+        icon: '💎',
+        title: '今日金句',
+        type: 'quote',
+        quote: 'We do not see people as they are; we see them as they were — and then we wonder why they never change in our eyes. Every person you love is a living draft, revised daily, yet too often we keep reading the first edition and call it knowing them. The ledger of old wrongs may be closed, but a verdict left standing is a quieter prison: it does not punish what was done — it forbids what could be. To truly honor someone is to hold your picture of them loosely, to let today\'s small proof overwrite yesterday\'s certainty, and to say — in words and in trust — "I see the version of you standing here now." For no one grows toward a face that has already decided who they are; they grow toward eyes still willing to be surprised. So after the accounts are settled and the pages turned, do the quieter work — turn also your gaze. The past is settled; let the person be current.',
+        author: '—— 原创:致每一个翻了篇、却忘了给眼光也翻篇的人'
+      }
     ]
   }
 }
