@@ -10320,5 +10320,96 @@ const lessons = {
         author: '—— 原创:写给所有还来得及的人'
       }
     ]
+  },
+  129: {
+    title: '手足的艺术——那个和你共享童年的人，值得重新认识一次',
+    icon: '👫',
+    subtitle: '昨天把温柔还给了父母——今天要面对一个更旧的问题:那个跟你一个锅里吃饭长大的人——后来去哪了?小时候你们抢遥控器、抢零食、联手瞒过爸妈——现在呢——聊天记录停在去年那句"新年快乐"——过年见面客客气气——聊孩子、聊房价——聊不到三句就沉默——不是有仇——是几十年没人教过你们怎么跟彼此说话——父母是你们之间唯一的路由器——一旦这个路由器老去——你们可能真的就散了——今天学:趁父母还在——把这条横向的线——亲手接上——因为有一天——他是这世上唯一能和你对上同一段童年记忆的人——',
+    sections: [
+      {
+        icon: '🎯',
+        title: '核心概念',
+        type: 'text',
+        content: [
+          '先看一个熟悉的画面:母亲住院——你和大姐在病房外第一次认真说话——说的却不是小时候——是"这个月谁出多少""护工请几天""你那边能不能请假"——字字都对——句句都在理——可就是不像亲人——像两个被临时拉进同一个项目的同事——你们上一次好好聊天——可能还是十年前那场婚礼上——<strong>父母把你们生在一个家——却没教过你们——在他们不在场的时候——怎么当一家人</strong>——',
+          '什么是<strong>手足沟通</strong>:不是逢年过节群发的祝福——不是朋友圈点赞——是把那个跟你共享同一段童年的人——重新当成一个"人"来认识——而不是一个"哥哥""妹妹"的角色——你们的关系里藏着三层东西——<strong>共享的记忆</strong>——只有你们两个人能对上的那部分过去——<strong>遗留的账</strong>——谁被偏爱过、谁被亏欠过——<strong>未来的约定</strong>——父母之后——这段关系要怎么走——',
+          '为什么难?因为手足关系——是所有关系里唯一<strong>没有选择权</strong>的——朋友是自己选的——伴侣是自己挑的——只有兄弟姐妹——是出生那一刻就被分配好的——<strong>没有选择的关系——最难生出主动的热情</strong>——再加上小时候争的是同一份资源:父母的注意力——那场没打完的仗——会在成年后换一种方式继续:比孩子、比收入、比谁对父母更上心——',
+          '还有一个真相:父母是最重要的<strong>关系路由器</strong>——父母在——你们有个共同的去向——过年总得回到同一个地方——父母不在——这个路由器就没了——很多手足就是这样走散的——不是谁做了什么——是<strong>没有了"必须见面"的理由之后——才发现在那之前——他们早就没有了"想要见面"的习惯</strong>——',
+          '手足有三重身份:<strong>同源者</strong>——了解你的来处——<strong>同路人</strong>——你们在同一条时间线里长大——<strong>同证人</strong>——你人生最早的那段记忆——只有他能替你作证——<strong>第三重最珍贵——伴侣是后来的——朋友是后来的——只有他记得——你五岁时——是什么样子</strong>——',
+          '一句话:<strong>父母决定你的起点——手足决定你的来处——是否还有人记得</strong>——',
+        ]
+      },
+      {
+        icon: '🧠',
+        title: '为什么最亲的人，反而最容易生分?',
+        type: 'tip',
+        tipType: 'gold',
+        label: '同胞心理学',
+        content: [
+          '先接受一个事实:兄弟姐妹——是天然的竞争者——心理学叫"同胞竞争"——父母的关注、时间、夸奖——在童年是稀缺资源——你多得一分——他少一分的感受——是真实的——<strong>那场竞争其实早就结束了——但"裁判"还在——只要父母还在——比较就还在</strong>——',
+          '还有一个更隐蔽的:每个家庭都会给孩子派"角色"——"你是懂事的那个""他是被宠的那个""你老实""他会来事"——这些标签贴上去——就是几十年——<strong>你们早不是那个人了——可一见面——又都默契地演回旧角色</strong>——你一开口——自动切回"抬杠的弟弟"——他一张嘴——自动变回"教训人的哥哥"——',
+          '成年后还有一关:比较——房子、孩子、票子——手足之间最伤人的从来不是吵架——是那种不动声色的比较——"你哥的孩子都上双语了""你妹夫快升处长了吧"——<strong>父母随口的一句比较——能在两个成年孩子之间埋三年的刺</strong>——',
+          '最后是"不知道该说什么"——你们共同的话题——小时候的那些——早聊完了——现在的生活——又怕对方不感兴趣——于是每次见面只剩查户口式问答——<strong>不是不想聊——是"我们"这个词——需要新的内容来续</strong>——',
+          '一句话:<strong>疏远不是因为恨——是因为那句"这些年你过得怎么样"——不知道该从哪个字开始问</strong>——',
+        ]
+      },
+      {
+        icon: '📊',
+        title: '经典案例对比',
+        type: 'comparison',
+        rows: [
+          {
+            before: '老陈和老二是兄弟——父亲走后——留下一套老房子——两人一年只见一次——见面就谈房子——老大说"我照顾得多"——老二说"我出钱多"——话都占着理——情却越算越薄——算到第三年——房子还在——兄弟不说话了——年夜饭各吃各的——老大有一次喝多了——跟朋友说:"我不是非要多分——我就是气——凭什么我干的活——他一句没看见"——<strong>他们争的早就不是房子——是那句"这些年我做的——你看见了没有"</strong>——',
+            after: '阿岚和她哥也差点走散——十年微信不超过二十条——转折发生在父亲告别式之后——她给哥发了一条消息——不谈事——就一张照片:二十年前——两个小孩蹲在老家门槛上啃西瓜——她说:"哥——爸走后我老做同一个梦——梦见咱俩坐在那门槛上——等妈喊吃饭"——她哥在那头沉默了很久——最后只回了一句:"阿岚——这些年——哥没照顾好你"——从那天起他们定了规矩:每月一个电话——不谈事——只聊近况——<strong>接上线的不是大道理——是一张照片、一句"你还记得吗"——和那个终于说出口的"这些年"</strong>——',
+          }
+        ]
+      },
+      {
+        icon: '🎬',
+        title: '场景案例',
+        type: 'case',
+        cases: [
+          {
+            icon: '🧧',
+            title: '客套式:一年见一次，聊的全是"安全话题"',
+            content: '阿凯和弟弟都在外地——每年就见一次——流程固定:吃饭——聊爸妈身体——聊各自孩子——聊两句房价——然后各回各家——十年了——他不知道弟弟中间换过三份工作——弟弟也不知道他去年住过一次院——问起来——彼此都是"还行""挺好的"——<br><br>👉 问题出在哪?他们把关系维护成了<strong>礼节</strong>——礼貌周全——温度为零——<strong>安全话题聊一辈子——也到不了心里——因为安全话题的本意——就是"别走近"</strong>——',
+          },
+          {
+            icon: '🔗',
+            title: '重启式:从"你还记得吗"，把断了的线接上',
+            content: '小满有次回老家——在旧柜子里翻出一盘磁带——是小时候她唱歌、弟弟在旁边瞎起哄的录音——她随手转成音频发给了弟弟——弟弟秒回:"你跑调那段我还记得"——两个人你一句我一句——聊到半夜——从那以后他们有了新玩法:谁想起一件小时候的糗事——就发过去——对方必须接上一件——<strong>共同记忆是手足之间唯一不需要破冰的入口</strong>——你一提——他就在——<br><br>👉 妙处在哪?她没有"制造话题"——只是把两个人本来就共同拥有的东西——重新拿了出来——<strong>你们缺的从来不是感情——是重新提起感情的由头</strong>——',
+          }
+        ]
+      },
+      {
+        icon: '✍️',
+        title: '实操方法:手足三步，把断了的线接回来',
+        type: 'text',
+        content: [
+          '反哺了父母——别忘了横向这条线——三步:',
+          '<strong>① 破冰——从"你还记得吗"开始</strong><br>别问"最近怎么样"——那是客套——要问"你还记得吗——那年夏天……"——一件只有你们俩知道的事——一个只有你们俩去过的角落——<strong>成年人的关系重启——不靠真诚宣言——靠一个共同的旧坐标</strong>——坐标一对上——人就回来了——',
+          '<strong>② 去比——把"谁过得好"换成"谁需要什么"</strong><br>手足之间最大的消耗是暗中较劲——从今天起——把这根弦剪断——他过得好——替他高兴——他过得难——问他一句"需要我做什么"——<strong>你们不是竞争对手——是同一个家的两只手——一只握成拳不算赢——两只手合起来才有劲</strong>——',
+          '<strong>③ 立约——把丑话说在前面</strong><br>赡养、借钱、走动——手足之间最伤感情的不是谈钱——是不谈——是含糊——是"你懂的"——最后变成"你居然这样"——<strong>钱上清楚——情上才糊涂得起</strong>——主动把规矩摊开:每月怎么轮、费用怎么摊、借多少、什么时候还——说清楚不伤感情——含糊其辞才伤——',
+          '口诀:<strong>破冰——去比——立约——同一条根上长出来的枝——不该在半空里——彼此躲着</strong>——',
+        ]
+      },
+      {
+        icon: '📝',
+        title: '今日练习',
+        type: 'practice',
+        content: [
+          '<strong>练习一(今晚——"发一条只属于你们两个人的消息")</strong><br>翻一张老照片——或想起一件只有你们知道的小事——发给你的兄弟姐妹——不加铺垫——不寒暄——就一句:"还记得吗——那年……"——<strong>手足之间破冰——不需要解释来意——共同记忆本身就是暗号</strong>——',
+          '<strong>练习二(本周——"把一件旧账翻篇")</strong><br>你们之间大概率有一件陈年旧事——谁多吃多占——谁被偏心——挑一件——不再论对错——只说一句:"那时候——咱们家都不容易"——<strong>不翻旧账——不是不讲——是换一种算法:算情——不算理</strong>——',
+          '<strong>练习三(本月——"把父母的事说明白")</strong><br>趁父母还康健——拉上兄弟姐妹——把将来的事提前说清楚:生病谁跑腿——出钱怎么摊——老房子怎么办——不是为了分家——是为了"到了那一天——我们还能坐在同一张桌上"——<strong>今日把话说明白——是为了来日不翻脸</strong>——',
+        ]
+      },
+      {
+        icon: '💎',
+        title: '今日金句',
+        type: 'quote',
+        quote: 'Parents are the roof over a childhood; siblings are the walls that remember the weather. You did not choose them, and that is precisely what makes the bond so strange and irreplaceable — friendship is chosen, marriage is chosen, but a brother or sister is simply given, assigned at birth like a fact of nature. And like most given things, we take them for granted until the day we stop to count what we have. Think about what a sibling actually is: the only person alive who shares your beginning. Your partner met you at chapter twelve. Your friends arrived even later. But your brother remembers the house before the renovations, the year the money was tight, the summer your grandmother was alive, the version of you that existed before you learned to be impressive. When your parents are gone — and one day they will be — he or she becomes the sole witness to the first act of your life. Lose that, and part of your own story loses its proof. This is why the small, unfinished feuds between siblings cost far more than they seem to: you are not protecting your pride; you are quietly burning the archive. So send the message. Ask the question you already know the answer to, just to hear them tell it. Settle the money — not to win, but to clear the field so the relationship can breathe. The parents who raised you are also the reason some families still meet at all, and that reason has an expiration date. Build the second bridge while the first one still stands. You cannot choose your siblings. But you can choose, every day, to keep choosing each other.',
+        author: '—— 原创:写给所有共享过同一个童年的人'
+      }
+    ]
   }
 }
