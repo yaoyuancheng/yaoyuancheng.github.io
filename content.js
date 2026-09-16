@@ -10411,5 +10411,101 @@ const lessons = {
         author: '—— 原创:写给所有共享过同一个童年的人'
       }
     ]
+  },
+  130: {
+    title: '老友的艺术——血缘之外，那些自己选来的亲人',
+    icon: '🍶',
+    subtitle: '昨天把温柔还给了父母和手足——今天把目光再往外移一圈——落到那些没有血缘、却陪你走了最久的人身上——你有没有发现:父母是不能选的——手足是不能选的——只有朋友——是你自己一个一个亲手挑出来的——可偏偏这份"自己挑的"——最容易被搁置:反正没有血缘捆着——反正没有名分牵着——忙起来——一放就是三年——三年前你们无话不谈——三年后你翻到他的头像——想发消息——手又缩回来:"会不会打扰人家"——今天学:怎么把老朋友——从记忆里——请回日子里——因为父母给你来处——手足给你童年——而朋友——是你亲手为自己挑的家人——',
+    sections: [
+      {
+        icon: '🎯',
+        title: '核心概念',
+        type: 'text',
+        content: [
+          '先看一个很多人都有过的深夜:你翻着通讯录——看到一个熟悉的名字——你们曾经好到穿一条裤子——现在上一句对话停在两年前——你在输入框里打了"在吗"——删掉——又打"最近怎么样"——又删掉——最后锁了屏——你不是不想他——你是不知道——从哪一句话——才能接上这两年——<strong>老朋友不是走散的——是"搁下"的——搁着搁着——就成了不敢碰的</strong>——',
+          '什么是<strong>老友沟通</strong>:不是朋友圈点赞——不是群发祝福——是把那些和你共同拥有过一段人生的人——重新接进你现在的日子里——老朋友的关系里有三层东西——<strong>共同的旧账本</strong>——只有你们俩对得上的那段过去——<strong>各自的这些年</strong>——你们都变了——却都没告诉对方变成了什么样——<strong>未来的新约定</strong>——往后这些年——还要不要一起走——',
+          '为什么难?因为友情是所有人际关系里——<strong>唯一没有任何制度保障的关系</strong>——血缘有家族逼着你见面——婚姻有契约把你们绑在同一个屋檐——同事有工作逼着你们天天沟通——只有朋友——<strong>全靠"主动"活着</strong>——你不联系——不会有任何人来提醒你——不会有任何机制替你们安排——它就安安静静地——在通讯录里——凉掉——',
+          '还有一个规律要认清:<strong>友谊不是一条不断的线——是一串需要重连的断点</strong>——毕业——换城市——结婚——生娃——人生的每一次换场——朋友圈都会重排一次——不是谁背叛了谁——是共同的场景没了——话题断了——而那些能跨越断点的友谊——靠的从来不是回忆厚——是<strong>有人在新场景里——主动伸了一次手</strong>——',
+          '老朋友有三重身份——<strong>证人</strong>——记得你还没学会伪装时的样子——<strong>退路</strong>——在他面前——你不必是任何角色——可以只是你自己——<strong>镜子</strong>——他会告诉你"你变了"——别人不敢说——他敢——<strong>这三重——家人给不了全部——爱人也给不了全部——只有一起走过时间的人才给得起</strong>——',
+          '一句话:<strong>血缘是天定的——朋友是自选的——天定的散不了多远——自选的你不护着——它就真的没了</strong>——',
+        ]
+      },
+      {
+        icon: '🧠',
+        title: '为什么老朋友，都是"聊着聊着就淡了"?',
+        type: 'tip',
+        tipType: 'gold',
+        label: '邓巴数与人际科学',
+        content: [
+          '先破一个误会:老朋友变淡——几乎从不是因为吵架——是因为<strong>"没有理由"</strong>——家人有年节逼着见面——同事有工位逼着沟通——朋友——只有"约"——而"约"这个字——最经不起一个"忙"字——你们都没变坏——只是你们的见面——从"随时"变成了"改天"——从"改天"变成了"看情况"——',
+          '心理学有个著名的<strong>邓巴数</strong>:人类大脑能稳定维护的社交关系——上限大约是<strong>150 人</strong>——其中真正亲密的——只有<strong>3 到 5 个</strong>——更扎心的是:人生每换一个阶段——这 3 到 5 个的位置——就重排一次——大脑判断亲疏——靠的是<strong>"最近联系的频率"</strong>——你半年没联系——不是感情没了——是在大脑的系统里——你被自动降级了——',
+          '还有一个最毒的错觉——<strong>"我们这种交情——不用搞那些虚的"</strong>——越是老朋友——越容易觉得不需要维护——不需要仪式——不需要刻意——于是你在新同事身上花心思——在新朋友身上花时间——唯独这块最肥的地——全靠天养——<strong>感情不怕吵——怕搁——吵是还在乎——搁是算了</strong>——',
+          '顺便认清一个真相:老友重逢的尴尬——不是感情没了——是<strong>版本差</strong>——你记忆里的他——是五年前那个版本——他记忆里的你——也是——你们见面——还按旧版本对话——自然处处卡顿——<strong>老友重连的关键——是先更新彼此的版本——再聊新的内容</strong>——',
+          '一句话:<strong>关系不靠回忆保温——靠"最近一次联系"的日期保鲜</strong>——',
+        ]
+      },
+      {
+        icon: '📊',
+        title: '经典案例对比',
+        type: 'comparison',
+        rows: [
+          {
+            before: '老周和老吴是二十年的交情——从穿一条裤子的年纪——到各自成家立业——近五年——每年腊月互发一条"新年快乐"——每年都说一句"改天一定约"——改了五年——一顿饭没吃上——老周心里笃定:"我们这种交情——不用搞虚的——什么时候坐下都能接上"——直到去年——老吴搬去了另一个城市——老周是从朋友圈知道的——他盯着那条搬家动态——愣了很久——那一刻他懂了:他等的那个"什么时候"——可能永远不会来了——<strong>二十年交情没有输给任何一场架——输给了五个"改天"</strong>——',
+            after: '小林和阿May 是大学室友——毕业十年——隔着一千公里——她们定了一条死规矩:每月最后一个周四晚上——视频喝茶——不谈正事——就聊这一个月各自过成了什么样——十年——一百二十次——一次没断过——有几次小林加班到十点——就在出租车上接通视频——戴着耳机说"我这边堵着呢——你先喝"——<strong>她们的感情没有靠回忆保鲜——靠的是"每月最后一个周四"——把彼此钉在了对方的日历上</strong>——',
+          }
+        ]
+      },
+      {
+        icon: '🎬',
+        title: '场景案例',
+        type: 'case',
+        cases: [
+          {
+            icon: '📼',
+            title: '复读式:每次见面，都只剩"想当年"',
+            content: '老陈和发小每年聚一次——三个小时里——前两个小时在讲高中:谁追过谁——谁被罚站——谁翻墙出去上网——笑完——第三个小时——沉默——他们发现:共同的素材——早就嚼完了——<strong>两个人之间只剩旧故事——说明这段关系——已经停止生长很多年了</strong>——<br><br>👉 怎么办?旧故事是入场券——不是全部展品——每次见面——往里放一件"新的":最近迷上什么——最近怕什么——最近想通了一件什么事——<strong>回忆负责保温——新鲜事负责生长——两样都不能少</strong>——',
+          },
+          {
+            icon: '💬',
+            title: '群聊式:热闹的假象',
+            content: '有个五人的老友群——每天有人发段子、砍价链接、表情包——看着很热闹——上个月——小林离了婚——她想在群里说点什么——翻了一百条聊天记录——找不到一句能接住这句话的——最后——她私聊了阿May——<br><br>👉 看清一个真相:<strong>群聊维持的是"关系存在感"——私聊才养"关系亲密感"</strong>——一个群再热闹——也代替不了那句"我单独跟你说"——翻翻你的老友列表——有没有一个人——只剩"群里见"了——',
+          },
+          {
+            icon: '🌱',
+            title: '更新式:把老朋友，重新认识一遍',
+            content: '阿德有个习惯——每年生日——挑三个老友——分别问同一个问题:"你这一年——最大的变化是什么"——问了五年——答案一年比一年深:有换工作的——有戒了酒的——有开始跑步的——有终于学会拒绝别人的——他发现——<strong>自己成了朋友圈里最"懂"大家的人</strong>——<br><br>👉 妙处在哪?他没有增加朋友的数量——只是持续更新了朋友的"版本"——<strong>真正的老友——不是认识最久的人——是持续认识"最新版本"的人</strong>——',
+          }
+        ]
+      },
+      {
+        icon: '✍️',
+        title: '实操方法:老友三步，把搁下的关系捡回来',
+        type: 'text',
+        content: [
+          '认识了、也懂了——接下来是活生生的动作——三步:',
+          '<strong>① 重启——把"在吗"换成"我还记得"</strong><br>别发"在吗"——那是给对方的负担——要直接递一个坐标:"还记得那年咱们在楼顶……"——"昨天路过咱们以前的学校了"——<strong>"在吗"是把球踢给对方——让他想怎么接——"我还记得"是把门打开——让他直接进来</strong>——',
+          '<strong>② 更新——问一个"这些年"的问题</strong><br>重启之后——别停在当年——要往现在走:"你这些年——最大的变化是什么?"——这个问题——比"最近怎么样"深十倍——"最近怎么样"收到的多半是"还行"——"最大的变化"收到的——是一个人真实的这几年——<strong>你们的问题问到多深——关系就能长到多深</strong>——',
+          '<strong>③ 立约——给这段关系，定一个仪式</strong><br>靠热情的友谊——撑不过三个月——靠仪式的友谊——能过几十年——不用宏大:每月一个电话——每季一顿饭——每年一次旅行——<strong>把"改天约"换成"下周四晚七点"——把"有空聚"换成"老规矩，还是那家店"</strong>——仪式不需要贵——需要的是"到点就联系"的确定感——',
+          '口诀:<strong>重启——更新——立约——老朋友不是用来怀念的——是用来继续的</strong>——',
+        ]
+      },
+      {
+        icon: '📝',
+        title: '今日练习',
+        type: 'practice',
+        content: [
+          '<strong>练习一(今晚——"发一条只属于你们两个人的消息")</strong><br>想一个很久没联系的老朋友——不要发"在吗"——不要发"最近怎么样"——发一件只有你们知道的事:"突然想起那年那件事——你还记得吗?"——不用铺垫——不用解释来意——<strong>共同记忆是暗号——一发出去——他就知道——是你</strong>——',
+          '<strong>练习二(本周——"把一句改天约，落成具体日期")</strong><br>你的嘴上、你的备忘录里——一定躺着一句"改天约"——今天把它捡起来——改成具体时间:"下周三晚七点——老地方"——发出去——<strong>"改天"是关系的高利贷——先借不还——利滚利——最后连人都还不起</strong>——',
+          '<strong>练习三(本月——"做一次年度更新")</strong><br>选一位最近一年没深聊的朋友——认真问一次:"你这一年——最大的变化是什么?"——听完——不评价——不说教——不急着分享自己的——就好好听完——<strong>老朋友最深的孤独——不是没人陪——是没人问"你现在——是什么样子了"</strong>——',
+        ]
+      },
+      {
+        icon: '💎',
+        title: '今日金句',
+        type: 'quote',
+        quote: 'Friendship is the only relationship in your life that comes with no contract, no blood, and no obligation — and that is exactly why it matters so much. Your family is assigned to you; your colleagues are arranged around you; but your friends are chosen, one by one, at a certain table in a certain year, for reasons you may have forgotten but can still feel. Nothing in the world forces a friendship to continue. No holiday orders you home. No shared name keeps you in anyone\'s will. It survives on a single fuel: someone deciding, again and again, to reach out. This is why friendships rarely die loudly. They die in silence — three postponed dinners, five unreturned messages, one year of "we should catch up" — until the gap that once measured ten minutes measures ten years, and the person who knew every version of you becomes someone you are almost afraid to text. And yet the ones who stay are not the ones with the most free time. They are the ones who refused to let the thread drop — who kept a standing call, a monthly meal, a promise small enough to keep. So count your three or five, and keep them warm. Send the message without a reason. Name a day instead of saying "someday." Ask the question you stopped asking. Because your family tells you where you came from, and your friends decide, year after year, who you are allowed to become. Of all the beautiful things you get to choose in this life, the people who truly get to know you may be the most precious choice of all.',
+        author: '—— 原创:写给所有通讯录里躺着的老朋友'
+      }
+    ]
   }
 }
