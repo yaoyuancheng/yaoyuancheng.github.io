@@ -10507,5 +10507,101 @@ const lessons = {
         author: '—— 原创:写给所有通讯录里躺着的老朋友'
       }
     ]
+  },
+  131: {
+    title: '并肩的艺术——每天和你一起做事的人，值得被认真对待',
+    icon: '🤝',
+    subtitle: '昨天把温柔还给了老友——今天把目光收回到你每天待得最久的地方——工位——你有没有算过一笔账:除去睡觉——你和同事待在一起的时间——比父母、爱人、孩子加起来还多——可偏偏这段关系——你最不上心:客客气气——公事公办——"下了班就别联系了"——可你有没有想过——那些和你一起扛过项目、一起熬过夜、一起被骂过的人——其实早就不是"外人"了——今天学:怎么把"同事"——从"不得不同事的人"——处成"一起并肩过的人"——',
+    sections: [
+      {
+        icon: '🎯',
+        title: '核心概念',
+        type: 'text',
+        content: [
+          '先看一个每天都在发生的画面:你和邻座的同事——一年说的话比和家人还多——可你只知道他"报表做得快"——不知道他老家在哪、孩子在几年级、最近在为什么发愁——你们并肩坐着——却隔着一层看不见的玻璃——<strong>同事不是不熟——是熟得很浅——浅到只剩"工作"这一层</strong>——',
+          '什么是<strong>并肩沟通</strong>:不是把同事处成酒肉朋友——是把"不得不一起做事"的关系——处成"愿意一起做事"的关系——它有三层:<strong>交付层</strong>——交给你的事——我放心——<strong>分歧层</strong>——我们有不同意见——能当面说开——<strong>温度层</strong>——我拿你当人——不只是当岗位上的一双手——',
+          '为什么值得认真对待?因为你一天醒着的时间里——有一半给了同事——<strong>如果这一半时间里你是戒备的、孤独的——那你的半个日子就是戒备的、孤独的</strong>——反过来——并肩的人多一个——你的每一天就轻一分——',
+          '为什么难?因为同事关系里——天然埋着一层"利害":评优——晋升——汇报线——资源——<strong>它比普通朋友近——却比普通朋友多一层防备——它比家人远——却又天天见面</strong>——这段关系最难的地方在于:既要合作——又要自保——',
+          '还要认清一个真相:同事不一定要处成朋友——但一定要处成"战友"——朋友是"我喜欢你"——战友是"我信得过你"——<strong>职场里真正给你撑腰的——从来不是关系多热络——而是别人提起你时的那句"这人靠谱"</strong>——',
+          '一句话:<strong>同事是你自己挑不了的同行人——但你完全可以——把"同桌"处成"同袍"</strong>——',
+        ]
+      },
+      {
+        icon: '🧠',
+        title: '为什么最熟的人，反而最"防"?',
+        type: 'tip',
+        tipType: 'gold',
+        label: '组织行为学',
+        content: [
+          '先破一个误会:"同事不能做朋友"——这句话说反了——准确的说法是:<strong>同事不一定要做朋友——但绝不能做敌人</strong>——职场里最贵的东西——从来不是工资——是"别人愿不愿意跟你一起干活"——',
+          '心理学有个<strong>曝光效应</strong>:人会对自己熟悉的人或事——慢慢生出好感——天天见面本身——就是关系的天然养料——这也是为什么——同事关系其实占着最好的"地利":不用约——不用硬找话题——坐下来就在同一件事里——<strong>你缺的不是机会——是把"共同经历"变成"共同记忆"的那点意识</strong>——',
+          '谷歌做过一个著名的研究——"亚里士多德计划"——追踪了上百个团队——想找出高效团队的共同点——结论出人意料:决定团队表现的第一要素——不是聪明人有多少——是<strong>心理安全感</strong>——就是"我敢不敢在这个团队里说真话、认错误、说我不懂"——<strong>而心理安全感不是制度给的——是同事之间一个字一个字攒出来的</strong>——',
+          '还有一个反常识:社会学家格兰诺维特发现——真正带来大机会的——往往不是天天见面的密友——而是<strong>弱连接</strong>——那些"不常联系、但知道你"的人——而你的同事——恰好是这个池子里最大的一块——今天和你一起开会的人——可能是十年后拉你一把的人——',
+          '一句话:<strong>你今天怎么对待邻座的人——就是在给十年后的自己——攒口碑、攒退路、攒机会</strong>——',
+        ]
+      },
+      {
+        icon: '📊',
+        title: '经典案例对比',
+        type: 'comparison',
+        rows: [
+          {
+            before: '老唐干活是一把好手——但他信奉一条"职场铁律":同事就是同事——不是朋友——任务交接——多说一句都嫌多——会上发言——先把自己摘干净——出了问题——第一反应是"这不是我负责的"——组里的功劳——他从不往外分——三年下来——他业务没得挑——可每次组队——没人愿意跟他一组——那年竞聘——能力评审他第一——互评环节他却说不出话——<strong>他这才明白:职场里的路——一半是能力修的——一半是同事让的</strong>——',
+            after: '小夏进公司第三年——业务不算最拔尖——但她是所有人"最想合作的人"——她的做法很朴素:交接的东西——永远多走一步(资料里附一句"风险点我都标黄了")——会上有不同意见——她当面说"我有个不一样的角度"——散会后一句嘀咕都没有——同事家里有事——她主动把活接过来——说"你先去——这边有我"——去年公司新项目立项——点名要她——理由只有一句:"跟她一起做事——踏实"——<strong>她没有刻意经营人脉——她只是把每一个并肩的人——都认真当人</strong>——',
+          }
+        ]
+      },
+      {
+        icon: '🎬',
+        title: '场景案例',
+        type: 'case',
+        cases: [
+          {
+            icon: '🪟',
+            title: '玻璃式:只谈工作，不谈人间',
+            content: '小周和搭档坐对面——合作两年——除了任务——一句话没有——有一次搭档连着几天脸色很差——小周看见了——没问——心想"跟我没关系"——后来才知道——那几天搭档的孩子在住院——再后来——搭档调岗了——走的那天说了句:"这两年——谢谢配合"——小周才反应过来——"配合"两个字——把两年说尽了——<br><br>👉 换个动作会怎样?看见=存在感——那几天问一句"你还好吗?需要我分担点什么吗"——不用越界——不用打听——<strong>一句问候跨不过边界——一次装看不见——才是真的把人推远</strong>——',
+          },
+          {
+            icon: '⚖️',
+            title: '甩锅式:功劳我拿，风险你扛',
+            content: '有个项目出了岔子——复盘会上——老郑开口第一句:"这部分是小李给我的——我按他的数据做的"——小李坐在下面——脸一下白了——那份数据——是老郑自己催的时候"简化"的——<br><br>👉 看懂一笔账:甩锅省下的是一时的责——赔上的是长期的信任——<strong>职场里最贵的债——是"这个人不能一起背事"的口碑</strong>——真正的高手——出了事第一句是"我们一起看看怎么补"——第二句才是"责任怎么分"——而且——往往是"分"给自己多一点的——',
+          },
+          {
+            icon: '🛡️',
+            title: '补位式:关键时刻，替他挡一次',
+            content: '一个跨部门会上——对方把矛头对准小林的同事——"你们这块是不是拖了后腿?"——小林本可以沉默——那是同事的模块——但他开口了:"这块我了解——中间有个变更——是我们一起商量的——我把时间线说一下"——<br><br>👉 妙处在哪?他没有替同事揽责——他只是<strong>把"你"变成了"我们"</strong>——一次这样的挡——比十次团建都管用——同事之间最深的信任——从来不是饭桌上喝出来的——是<strong>在别人面前——你敢替他站出来的那一次</strong>——',
+          }
+        ]
+      },
+      {
+        icon: '✍️',
+        title: '实操方法:并肩三步，把同事处成战友',
+        type: 'text',
+        content: [
+          '认识了、也懂了——接下来是活生生的动作——三步:',
+          '<strong>① 交付——把"靠谱"做成你的名片</strong><br>事事有回音——件件有着落——哪怕没做完——也提前一句"可能要晚半天——我在赶"——<strong>让人放心的不是"你一定能做到"——是"你做不到会提前说"</strong>——',
+          '<strong>② 分歧——对事狠，对人软</strong><br>有意见——当场说——说完就翻篇——永远不用"某人觉得"这种第三方式转述——那句背后的潜台词——是"我不想负责"——<strong>当面说——是对人最大的尊重——背后说——是对关系最大的腐蚀</strong>——',
+          '<strong>③ 温度——把"人"从岗位上认出来</strong><br>记住一件对方"工作之外"的事——孩子几年级——老家在哪——最近在跑马拉松——在合适的时候问一句——<strong>你问过他几次"工作之外"的事——他才敢在"工作之内"跟你说真话</strong>——',
+          '口诀:<strong>交付——分歧——温度——同事关系的天花板——不是亲密——是"愿意再合作一次"</strong>——',
+        ]
+      },
+      {
+        icon: '📝',
+        title: '今日练习',
+        type: 'practice',
+        content: [
+          '<strong>练习一(今天——"一次具体的感谢")</strong><br>找一个这周帮过你的同事——把"谢谢啊"换成一个细节:"谢谢你昨天替我盯到八点——那个数据救了我"——<strong>笼统的感谢是礼貌——具体的感谢是看见</strong>——',
+          '<strong>练习二(本周——"当面说一次不同意见")</strong><br>找一个你不太同意的地方——不用群里——不用私信——当面(或电话)说一句"我这个角度可能不一样——我担心的是……"——注意:只说事——不评价人——<strong>敢当面跟你说不同意见的同事——才是敢在关键时刻替你说话的人</strong>——',
+          '<strong>练习三(本月——"记住一件工作之外的事")</strong><br>挑一位搭档——认真问一次他"工作之外"的事(孩子、老家、爱好、最近的麻烦)——记住——下次跟进一句——<strong>同事变战友的转折点——往往就是有人先说了一句"你最近——还好吗"</strong>——',
+        ]
+      },
+      {
+        icon: '💎',
+        title: '今日金句',
+        type: 'quote',
+        quote: 'Count the hours. You spend more waking time beside the people you work with than beside the people you love — and yet, with those hours, you build the thinnest of relationships. You know their deadlines, not their children. You know how they write emails, not what keeps them up at night. You call it professionalism. Sometimes it is just fear wearing a nice suit — fear of entanglement, fear of obligation, fear of discovering that the person across the desk is a whole world you never bothered to enter. And yet here is what nobody tells you: work is where your character is most visible. Not your resume — your character. Whether you take credit or share it. Whether you blame or shield. Whether, when a meeting turns into an ambush, you stay silent or say "we." These small decisions are stamped onto you by the people who watch you every day, and they outlive every project you will ever ship. You do not need to turn colleagues into best friends. You need to become the person others are glad to stand beside — the one whose handoffs are clean, whose disagreements are spoken to your face, whose "how are you" remembers the answer from last month. Because careers are not built alone; they are built in the quiet accumulation of trust by people who never had to like you, and chose to respect you anyway. One day the project ends, the company changes, the org chart dissolves. What remains is a small circle of people who will say, without hesitation: "I worked with them — and I would again." That sentence, repeated across a lifetime, is worth more than any title you will ever hold. So look at the person beside you today. Not as a role. As a fellow traveler, carrying their own weight, afraid of their own things. Say one true sentence. Shield them once. Be, in the small hours of ordinary work, the colleague you wish you had.',
+        author: '—— 原创:写给所有每天一起并肩做事的人'
+      }
+    ]
   }
 }
