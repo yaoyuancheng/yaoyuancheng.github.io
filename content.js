@@ -10603,5 +10603,101 @@ const lessons = {
         author: '—— 原创:写给所有每天一起并肩做事的人'
       }
     ]
+  },
+  132: {
+    title: '⚔️ 较量的艺术——那个和你争过的人，值得一声谢谢',
+    icon: '⚔️',
+    subtitle: '昨天把温柔给了并肩的同事——今天把目光转向另一个人——那个和你争过位置、抢过机会、比过高低的人——提起他——你心里可能还硌着一点什么——可你有没有想过:真正把你逼到今天这个高度的——恰恰是他——没有他——你可能早就躺平了——今天学:怎么跟"对手"好好说话——不诋毁——不假装——把一场较量——处成彼此的成全——',
+    sections: [
+      {
+        icon: '🎯',
+        title: '核心概念',
+        type: 'text',
+        content: [
+          '先看一个熟悉的场景:同批进公司的两个人——一起培训——一起加班——后来变成了同一个岗位的竞争者——从那天起——你们的话变少了——见面点头——心里都在算分——再后来——他升了——你嘴上说"恭喜"——心里那口气却堵了整整一周——',
+          '什么是<strong>较量的沟通</strong>:不是"我要赢你"——也不是"我才不在乎"——而是<strong>承认我在和你比——同时把你当人看</strong>——它有三层:<strong>承认层</strong>——我承认我们在竞争——不装清高——<strong>尊重层</strong>——我承认你的实力——不靠贬低你来抬高自己——<strong>超越层</strong>——我盯着的是事——不是你——',
+          '为什么值得学?因为<strong>对手是唯一能照出你真实水平的那面镜子</strong>——朋友会照顾你的情绪——家人会包容你的缺点——只有对手——会毫不留情地把你所有的漏洞——照得清清楚楚——',
+          '为什么难?因为竞争天然带着自尊——他赢了——像是证明我不行——他输了——我又怕自己不厚道地高兴——<strong>较量最难的地方——不是怎么赢——是赢了怎么说话、输了怎么开口</strong>——',
+          '还要破一个误会:把对手当敌人——是最亏的算法——敌人是用来消灭的——对手是用来互相抬高的——<strong>把对手当敌人——你会花一半的力气防他——把对手当镜子——你会拿全部的力气长自己</strong>——',
+          '一句话:<strong>真正的高手——不盼着对手倒——他们盼着对手强——因为只有对手够强——你赢的那一场——才算数</strong>——',
+        ]
+      },
+      {
+        icon: '🧠',
+        title: '为什么对手，才是你最该感谢的人?',
+        type: 'tip',
+        tipType: 'gold',
+        label: '竞争心理学',
+        content: [
+          '心理学家费斯汀格提出过<strong>社会比较理论</strong>:人没有绝对的尺子——我们只能通过和别人比——来知道自己几斤几两——而<strong>和你水平最接近的那个人——给你的信息最准</strong>——他的成绩——就是你最真实的刻度——',
+          '还有一个反直觉的结论:心理学家把嫉妒分成两种——<strong>恶意嫉妒</strong>(我希望你变差)和<strong>良性嫉妒</strong>(你行——我也想行)——前者消耗人——后者驱动人——<strong>同一个对手——你可以把他当刺——也可以把他当油门——区别只在你选择怎么看他</strong>——',
+          '体育史上最动人的一对:林丹和李宗伟——交手四十一回——林丹赢了大多数——可李宗伟退役那天——林丹说了一句话:"我一个人在赛场上——再也没有这样的对手了"——<strong>能陪你走到最后的——不是你的粉丝——是那个一直追着你的人</strong>——',
+          '再看一个真相:<strong>你今天的本事——有一半是对手逼出来的</strong>——他方案写得漂亮——你才不敢糊弄——他汇报做得好——你才开始练表达——他先跑了一步——你才逼自己多跑一公里——<strong>安稳是杀死成长最快的方式——而对手——是唯一不收费的教练</strong>——',
+          '一句话:<strong>没有对手的人生——不是幸运——是危险——它让你以为自己已经够好了</strong>——',
+        ]
+      },
+      {
+        icon: '📊',
+        title: '经典案例对比',
+        type: 'comparison',
+        rows: [
+          {
+            before: '小程和另一位同事同时竞聘主管——落选那天——他在群里发了句"恭喜"——转头跟朋友吐槽:"还不是他会来事"——接下来半年——他逢人就说那位的方案"也就那样"——开会时专挑对方的漏洞——有一次当着领导的面把对方问得下不来台——他觉得自己赢了——可年终互评——他的分数掉到了组里倒数——领导找他谈话:"业务没问题——但格局不够"——<strong>他把对手当敌人——结果把自己的路走窄了</strong>——',
+            after: '老韩也经历过一次落选——他找了个没人的会议室——先承认心里不服——坐了一会儿——拿出纸——列了两栏:"他哪里比我强"——写了六条——"我哪里还能改"——写了五条——第二天——他走到对方面前说了一句:"这次你赢在方案落地那部分——我确实差一口气——回头我请教你"——这句话说出去——他的气就顺了——一年后——他升了——那位主动跟领导说:"他适合带团队"——<strong>他没有输给对手——他拿对手当了老师</strong>——',
+          }
+        ]
+      },
+      {
+        icon: '🎬',
+        title: '场景案例',
+        type: 'case',
+        cases: [
+          {
+            icon: '🗡️',
+            title: '暗踩式:嘴上夸，脚下绊',
+            content: '一次评优会上——领导夸了另一个组的提案——小吴笑着点头——散会后"顺嘴"跟同事说了一句:"那个数据——好像是拍的"——这句话半天之内就传到了当事人耳朵里——<br><br>👉 看懂一笔账:那句话没伤到对方分毫——却在小吴自己身上盖了一个章——"这人嘴不干净"——<strong>诋毁对手最狠的地方在于——它伤不到对手——只会把你自己变成那个输不起的人</strong>——真正的强者——夸对手的时候是真心——挑自己毛病的时候也是真心——',
+          },
+          {
+            icon: '🙈',
+            title: '假装式:嘴上说没在比，心里全在算',
+            content: '两个同学一起考公——一个上岸了——另一个嘴上说"恭喜恭喜——我就不凑这个热闹了"——其实每天刷着人家的朋友圈——看到对方发加班照片——心里"咯噔"一下——<br><br>👉 为什么不痛快?因为你既不肯承认自己在乎——又不肯放下——两头吊着——最耗人——<strong>承认"我想要"不丢人——丢人的是假装不要——然后偷偷难受</strong>——把"我没在比"换成"我确实也想要——我按我的节奏来"——这口气就通了——',
+          },
+          {
+            icon: '🏅',
+            title: '致敬式:赢了之后，先把对手抬高',
+            content: '一场行业比赛——小林拿了第一——上台领奖——他没有多说自己的准备——第一句话是:"今天最不容易的是第二名——那个方案我看了三遍——有几个点比我做得扎实"——台下的掌声比宣布名次时还响——<br><br>👉 妙处在哪?<strong>抬高对手——不会让你的奖掉价——反而会证明:你赢的是一场硬仗</strong>——真正的高手都明白:一个不值得的对手——会让你的胜利也不值钱——',
+          }
+        ]
+      },
+      {
+        icon: '✍️',
+        title: '实操方法:较量的三步，把对手处成贵人',
+        type: 'text',
+        content: [
+          '承认了、也想通了——接下来是能上手的动作——三步:',
+          '<strong>① 承认——把"我无所谓"换成"我确实想赢"</strong><br>当着对手的面——坦然一句"这次我也准备了很久——咱们场上见"——<strong>不承认竞争——你就要一直演"我不在乎"——演久了——连自己都骗——承认了——反而松了</strong>——',
+          '<strong>② 分开——把人和事分开，事上争，人上敬</strong><br>方案可以据理力争——会议可以不留情面——但散会后一句"你那段挺好——回头教教我"——永远不背后说人短——永远不把不同的意见——说成人身攻击——<strong>对事狠——是对比赛的尊重——对人敬——是对自己的尊重</strong>——',
+          '<strong>③ 致谢——赢了不炫耀，输了不找借口，然后说一句谢谢</strong><br>赢了——第一句是"这次运气好"——顺手把对手的强处点出来——输了——第一句是"我服——我有地方确实差"——不怪环境不怪评委——最后——找机会说一句真话:"谢谢你——没有你——我做不到今天这样"——<strong>这句话说出来——你们就不再是对手了——是彼此的见证人</strong>——',
+          '口诀:<strong>承认——分开——致谢——对手关系的天花板——不是"我赢了你"——是"我们互相成全"</strong>——',
+        ]
+      },
+      {
+        icon: '📝',
+        title: '今日练习',
+        type: 'practice',
+        content: [
+          '<strong>练习一(今天——"写下一件他的好")</strong><br>想一个你心里"有点硌"的人——拿张纸——写下他确实比你强的三点——写不出来就再想——直到写出来——<strong>你写下的每一条——都是你下一步要长的本事</strong>——',
+          '<strong>练习二(本周——"当面承认一次竞争")</strong><br>找一个和你处在同一赛道上的人——坦坦荡荡说一句"这块我也在准备——咱俩都加油"——只说这一句——不加任何回旋的客套——<strong>把暗中的较劲——变成明面上的并肩——气就顺了</strong>——',
+          '<strong>练习三(本月——"给一位旧对手发条消息")</strong><br>找一位很久以前的对手——学生时代的、前公司的、竞标过的——发一句实话:"当年跟你比的那段时间——我进步最快"——<strong>这句谢谢不欠任何人——只还给你自己心里那口气</strong>——',
+        ]
+      },
+      {
+        icon: '💎',
+        title: '今日金句',
+        type: 'quote',
+        quote: 'Look at the person who makes your jaw tighten. You know the one — the name that appears on the list right next to yours, the one who seems to want exactly what you want, and who is, you suspect, just slightly better at getting it. Your first instinct is to call them a rival, a threat, a problem in the shape of a person. But sit with it a moment longer. Who else has ever studied your work that closely? Who else has pushed you to redo the slides on a Friday night, to learn a tool you swore you did not need, to keep going one more year when quitting felt reasonable? Your friends admire you too gently. Your family loves you too blindly. Only the rival measures you honestly — and refuses to let you coast. What you do with that measurement is the whole of your character. You can shrink it into gossip, into small stabs in the hallways, into a life organized around the failure of someone else — and discover, too late, that you built your whole house on a foundation of spite. Or you can do the harder thing: admit out loud that you want to win, compete with your whole chest and your clean hands, and then — win or lose — walk over and tell them the truth: you made me better. That sentence costs nothing and repays everything. Because one day the race ends, the standings fade, and what remains is not the trophy but the person you became while chasing it. Choose to let your rivals sharpen you instead of defining you. Being measured by someone excellent is not a threat — it is a gift. And the ones who understand this earliest are the ones who keep getting better, long after everyone else has stopped looking over their shoulder.',
+        author: '—— 原创:写给所有曾经被人追着跑的人'
+      }
+    ]
   }
 }
