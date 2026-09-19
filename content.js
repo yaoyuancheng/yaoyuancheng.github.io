@@ -10699,5 +10699,105 @@ const lessons = {
         author: '—— 原创:写给所有曾经被人追着跑的人'
       }
     ]
+  },
+  133: {
+    title: '发声的艺术——别让你的想法，只活在你脑子里',
+    icon: '📣',
+    subtitle: '昨天跟对手说了声谢谢——那张桌子上的功课——算是做完了——今天抬起头——看向一个更大的场——你有没有过这样的时刻:一个想法在心里转了很久——最后没说——二十分钟后——被别人说了出来——而且说得还没你想得清楚——你在心里叹气:"我想的也是这个"——今天学:怎么把属于你的那句话——放到更大的地方去——从"没人问我"——到"我该开口"——',
+    sections: [
+      {
+        icon: '🎯',
+        title: '核心概念',
+        type: 'text',
+        content: [
+          '先看一个熟悉的场景:一场会开了两个小时——你心里那个想法——从第一分钟就冒出来了——你想着"再等等——找个好时机"——结果二十分钟后——同事说了一句和你几乎一样的话——会议室里一片"这个好"——你坐在那儿——手心有点凉——<strong>你输掉的不是能力——是那一分钟的开口</strong>——',
+          '什么是<strong>发声</strong>:不是抢话——不是爱表现——而是<strong>把你已经想明白的事——主动放进公共空间——让它被听见、被检验、被使用</strong>——它有三层:<strong>敢说层</strong>——我敢让别人听见我的判断——<strong>有用层</strong>——我说的是对在场的人有用的——不是我自己爽的——<strong>留得住层</strong>——我说的话能被记住、能被引用、能变成下一步的动作——',
+          '为什么值得学?因为<strong>不发声——等于你的判断不存在</strong>——这个世界很忙——没有人会停下来猜你心里在想什么——你的价值——不是你想了多少——而是<strong>有多少从你这里流出来——变成了别人的东西</strong>——',
+          '为什么难?因为我们怕的不是"说错"——是<strong>说错之后被记住</strong>——怕被否——怕被笑——怕枪打出头鸟——怕"我人微言轻——说了也没用"——这些怕都很真实——但它们有一个共同的错误假设:<strong>不说话——是没有代价的</strong>——',
+          '还要破一个天大的误会:<strong>发声不等于话多</strong>——话最多的人——往往不是最有分量的——真正会发声的人——是<strong>话不多——但每次开口——都把事情往前推了一步的人</strong>——少说十句附和——多说一句"我有个不同的看法"——这才是发声——',
+          '一句话:<strong>你说的每一句话——都是在为"你是谁"投票——你不投——别人就替你投了</strong>——',
+        ]
+      },
+      {
+        icon: '🧠',
+        title: '为什么沉默的代价，远比你想象的大?',
+        type: 'tip',
+        tipType: 'gold',
+        label: '社会心理学',
+        content: [
+          '德国传播学者诺依曼提出过<strong>沉默的螺旋</strong>:当一个人觉得自己的观点是"少数派"——他就越不敢说——越不说——越显得没人持这种看法——于是更多人不敢说——<strong>最后——那个观点就真的在场上"消失"了——而它可能原本是多数</strong>——',
+          '组织里还有一个残酷的规律:<strong>发言的可见度——会被当作能力的代理指标</strong>——研究者观察大量会议发现——同一个人——只要发言次数增加——别人对他"专业度"和"领导力"的评分就会上升——哪怕内容并没有变——<strong>不说话——你以为那是低调——在别人眼里——那是"没想法"</strong>——',
+          '再加上心理学里的<strong>责任分散效应</strong>——在场的人越多——每个人越觉得"总会有人说的"——于是没有一个人说——<strong>群体沉默——不是没人有想法——是每个人都以为别人会开口</strong>——',
+          '最贵的一笔账在这儿:<strong>你不说——别人替你说了——你就得接受别人的版本</strong>——方案的方向、项目的标准、你在别人心里的样子——全部由别人的嘴替你定稿——',
+          '一句话:<strong>沉默不是中立——沉默是把方向盘——递给了别人</strong>——',
+        ]
+      },
+      {
+        icon: '📊',
+        title: '经典案例对比',
+        type: 'comparison',
+        rows: [
+          {
+            before: '一次周会上——小周其实早就发现了老客户的续约风险——他在心里把话捋了三遍——每次想开口——都想着"等领导问吧"——结果会议一路往下走了——三周后——那个客户真的流失了——复盘会上——领导问了一句:"这个问题——之前没人发现吗?"——小周低下头——心里那句"我早就想说了"——最后变成了一声叹气——<strong>他省下了三分钟的勇气——付出了三个月的补救</strong>——',
+            after: '老徐也遇到过同样的情形——他在会前十分钟——把想法写成三句:"王总——我建议这个月先做一轮客户回访(结论)——有两个老客户最近登录量掉了四成(理由)——能不能给我两个人——这周跑一趟(请求)"——会上他第三个发言——三句话——不到一分钟——领导当场批了人手——两个月后——两个客户都留住了——<strong>他赢的不是口才——是"提前把话说清楚"的那张纸</strong>——'
+          },
+          {
+            before: '小组群里——产品提了一个明显有漏洞的方案——小林觉得"我是新人——别多嘴"——于是回了个"👍"——在他看来这叫稳妥——可方案上线后出了问题——当初那条"👍"——被截图放进了复盘文档——<strong>附和也是一种表态——你为没想清楚的东西点过头——就得跟着一起买单</strong>——',
+            after: '另一位同事的做法完全不同——他在群里回了一句:"这个思路我赞成——但有个风险想确认一下:如果用户中途退出了——积分怎么算?"——一句话——问的是方案——护的是团队——没人觉得他在挑事——反而有人跟着补了两条——方案当晚就补了一版——<strong>把反对包在"一起把事做好"里——这不是圆滑——这是专业</strong>——'
+          }
+        ]
+      },
+      {
+        icon: '🎬',
+        title: '场景案例',
+        type: 'case',
+        cases: [
+          {
+            icon: '🙊',
+            title: '憋着式:想了一肚子，开口只剩一句"我没意见"',
+            content: '开会前想得很好——一进会议室——看着一圈熟脸——那句"我有个想法"在喉咙里滚了两圈——最后咽了回去——散会时有人问你"你刚才是不是想说什么"——你摆摆手:"没事——都挺好"——<br><br>👉 看清这笔交易:你在用"怕说错"——换"永远不被听见"——<strong>说错一句的代价——是当场脸红三秒——不说一句的代价——是别人一直以为你没想法</strong>——而且第一次开口最难——第三次——就成了习惯——',
+          },
+          {
+            icon: '🎤',
+            title: '表演式:说的是自己的存在感，不是别人的用处',
+            content: '有的人逢会必说——每次都讲十分钟——讲得眉飞色舞——可散会后你回想——一句也记不住——因为他说的全是"我觉得这个方向很好""我们要高度重视这件事"——正确的废话——<br><br>👉 关键区别在这:<strong>发声的目标不是"我说了"——是"事情往前走了"</strong>——开口前先问自己一句:"我这句话——能让在场的人多知道什么、多决定什么、少走哪段弯路?"——答不上来——就先别说——',
+          },
+          {
+            icon: '🧊',
+            title: '一次就死式:被否了一次，从此再不开口',
+            content: '第一次在会上提建议——被领导一句"不成熟"打断了——从那以后——他认定"我说什么都没用"——往后三年——他成了会议室里最安静的那个人——也成了升职名单上最容易被跳过的那个人——<br><br>👉 认清一个真相:<strong>被否掉的——是一次建议——不是你这个人的判断力</strong>——真正的问题不在"被否"——在"只试了一次"——高手的发言——也不是靠某一次赢的——是后面十次里——有三次说对了——<strong>发声是个概率游戏——不下注的人——永远没有赢的那一天</strong>——',
+          }
+        ]
+      },
+      {
+        icon: '✍️',
+        title: '实操方法:发声三步，把话放到桌面上',
+        type: 'text',
+        content: [
+          '敢说、会说、说得住——落到动作上——就三步:',
+          '<strong>① 备——开口前先写三句</strong><br>结论一句:"我建议……"——理由一句:"因为……"——请求一句:"需要您……"——写在手机备忘录里——<strong>不是为了照着念——是为了把"我好像想说点什么"——变成"我要说这三句"</strong>——这三句写不出来——说明你还没想清楚——那就先别急着开口——',
+          '<strong>② 抢——先开口，别等最好的时机</strong><br>会议开始后的前十分钟——是观点最容易落地的窗口——第一个发言的人——会成为后面讨论的锚——<strong>别等"想得更周全"——最好的时机——就是你第一次想说话的那一刻</strong>——练手就选最小的场合:三五个人、说错成本最低的组会——',
+          '<strong>③ 接——被否了接住，被采纳了让出</strong><br>被否的时候——"这个角度我没想过——那我换个问法:如果是……这种情况呢?"——不辩解——只追问——被采纳的时候——"这是大家一起讨论出来的——我负责把它写细"——<strong>接得住否定——你才敢说第二次——让得出功劳——你才有人愿意听第三次</strong>——',
+          '口诀:<strong>备三句——先开口——接得住——发声靠的不是胆子大——是准备足</strong>——',
+        ]
+      },
+      {
+        icon: '📝',
+        title: '今日练习',
+        type: 'practice',
+        content: [
+          '<strong>练习一(今天——"写下那句咽回去的话")</strong><br>回想最近一次"本来想说、最后没说"的场合——把当时想说的话写下来——写成三句:结论、理由、请求——<strong>写完你就明白了——当时没说——不是因为没想法——是因为没准备</strong>——',
+          '<strong>练习二(本周——"在最小的场合，先开一次口")</strong><br>挑一个不超过五个人的场合——做第一个发言的人——只讲三句——讲完就停下——不追加解释——<strong>体验一次"开完口天没塌"——身体记住这件事——比道理管用一百倍</strong>——',
+          '<strong>练习三(本月——"把想法放到更大的地方")</strong><br>选一个你真正想过的问题——在行业群、公司论坛或者你的社交账号上——写一段三百字的观察——署上你的名字——<strong>把你的判断——从脑子里搬到世界上——哪怕只有三个人看见——你也已经完成了一次发声</strong>——',
+        ]
+      },
+      {
+        icon: '💎',
+        title: '今日金句',
+        type: 'quote',
+        quote: 'You know the moment. The idea forms while someone else is still talking — clean, obvious, yours — and you hold it, waiting for a better opening. Then the room moves on, someone says nearly the same thing, and everyone nods. You spend the rest of the hour telling yourself it did not matter. It did. Not because you lost an argument, but because you quietly decided that your thinking did not deserve the room. That decision, repeated over a career, is how capable people become invisible. Here is the strange part: the world is not waiting for you to be ready, and it is not grading your private brilliance. It can only work with what leaves your mouth — the sentence you said in the meeting, the note you posted, the question you asked when everyone else had agreed too fast. Everything you keep inside is, from the outside, indistinguishable from having nothing at all. Speaking up is not about volume or confidence or being the loudest person at the table. It is about service: you saw something other people could not see, and staying silent is a way of letting them walk into it. So prepare three sentences. Say the first one before your heart slows down. Be wrong out loud, in public, and then adjust — because being corrected is cheaper than being overlooked, and far cheaper than being right in silence. The people who shape rooms are not the ones who never misspeak. They are the ones who decided their voice belonged in the room long before anyone invited it. Say the thing. Let the world argue with you. That argument is where your thinking grows up — and where other people finally find out who you are.',
+        author: '—— 原创:写给所有曾经把话咽回去的人'
+      }
+    ]
   }
 }
