@@ -10799,5 +10799,104 @@ const lessons = {
         author: '—— 原创:写给所有曾经把话咽回去的人'
       }
     ]
+  },
+  134: {
+    title: '异议的艺术——真正让你长大的，是反对你的声音',
+    icon: '🎾',
+    subtitle: '昨天你终于开了口——把想法放到了桌面上——今天要面对发声之后的第一个现实:你说出去的每一句话——都会遇到三种回应——点头的、沉默的、和反对的——偏偏是最后一种——最让你难受——也最值钱——我们天生怕被反驳:一句"我不同意"过来——血往头上涌——语速快了一倍——满脑子都在找证据证明自己没错——最后事情没往前一步——还多了一个对手——今天学:怎么把"你错了"——听成"再多给你一个角度"——把一场争论——处成一次升级——',
+    sections: [
+      {
+        icon: '🎯',
+        title: '核心概念',
+        type: 'text',
+        content: [
+          '先回想一次被反驳的时刻:你刚说完一个想法——有人接了一句"我觉得这个不行"——你心里"腾"地一下——接下来的三分钟——你说的话全都在证明自己——散会之后——你想不起对方具体说了什么——只记得"他针对我"——<strong>这就是最常见的一种输法:赢了情绪——输了信息</strong>——',
+          '什么是<strong>异议</strong>:不是抬杠——不是找茬——而是<strong>另一个人用他的经验和视角——在你的判断上敲了一下——看它结不结实</strong>——判断这东西——敲过才知道哪里是实的——哪里是空的——',
+          '接异议有三层:<strong>接住层</strong>——先听完——不急着还嘴——<strong>拆分层</strong>——把对方的话拆成"对的部分"和"不同的部分"——对的部分当场收下——<strong>升级层</strong>——把分歧落成下一步的动作——不争"谁对"——只问"接下来怎么办"——',
+          '为什么值得学?因为<strong>同意你的话——不会让你进步</strong>——只有反对的话里——才装着你没看见的东西——你听进去一句异议——等于免费借用了另一个人的眼睛——',
+          '为什么难?因为<strong>我们早就不把观点当观点——而是把它当成了自己</strong>——"你的方案有问题"——听上去就像"你有问题"——所以一被反对——身体先于理性做出反应——汗毛竖起——进入战斗姿态——',
+          '一句话:<strong>反对你的人——不是你的敌人——是你的免费质检员——他把你想法里的漏洞翻出来——还不要工钱</strong>——',
+        ]
+      },
+      {
+        icon: '🧠',
+        title: '为什么一听反对，我们就想炸毛?',
+        type: 'tip',
+        tipType: 'gold',
+        label: '认知心理学',
+        content: [
+          '心理学里有个现象叫<strong>信念防御</strong>:当一个长期持有的观点被挑战时——大脑启动的应激反应——和"被威胁"时的反应高度相似——换句话说——<strong>观点被否——身体真的会当成"我"被否</strong>——这就是为什么反驳比批评还难接——它动的是"我是对的"这根地基——',
+          '紧接着是<strong>反驳冲动</strong>:人在听到不同意见的最初几秒——最强烈的冲动不是"理解"——而是"回击"——这几秒里说出去的话——大多是防守——不是思考——所以<strong>接异议的第一步永远是——慢三秒</strong>——',
+          '反过来看——为什么接住异议的收益如此之大?因为<strong>同意是最廉价的信息</strong>——朋友点赞——同事附和——只有反对的人会告诉你——这条路哪里会塌——<strong>立场和你不同的人——是你最稀缺的信息源</strong>——',
+          '还有一个反直觉的规律:<strong>你越认真对待反对意见——对方越可能成为你的同盟</strong>——人最在意的不是"你听我的"——而是"你认真听了我的"——',
+          '一句话:<strong>被反对不丢人——被反对之后只会生气——才丢人</strong>——',
+        ]
+      },
+      {
+        icon: '📊',
+        title: '经典案例对比',
+        type: 'comparison',
+        rows: [
+          {
+            before: '方案会上——小陈刚讲完——老周皱起眉:"这个成本太高了——我觉得不行。"——小陈立刻坐直——语速快了一倍:"成本高?我们算过的——你根本没看过我们的分摊口径!"——接下来的十分钟——两个人你一句我一句——老周被逼出了火——小陈被逼出了委屈——方案一个字没改——会散了——<strong>他赢了一句嘴——输掉了一个盟友</strong>——',
+            after: '同样一句话——另一间会议室里——小许先停了两秒:"周工——你的意思是——这个成本结构没算清楚吗?"——老周点头——小许接着:"那我把算法一步步讲一遍——你看看哪一层不对——真有毛病——今天就改。"——十分钟后——老周指出的那个分摊口径——确实错了——方案当场补了一条——<strong>她输了一次面子——换回了一个更硬的方案</strong>——'
+          },
+          {
+            before: '文章底下有人留言:"你这个观点太片面了。"——小李火气上头:"片面?你读完了吗?"——对方再回——他又回——三个来回之后——他早就忘了自己当初想说什么——只记得"这个人真讨厌"——<strong>讨论——在第三句就变成了斗气</strong>——',
+            after: '同样是这条留言——老张的回法是:"你说的这个角度我确实没写到——能不能展开讲两句?"——对方真的写了三百字——里面有一条是他确实漏掉的——他补进了下一篇——开头还写了一句"谢谢上一条留言，提醒了我一个盲区"——<strong>那个最尖锐的读者——后来成了他最忠实的读者</strong>——'
+          }
+        ]
+      },
+      {
+        icon: '🎬',
+        title: '场景案例',
+        type: 'case',
+        cases: [
+          {
+            icon: '🤺',
+            title: '防守式:把每一个问题，都当成攻击',
+            content: '只要有人说"但是"——他就进入战斗状态——对方问"这个数据哪来的"——他听成"你是不是造假"——对方说"要不要再想想"——他听成"你不行"——<br><br>👉 看清这笔账:你在用"必须赢"——换"没人再敢跟你说真话"——<strong>当所有人都发现跟你说话得小心翼翼——你就再也拿不到真信息了</strong>——真话——是给让人安全的人准备的——',
+          },
+          {
+            icon: '🤝',
+            title: '投降式:一被质疑，就全盘放弃',
+            content: '还有一种人——一听到反对——立刻后退:"那算了吧——当我没说。"——看上去是随和——实际上是<strong>把判断权整个交了出去</strong>——他的想法——永远活不过第一句质疑——<br><br>👉 先分清一件事:<strong>对方反对的——可能只是方案里的一条——不是全部</strong>——正确动作不是全丢——而是拆开来——一条一条说:"这条我改——那条我想坚持——因为……"——<strong>守得住一部分的人——才真正拥有自己的判断</strong>——',
+          },
+          {
+            icon: '🥊',
+            title: '缠斗式:赢了争论，输了事情',
+            content: '有人吵架会上瘾——对方说一句——他备着十句——一场会下来——他赢遍全场——可他的方案——一条也没落地——因为所有人都在等他闭嘴——<br><br>👉 回到这次争论的目标:不是"证明我对"——是"让事情变好"——<strong>如果对方被你说到没话说——然后转身不配合——你其实是彻底失败了</strong>——真正的高手——吵完这一架——对方还愿意跟他一起干活——',
+          }
+        ]
+      },
+      {
+        icon: '✍️',
+        title: '实操方法:接异议三步，把反对变成养料',
+        type: 'text',
+        content: [
+          '<strong>① 停——把第一句话，留给自己</strong><br>听到反对的第一秒——在心里默数三下——把冲到嘴边的那句反驳咽回去——<strong>这三秒——是你从"情绪频道"切回"思考频道"的全部时间</strong>——任何在火气里说出的第一句话——事后你都会想收回——',
+          '<strong>② 复述——用对方的话，换对方的信任</strong><br>开口的第一句不是"但是"——而是"我理解你的意思是……"——把他的观点用自己的话复述一遍——再问一句"我理解得对吗"——<strong>复述会让对方的火气先降一半——因为被听懂，是所有人最深的渴望</strong>——而且这个动作逼着你——真的把话听完——',
+          '<strong>③ 拆分——一句话里，常常一半对一半不对</strong><br>复述完再动手拆:"你说的成本问题我接受——但我想补充另一半:省下来的沟通成本——才是关键。"——<strong>先收下对的部分——再说不同的部分——顺序反了——就变成吵架</strong>——最后一定要落到动作上:"那我们要不要先试一周?"——<strong>把争论的终点——从"谁对"改成"下一步"</strong>——',
+          '口诀:<strong>停三秒——复述一遍——拆开一半——接住异议的人——把对手变成了老师</strong>——',
+        ]
+      },
+      {
+        icon: '📝',
+        title: '今日练习',
+        type: 'practice',
+        content: [
+          '<strong>练习一(今天——"拆一次你炸毛的瞬间")</strong><br>想想最近一次被反驳后情绪上来的场景——把对方当时说的话原原本本写下来——拆成两列:"他说对的部分"和"不同的部分"——<strong>你会惊讶地发现——至少三分之一——他说得对</strong>——',
+          '<strong>练习二(本周——"主动请人反驳你一次")</strong><br>找一个你最信任、也最敢说话的人——把你最近的一个决定讲给他听——然后补一句:"我想听你挑毛病——真的挑。"——全程只准复述——不准辩解——<strong>敢主动求批评的人——进步速度是别人的三倍</strong>——',
+          '<strong>练习三(本月——"给一位反对者回一句谢谢")</strong><br>找出最近一次"被反对"的场合——给对方发一句实话:"你上次说的那一点——我后来越想越有道理。"——<strong>这句话说出去——你只丢了一点面子——却可能换回一个愿意长期跟你说真话的人</strong>——',
+        ]
+      },
+      {
+        icon: '💎',
+        title: '今日金句',
+        type: 'quote',
+        quote: 'Say the thing — and then wait, because the world answers. It rarely answers with applause. Someone will disagree, and their disagreement will land like a slap: too expensive, too naive, too late, too much. And everything in you will want to fight back — heat in the chest, a faster voice, a list of reasons you were right all along. Notice what just happened. You stopped listening the moment you started defending. Here is the trade you make, every single time: you protect the feeling of being correct, and you give up the only free audit your thinking will ever get. Praise is the world being polite. Disagreement is the world being honest. And honesty is rarer, and worth far more. The person across the table is not your enemy; they are a second pair of eyes on a plan you can only see from where you stand. They walked a different road, collected different evidence, and are now handing you the one thing you cannot produce alone: a view from outside yourself. So slow down. Say their idea back to them before you answer it. Split it open — take the part that is true, and test the part that is not. Ask what should happen next instead of who should be right. You will lose a few arguments this way. You will also win the only game that matters, which is getting closer to the truth in every conversation you have. And something stranger will happen too: the people who argue with you will start to trust you, because nothing earns respect like being taken seriously by someone who disagrees. One day you will look back and notice that the ones who made you think hardest were never the ones who agreed. They were the ones who said no — and then stayed at the table long enough to tell you why.',
+        author: '—— 原创:写给所有一被反驳就竖起刺的人'
+      }
+    ]
   }
 }
