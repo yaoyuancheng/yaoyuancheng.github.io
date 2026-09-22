@@ -10998,5 +10998,106 @@ const lessons = {
         author: '—— 原创:写给所有还在用说服硬碰硬的人'
       }
     ]
+  },
+  136: {
+    title: '落地的艺术——把"一起同意"，变成"一起做到"',
+    icon: '📌',
+    subtitle: '昨天你把"你对我错"做成了"一起对"——会议室里所有人都点了头——你以为最难的一关过去了——两周后你才发现:事情原地没动——没有人反对——只是没有人在做——分歧会吵出声音——共识散起来却是无声的——它不炸——它只是慢慢凉掉——今天学:从"我们都同意"到"我们都做到了"之间那一段路——到底该怎么走——',
+    sections: [
+      {
+        icon: '🎯',
+        title: '核心概念',
+        type: 'text',
+        content: [
+          '先回想一个很熟悉的画面:会开得很好——每个人都发言了——分歧被摆平了——最后大家一起点头:"就这么办。"——散会——各自回工位——两周后有人问起——才发现事情一点没动——<strong>共识没有输给反对——它输给了忙碌</strong>——',
+          '什么是<strong>落地</strong>:把"我们同意"这句感觉——翻译成一句事实——"谁——在什么时候——做什么"——共识是<strong>同意</strong>——落地是<strong>动作</strong>——两者之间隔着的东西——不是诚意——是具体——',
+          '共识身上有一件几乎所有人都低估的事:<strong>它有保质期——而且很短</strong>——会议室里温度最高——走出门就开始降——因为一出那扇门——每个人立刻被自己的十条待办淹没——<strong>没有钉住的共识——会被日常悄无声息地冲走</strong>——',
+          '落地其实只需要钉四颗钉子:<strong>有人</strong>——每件事只能对应一个名字——<strong>有时</strong>——把"尽快"换成具体日期——<strong>有字</strong>——写下来、发出去、让所有人看见——<strong>有复查</strong>——定一个回看的日子和改约的规矩——四颗钉子缺一颗——事情就会从那道缝里漏掉——',
+          '为什么值得学?因为<strong>没有落地的共识——比没有共识更贵</strong>——没有共识时——大家至少知道事情没定——会再议一次——而"以为定了"的共识——让所有人放心地等着别人先动手——<strong>它偷走的不只是时间——还有警惕</strong>——',
+          '一句话:<strong>没有名字和日期的共识——不叫共识——叫愿望</strong>——',
+        ]
+      },
+      {
+        icon: '🧠',
+        title: '为什么一散会，共识就开始蒸发?',
+        type: 'tip',
+        tipType: 'gold',
+        label: '行为科学',
+        content: [
+          '第一种力量叫<strong>记忆重构</strong>:同一场会——三个人记得三个版本——不是谁撒谎——是人的记忆天生会往自己方便的方向去补——<strong>没有留痕的共识——每个人记住的都是"对自己最有利的那一版"</strong>——',
+          '第二种叫<strong>责任分散</strong>:一件事挂在"大家"名下——就等于挂在空气里——这是心理学里最稳的规律之一:<strong>责任越模糊——行动越少</strong>——三个人共同负责的事——完成度通常低于一个人单独负责的事——',
+          '第三种叫<strong>社会性懈怠</strong>:人在群体里会自动调低自己的出力——因为"少我一个——结果也差不多"——于是出现人越多、每个人越松的怪现象——<strong>"大家都同意"里藏着一个陷阱:人人都以为别人会做</strong>——',
+          '第四种叫<strong>乐观偏差</strong>:我们默认"同意了"就等于"会做"——可同意是一种表态——做是一种行为——<strong>表态的成本是零——所以它极不可靠</strong>——',
+          '那为什么写下来会这么有用?因为<strong>公开承诺</strong>:人一旦把自己的名字和一句承诺放在一起、并且被看见——不一致的代价就变得具体可感——<strong>说出口的承诺——比心里的决定——牢固得多</strong>——',
+          '一句话:<strong>共识的敌人从来不是反对——是遗忘、忙碌——和那句"我以为他会做"</strong>——',
+        ]
+      },
+      {
+        icon: '📊',
+        title: '经典案例对比',
+        type: 'comparison',
+        rows: [
+          {
+            before: '一个团队开了两小时的会——讨论得很充分——结束时大家一致认可:"这版方案不错——就按这个方向推进。"——没人反对——气氛很好——散会——两周后同步进度——三个人交出了三样不一样的东西——一个做了A——一个做了B——还有一个一直在等"具体安排"——<strong>会上明明都说同意了——可每个人都只听到了自己那部分</strong>——',
+            after: '另一个会议——讨论结束后——主持人多花了十分钟——只做三件事:把结论完整念一遍——然后逐条问:"这一条——谁来做?"——"什么时候给我?"——"我们什么时候回来看一眼?"——最后当场把这段写进群里——@到每个人——<strong>同样两小时——结果差了两周</strong>——那十分钟不是会议的尾巴——是会议真正产生价值的地方——'
+          },
+          {
+            before: '两个人是合伙人——一次长谈之后彼此坦白——"以后我们要多沟通——有事别憋着。"——两个人都真心这么想——可"多沟通"没有形状——于是过了一个月——谁都没有主动——因为两个人都在等对方先开口——<strong>一段关系最危险的状态不是吵架——是两个人心照不宣地都不提</strong>——',
+            after: '另一对合伙人谈完同样的话之后——把它落成了两件小事:"每周五下午四点——十分钟——同步一次。"——再加一句"谁这周有事憋着——就写到这一栏里。"——没有誓言——只有一个时间和一个格子——可一年后回头看——<strong>真正救下这段关系的——不是那场坦白——是那个每周五四点</strong>——'
+          }
+        ]
+      },
+      {
+        icon: '🎬',
+        title: '场景案例',
+        type: 'case',
+        cases: [
+          {
+            icon: '👥',
+            title: '只落事、不落人:挂在"大家"名下的事，等于挂在空气里',
+            content: '"这个大家一起推一下。"——这句话听着团结——其实是共识的第一种死法——<strong>一件事只要有两个人共同负责——通常就等于没有人负责</strong>——因为每个人都等着别人先动手——你去翻项目里卡住的事——十有八九——不是难——是"没人认领"——<br><br>👉 换个说法就能救活:把"大家一起"改成"这件事——你来——需要谁配合——你自己去点人"——<strong>一件事只能有一个名字——有了名字——才会有下一步</strong>——',
+          },
+          {
+            icon: '⏰',
+            title: '只落人、不落时:没有日期的任务，等于"永远不会做"',
+            content: '"尽快""这周看看""回头处理一下"——这些词听上去都像承诺——其实都是缓兵之计——<strong>"尽快"是共识里最贵的一个词——因为它把决定权从今天交回给了永远</strong>——人在没有截止线的时候——会本能地把事情排到最后——不是懒——是大脑天生优先处理有期限的事——<br><br>👉 把模糊换成具体:"下周三中午前——把初稿发群里"——<strong>一个具体日期——比十句"这件事很重要"更管用</strong>——',
+          },
+          {
+            icon: '🌀',
+            title: '人时都落好了、却没有复查口:环境一变，大家会悄悄撤出',
+            content: '前面几条都做到了——事情还是可能烂尾——因为现实会变:优先级别变了——资源没了——有人家里出了事——这时候大多数人不会回来说一句"我做不到了"——他们会<strong>沉默地往后拖——拖到你来问——才说"最近实在忙"</strong>——这不是人品问题——是人性:说"我做不到"太难——<br><br>👉 所以落地要留最后一颗钉子:一开始就约定一句——"如果做不到——提前三天说——我们改约——不算失约。"——<strong>允许改约的共识——才有人敢真承诺</strong>——不给出口的约定——最后都会被静默违约杀死——',
+          }
+        ]
+      },
+      {
+        icon: '✍️',
+        title: '实操方法:落地四钉，把共识钉进现实',
+        type: 'text',
+        content: [
+          '<strong>① 钉人——每件事只能有一个名字</strong><br>逐条念结论——每条问一句:"这件事——谁?"——不接受"大家一起""我们组""看情况"——<strong>名字落到一个人身上——责任才有重量</strong>——确实需要协作的——也要指定唯一那个负责收口的人——',
+          '<strong>② 钉时——把"尽快"逼成一个日期</strong><br>当场把每一个模糊词换成具体时间:"尽快"→"周三下班前"——"这周"→"周五下午三点"——<strong>没有日期的事——不叫任务——叫氛围</strong>——同时补一句"这个时间——你有把握吗"——让人自己说出口的日期——比派给他的日期——可靠得多——',
+          '<strong>③ 钉字——写下来，发出去，让所有人看见</strong><br>散会前十分钟——把结论写成文字——发进群里并@到人——<strong>写下来的那一刻——每个人的记忆就不再有任何分歧的余地</strong>——而且被看见的承诺——比只有两个人知道的承诺——执行起来扎实得多——',
+          '<strong>④ 钉口——定一个回看日，留一个改约的口</strong><br>定好什么时候回看——一周?两周?——同时把这句话说清楚:"做不到——提前说——可以改。"——<strong>留出口不是松——是让承诺变真:知道自己能体面地说"我做不到"的人——才敢说"我一定做到"</strong>——',
+          '口诀:<strong>有人——有时——有字——有复查——四颗钉子都钉上——共识才算真的落地</strong>——',
+        ]
+      },
+      {
+        icon: '📝',
+        title: '今日练习',
+        type: 'practice',
+        content: [
+          '<strong>练习一(今天——"翻出一件凉掉的共识")</strong><br>找出最近一次"大家都同意"却没了下文的事——对着它问三句:"谁?什么时候?谁回来看?"——<strong>多半你会发现——它凉掉的真正原因——是从来没有人问过这三个问题</strong>——',
+          '<strong>练习二(本周——"把会议最后十分钟留给落地")</strong><br>下一次开会——主动争取最后十分钟——不讨论内容——只做一件事:把结论逐条落到人和日期——当场发进群里——<strong>这十分钟——是整场会最值钱的十分钟</strong>——',
+          '<strong>练习三(本月——"给一个约定配上复查日和改约口")</strong><br>挑一件你和别人刚刚说好的事——补上两样东西:回看的日期——和一句"做不到提前说"——<strong>敢留出口的约定——才不会变成两个人之间的账</strong>——',
+        ]
+      },
+      {
+        icon: '💎',
+        title: '今日金句',
+        type: 'quote',
+        quote: 'Everyone agreed. That is the part people remember — the nodding, the good feeling in the room, the moment the disagreement dissolved and the table came together. And then everyone went back to their desks, and the agreement began to evaporate, silently, the way heat leaves a room through walls you cannot see. Nobody betrayed anybody. Nobody changed their mind. They simply got busy, and the thing you all agreed on had no name attached to it, no date, no sentence written down anywhere — so it had nothing to hold onto. Here is the truth that took me years to accept: agreement is a feeling, and feelings are not load-bearing. You cannot build on them. What holds weight is a name, a date, and a line of text that everyone can point to. So do the unglamorous thing. Do not end the meeting at the moment of agreement — end it ten minutes later, after you have asked, out loud, one item at a time: who does this, by when, and when do we look at it again. Watch what happens to the room. Someone who was nodding comfortably now has to say their own name. A vague promise turns into a Tuesday. And the agreement stops being an atmosphere and becomes a thing that exists. Then leave one more door open, because this is the part that separates a real commitment from a performance: say the sentence that nobody says. If you cannot do it, tell me early, and we will change the plan — and that will not be counted as breaking your word. I know it sounds like a way out. It is the opposite. It is the only reason anyone can honestly say: I will do this. A promise with no exit is not stronger — it is just more likely to be quietly abandoned. So the next time everyone agrees, resist the warm feeling. That warmth is not the finish line. It is the starting pistol. Give the agreement a name, a date, a line of text, and a day to look back — and it will still be alive a month from now, doing the work you thought you had already finished.',
+        author: '—— 原创:写给所有"会上都同意、会后没动静"的人'
+      }
+    ]
   }
 }
