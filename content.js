@@ -11099,5 +11099,106 @@ const lessons = {
         author: '—— 原创:写给所有"会上都同意、会后没动静"的人'
       }
     ]
+  },
+  137: {
+    title: '复盘的艺术——把"这事过去了"，变成"我们变强了"',
+    icon: '🔁',
+    subtitle: '昨天你学会了把"一起同意"变成"一起做到"——有人——有日期——有回看——事情终于动了——几周后——事情做完了——交出去了——庆功饭也吃了——可你有没有发现一个现象:同一个坑——去年踩过——今年还在踩——同一类麻烦——上个月刚解决——这个月又来一遍——我们做了很多事——却很少真的从事情里拿走什么——因为绝大多数的"结束"——只是停下来——不是看明白——今天学:事情做完之后——怎么回头认真看一眼——把一次经历——换成一次升级——让下一次的你——站在这一次的肩膀上——',
+    sections: [
+      {
+        icon: '🎯',
+        title: '核心概念',
+        type: 'text',
+        content: [
+          '先看一个几乎人人都有的经历:一个项目熬了三个月——中间出过一堆问题——延期、返工、有人闹别扭——最后磕磕绊绊交付了——大家松了口气——吃顿饭——"总算过去了"——然后各忙各的——半年后换了个项目——<strong>同样的问题——一个不少——又演了一遍</strong>——',
+          '什么是<strong>复盘</strong>:不是总结——不是检讨——更不是追责——它的定义只有一句——<strong>把发生过的事——翻译成下次能用的东西</strong>——事情本身会过去——但从事情里长出来的东西——可以留下——',
+          '这里要先拆掉三个误会:<strong>复盘不是表扬大会</strong>——只说好的——等于什么都没说——<strong>复盘不是批斗会</strong>——一定要找出一个人来负责——下次就没人敢说真话了——<strong>复盘也不是走过场</strong>——"这次整体不错——下次继续努力"——这种话说了等于没说——',
+          '复盘真正盯着的——只有一样东西:<strong>差异</strong>——哪一步的结果——和你当初以为的——不一样——差异出现的地方——才是经验藏着的地方——',
+          '为什么必须复盘?因为<strong>经历不会自动变成经验</strong>——你做过一百次饭——如果每次都凭感觉——第一顿和第一百顿不会有区别——真正的分水岭不是做了多少次——而是有没有在每一次之后——停下来看一眼——',
+          '一句话:<strong>做过——不等于会了——中间那座桥——叫复盘</strong>——',
+        ]
+      },
+      {
+        icon: '🧠',
+        title: '为什么"回头看"这么难?',
+        type: 'tip',
+        tipType: 'gold',
+        label: '认知心理学',
+        content: [
+          '第一种力量叫<strong>自我服务偏差</strong>:事情成了——我们会归功于自己的能力和努力——事情砸了——我们会归因于环境、运气和别人——这不是虚伪——是人保护自我的本能——<strong>可它恰好挡住了复盘最需要的那个视角:我做了什么——导致了什么</strong>——',
+          '第二种叫<strong>后见之明偏误</strong>:一旦知道了结果——我们就会觉得"当时本来就该想到"——于是复盘变成一句轻飘飘的"下次注意"——<strong>知道了答案以后回看——人人都像先知——可当时站在雾里的那个人——不是你现在的样子</strong>——',
+          '第三种叫<strong>情绪成本</strong>:回头看失败——等于把不舒服的场面重放一遍——大脑本能地躲——于是"改天再复盘吧"——然后就没有改天了——<strong>越疼的事——越值得复盘——也越容易被跳过</strong>——',
+          '第四种叫<strong>记忆的重写</strong>:人对自己的记忆——会不自觉地美化——当时的犹豫记成了果断——当时的失误记成了意外——<strong>所以复盘必须靠事实——不能靠回忆</strong>——去找当时的聊天记录、邮件、文档——那才是那件事真实的样子——',
+          '那为什么写下来会这么有用?因为<strong>一旦落成文字——它就从一个人的感受——变成一群人的资产</strong>——写下来的教训能被别人读到——能被下一次的你读到——留在脑子里——只会随人一起流失——',
+          '一句话:<strong>复盘最大的敌人不是没时间——是大脑天生不爱看自己的账</strong>——',
+        ]
+      },
+      {
+        icon: '📊',
+        title: '经典案例对比',
+        type: 'comparison',
+        rows: [
+          {
+            before: '一个团队刚交付完一个艰难的项目——有人提议复盘——会议室里坐了四十分钟——发言是这些:"整体还行吧。""就是中间沟通有点乱。""下次注意点就好。"——没有人反驳——也没有人记笔记——散会时大家的感觉是"这算是交差了"——<strong>四十分钟里——没有出现一个具体的时间、一件具体的事、一个具体的环节</strong>——半年后——下一个项目——同样的沟通问题——原样再现——',
+            after: '另一个团队复盘时——只做三件事:把当初的计划摆出来——逐条比对"说好要做的"和"实际发生的"——然后专挑那些对不上的地方问:"这里为什么偏了?"——"当时是什么情况?"——"下次同样的情况——我们怎么做不一样?"——最后把结论写成三条——放进下一个项目的启动文档——<strong>同一个坑——他们只掉进去一次</strong>——'
+          },
+          {
+            before: '一件事搞砸了——你在心里骂自己:"怎么这么蠢""早该想到的""下次一定注意"——骂完——情绪过去了——生活继续——<strong>"下次一定注意"是世界上重复率最高的一句话——因为它没有主语、没有动作、没有触发条件</strong>——下次真到那一刻——你依然会做同样的选择——因为你从来没有告诉过自己:具体要在哪一步、做什么不一样——',
+            after: '另一种做法是——找张纸——写下三个句子:"当时我以为会发生什么?"——"实际发生了什么?"——"这两者差在哪一环?"——然后补上第四句:"下次到那一环——我改做的是这一件事。"——<strong>把"下次注意"——换成一个具体的动作——这一次付的代价——才算真的付得值</strong>——'
+          }
+        ]
+      },
+      {
+        icon: '🎬',
+        title: '场景案例',
+        type: 'case',
+        cases: [
+          {
+            icon: '🌫️',
+            title: '只讲感受、不讲事实:开场第一句就决定了复盘有没有价值',
+            content: '"这次大家配合得不太顺。""我感觉中间有点乱。"——这类话听着像在复盘——其实什么都没说——因为<strong>感受没有刻度——每个人听到的都不一样</strong>——说的人觉得"你懂的"——听的人心里想的是"他说的到底是不是我"——<br><br>👉 换个说法就能救活:把感受换成事实——"原定周三交的稿——实际周五才到——这两天里对接的人没法往下走"——<strong>事实摆上桌——讨论才有落点——也不会变成暗戳戳的指责</strong>——',
+          },
+          {
+            icon: '⚖️',
+            title: '只找人、不找事:复盘一旦变成追责，真话就再也听不到了',
+            content: '"这次是谁出的问题?"——这句话一出口——会议的性质就变了——接下来所有人做的都不是分析——是自保——有人开始找证据证明"不怪我"——有人干脆闭嘴——<strong>你要的那个真相——在追责的第一分钟就躲起来了</strong>——更贵的代价在后面:下次出事——没人会第一个说——因为说了就要担——<br><br>👉 把矛头从人转向环节:"是哪个环节——让这个错误有机会发生?"——<strong>同一件事——问"谁错了"得到的是防备——问"哪里漏了"得到的是改进</strong>——事改了——人才会跟着变——',
+          },
+          {
+            icon: '💤',
+            title: '只复盘、不迁移:结论停在纸上，等于白复',
+            content: '一场认真、诚实、有人掏心窝子说话的复盘——最后产出五条结论——写进一个文档里——然后——没有然后了——下一个项目启动时——没有人会去翻半年前的复盘文档——<strong>复盘最容易死的地方不是会上——是会后:经历被提炼了——却没有被送回下一次</strong>——<br><br>👉 让结论活下来的办法:把它变成可执行的动作——不是"要加强沟通"——而是"每周五下午四点——同步十分钟"——然后把它<strong>放进下次一定会打开的地方</strong>:项目的启动清单、你自己的工作手册、或者下一次的会议议程——<strong>能被下一次用到的经验——才叫经验——其余的叫感想</strong>——',
+          }
+        ]
+      },
+      {
+        icon: '✍️',
+        title: '实操方法:复盘四问，把经历熬成经验',
+        type: 'text',
+        content: [
+          '<strong>① 问事实——先摆发生了什么，不带评价</strong><br>把时间线拉出来:原计划是什么——实际做了什么——关键节点分别发生了什么——<strong>这一步唯一的纪律是:只说能被证明的事</strong>——不写"他不配合"——写"他在群里没有回复——直到第三天"——事实先行——后面的分析才不会建在情绪上——',
+          '<strong>② 问差异——哪一步和预期不一样</strong><br>把"计划"和"实际"并排放——逐条对——<strong>差异出现的地方——才是这一趟真正值得带走的地方</strong>——没有差异的部分——说明你的做法已经对了——不用再花时间——',
+          '<strong>③ 问原因——往下挖两层，别停在第一层</strong><br>第一层的答案通常是"时间太紧""沟通不畅""别人不配合"——这些都是表面——再问一句"为什么"——时间太紧——是因为排期时没有把等待别人回复的时间算进去——<strong>停在第一层——你只会得到一句抱怨——挖到第二层——你才拿到一个可以改的东西</strong>——',
+          '<strong>④ 问迁移——下次遇到同类情况，我做什么不一样</strong><br>把结论写成一句可执行的话——要有触发条件、有具体动作——"如果下次再排期——我会在提交前——先把对方的响应时间预留出来"——<strong>没有"如果"和"我会"的结论——都是感想——不是经验</strong>——',
+          '口诀:<strong>先摆事实——再找差异——后挖原因——最后落到下次的动作</strong>——四问走完——一次经历才算真的被你拿走——',
+        ]
+      },
+      {
+        icon: '📝',
+        title: '今日练习',
+        type: 'practice',
+        content: [
+          '<strong>练习一(今天——"给一件刚结束的事做一次四问")</strong><br>挑一件最近刚结束的事——不管大小——按四问走一遍:事实、差异、原因、迁移——全部用笔写下来——<strong>写的过程本身——就是把模糊的感觉逼成具体认知的过程</strong>——',
+          '<strong>练习二(本周——"把一个下次注意翻译成动作")</strong><br>找出你最常对自己说的那句"下次一定注意"——把它改写成有触发条件的一句话:"如果____发生——我会____"——<strong>一句有"如果"的承诺——比十句"一定注意"值钱</strong>——',
+          '<strong>练习三(本月——"把一条经验放到下次一定会看到的地方")</strong><br>把一条复盘结论——写进你的启动清单、备忘录顶端、或者下一个项目的开场文档——<strong>经验的敌人不是遗忘——是待在没人会打开的文件夹里</strong>——',
+        ]
+      },
+      {
+        icon: '💎',
+        title: '今日金句',
+        type: 'quote',
+        quote: 'It is over. Whatever it was — the project, the argument, the long year — it is over, and that is exactly why almost nobody looks back. The relief of finishing is powerful enough to erase the entire question of what finishing taught us. We file it away the way you file a receipt: proof that something happened, and nothing more. And so we repeat ourselves. Not because we are careless, but because experience does not work the way everyone assumes. It is not a substance that accumulates inside you just by being alive. Ten years of doing something the same way does not produce ten years of skill. It produces one year of skill, repeated ten times. I learned this the slow way, in a room where we had just shipped something difficult, and someone asked, so what did we learn? and the room went quiet, and everyone looked at the table, and someone finally said, that it was hard. That was the honest answer. That was all we had. So here is what I do now, and it is not complicated — it is just uncomfortable. I sit down while the bruise is still fresh, and I write the facts first, before my memory has time to rewrite them into a kinder story. Not what I felt. What happened, in order, in plain sentences. Then I put the plan next to the reality and look at the gap between them, because the gap is the only part worth reading. Then I ask why — and then I ask why again, because the first answer is always a complaint about time or about other people, and the second answer is almost always something that was mine to control. And finally I write one sentence that begins with if: if this happens again, I will do this instead. That sentence is the whole point. It is the difference between a scar and a lesson. A scar is a story you carry. A lesson is a move you make. Nobody is asking you to relive the worst parts, or to find someone to blame, or to perform a tidy version of growth for an audience. Just do the honest ten minutes: what happened, where it differed, why, and what you will do differently. Do it, and the thing is finally yours. Skip it, and you will be back here next year, doing it again, wondering why nothing ever changes.',
+        author: '—— 原创:写给所有"忙了很多、却没长进多少"的人'
+      }
+    ]
   }
 }
