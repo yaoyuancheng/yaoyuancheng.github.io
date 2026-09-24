@@ -11200,5 +11200,107 @@ const lessons = {
         author: '—— 原创:写给所有"忙了很多、却没长进多少"的人'
       }
     ]
+  },
+  138: {
+    title: '请教的艺术——把"这事我不会"，变成"有人愿意教"',
+    icon: '🙋',
+    subtitle: '昨天你学会了回头——把一次经历——熬成一条经验——下一次的你——终于站在了这一次的肩膀上——可复盘能给你的——只有你自己走过的那条路——有些坑——你本不必亲自去踩——有些弯路——早有人替所有人走过一遍——有些答案——问一句就能拿到——而你偏偏选了最慢的那条:自己摸索——今天学:怎么开口向人请教——把别人的十年——换成你的一步——',
+    sections: [
+      {
+        icon: '🎯',
+        title: '核心概念',
+        type: 'text',
+        content: [
+          '先看一个几乎人人都做过的选择:碰到一件不会做的事——你的第一反应是什么?打开搜索框——翻半天——或者干脆自己硬扛——"我先试试看"——试了三天——进度停在原地——而你身边——就坐着一个三年前做过一模一样的事的人——<strong>你宁愿自己撞三天墙——也不肯开口问一句</strong>——',
+          '什么是<strong>请教</strong>:它不是伸手要一个现成的答案——而是<strong>借用别人的经验——把自己摸索的时间压缩掉</strong>——同一件事——有人花了三年才摸清门道——你问对了——可能三十分钟就拿到了主干——',
+          '这里要先拆掉三个误会:<strong>请教不是示弱</strong>——恰恰相反——它说明你清楚自己缺什么——也知道去哪儿补——<strong>请教不是麻烦别人</strong>——真正麻烦的——是你把问题拖到无法收拾——然后让所有人一起加班——<strong>请教也不是把问题甩出去</strong>——"你觉得我该怎么办?"——这不是请教——这是把责任转移——',
+          '请教真正的姿态是:<strong>我已经走到了我的边界——接下来的那段路——想借你的地图看一眼</strong>——带着自己走过的路去问——对方给的那一句话——才会真的落在你手上——',
+          '为什么必须学会请教?因为<strong>时间是唯一不能复制的资源</strong>——你没办法把自己变成三年后的自己——但你可以让走过那条路的人——用十分钟——把地图画给你——',
+          '一句话:<strong>自己摸索是美德——但一直自己摸索——是浪费</strong>——',
+        ]
+      },
+      {
+        icon: '🧠',
+        title: '为什么"开口问"这么难?',
+        type: 'tip',
+        tipType: 'gold',
+        label: '认知心理学',
+        content: [
+          '第一种力量叫<strong>自我形象威胁</strong>:问问题意味着当众承认"我不会"——大脑把它翻译成"我不行"——于是宁可硬撑——也不肯说出那三个字——<strong>可事实是——没人会因为你不会而看轻你——人们真正看轻的——是不懂又不问、最后把事搞砸的人</strong>——',
+          '第二种叫<strong>负债感</strong>:别人花了时间帮你——你心里会记一笔"我欠他"——不舒服——于是干脆不开口——<strong>可关系恰恰是在这一来一往里长出来的——你欠我一次——我还你一次——两个人就熟了</strong>——从来不互相麻烦的人——往往也走不近——',
+          '第三种叫<strong>拒绝敏感</strong>:你在脑子里预演了一百遍对方皱眉的样子——然后得出"还是别问了"——<strong>而现实中——绝大多数人比自己以为的更愿意帮人——这个偏差有个名字——叫"帮助低估"</strong>——我们总是低估别人愿意伸手的程度——',
+          '还有一个反直觉的发现:<strong>向一个人请教——会让他更喜欢你</strong>——因为你的请教是对他经验的确认——他讲完那十分钟——会觉得自己有价值——这不是客套——是真实存在的心理效应——',
+          '再说一个更常见的:<strong>我们把"问"想得太大了</strong>——你以为要占用对方一个小时——其实你可能只需要一句话——"这件事我卡在这里——你当时是怎么过的?"——十分钟——对他来说只是喝杯水的功夫——对你是少走三个月——',
+          '一句话:<strong>你怕的那件事——大多发生在你的想象里——不在对方的反应里</strong>——',
+        ]
+      },
+      {
+        icon: '📊',
+        title: '经典案例对比',
+        type: 'comparison',
+        rows: [
+          {
+            before: '你接到一个从没做过的任务——第一反应是自己啃——搜资料、看教程、反复试——两周过去——主路还没摸到——进度条一动不动——你甚至开始怀疑自己是不是不适合干这行——<strong>两周里——你没有做过一件真正推进的事——你只是在重新发明一个别人早就发明过的东西</strong>——',
+            after: '另一种做法是——花二十分钟找到做过这件事的人——不问"这个怎么做"——而是说:"我在做X——我试了A和B——卡在C——你当时是怎么处理的?"——十分钟后——你拿到了三条主干——<strong>那两周的煎熬——变成了三十分钟的对话——不是因为你更聪明——是因为你没打算从头再发明一遍</strong>——'
+          },
+          {
+            before: '开口是:"这个该怎么弄啊?"——对方想了想——回你一句"你先看看文档吧"——你更堵了——觉得对方敷衍——<strong>可这句话背后是:问题太大——对方不知道从哪儿答起——也不想替你思考</strong>——',
+            after: '换一种问法:"我理解这件事大概是A→B→C三步——但我卡在B——我怀疑是因为D——你觉得我这个判断对吗?"——对方立刻接得住——"D不对——真正的原因是E——你去看看那个"——<strong>问答题换来的是敷衍——选择题换来的是干货——因为你已经替对方把思考的边界画好了</strong>——'
+          }
+        ]
+      },
+      {
+        icon: '🎬',
+        title: '场景案例',
+        type: 'case',
+        cases: [
+          {
+            icon: '⏰',
+            title: '问得太晚:憋到最后一天才开口，谁都救不了你',
+            content: '"我先自己弄——弄不出来再说"——于是你一直没问——直到交付前一晚——你终于承认做不出来——这时开口——对方能给你的只有一句"来不及了"——<strong>请教的黄金时间——是你还有时间改的时候——不是你已经无路可走的时候</strong>——<br><br>👉 给自己设一个"求助闹钟":一件事卡住超过约定的时长——就必须开口——<strong>卡住的时间是有成本的——早一小时问——少三天熬</strong>——',
+          },
+          {
+            icon: '🎣',
+            title: '只要答案、不要判断:拿到鱼，还是不会钓鱼',
+            content: '"这个你先做A再做B就行"——你照做了——问题解决了——下次遇到同类的事——你又卡住了——只能再去问——<strong>你在收集答案——而不是在建立判断——答案是消耗品——下一次不一定适用——判断力才是资产</strong>——<br><br>👉 每次请教完——补一个问题:"你当时是怎么判断该走这一步的?"——<strong>把答案换成一个判断方法——这一次请教就变成了永久收益</strong>——',
+          },
+          {
+            icon: '🔕',
+            title: '问完就消失:没有回音的人，第二次没人愿意教',
+            content: '对方认真给你说了半个小时——你回去做了——成了——然后——没有然后了——一句回话都没有——半年后你又来问——对方的热情已经凉了——<strong>不是他小气——是帮忙这件事——需要看到结果才有意义</strong>——<br><br>👉 一件小事就能补上:"上次你说的那个方法我用了——卡点确实在E——现在做完了——谢谢你"——<strong>一句话告诉对方"你的话起作用了"——是最便宜的回报——也是最有效的关系投资</strong>——',
+          }
+        ]
+      },
+      {
+        icon: '✍️',
+        title: '实操方法:请教四步，把别人的经验变成自己的路',
+        type: 'text',
+        content: [
+          '<strong>① 先自己走到边界——带着尝试去问</strong><br>搜过了——想过了——试过一两个方向了——再去问——这不是形式——它决定了对方怎么回答你——<strong>空着手的提问——只能换来泛泛的答案——带着尝试的提问——才能换来精准的点拨</strong>——',
+          '<strong>② 问选择题，不问问答题</strong><br>把"怎么办"换成"我想到两个做法:A和B——我倾向A——你看对吗"——<strong>问答题是把思考的活推给对方——选择题是告诉对方"我已经想过了，只差你这个关键"</strong>——',
+          '<strong>③ 问判断，不只问步骤</strong><br>除了"怎么做"——多问一句"为什么这么做""当时你怎么权衡的"——<strong>步骤会过时——判断不会——你要的是他脑子里的那套算法——不是那一次的输出结果</strong>——',
+          '<strong>④ 事后回执——让帮助闭环</strong><br>用了之后——回去告诉对方结果——成了——就谢他——没成——也告诉他——<strong>有回音的请教——是一次完整的关系往来——没回音的请教——是一笔单方面的消耗</strong>——',
+          '口诀:<strong>先走到边界——再问选择题——顺手问判断——最后给回音</strong>——四步做完——你拿到的不只是一次答案——是一个愿意继续教你的人——',
+          '还有一句要记住:<strong>请教的门槛——从来不是对方愿不愿意教——是你肯不肯开口</strong>——绝大多数人——比你以为的更乐意分享——只要你问得具体——问得尊重——',
+        ]
+      },
+      {
+        icon: '📝',
+        title: '今日练习',
+        type: 'practice',
+        content: [
+          '<strong>练习一(今天——"把一件卡住的事问出口")</strong><br>选一件你正在硬扛、还没问过任何人的事——找一个做过的人——用这个句式发出去:"我在做X——试了A和B——卡在C——你当时怎么处理的?"——<strong>发出去那一刻——你已经省下了自己瞎猜的时间</strong>——',
+          '<strong>练习二(本周——"问一个判断类问题")</strong><br>找一位你佩服的人——问一个不是"怎么做"——而是"你怎么判断"的问题——比如:"你当初是怎么决定要换方向的?"——<strong>答案会告诉你他的思考方式——那才是真正可以带走的东西</strong>——',
+          '<strong>练习三(本月——"给一位帮过你的人发回执")</strong><br>翻一翻过去半年——谁给过你一句有用的话——发条消息告诉他:那句话后来起了什么作用——<strong>被看见的帮助——才会继续发生——你也顺便成了那个"值得教"的人</strong>——',
+        ]
+      },
+      {
+        icon: '💎',
+        title: '今日金句',
+        type: 'quote',
+        quote: 'There is a particular kind of pride that keeps people small, and I carried it for years. It looked like diligence. It looked like grit. When I did not know how to do something, I went quiet, and I went away, and I figured it out myself — or failed to — and I told myself that this was what it meant to be capable. Asking felt like admitting a defect. And so I spent weeks on problems that had already been solved, by people I could have reached in a single message, sitting thirty feet away. Here is what finally broke it. Someone I respected — someone who had built far more than I had — asked me, in front of a room, how I had handled a problem he was stuck on. He was not embarrassed. He was not diminished. He was simply, obviously, being efficient. And I remember feeling not contempt but a strange warmth, because his question had made my years worth something. That is the part I had backwards. I thought asking was taking. It is not. When you ask a real question — not what should I do with my life, but I tried this and this and I am stuck right here, how did you handle it — you hand the other person a gift: the proof that their experience mattered. Nobody tires of that. What people tire of is the other kind of asking — the vague, empty-handed kind that makes them do your thinking for you, and the kind that never comes back to say whether it worked. So the discipline is not complicated. Walk to the edge of what you can do alone. Bring your failed attempts with you. Ask a specific question with a real guess inside it. Ask how they decided, not only what they did. Then go away, do the work, and come back and tell them what happened. I have never once regretted asking. I have regretted, many times, the weeks I spent being too proud to. There is no prize for suffering your way to an answer that someone already had. The fastest learners I know are not the smartest people in the room. They are the ones who ask first and look foolish for ten minutes, instead of struggling alone and looking fine for three months.',
+        author: '—— 原创:写给所有"宁愿自己撞墙、也不肯开口问"的人'
+      }
+    ]
   }
 }
