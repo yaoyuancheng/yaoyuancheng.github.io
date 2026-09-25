@@ -11302,5 +11302,103 @@ const lessons = {
         author: '—— 原创:写给所有"宁愿自己撞墙、也不肯开口问"的人'
       }
     ]
+  },
+  139: {
+    title: '带人的艺术——把"我会做"，变成"他也会做"',
+    icon: '🎓',
+    subtitle: '昨天你终于开了口——借到了别人的地图——把别人的十年——换成了自己的一步——可人生不是单向的:总有一天——会有人站在你面前——问出你当年问过的那个问题——那一刻你才发现——"我会做"和"我能教会别人"——根本是两件事——你讲了三分钟——对方点着头走了——一周后交上来的东西——错在你觉得"这还用讲"的地方——你有点上火:"我不是说过了吗"——不是他不用心——是你早就忘了不会的时候是什么感觉——今天学:怎么把自己会的东西——真正装进别人的脑子里——把"我会"——变成"他也会"——',
+    sections: [
+      {
+        icon: '🎯',
+        title: '核心概念',
+        type: 'text',
+        content: [
+          '先看一个几乎每个熟手都经历过的场面:新人坐过来问——你很热心地讲了——"先做A，再做B，注意别踩C"——三分钟讲完——他点头——"懂了懂了"——一周后他交上来的东西——偏偏错在你觉得"这还用讲"的地方——你有点上火:"我不是早说过了吗"——<strong>可你有没有想过:你说的"先A再B"——在你脑子里是一整张立体地图——在他脑子里只是三个字母</strong>——',
+          '什么是<strong>带人</strong>:它不是把答案递过去——而是<strong>把你脑子里那套早就自动化了的判断——重新拆开、铺成一级一级别人踩得上的台阶</strong>——真正难的地方从来不是"你会不会"——而是你<strong>早就忘了不会的时候是什么感觉</strong>——这个现象有名字——叫<strong>知识的诅咒</strong>——一旦你知道了某件事——你就再也无法真实地想象"不知道"的样子——',
+          '带人之前——先拆掉三个误会:<strong>误会一:我说过了 = 他学会了</strong>——"说"是广播——"学会"是对方脑子里长出了动作——中间隔着十万八千里——<strong>误会二:我演示一遍 = 他看懂了</strong>——看得懂和做得出来——是两种能力——<strong>误会三:教会别人 = 耽误自己</strong>——恰恰相反——很多事你是在开口讲的那一刻——才第一次真正看清自己会的是什么——',
+          '所以带人的姿态是:<strong>先别急着讲——先看他做</strong>——你不看他做——就永远找不到他真正缺的那一块——<strong>教，不是把你会的倒出来——是把他缺的补上去——这两件事，方向正好相反</strong>——',
+        ]
+      },
+      {
+        icon: '🧠',
+        title: '为什么"教"比"做"难?',
+        type: 'tip',
+        tipType: 'gold',
+        label: '学习科学',
+        content: [
+          '<strong>第一个机制:知识的诅咒。</strong>1990年，斯坦福的心理学家伊丽莎白·牛顿做过一个实验——一组人用手指在桌上敲出大家熟悉的曲子——《生日快乐》那种——敲的人脑子里旋律一直在响——他预测"听的人至少有一半能猜出来"——<strong>实际猜中的比例，是四十分之一</strong>——敲的人听见的是音乐——听的人听见的只是哒、哒、哒——<strong>所有"教不会"的挫败——根源都在这里:你以为你在传递音乐——对方只收到了敲桌子的声音</strong>——',
+          '<strong>第二个机制:生成效应。</strong>大脑对"自己动手推出来的结论"的记忆强度——远高于"别人告诉我的结论"——所以有个反直觉的结论:<strong>你讲得越清楚、越完整——对方反而学得越浅</strong>——因为你把"自己想明白"的那段过程替他做完了——他只剩点头——<strong>好老师不是讲得最清楚的那个——是让对方自己想通的那个</strong>——',
+          '<strong>第三个机制:沉默的知识。</strong>你真正值钱的东西——大多不是文档里那几个步骤——而是"看到这个数不对劲就先停一下""这个人这么问多半是有别的意思"——这种直觉——你从来不说——因为你自己都没意识到你在用它——<strong>带人的本质——就是把那些说不出口的直觉——一条一条揪出来——变成能说出口的规则——</strong>这个动作很难——但做完之后——你自己的水平也会往上跳一截——',
+          '记住这三条——你就明白为什么"我讲了啊"是一句无效的辩解——<strong>讲，是你的动作——会，是他的状态——两者之间没有因果关系——</strong>——',
+        ]
+      },
+      {
+        icon: '📊',
+        title: '经典案例对比',
+        type: 'comparison',
+        rows: [
+          {
+            before: '新人来问——你从第一步讲到第七步——讲得口干舌燥——还顺手替他改了两版——"这样就行，懂了吧"——他笑着点头——<strong>可下周他交上来的东西——还是错的——你火大:"不是都说过了吗"——真相是:你讲的是"你的第七步"——他连第一步是什么感觉都还没建立起来——你讲得越多——他记住的越少——因为他全程只需要点头，不需要动脑</strong>——',
+            after: '另一种做法——你说:"你先自己做一遍——做到哪算哪——卡住了叫我"——二十分钟后，他卡在第二步——<strong>你这才发现:他卡的地方——是你从来没觉得需要讲的地方——那一步在你眼里根本不算步骤——它是本能——</strong>——你补上那一步——他后面全通了——<strong>不是你讲得更好——是你终于讲在了他真正缺的那一块上——</strong>——'
+          },
+          {
+            before: '"这个我来吧，你快一些"——看他做得慢——你手一伸接了过来——三分钟搞定——<strong>你成了全队最快的人——也成了唯一的瓶颈——从此每件事都得过你的手——你越能干——团队越离不开你——你也越走不开——你以为你在帮忙——其实你在把自己焊死在原地</strong>——',
+            after: '换一种做法:"我先给你一个判断标准——做完看这个指标——偏了再来找我"——他做得比你慢——也没你漂亮——<strong>但那是他自己做出来的——他脑子里长出了东西——下次他不用来了——你终于走得开——而一个走得开的人——才有资格去接更大的事——</strong>——'
+          }
+        ]
+      },
+      {
+        icon: '🎬',
+        title: '场景案例',
+        type: 'case',
+        cases: [
+          {
+            icon: '💬',
+            title: '一句"这么简单都不会?"，堵死的是以后每一次请教',
+            content: '"这有什么难的""我不是刚讲过吗""你先自己想清楚再来问我"——你说这些话的时候可能只是着急——<strong>可对方听见的是:我不该来问——于是下一次，他宁可在坑里待三天，也不肯再开口——</strong>——你以为你在纠正他——其实你在给他装一扇永远不再打开的门——<br><br>👉 换一句话，成本为零:"这个问题问得对——当年我也卡在这"——<strong>先让他敢问，才有可能教会——教的第一课从来不是知识，是安全感——</strong>——',
+          },
+          {
+            icon: '🎣',
+            title: '只教动作、不教判断:换个场景，他还是不会',
+            content: '你把流程讲了一遍——A、B、C——他照着做——这次成了——<strong>可下次遇到一个稍微不同的情况——他还是不会——因为你给的是"这道题的答案"——不是"解题的能力"——</strong>——他学会了动作——没学会判断——而动作会过时——判断不会——<br><br>👉 每讲一步，补一句"为什么是这一步""什么时候要停下来看一眼"——<strong>把动作背后那把尺子递给他——他才能自己去量新的情况——</strong>——',
+          },
+          {
+            icon: '🔒',
+            title: '留一手:你以为守住了位置，其实守住了自己的天花板',
+            content: '"关键那部分先不教——万一他学会了爬到我头上怎么办"——<strong>于是你守着那点东西——像守着一口井——却忘了不流动的水会变臭——</strong>——更现实的是:你留一手——团队就不敢把更大的事交给你——因为你走不开——<strong>你把位置守得死死的——也就把自己钉在了那个位置上——</strong>——<br><br>👉 真正的安全感不来自"只有我会"——来自"我随时能学会新的"——<strong>教会别人，你才有空往上走一层——你带出的第一个人，就是你升上去的第一级台阶——</strong>——',
+          }
+        ]
+      },
+      {
+        icon: '✍️',
+        title: '实操方法:带人四步，把"我会"变成"他也会"',
+        type: 'text',
+        content: [
+          '<strong>① 先看他做——别急着讲</strong><br>让他先动手——做到卡住为止——<strong>你不看他做，就永远不知道他缺的是哪一块——你以为的"基础"——可能正是他的"天书"</strong>——这是带人里最反直觉、却最省时间的一步——你多花的这二十分钟——能省下后面两周的返工——',
+          '<strong>② 一次只讲一步——别一口气讲完</strong><br><strong>人的脑子一次只装得下一个关键点——你讲七步，他一个都记不住——你讲一步，他至少能带走这一步</strong>——剩下的留给他做出来之后再问——不是你不肯教——是一次全给完——等于什么都没给——',
+          '<strong>③ 给判断标准——不给标准答案</strong><br>除了"怎么做"——补一句"怎么看做得对不对"——<strong>标准答案只能解决这一次——判断标准能解决以后每一次</strong>——你真正要传下去的——不是这件事的结果——是你做这件事时的那个"传感器"——',
+          '<strong>④ 让他讲给你听——讲得出来，才算学会</strong><br>最后一步——让他把做过的事——用自己的话讲一遍——<strong>能顺畅复述，说明装进去了——讲得磕巴，说明还没通——这一句检验，比你问十遍"懂了吗"都准</strong>——',
+          '口诀:<strong>先看后讲——一次一步——给尺不给鱼——让他说给你听</strong>——四步走完——你留下的不只是一件做完的事——是一个以后能自己长的人——',
+          '还有一句要记住:<strong>带人最贵的成本不是时间——是你忍住不伸手的那份克制</strong>——你每一次替他做完——都是替他把一次成长的机会收走了——',
+        ]
+      },
+      {
+        icon: '📝',
+        title: '今日练习',
+        type: 'practice',
+        content: [
+          '<strong>练习一(今天——"检验自己是否真会")</strong><br>挑一件你闭着眼都会做、却从没系统讲过的事——用三句话讲清它的关键——<strong>能说清，说明你真有;说不清，说明你只是熟练——熟练是手的能力，说清是脑的能力——带人靠的是后者</strong>——',
+          '<strong>练习二(本周——"认真带一次人")</strong><br>找一个比你新的同事或朋友——带他做一件你熟的事——全程遵守"先看后讲，一次一步"——<strong>忍住别插手——你忍住的每一次伸手——都在替他长一块他自己该长的肌肉</strong>——',
+          '<strong>练习三(本月——"留一份地图")</strong><br>把你这一路踩过的坑——列成一张"避坑清单"——交给后来的人——<strong>你走过的每一步弯路——都该成为别人的直路——这是你能留给一个地方最便宜、也最长久的东西</strong>——',
+        ]
+      },
+      {
+        icon: '💎',
+        title: '今日金句',
+        type: 'quote',
+        quote: 'For a long time I believed that knowing how to do a thing and being able to hand that knowledge to someone else were the same skill, and that anyone who failed to learn from me had simply not been paying attention. I was wrong about this in a way that took me years to see, because the blindness is built into the knowing itself. The moment you understand something, you lose all access to what it felt like not to understand it. Your shortcuts go invisible. You skip the step that cost you three weeks and call it obvious, and then you are genuinely wounded when the person in front of you trips over that exact step, because to you it is not a step at all. It is the floor. There is a name for this. They call it the curse of knowledge. The researchers showed it with a simple experiment: people tapped out well-known songs on a table and predicted that half their listeners would recognize the tune. The real number was about one in forty. The tappers heard the melody in their heads the whole time. The listeners heard knocking. That is what teaching feels like from the inside, and it is why so much of it fails. The fix is not to explain more clearly. The fix is to stop explaining first. Watch them try. Let them get stuck. The place where they get stuck is the only place worth teaching, and you would never have found it by talking. Then give them one step, not seven. Give them the test for whether the step worked, not just the step. And at the end, ask them to say it back to you in their own words, because the person who can explain it is the person who owns it. I have learned more from the people I taught than from almost anyone who taught me. Every question I could not answer showed me a hole in my own understanding that I had been walking over for years. And the ones who left and went further than I did — I used to fear them. Now I understand that they are the whole point. You do not keep what you refuse to give away. You only ever keep what you have given away and watched grow somewhere else.',
+        author: '—— 原创:写给所有"自己会做、却总也教不会别人"的人'
+      }
+    ]
   }
 }
