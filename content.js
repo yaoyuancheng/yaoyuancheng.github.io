@@ -11400,5 +11400,97 @@ const lessons = {
         author: '—— 原创:写给所有"自己会做、却总也教不会别人"的人'
       }
     ]
+  },
+  140: {
+    title: '托举的艺术——把"他也会做"，变成"他能做得比我好"',
+    icon: '🪜',
+    subtitle: '昨天你终于把自己会的东西——拆成了别人踩得上的台阶——他学会了——第一次独立交了活——你心里挺美——可就在某次会上——他提的思路比你那版更亮——领导的目光——第一次从他身上越过了你——你心里"咯噔"一下——说不上是嫉妒——但那点不舒服——是真的——今天学:怎么把"他也会做"——变成"他能做得比我好"——以及为什么——他站得越高——你反而越稳——',
+    sections: [
+      {
+        icon: '🎯',
+        title: '核心概念',
+        type: 'text',
+        content: [
+          '先看一个几乎每个带过人的人都躲不过的瞬间:你手把手带出来的人——第一次独立完成了一件事——做得漂亮——你心里是高兴的——可紧接着——他提了一个比你那版更好的想法——会议室里的目光——开始往他那边偏——你心里"咯噔"一下——说不上是嫉妒——但那点不舒服——是真的——<strong>这不丢人——这是人的本能:我们下意识地把"我比人强"和"我有价值"划了等号——</strong>——',
+          '什么是<strong>托举</strong>:教——是把方法给他;托举——是<strong>把舞台、机会和光——主动让给他</strong>——教是"你来学"——托举是"我来让"——<strong>这两件事之间——隔着人性里最难跨的一道坎:你得接受——你亲手扶上去的人——有一天会站在比你高的地方——</strong>——',
+          '托举之前——先拆掉三个误会:<strong>误会一:他强 = 我弱</strong>——这是一个隐藏的零和假设——仿佛世界上的光只有一束——照到他身上——就照不到你——<strong>误会二:让功 = 白干</strong>——你以为把名字让出去是吃亏——其实你让出去的是一份人情、一份信任、一份"这个人愿意成就别人"的口碑——<strong>误会三:位置是守来的</strong>——你越是把着不放——越说明这个位置只有你能坐——那它就永远只有这么大——',
+          '所以托举的姿态是:<strong>不争光的那个光——最亮</strong>——真正的高手不是站在台上的人——是<strong>让台上站着的人都记得——是谁把他推上去的</strong>——你的影响力——不在你有多强——在<strong>有多少人的强——和你有关</strong>——',
+        ]
+      },
+      {
+        icon: '🧠',
+        title: '为什么"托举"这么难?',
+        type: 'tip',
+        tipType: 'gold',
+        label: '人性观察',
+        content: [
+          '先讲一个冰冷的事实:<strong>很多人一辈子卡在某个位置上——不是因为能力不够——恰恰是因为——他不敢让身边的人变强——</strong>——你越想保住自己"不可替代"的位置——就越要把事情攥在手里——越攥——自己的时间越被占满——越没有精力往上走——<strong>这是一个完美的自我囚禁:你用"我很重要"，换来了"我走不开"——</strong>——',
+          '心理学上有个说法——<strong>人的价值感有两种算法</strong>——一种是<strong>比较型</strong>:我的价值 = 我比别人强多少——这个算法里——别人的成长——就是我的贬值——所以每一份别人的光——都会刺痛你——另一种是<strong>增量型</strong>:我的价值 = 我让多少人变强了——这个算法里——别人越强——我的价值越大——<strong>同样一件事——换一个算法——从威胁变成了资产——</strong>——',
+          '更现实的一层是:<strong>组织真正愿意提拔的——从来不是"最强的那个人"——而是"最强的那个人走了以后——还有人能顶上的人"</strong>——你带出来的每一个人——都是你"可以离开现在这个位置"的通行证——<strong>你手里没有能顶你的人——你就永远只能待在这一层——这不是公司的问题——这是你的问题——</strong>——',
+          '所以托举不是牺牲——是<strong>一门关于"放"的算术</strong>:你放出去的越多——能接住你的人越多——你能往上走的台阶就越高——<strong>托举别人——本质上是给自己修一条上行的路——</strong>——',
+        ]
+      },
+      {
+        icon: '📊',
+        title: '经典案例对比',
+        type: 'comparison',
+        rows: [
+          {
+            before: '小林带的项目大获成功。汇报会上他从头讲到尾，每一页PPT都是"我设计了……我推动了……我搞定了……"。团队五个人坐在台下，一句话没说。领导问："团队其他人做了什么？"小林说："他们帮我执行了一些细节。"半年后，团队三个人陆续离职。',
+            after: '同样的项目，小林汇报时说："核心方案是我提的（<strong>先摆自己的贡献</strong>），但能落地，靠的是三个关键：1）小周连续两周驻场客户，需求摸得比客户自己还清楚 2）小雅改的落地页，转化率提升了40% 3）老王在最后一周顶着压力协调了资源。<strong>这套配合方式，我们以后可以复制。</strong>"领导当时没说话，但三个月后小林升了总监——因为他原来的位置，已经有人能接。'
+          },
+          {
+            before: '有位技术负责人很牛，但核心代码只有他一个人看得懂。老板想提拔他，问了一圈发现没人能接他的位置，只好作罢，给他加了薪。他在这个位置上干了八年，位置没动过，还常常抱怨公司不给机会。',
+            after: '另一位技术负责人，用了一年时间把核心模块拆开、补上文档、带着两个年轻人一起重构。他被提拔时，只用了两周就完成交接。他说："<strong>我能力最强的时候，恰恰是我最不能被提拔的时候。等团队追上来，我才有了往上走的空间。</strong>"'
+          }
+        ]
+      },
+      {
+        icon: '🎬',
+        title: '场景案例',
+        type: 'case',
+        cases: [
+          {
+            type: 'negative',
+            label: '❌ 反面案例',
+            text: '（会上，你带的小林提了一个比你的方案更完整的思路）<br>你："这个方向我早就想过，但有几个坑你可能还没考虑到……"（接下来十分钟，你把他的想法拆得七零八落）<br>小林："……好，那我再想想。"<br><br>👉 <strong>会后他再也没主动提过想法——你赢了这一次——输掉了往后每一次——</strong>'
+          },
+          {
+            type: 'positive',
+            label: '✅ 正面案例',
+            text: '（同样一个想法）<br>你："<strong>这个思路比我原来那版更完整</strong>（先给认可，而且是当着大家的）。我补两个执行上的坑：一是预算要卡在Q3以内，二是得先跟法务确认合规——<strong>这两块我来兜，你只管往前推</strong>。"<br>然后你转向上级："这个方案的核心是小林想的，下周三的评审会，我建议让他来讲。"<br><br>👉 <strong>你没有输——你多了一个愿意为你冲锋的人，还多了一个被领导记住的"会带人"的标签——</strong>'
+          }
+        ]
+      },
+      {
+        icon: '✍️',
+        title: '实操方法:托举三步，把"他也会做"变成"他能做得比我好"',
+        type: 'text',
+        content: [
+          '<strong>① 让台——让他讲，别替他讲</strong><br>有汇报的机会——<strong>第一个想"这个谁来讲最合适"——而不是"我讲最放心"</strong>——你替他讲一百遍——他还是站不住——你让他讲一次——他就长一节——<strong>把讲台让出去的那一刻——你失去的是一次露脸——得到的是一个能替你上场的人——</strong>——',
+          '<strong>② 带名——把功劳簿上的名字写全</strong><br>向上汇报时——<strong>把"我做的"换成"我们做的"——再把"我们"里的关键人——一个一个点出来</strong>——注意——这不是客套——这是<strong>把聚光灯分给别人——而所有看得懂的人都知道——灯是你分的</strong>——真正的高手——是那个"分灯的人"——',
+          '<strong>③ 推门——有更大的机会，第一个想到他</strong><br>遇到一个超出他当前能力的机会——<strong>别默默跳过他的名字——问他一句"要不要试试"——然后补一句"出了事我兜着"</strong>——<strong>人只在"够一够能够到"的地方长个子——你推他够那一次——比你陪他练十次都管用——</strong>——',
+          '口诀:<strong>让台——带名——推门</strong>——三步走完——你会发现一件反直觉的事:<strong>你让出去的每一样东西——最后都以更高级的形式回来了——你让出了露脸——换回了威望——你让出了功劳——换回了人心——你让出了位置——换回了一条往上走的路——</strong>——',
+          '还有一句要记住:<strong>真正的天花板——从来不是别人给你设的——是你不敢让别人变强——自己给自己焊死的——</strong>——',
+        ]
+      },
+      {
+        icon: '📝',
+        title: '今日练习',
+        type: 'practice',
+        content: [
+          '<strong>练习一（今天——"让一次台"）</strong><br>回想最近一次你准备自己上的场合（汇报、讲解、对接）——<strong>找一个人替你上——你退到台下——帮他准备，但不替他讲</strong>——<strong>你会发现:你替他准备的那两个小时——比你自己讲那二十分钟——更值——</strong>——',
+          '<strong>练习二（本周——"点一次名"）</strong><br>在向上汇报或团队总结时——<strong>刻意点出至少两个具体的人——和他们做的具体的一件事</strong>——不是笼统的"感谢团队"——是"小周连续两周驻场，把需求摸清了"——<strong>具体到某个人、某件事——才是真正的托举——笼统的感谢——只是礼貌——</strong>——',
+          '<strong>练习三（本月——"推一次门"）</strong><br>挑一个你带的人——<strong>把一个他"稍微够一够才能接住"的机会——交给他</strong>——然后明确告诉他:"放手做，出问题我兜"——<strong>给他一次"被信任到有点慌"的经历——那是一个人成长最快的时刻——</strong>——',
+        ]
+      },
+      {
+        icon: '💎',
+        title: '今日金句',
+        type: 'quote',
+        quote: 'I spent years believing that my value at work was the same thing as being the one person who could do what no one else could do. I guarded that. I kept the important things in my own hands, and I told myself it was responsibility, and for a while it even looked like leadership. Then I watched a colleague get promoted past me, and the reason was not that she was smarter than I was. It was that when she left a room, five people could carry on. When I left a room, everything stopped and waited for me. I had made myself indispensable and confused it with being valuable, and the bill came due all at once. Being needed is not the same as being trusted. Being needed means people cannot move without you. Being trusted means people can move because of you. The first one makes you a bottleneck. The second one makes you a leader, and the difference between them is not talent — it is whether you are willing to let someone else get good. I will not pretend this is easy. The first time a person I trained proposed something better than what I had proposed, my stomach dropped. I felt the old reflex fire — the urge to find the hole in it, to reclaim the room, to remind everyone who taught him. I did not do it. It took everything I had not to, and I want to be honest that the not-doing-it was a decision I had to make again the next week, and the week after that. But here is what happened. He went further than I could have gone on my own, and he took me with him. Every door I opened for him became a door that later opened for me, because the people you lift remember it — not always, but the good ones do, and the good ones are the only ones worth lifting. The math is simple once you stop being afraid of it. A person who can do something is worth one person. A person who can make ten people able to do it is worth eleven. I stopped counting what I could hold and started counting what I could hand off, and my career did not shrink. It grew — faster, in fact, in almost exact proportion to how much I stopped protecting it.',
+        author: '—— 原创:写给所有"怕别人超过自己"的人'
+      }
+    ]
   }
 }
