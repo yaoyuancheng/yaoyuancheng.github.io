@@ -11492,5 +11492,97 @@ const lessons = {
         author: '—— 原创:写给所有"怕别人超过自己"的人'
       }
     ]
+  },
+  141: {
+    title: '授权的艺术——把"他做得比我好"，变成"没有我，他也做得成"',
+    icon: '🪁',
+    subtitle: '昨天你把台让出去了——他站上去了——可你人退了——手还搭在台上——他每做一个决定——都要回头看你一眼——一天下来你签了二十多个"看"——比自己做还累——今天学:怎么把手真正松开——让"你带着他做"——变成"没有你，他也做得成"——',
+    sections: [
+      {
+        icon: '🎯',
+        title: '核心概念',
+        type: 'text',
+        content: [
+          '先看一个你肯定熟的场景:台让出去了——他确实站上去了——可你发现自己并没有轻松——<strong>他每做一个决定——都要回头看你一眼</strong>——"这个能定吗""这样行不行""要不要先跟您报一下"——一天下来——你签了二十多个"看"——比自己做还累——而且事情也没快多少——<strong>你以为你已经放手了——其实你只是把"做"交了出去——把"定"留在了自己手里——</strong>——',
+          '什么是<strong>授权</strong>:派活是"这件事你做"——授权是"<strong>这件事你可以定</strong>"——派活的时候——他问你"怎么办"——授权之后——他告诉你"我打算这么办"——<strong>差的不是工作量——是决定权——</strong>——决定权不交出去——你永远只是从"自己做"——变成了"自己边做边审"——',
+          '授权之前——先拆掉三个误会:<strong>误会一:授权 = 偷懒</strong>——你以为把事交出去是不负责——其实攥着不放才是最大的不负责——因为团队永远长不出第二个能拍板的人——<strong>误会二:不盯着就会出错</strong>——出错是因为没划清边界、没有兜底机制——不是因为没盯着——你盯得越细——他越不敢想——<strong>误会三:交出去 = 失去控制</strong>——控制有两种——一种是"每一步我都知道"——一种是"结果在我预期内"——<strong>前者累死自己——后者解放所有人——</strong>——',
+          '所以授权的姿态是:<strong>我要的不是"没有我，事情做不成"——而是"我不在，事情也做得好"</strong>——衡量你有没有真正授权——标准只有一条:<strong>你休假一周——那块业务是乱成一团——还是照常运转——</strong>——',
+        ]
+      },
+      {
+        icon: '🧠',
+        title: '为什么"放手"比"托举"更难?',
+        type: 'tip',
+        tipType: 'gold',
+        label: '管理心理学',
+        content: [
+          '托举和授权——只差一个动作:托举是<strong>我主动让</strong>——主动权还在我手里——让给谁、让多少、什么时候收回来——都是我说了算——授权是<strong>我不再介入</strong>——主动权交出去了——<strong>这才是真正让人不安的地方:不是舍不得舞台——是受不了"这件事从此和我没关系了"的那种失控感——</strong>——',
+          '心理学里有个词叫<strong>控制错觉</strong>:我们系统性地高估"我盯着"的作用——低估"机制和信任"的作用——你以为项目顺利是因为你天天过问——其实是因为该定的事有人定了、该担的责有人担了——<strong>你盯着的那些动作——多数只是让你自己安心——对结果几乎没有贡献——</strong>——',
+          '还有一层更隐蔽的:<strong>你把"我签字"当成了"我负责"</strong>——但组织衡量贡献——从来不是看谁签的字——而是看<strong>谁让产能放大了</strong>——你一个人能扛十件事——那是十件事的产能;你把十件事的决策权分给五个人——那是一个团队的产能——<strong>而你腾出来的时间——用在了决定"接下来做什么"上——那才是真正没人能替代的活——</strong>——',
+          '一句要记住:<strong>不敢授权的人——最后不是被累死的——是被自己的天花板压死的——</strong>——',
+        ]
+      },
+      {
+        icon: '📊',
+        title: '经典案例对比',
+        type: 'comparison',
+        rows: [
+          {
+            before: '一位主管"授权"给了团队，但每个决定都要报备：报价要问、文案要问、给客户回什么话也要问。他每天晚上十点还在回消息，团队觉得自己只是一双"执行的手"。一年后，最能干的那个人走了，离职面谈只说了一句："在这儿，我永远只是个按按钮的人。"',
+            after: '同一个岗位，改成三条边界：<strong>预算内不用报、有模板的话术不用问、超出这三类的提前一天报</strong>。一周只开一次同步会。团队两周干完了原来一个月的活，而他腾出来的时间——做了公司新开的那条业务线。'
+          },
+          {
+            before: '一个创始人什么都自己签：采购、招聘、定价、合作。公司卡在三十人上不去。他一天工作十四小时，还是到处是瓶颈——因为他不在场，什么决定都做不了。',
+            after: '另一位创始人把三件事的决定权交了出去：<strong>采购给运营负责人、招聘给业务负责人、定价给销售负责人</strong>——只加了一条规矩：每周复盘一次"哪个决定做对了、哪个做错了"。一年后公司到了一百人。他休了一个月的假，回来发现——<strong>有几件事，做得比他做得好</strong>。'
+          }
+        ]
+      },
+      {
+        icon: '🎬',
+        title: '场景案例',
+        type: 'case',
+        cases: [
+          {
+            type: 'negative',
+            label: '❌ 反面案例',
+            text: '（下属跑过来："客户的要求有点超范围，您看怎么办？"）<br>你："先别动，等我这两天想一下。"<br>（三天后你才回他）<br><br>👉 <strong>他学会了一件事:反正我不用想，问了就行——你就成了团队的"人肉搜索引擎"——你不在——全线停摆——</strong>'
+          },
+          {
+            type: 'positive',
+            label: '✅ 正面案例',
+            text: '（同一个问题）<br>你："<strong>你觉得该怎么办?给我两个选项，说清各自的代价。</strong>"<br>他："……我倾向B，多花两天，但不用返工。"<br>你："<strong>就按B办。出了事我兜，明天同步我一句就行。</strong>"<br><br>👉 <strong>他带走的是一句"我能定"——你留下的是方向——你花的那三十秒——买回了一整块再也不用你操心的事——</strong>'
+          }
+        ]
+      },
+      {
+        icon: '✍️',
+        title: '实操方法:授权三步，把"他做得比我好"变成"没有我，他也做得成"',
+        type: 'text',
+        content: [
+          '<strong>① 划界——把边界写下来，别放在你脑子里</strong><br>跟他一起过一遍:哪些事<strong>你自己定</strong>——哪些事<strong>定完说一声</strong>——哪些事<strong>必须先问我</strong>——真正必须问的其实只有三类:<strong>钱（超预算）、对外（合同、承诺、客户面前的口径）、人（招聘、辞退、调岗）</strong>——其余的——<strong>一律放——边界内做错了——那也是成长成本——比他自己扛一次便宜多了——</strong>——',
+          '<strong>② 交权——把"活"和"定"一起交出去</strong><br><strong>最忌讳的一句话是"你做个方案我看看"——那是派活，不是授权</strong>——真正的授权说出口是这样的:"<strong>这块以后你做主。我只在三种情况下出现:超出边界、你需要我撑腰、复盘的时候。</strong>"——然后<strong>当着相关同事的面再说一遍</strong>——让所有人都知道"以后这块找他"——<strong>公开宣布比私下交代有用一百倍——因为授权最怕的不是他不敢接——是别人还绕过他来找你——</strong>——',
+          '<strong>③ 兜底——不做"我早说过了"的复盘，只做"下次怎么判断"的复盘</strong><br><strong>授权不是免责——是"他做砸了我担着，但我不抢回方向盘"</strong>——出问题的时候——第一句别说"你怎么不先问我"——说"<strong>我们从这次里，能提炼出什么判断标准</strong>"——<strong>你替他扛一次——他才敢为你冒一次险——</strong>——',
+          '口诀:<strong>划界——交权——兜底</strong>——三步做完——你会经过一个很奇妙的阶段:<strong>前两周你会更焦虑——因为消息变少了——一个月后你会更轻松——因为事情在往前走——三个月后你会发现——你腾出来的那部分时间——已经长出了一件新的事——而那件事——才是你真正该做的事——</strong>——',
+          '一句要记住:<strong>你手里攥着的东西——永远不会变大——只有递出去的——才会长——</strong>——',
+        ]
+      },
+      {
+        icon: '📝',
+        title: '今日练习',
+        type: 'practice',
+        content: [
+          '<strong>练习一（今天——"列一张单子"）</strong><br>把你这周所有要亲手做的事列出来——分成两栏:<strong>"只有我能做"和"别人其实也能做"</strong>——从第二栏里挑一件——<strong>今天就不做——交出去</strong>——交的时候附一句:"这块你来定，我不看过程，只看结果。"——<strong>你会发现:那件事没有塌——而你多出了两个小时——</strong>——',
+          '<strong>练习二（本周——"不给答案"）</strong><br>下一次有人来问你"怎么办"——<strong>忍住——别给答案——反问他:"你有几个方案?你倾向哪个?各自的代价是什么?"</strong>——然后<strong>按他倾向的那个办</strong>——哪怕你觉得另一个更稳——<strong>除非涉及钱、对外承诺、人事——否则让他替自己的判断负责一次——这比你替他做十次决定更能让他长大——</strong>——',
+          '<strong>练习三（本月——"一次消失"）</strong><br>挑一件已经交出去的事——<strong>给自己定一个"不主动过问"的期限（比如一周）</strong>——期间他不找你——你就不找他——<strong>看他会不会卡住、卡在哪——然后按"卡点"去补机制，而不是按"不放心"去加检查</strong>——<strong>真正的授权——是把自己从"必经之路"上撤下来——</strong>——',
+        ]
+      },
+      {
+        icon: '💎',
+        title: '今日金句',
+        type: 'quote',
+        quote: 'For a long time I thought being in charge meant being in every decision. I built a life where nothing moved without me, and I told myself this was diligence, and I was proud of it in the way you are proud of a scar. Then I hired someone good, and I gave him the work but not the authority. He came to me for everything, and every time he came, I felt needed, and I mistook that feeling for leadership. What I had actually built was a toll booth with my name on it. He did not grow. He could not. Every road ran through me. The change came on a week I was forced to be away. I came back expecting a wreck, and I found the work done, and done differently, and in two places better than I would have done it myself. My first feeling was not relief. It was a small, ugly sting, the fear that I had just proved I was optional. And then I understood that optional was the whole point. If a thing can only happen when I am standing there, then I have not built a capability. I have built a dependency with my name on it. So I started writing boundaries down instead of keeping them in my head, and I let people own outcomes instead of tasks, and I said the words out loud in front of everyone so that no one would keep walking around the person who was now in charge. The strange part is what came back. I stopped being the busiest person in the room and became the one who decided what the room should be doing. I did not lose my place. I traded a job that could not survive without me for a role that could not exist without me. There is a difference between being needed and being necessary, and it took me years to learn that the first one is a trap that feels exactly like a compliment.',
+        author: '—— 原创:写给所有"不敢撒手"的人'
+      }
+    ]
   }
 }
