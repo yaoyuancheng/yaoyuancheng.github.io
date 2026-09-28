@@ -11584,5 +11584,97 @@ const lessons = {
         author: '—— 原创:写给所有"不敢撒手"的人'
       }
     ]
+  },
+  142: {
+    title: '容错的艺术——把"他做砸了"，变成"他学会了判断"',
+    icon: '🛟',
+    subtitle: '昨天你终于把手松开了——他站上了台——可你心里那根弦一直没松——你甚至已经开始预感:他早晚要摔一跤——果然——他做砸了——那一刻你的手已经抬起来了——那句话已经到了嘴边:"算了——还是我来吧"——你有没有想过——你只要把那句话咽回去——这次搞砸——就会变成他往后十年最难被别人夺走的东西——今天学:授权之后——怎么面对他一定会犯的错——不抢方向盘——不翻旧账——把代价变成学费——',
+    sections: [
+      {
+        icon: '🎯',
+        title: '核心概念',
+        type: 'text',
+        content: [
+          '先看一个你肯定熟的场景:权交出去了——边界也划清了——你甚至做到了不主动过问——然后——<strong>他做砸了</strong>——客户那边出了岔子——一笔钱花超了——或者交上来的东西根本不能用——那一刻——你的手已经抬起来了——那句话已经到了嘴边:"算了——还是我来吧"——<strong>你咽回去的每一句话——都在决定你昨天的授权——是真放手——还是假放手——</strong>——',
+          '什么是<strong>容错</strong>:不是"他犯错我不生气"——也不是"犯错了也不管"——容错是<strong>把错误分成两种——一种要立刻纠正——一种要变成学费</strong>——凡是<strong>方向性的、不可逆的、涉及钱和人的错</strong>——立刻叫停——那是止损——凡是<strong>路径性的、可修复的、过程里的错</strong>——让它发生——让它完整地发生——因为有些判断力——只能从错误里长出来——讲一百遍——不如摔一次——',
+          '容错之前——先拆掉三个误会:<strong>误会一:容错 = 纵容</strong>——容错是"这次错了没关系——但我们一起搞清楚为什么会错"——纵容是"错了也没关系——下次继续"——<strong>差的不是态度——是有没有复盘</strong>——<strong>误会二:我替他兜一次，他就不长记性</strong>——恰恰相反——被当众骂过的人——记住的是羞耻——被替着兜过、又一起复盘过的人——记住的是判断标准——<strong>误会三:他犯错，丢的是我的脸</strong>——如果你的脸面只能靠"下属从不犯错"来维持——那这份脸面本来就撑不了多久——<strong>真正的脸面是:你的人犯了错——还敢第一时间来告诉你——</strong>——',
+          '所以容错的姿态是:<strong>错可以犯——但要说——还要一起看明白</strong>——衡量你容错功夫的标准只有一条:<strong>他做砸之后——第一反应是来找你——还是先想办法瞒着你——</strong>——',
+        ]
+      },
+      {
+        icon: '🧠',
+        title: '为什么"看着他犯错"比自己犯错还难?',
+        type: 'tip',
+        tipType: 'gold',
+        label: '管理心理学',
+        content: [
+          '授权之后的焦虑——本质不是"怕他做不好"——是<strong>眼睁睁看着一辆你熟悉的车——被一个新手开在一条你走过一千遍的路上——而你坐在副驾——脚不能踩刹车</strong>——那种感觉比自己做十遍都累——因为你把"我知道怎么做"的全部经验——暂时借给了别人去挥霍——',
+          '心理学里有个<strong>责任转移效应</strong>:当一个人真正拥有决定权时——他的大脑会自动进入"我要为结果负责"的模式——这时候犯的错——会被记得格外牢——<strong>而一个只负责执行的人犯的错——记忆是浅浅的——因为"反正最后有人兜着"</strong>——所以你抢回方向盘的那一刻——看似省了事——其实是把他那次"深刻的错误记忆"——换成了一次"浅淡的无关经历"——<strong>学费交了——课没上成——</strong>——',
+          '还有一层<strong>权威面子</strong>在作祟:他犯错的时候——你心里会升起一句潜台词——"你看——我早就说过吧"——这句话一旦说出口——你赢的是一次判断——输的是他以后再也不敢在你面前做决定——<strong>一个团队最危险的信号——不是有人犯错——是没有人敢犯错——因为那意味着所有人都学会了:多问少定、不担责任、等你说——</strong>——',
+          '一句要记住:<strong>你替他灭的每一次火——都在替他省下一次成长——也在替自己埋下一次"他永远长不大"的隐患——</strong>——',
+        ]
+      },
+      {
+        icon: '📊',
+        title: '经典案例对比',
+        type: 'comparison',
+        rows: [
+          {
+            before: '一位主管授权之后，下属把一场重要活动的时间报错了，客户白跑一趟。他当着全组的面说："这事我当初就说过要核对两遍吧？"然后自己连夜重做了方案。此后半年，团队里再没有人主动拍板，所有事都等他点头——他比授权之前更忙了。',
+            after: '同一个失误，另一位主管的第一句话是：<strong>"先别急着认错，我们一起看：这个时间点，你当时依据的是什么？"</strong>查下来是客户口头变更过、没人落到纸面。于是他补的不是训话，是一条规矩：<strong>所有口径变更，一律书面回一句确认</strong>。那个下属后来成了这块业务上最稳的人——因为那次他学到的是判断标准，不是羞耻。'
+          },
+          {
+            before: '一个团队负责人嘴上说"放手做"，但每次下属的方案一出问题，他立刻接手改完，还顺手补一句"下次注意"。一年下来，团队交上来的东西越来越保守——没人敢做新尝试，因为"试错的结果就是被接管"。',
+            after: '另一位负责人的做法是：<strong>错了照错，但要求当事人自己提一版"如果重来一次，我会改哪一步"</strong>——他只在这个版本的判断上补充经验，不重做。半年后，同样的错误很少出现第二次——因为犯过的人自己记住了，没犯过的人也从复盘里学会了。'
+          }
+        ]
+      },
+      {
+        icon: '🎬',
+        title: '场景案例',
+        type: 'case',
+        cases: [
+          {
+            type: 'negative',
+            label: '❌ 反面案例',
+            text: '（他一脸难色地过来："那个客户……我把报价发错了，对方已经看到了。"）<br>你："我不是说了要核对吗?算了算了，你别管了，我来处理。"<br>（你花了两小时擦干净了）<br><br>👉 <strong>他学到了一件事:出事就找师父——师父会骂两句——然后替我摆平——下一次他要么继续找你——要么——干脆瞒着你——</strong>'
+          },
+          {
+            type: 'positive',
+            label: '✅ 正面案例',
+            text: '（同一个局面）<br>你："<strong>先别慌。告诉我三件事:错在哪、影响多大、你现在想到的第一个补救动作是什么。</strong>"<br>他："口径错了，客户可能按旧价签单。我先打电话说明，再补一份书面确认。"<br>你："<strong>去办。对外说的话，说完发我一份。这次我兜着——但今天晚上我们花二十分钟，把"为什么会错"聊明白。</strong>"<br><br>👉 <strong>他带走的是"我能补救"和一条新规矩——你留下的是一个下次会自己踩刹车的人——</strong>'
+          }
+        ]
+      },
+      {
+        icon: '✍️',
+        title: '实操方法:容错三步，把"他做砸了"变成"他学会了判断"',
+        type: 'text',
+        content: [
+          '<strong>① 分级——先分清哪种错必须叫停，哪种错必须让它发生</strong><br>跟他提前把错误分成三类:<strong>红线错（合规、钱、对外承诺、人身安全）——立刻叫停，没有商量</strong>——<strong>成本错（返工、多花时间、被客户抱怨几句）——允许发生，事后复盘</strong>——<strong>探索错（新做法失败、方向试错）——鼓励发生，重点复盘"下次怎么判断得更早"</strong>——<strong>红线之外——把手收住——你收回的每一次手——都等于告诉他"我不信你能判断"——</strong>——',
+          '<strong>② 止损——出事时的第一句话，决定他以后还敢不敢告诉你</strong><br><strong>永远先说"现在怎么办"，别先说"你怎么会这样"</strong>——顺序错了——后面全错——先处理事——事稳住了——再处理人——再处理规矩——而且是<strong>私下处理人——公开处理事</strong>——出问题的当下——最忌讳人前追责——<strong>你保全的每一分体面——都会在下一件事上——变成他愿意替你去扛的勇气——</strong>——',
+          '<strong>③ 复盘——把"代价"变成"学费"的唯一动作</strong><br>事情结束后——<strong>别问"谁的责任"——问三个问题:"当时你依据什么做的判断?这个依据在哪儿失效了?下次出现同样的情形，你会怎么判断?"</strong>——然后——<strong>把答案写成一条规矩、一个检查点、一句提醒</strong>——落到纸面或者流程上——<strong>一次错误如果只换来一句"下次注意"——那笔学费就白交了——如果换来一条写下来的规矩——那笔钱就变成了资产——还能让没犯错的人也学到一遍——</strong>——',
+          '口诀:<strong>分级——止损——复盘</strong>——三步做完——你会经历一个很反直觉的阶段:<strong>一开始错误变多了——因为不必藏着掖着了——然后错误变少了——因为每一条都变成了规矩——最后你会迎来最难也最好的一个时刻:他犯下一个你没替他兜、也不该兜的错——而他自己站住了——那一刻你才会真正明白——你当年咽下去的那句"还是我来吧"——值多少钱——</strong>——',
+          '一句要记住:<strong>不敢让下属犯错的人——最后只能拥有一群"从不出错的执行者"——而他们从不出错的唯一原因——是从不自己做决定——</strong>——',
+        ]
+      },
+      {
+        icon: '📝',
+        title: '今日练习',
+        type: 'practice',
+        content: [
+          '<strong>练习一（今天——"先问三件事"）</strong><br>从现在起——当有人来向你报告"出事了"——<strong>把到嘴边的第一句话咽回去</strong>——改成问三件事:"<strong>错在哪、影响多大、你想到的第一步怎么办</strong>"——问完——<strong>只要不涉及红线——按他说的办</strong>——你会发现——多数时候他其实已经想过了——只是被吓慌了——<strong>你的任务不是替他解决——是把他的手从慌乱里扶稳——</strong>——',
+          '<strong>练习二（本周——"关起门来复盘"）</strong><br>挑一件最近出过岔子的事——<strong>找当事人单独聊二十分钟</strong>——开口第一句不许提"责任"两个字——只聊三件事:当时依据什么、在哪儿失效、下次怎么判断——<strong>聊完由他写出一句"下次的提醒"——发你一份</strong>——<strong>把"我早说过了"咽回去——是成年人在职场上能给出的最大的善意——</strong>——',
+          '<strong>练习三（本月——"一次完整的不插手"）</strong><br>挑一件已经授权出去、且你已经预感到他要踩坑的事——<strong>提前不做任何提醒——看着它发生</strong>——唯一要做的——是<strong>在事后问那句"你从中学到了什么"</strong>——如果他真的撞了墙——你补的应该是机制——不是他的能力评价——<strong>有些弯路——省下来的是时间——失去的是他判断的方向感——真正带过人的都知道:教出来的判断——抵不过摔出来的判断——</strong>——',
+        ]
+      },
+      {
+        icon: '💎',
+        title: '今日金句',
+        type: 'quote',
+        quote: 'The hardest thing I have ever had to do as the person in charge was nothing. Not inaction out of laziness, but inaction on purpose, with my hands in my lap while I watched a mistake I could have stopped from a mile away. I want to tell you it felt noble. It did not. It felt like standing in a doorway while someone carried a full pot of hot water past you, knowing the floor was slick, saying nothing. He spilled it. Of course he spilled it. And the sound of it hitting the ground was, for one full second, the most satisfying thing I had ever heard, because it proved I was right, and being right is a small, cheap drug. Then I looked at his face. He was not angry. He was ashamed, and he was waiting for the verdict, and I understood in that moment that I was holding two futures in my mouth. One where I said I told you so. One where I said tell me what you were thinking. I have said the first one before. It buys you about eight seconds of superiority and a person who never brings you a problem again until it is too big to hide. So I asked the second question. He talked for twenty minutes. Halfway through, he found the flaw himself, out loud, in his own words, and I watched it land somewhere deep, the way a lesson only lands when you are the one who dug the hole. I did not teach him anything that day. He taught himself, and all I had to do was keep my mouth shut long enough to let it happen. Here is what I learned from years of getting this wrong. People do not grow from the mistakes they get rescued from. They grow from the ones they survive. Your urge to step in is not love. It is usually just a fear of looking bad by association. And the truth I keep having to learn the hard way is that if I am the one who catches every falling thing, then nothing in this house ever learns how to stand on its own. Some days the strongest move available to me is to stand there with my hands behind my back and let the pot hit the floor. The floor is not mine to protect. The person is. But I can only hold one of them at a time, and I finally know which one is worth it.',
+        author: '—— 原创:写给所有"忍不住想插手"的人'
+      }
+    ]
   }
 }
