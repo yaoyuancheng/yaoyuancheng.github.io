@@ -11676,5 +11676,98 @@ const lessons = {
         author: '—— 原创:写给所有"忍不住想插手"的人'
       }
     ]
+  },
+  143: {
+    title: '交棒的艺术——把"他能做好了"，变成"这件事，从此不必再经过我"',
+    icon: '🏁',
+    subtitle: '昨天你学会了看着他把事做砸——今天往前走一步——事他做了——责他担了——错你也容了——可你发现一件诡异的事:所有事最后还是会绕回你——方案是他写的——对外说的还是"我们领导定的"——活是他干的——上台的还是你——机会来了——别人第一个想到的还是你——你以为你在带人——其实你把自己留在了每件事的圆心——今天学:交棒的最后一层——把活儿交出去不算交——把名字、场面、位置也交出去——才叫真交——交完之后——那件事不再经过你——你才第一次真正拥有了一双手的空闲——去干只有你能干的事——',
+    sections: [
+      {
+        icon: '🎯',
+        title: '核心概念',
+        type: 'text',
+        content: [
+          '先看一个你已经做到的场景:事交出去了——责也压给他了——他做砸你也咽得下、容得住了——可你还是发现一件诡异的事——<strong>所有事最后都会绕回你</strong>——方案是他写的——但见客户时开口的还是你——活是他干的——但汇报时上台的还是你——出了新机会——别人第一个想到的还是你——<strong>你以为你在带人——其实你把自己留在了每件事的圆心——</strong>——',
+          '什么是<strong>交棒</strong>——不是交活——是把你在这件事里的<strong>存在感</strong>交出去——交棒分三层:<strong>第一层交事</strong>——活给他干——<strong>第二层交责</strong>——后果他担——<strong>第三层交名</strong>——功劳、署名、露脸、上台的位置——都给他——大多数人交到第二层就停了——因为第三层要交出去的——不是你的活儿——是你那股<strong>"被需要"</strong>——',
+          '交棒之前——先拆掉三个误会:<strong>误会一:"他还没到能露脸的水平"</strong>——露脸不是奖励——是训练——你的台子不给——他永远到不了那个水平——<strong>误会二:"重要的场面不能拿他冒险"</strong>——那你至少要给他一个次重要的练手场——没有练习场——就永远没有正式场——<strong>误会三:"我在后面盯着，才叫负责"</strong>——负责到最后一刻是负责——负责到永远——是<strong>不放心穿了一件叫"负责"的外套——</strong>——',
+          '所以交棒的姿态是:<strong>事给他——责给他——脸也给他</strong>——判断你交棒成没成——只有一句话:<strong>这件事——还经不经过我——</strong>——',
+        ]
+      },
+      {
+        icon: '🧠',
+        title: '为什么"交出名字"比"交出活儿"难一百倍?',
+        type: 'tip',
+        tipType: 'gold',
+        label: '组织心理学',
+        content: [
+          '授权累的是手——交棒疼的是心——你交出去的已经不是任务清单了——是<strong>你在这件事里的位置</strong>——而"位置感"是人最舍不得的东西——因为它是你职业身份的一部分——你干了十年才挣来的那个"这事得问他"——现在要你亲手把它交出去——',
+          '心理学里有个<strong>不可替代感依赖</strong>:一个人被反复需要之后——大脑会把"没我不行"识别成一种奖励——它让你在会议室里坐得笔直——让你在深夜里觉得值——<strong>于是你会无意识地维护这份不可或缺——"顺手帮他把关一下"——"这封邮件我再润色一遍"——"客户还是我去见吧，我熟"——每一次都是好意——每一次都把他从台前轻轻推回幕后——</strong>——',
+          '还有一层<strong>功劳本能</strong>:那个思路确实是你提的——没错——但你说出口的那一秒——"这个方向是我提的"——他脑子里那点"我也行"的光就灭了一半——<strong>成年人的体面是:想法给出去之后——就当它没长在你身上——</strong>——',
+          '一句要记住:<strong>你带人的天花板——不是他能做多好——是你敢让他多被看见——</strong>——',
+        ]
+      },
+      {
+        icon: '📊',
+        title: '经典案例对比',
+        type: 'comparison',
+        rows: [
+          {
+            before: '一位经理每次带下属见客户，开场白永远是:"这是我们小王的方案，我帮他把关过了。"他以为这是替下属撑腰。三个月过去，客户见到小王第一句话还是"你们领导呢"；小王自己也有了习惯——重要的话先看一眼经理的脸色再说。',
+            after: '另一位经理第二次见客户就说:<strong>"今天的方案小王比我熟，由他讲，我旁听。"</strong>客户问到细节，他抬了下巴示意小王答。小王中途卡了一下，他没接话，只问了一句"你刚说的那个数据，来源是哪？"小王自己接回去了。半年后，小王单独签下了这个客户——这位经理手上真正多了一个能打仗的人，而不是一个等他撑腰的人。'
+          },
+          {
+            before: '一个总监升职之后，重要项目汇报还是他主讲，团队的人在会上当背景板。他常说的是"我来吧，我熟"。一年后公司要从团队里提一个负责人，评审问:"谁能独立带项目？"没人举手——因为他们从来没被看见过。',
+            after: '另一位总监把每周的汇报时间切成三段，让三个主力轮流上台讲自己那一块，他坐在第一排第一个提问。讲完他只补一句:<strong>"这个判断是他做的，我认可。"</strong>一年后他升职，交接时董事会问:"你走了谁接？"他递上去一张纸，上面有三个名字——那三个人，市场早就在各种场合见过、也记住了。'
+          }
+        ]
+      },
+      {
+        icon: '🎬',
+        title: '场景案例',
+        type: 'case',
+        cases: [
+          {
+            type: 'negative',
+            label: '❌ 反面案例',
+            text: '（他做了一个特别漂亮的方案，下周要给大客户汇报，他又兴奋又紧张）<br>他："老大，这次汇报……"<br>你："我来讲吧，我熟。别出岔子，这客户太重要了。"<br>（讲完，客户很满意。回来路上你还在复盘自己的发挥）<br><br>👉 <strong>你替他避了一次风险——也顺手拿走了他唯一一次被大客户记住的机会——他会感激你——也会慢慢习惯——好事都轮不到他站中间——</strong>'
+          },
+          {
+            type: 'positive',
+            label: '✅ 正面案例',
+            text: '（同一个局面）<br>他："老大，这次汇报……"<br>你："<strong>你讲。我坐下面。开场和收尾是你的，中间他们要是问技术细节，你自己顶——顶不住了我再说话。</strong>"<br>他："万一把客户讲跑了呢？"<br>你："<strong>那算我的。你今天唯一的任务是把话讲完——讲之前，先跟我说一遍你打算怎么开场。</strong>"<br><br>👉 <strong>你只保留一个身份:坐在台下、等他需要时才站起来的人——这几乎是你唯一还需要保留的身份了——</strong>'
+          }
+        ]
+      },
+      {
+        icon: '✍️',
+        title: '实操方法:交棒四换，从"我讲"到"他讲"',
+        type: 'text',
+        content: [
+          '<strong>① 换主语——把"我提的"改成"他做的"</strong><br>介绍他给别人时——说"<strong>这是负责这块的人</strong>"——不说"这是我的下属"——提他的成果时——说"<strong>这是他做的，我提了个方向</strong>"——把主语交出去——<strong>同一件事，主语是谁，功劳就是谁的——这不叫谦虚——这叫把成长的燃料加满——</strong>——',
+          '<strong>② 换座位——能让他上台，就让他上台</strong><br>你坐第一排——<strong>不做那个第一个补充的人</strong>——除非他卡住并且真的开始慌——否则不接话——你这一场真正要练的——是<strong>"闭嘴的时长"</strong>——你会发现手会痒、嘴会发涩——忍住——因为台下那位的从容——是你让出来的每一寸沉默换的——',
+          '<strong>③ 换署名——把露脸的机会系统性地转出去</strong><br>对上的汇报、对外的介绍、露脸的机会——不要凭感觉给——<strong>这周就列一张清单:接下来三个月，哪三件事由他代表我们出面</strong>——写下来——写下来才会真的发生——口头默许的东西——一到关键场合就会变回你自己上——',
+          '<strong>④ 换清单——把"只有我能做"变成"他能做、只是还需要时间"</strong><br>写下你手上那件"只有你能做"的事——然后写三行:<strong>谁接——从哪天开始接——你以什么身份在旁边(顾问——支援——还是彻底不问)</strong>——写完——<strong>找一天当众宣布它</strong>——公开的承诺比私下的决心管用十倍——因为人会为了面子守约——这条心理规律，这次你可以光明正大地用在自己身上——',
+          '口诀:<strong>换主语——换座位——换署名——换清单</strong>——四换做完——你会经历一个很微妙的变化:一开始是"我让他上台"——后来是"他本来就该上台"——最后是"没人想起来我原来上过台"——<strong>那一刻你会松一口气——你已经很久没有过这种"手上空着"的感觉了——而空出来的手——终于可以去做那些只有你能做、但一直没空做的事——</strong>——',
+          '一句要记住:<strong>退到后面不是消失——是从"演的人"换成"看的人"——台上的人需要的第一样东西不是技巧——是台下有一双他敢看的眼睛——</strong>——',
+        ]
+      },
+      {
+        icon: '📝',
+        title: '今日练习',
+        type: 'practice',
+        content: [
+          '<strong>练习一（今天——"把主语还给他"）</strong><br>今天只要向别人介绍他——就用"<strong>这是负责某某的某某</strong>"——不加"我的"——只要聊到他做的事——就说"<strong>他做的</strong>"——不补"我指导的"——<strong>练一天——你会发现这两句话有多想从嘴里跑出来——那些跑出来的冲动——就是你一直没说出口的"我还想被看见"——</strong>——',
+          '<strong>练习二（本周——"台上是你，台下是我"）</strong><br>挑一次例会、一次汇报、一次客户会——<strong>把中间一个环节交出去——你全程做一个提问的人</strong>——问完就停——不纠正、不补充、不接话——<strong>如果他讲错了但无伤大雅——让那个错误当场过去——散会后再单独说给他</strong>——<strong>你得让他知道:台下坐着的是你的退路——不是他的监工——</strong>——',
+          '<strong>练习三（本月——"一次公开的交接"）</strong><br>找出你手上"没有我就不行"的那件事——写下<strong>谁接、哪天接、你之后以什么身份在旁边</strong>——<strong>然后当众说出来</strong>——一屋子人听见的那一刻——你的手才算真的松开——因为<strong>交棒从来不是一次动作——是一场当着所有人的照面——你松开手——他挺起背——剩下的事——就再也不用经过你了——</strong>——',
+        ]
+      },
+      {
+        icon: '💎',
+        title: '今日金句',
+        type: 'quote',
+        quote: 'I used to think my job was to be the answer. The one who knew. The one whose name went first, whose voice was on the call, whose judgment was the last word in the room. It felt like competence. It was mostly fear wearing competence as a costume. Because if I am the answer, then the room cannot move without me, and a room that cannot move without me is not a team. It is a sentence with one word in it, repeated forever. The day I handed the presentation to her and sat in the third row, I had to physically hold my hands still. She said two things I would never have said. One of them was better than my version. The client turned to her, not to me, and something in my chest did the strangest thing: it sank and it opened at the same time. Sinking was the small ego, the one fed for years on being needed. Opening was something older and quieter, the realization that a thing I had built was now standing on its own legs, and that its standing took nothing away from me. I went home and could not explain why I felt lighter. Then I understood. I had been carrying the whole thing in my own two arms the entire time, and I had called it dedication. It was not dedication. It was a slow and respectable form of hoarding. The moment I set it down, I found I had hands free for something else, and she found she had always had a spine. Nobody applauded. Nobody noticed. That is how you know a handoff was real. It looks like nothing happened, and everything did. The sweetest thing anyone has said to me since was not thank you. It was, you were not needed today, and we were fine. I have never been prouder of being unnecessary.',
+        author: '—— 原创:写给所有"还想被看见"的人'
+      }
+    ]
   }
 }
