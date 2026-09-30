@@ -11769,5 +11769,99 @@ const lessons = {
         author: '—— 原创:写给所有"还想被看见"的人'
       }
     ]
+  },
+  144: {
+    title: '转身的艺术——把"这件事不必再经过我"，变成"我该去开自己的下一场"',
+    icon: '🧭',
+    subtitle: '昨天你交出了名字、场面和位置——手空了——心却悬着——你发现空出来的日子不是轻松——是失重:会上没人等你发言——日历第一次出现大块空白——别人叫你"某总"时你自己都愣了一下——你开始怀疑:我是不是把自己也交出去了——今天学:转身——交棒交出去的是"这件事"——转身回答的是下一问:"那你呢"——把手空出来不是终点——把手伸向只有你能做的那件事——才叫转身——',
+    sections: [
+      {
+        icon: '🎯',
+        title: '核心概念',
+        type: 'text',
+        content: [
+          '先看一个你正在经历的场景:事交出去了——名也交出去了——会上你说话，大家不再立刻记笔记了——日历上第一次出现大块的空白——你原本以为会轻松——结果是一种说不出的<strong>失重感</strong>——像电梯突然下行的那一秒——<strong>你空出来的不是时间——是身份——</strong>——',
+          '什么是<strong>转身</strong>——交棒交出去的是"这件事"——转身回答的是下一个问题:<strong>"那你呢——"</strong>——转身不是辞职——不是躺平——是把你身上那个身份换掉:从<strong>"所有事的圆心"</strong>——变成<strong>"某件事的开头"</strong>——你不再是"那个什么都要管的人"——你成为"那个开始做某件只有他能做的事的人"——',
+          '转身分三层:<strong>第一层，承认空</strong>——承认失落是真的——被需要感是有戒断反应的——不丢人——<strong>第二层，找回问题</strong>——问自己一句:这么多年，有什么事是我一直想做、却一直"没空"做的——<strong>第三层，开口说</strong>——把转身说出来——让别人知道你在往哪走——不说，别人就还按老地图来找你——',
+          '转身之前，先拆掉三个误会:<strong>误会一:"活都交出去了，我是不是没用了"</strong>——你的价值从来不是手上的活——是脑子里那份<strong>判断</strong>——活可以交——判断交不掉——那才是你真正带得走的东西——<strong>误会二:"默默转过去就行，不用说"</strong>——不说=边界模糊=你被一次次拖回老位置——转身是要<strong>说出来的</strong>——说清楚什么还找你、什么不再找你——<strong>误会三:"转身是对过去的否定"</strong>——转身否定的是"位置"——不是"人"——把功劳留在原地——把人带走——',
+          '所以转身的姿态是:<strong>交出去的是事——带走的是自己</strong>——转身不是离开——是换一种方式在场——',
+        ]
+      },
+      {
+        icon: '🧠',
+        title: '为什么"转身"比"上任"难一百倍?',
+        type: 'tip',
+        tipType: 'gold',
+        label: '职业心理学',
+        content: [
+          '上任是开始一个故事——转身是结束一个故事——人对"结束"的恐惧，远大于对"开始"的恐惧——所以接任时你信心满满——转身时你反复犹豫——<strong>不是能力问题——是人性——</strong>——',
+          '心理学里有个词叫<strong>身份惯性</strong>:"某总""老师""负责人"这些称呼——早就不是职位了——是你的<strong>皮肤</strong>——撕掉皮肤当然疼——疼得让你误以为"是不是不该撕"——可<strong>惯性不是方向——它只是过去的速度——</strong>——',
+          '还有一层<strong>被需要戒断</strong>:交棒之后，你说一句话——大家不再立刻记笔记了——那一下会疼——你会本能地想"把话说重点，让他们重新看我"——<strong>忍住——那不是你做错了——那是戒断反应——它的意思是:你正在真的戒——</strong>——',
+          '一句要记住:<strong>转身的难——不在于你想不想走——在于你敢不敢承认——你早就想走了——</strong>——',
+        ]
+      },
+      {
+        icon: '📊',
+        title: '经典案例对比',
+        type: 'comparison',
+        rows: [
+          {
+            before: '一位总监交完棒之后，人还坐在原来的位置上——会照样参加——讨论时大家还是会瞟他一眼——他嘴上说"你们定"，但语气里全是我看看——于是没人敢真的定——他自己也开始烦躁:"怎么什么都还来问我。"下属也委屈:"他坐在那儿，我们哪敢拍板。"——他没有转身——他把自己留在了一个没有职位的职位上。',
+            after: '另一位总监交完棒，做的第一件事是画线——他当着团队说清两句话:<strong>"流程、预算、排期，你们定，不用经过我；方向和底线，你们拿不准，随时来。"</strong>然后他把日历上空出来的时间，全部填进了一直想做的那件事——研究一个行业新方向。半年后，他带着一份自己的研究回到管理层会上——这一次他讲的不是别人的进度——是他自己的东西——<strong>他转身了，别人也终于敢往前站了——</strong>'
+          },
+          {
+            before: '一位创始人把公司交给团队后，逢人就说"我现在不管了"——可每次出事，电话还是打到他手机上——他一边抱怨"怎么还找我"，一边接起每一个电话——三年过去，公司没变得更独立，他也没开始任何新的事——他以为自己在放手——其实他只是站在原地看着——手是松的——人没走。',
+            after: '另一位创始人交棒那天，开了一场正式的会，只讲三件事:<strong>"哪些事以后归你们——哪些事还能找我——我自己要去干什么。"</strong>然后他真的去做了那件只有他能做的事:把二十年的经验整理成一套方法，去带行业里更年轻的人。一年后别人再介绍他——不再是"某某公司的老总"——而是"在做某某事的那个人"——<strong>"他现在在忙什么"这个问题——终于有了一个属于他自己的答案——</strong>'
+          }
+        ]
+      },
+      {
+        icon: '🎬',
+        title: '场景案例',
+        type: 'case',
+        cases: [
+          {
+            type: 'negative',
+            label: '❌ 反面案例',
+            text: '（交完棒第三周，他还是习惯性地拿着方案来找你）<br>他："老大，这个方案您再看下？"<br>你："哦……好，我看看。"<br>（其实这一块已经归他了——但你不好意思拒绝——于是你又花了一晚上——第二天会上他汇报得磕磕巴巴——因为你改过的逻辑不是他的逻辑——你又累又有点烦——还说不出口）<br><br>👉 <strong>你没有转身——你还站在老位置上——只不过那个位置现在没有名字——没人任命你——也没人感谢你——你的"顺手帮一下"——顺手拿走了他的判断力——</strong>'
+          },
+          {
+            type: 'positive',
+            label: '✅ 正面案例',
+            text: '（同一个局面）<br>他："老大，这个方案您再看下？"<br>你："<strong>这一块现在归你和老王定——我不看了。你们俩要是吵起来定不下，再来找我。</strong>"<br>他："以前不都是您拍板吗……"<br>你："<strong>以前是以前。现在的分工是:日常归你们——拿不准的才是我——这一版署你们的名——就由你们定。</strong>"<br>（你真的忍住了，一晚上没点开那个文件）<br>（第二次，他没来——不是他不好意思——是他开始信自己能定）<br><br>👉 <strong>转身不是把人推开——是把他推上台——你忍住的那一个晚上——是他长出判断力的一个晚上——</strong>'
+          }
+        ]
+      },
+      {
+        icon: '✍️',
+        title: '实操方法:转身四步，从"还问我"到"他自己定"',
+        type: 'text',
+        content: [
+          '<strong>① 清位置——公开两张清单</strong><br>写下两行字，并当众说清:<strong>"从今天起，这三件事还找我；这三件事，不再经过我。"</strong>模糊的边界一定会把你拖回去——<strong>没划清的线，等于没转身——</strong>——',
+          '<strong>② 填空白——空出来的日历必须马上被新事占住</strong><br>转身不是躺平——空着的时间会被旧事悄悄爬回来填满——<strong>今天就把"一直没空做"的那件事写进日历——具体到某天某小时</strong>——人不会因为"离开什么"而转身——只会因为"走向什么"而转身——',
+          '<strong>③ 换介绍——给别人准备一句你的新身份</strong><br>以前别人介绍你:"这是我们的X总"——现在你要练一句话，回答"你最近在忙什么"——<strong>20字以内，说到你自己信为止</strong>——你说得出来，别人才记得住——你不再是谁的总——你是"在做某某事的人"——',
+          '<strong>④ 留情分——把功劳留在原地，把人带走</strong><br>跟老团队吃一顿饭，说三句话:<strong>谢谢你们——以后什么情况还可以找我(把"情况"说清楚)——我在做什么(邀请他们看你走的路)</strong>——办公室你带不走——这批人你带得走——<strong>位置会过期——尊重不会——</strong>——',
+          '口诀:<strong>清位置——填空白——换介绍——留情分</strong>——四步做完，你会经历一个很微妙的变化:一开始是"我不管了"——后来是"我管的地方变了"——最后是"我开始答自己的题了"——<strong>转身真正的奖品，不是清闲——是有一天你打开日程——上面排的每一格——终于是你想做的事——</strong>——',
+          '一句要记住:<strong>转身不是走出这扇门——是让所有人知道:你已经在下一扇门里了——</strong>——',
+        ]
+      },
+      {
+        icon: '📝',
+        title: '今日练习',
+        type: 'practice',
+        content: [
+          '<strong>练习一（今天——"两张清单"）</strong><br>打开备忘录——左边写:<strong>"从今天起，还来找我的三件事"</strong>——右边写:<strong>"从今天起，不再经过我的三件事"</strong>——写不出来的话——说明你还没转身——你还想全都要——而"全都要"的意思是——你哪都没去——',
+          '<strong>练习二（本周——"一句话新身份"）</strong><br>准备一句20字以内的话，回答"你最近在忙什么"——对着镜子说十遍——<strong>说到你自己信为止</strong>——因为转身最先要说服的人——是你自己——别人信不信——取决于你信不信——',
+          '<strong>练习三（本月——"把第一格排出来"）</strong><br>把那件"一直没空做"的事写进你的日历——<strong>写具体:哪天、几点、做什么、做多久</strong>——不是"以后"——<strong>"以后"是"永远不"最礼貌的说法</strong>——你交棒是为了空出手——手已经空了——现在——该伸手了——',
+        ]
+      },
+      {
+        icon: '💎',
+        title: '今日金句',
+        type: 'quote',
+        quote: 'The hardest day was not the day I handed it over. It was the Tuesday three weeks later, when the room kept solving without me. A decision I would have made in ten seconds took them twenty minutes, and it was the right decision, and nobody looked up. I sat there with my hands on the table and felt something I did not have a name for. It was not jealousy. It was closer to grief. For eleven years, the room had turned slightly toward me when it spoke. And now it simply did not, and the not doing was so quiet, so complete, that I understood I had been standing inside the attention the way you stand inside a warm room and mistake it for your own body temperature. I went home that night and did the thing I am not proud of. I opened the shared folder and read every document they had produced without me. They were good. Some were better than what I would have written. I closed the laptop and sat in the dark kitchen and I let myself say the sentence out loud, to no one. I am not needed here the way I used to be. And the ceiling did not fall. The marriage did not end. My name did not evaporate. The sentence, which I had been avoiding for a year like a bill on the counter, turned out to be light. Not heavy. Light. Because it was never only about them. It was about me, and the terrifying question under all of it, the one I had been answering with busyness since I was twenty-five: if nothing needs me, what am I. I did not answer it that night. I only finally heard it. And here is what I have learned since, slowly, in the empty calendar blocks I was afraid of: the answer does not arrive as a thought. It arrives as a direction. You do not figure out who you are. You walk toward something and find out on the way. The first thing I put in those empty blocks was not a strategy. It was a subject I had loved at twenty-two and abandoned for being impractical. The second thing was the name of a young person I wanted to teach. The day I wrote those two things into a Tuesday, I stopped being a person who had given something up. I became a person who had made room. The room did not need me. That was the gift. It meant I was free to need something of my own.',
+        author: '—— 原创:写给所有"刚交完棒、站在空地上"的人'
+      }
+    ]
   }
 }
