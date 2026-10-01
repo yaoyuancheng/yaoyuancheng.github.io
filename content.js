@@ -11863,5 +11863,99 @@ const lessons = {
         author: '—— 原创:写给所有"刚交完棒、站在空地上"的人'
       }
     ]
+  },
+  145: {
+    title: '亮相的艺术——把"我以前是谁"，变成"我现在在做什么"',
+    icon: '🚪',
+    subtitle: '昨天你转身了——把"下一扇门"说给自己听——今天你第一次要真正走进去——一个没人认识你的新场子:新团队、新行当、新圈子——第一顿饭——第一轮自我介绍——你掏出来的还是那句用惯了的"我以前是某某总"——说完你就察觉——对面的眼神礼貌——但远了——不是他们势利——是那句话里——没有他们——今天学:亮相——旧头衔是新场子的外币——不是不值钱——是不流通——怎么把"我以前是谁"——换成"我现在在做什么"——让第一面——就有人愿意跟你往下走——',
+    sections: [
+      {
+        icon: '🎯',
+        title: '核心概念',
+        type: 'text',
+        content: [
+          '先看一个你熟悉又陌生的瞬间:新场子里第一轮自我介绍——轮到你——你张口就来:"我以前是某某公司的X总，干了十几年"——桌上点头:"哦——幸会幸会"——然后话题滑向了别人——你端起杯子——心里咯噔一下:明明说的都是真的——怎么没人接——<strong>不是你的过去不值钱——是新场子不流通旧货币——</strong>——',
+          '什么是<strong>亮相</strong>——在没有人认识你的场子里——第一次让别人形成对你的判断——旧身份是新场子的<strong>外币</strong>——不是不值钱——是不流通——头衔在老圈子里是硬通货——因为大家认那张地图——新场子里没有那张地图——别人只认三样东西:<strong>你现在在做什么——你为什么来这里——你能给出什么——</strong>——',
+          '亮相的三件套——<strong>现在时＋具体事＋对别人的接口</strong>——"我现在在做一件事"(现在时)——"帮谁解决什么"(具体事)——"我需要什么、我能给什么"(接口)——旧头衔是句号——让人点头——接口是问号——让人开口——<strong>每个陌生人心里都在问一句话:"这个人跟我有什么关系"——你的亮相稿——就是回答这句话的——</strong>——',
+          '亮相之前，先拆掉三个误会:<strong>误会一:"不亮头衔，别人会看轻我"</strong>——头衔是自我宣告——事是自我证明——宣告招来审视——证明赢来兴趣——<strong>误会二:"亮相要一鸣惊人"</strong>——第一面的任务不是"记住我"——是"愿意有第二次"——用力过猛反而像推销——<strong>误会三:"介绍自己是自私、是推销"</strong>——不是——自我介绍是给别人的方便:让别人知道怎么用你、怎么靠近你——你不介绍——别人只能猜——猜错的人——会一直错下去——',
+          '所以亮相的姿态是:<strong>把履历留在门口——把事情带进屋里</strong>——新场子不问你的来路——只问你的去处——你不必让人知道你的过去有多重——你只需要让人看见你的现在有多真——',
+        ]
+      },
+      {
+        icon: '🧠',
+        title: '为什么"重新介绍自己"这么难?',
+        type: 'tip',
+        tipType: 'gold',
+        label: '社会心理学',
+        content: [
+          '新人对老场子是风险——新人对新场子却是礼物——心理学里有个<strong>首因效应</strong>:第一面形成的印象——会像锚一样锁住之后很久的判断——这意味着两件事——坏消息:第一面说歪了——后面要多花十倍的力气去改——好消息:<strong>新场子给你的第一面——是一张干净的白纸——没有人对你有预设——你怎么介绍自己——别人就怎么认识你——这是老圈子里永远买不到的东西——</strong>——',
+          '那为什么我们总是忍不住掏旧头衔——因为它是<strong>安全感</strong>——说出来的那一秒——你立刻被自己证明了——多舒服——可每说一次"我以前是……"——都在向所有人(包括你自己)重复一句潜台词:"我现在不是了"——<strong>头衔是过去的资产——是现在的负债——</strong>——',
+          '还有一层"新人羞耻"——觉得自己在新场子里什么都不懂——矮人一头——得藏着——可你反过来看:<strong>"新人"是全世界最有力的身份之一</strong>——新人可以提问——可以走近任何人——可以光明正大地说"我不懂"——而且每个老人都本能地想帮新人一把——因为帮你——也是在重温当年被帮的那份暖——<strong>你把"不懂"说出口——不是暴露弱点——是递出一张请教的邀请函——没有人会拒绝一个真心想听懂的人——</strong>——',
+          '一句要记住:<strong>新场子里——你掏头衔——别人读的是你的过去——你讲你在做的事——别人看到的是他的未来里——有没有你——</strong>——',
+        ]
+      },
+      {
+        icon: '📊',
+        title: '经典案例对比',
+        type: 'comparison',
+        rows: [
+          {
+            before: '一位高管卸任后的第一次行业交流会——主持人让大家自我介绍——他说:"我以前是某某集团的副总，管过三千人的团队。"对方点头:"幸会幸会。"——然后转身去找了别人——整场活动——他坐了冷板凳——回家很失落:"人走茶凉。"——不是茶凉——是你端上来的——是上一杯茶。',
+            after: '同样是他——换了说法:<strong>"我现在在做一件事——把这十五年踩过的坑，整理成一套带新经理的方法。在座的团队要是有新主管，我送一套试用，你帮我提提意见就行。"</strong>话音一落，对面立刻问:"怎么用？加个微信。"——<strong>他一句头衔都没提——却全场都记住了他——因为他说的话里，装着别人的需要——</strong>'
+          },
+          {
+            before: '一位空降到新团队的管理者——第一次全员会上，自我介绍讲了五分钟辉煌史:"我过去带团队拿过什么奖、做过什么项目、服务过哪些大客户。"讲完——气氛微妙地安静——台下老同事心里冒出的第一句是:"又一个来指手画脚的。"——你的过去对他们没有用——只让他们感到压迫。',
+            after: '另一位只说了三句话:<strong>"我叫X，从这周起负责这块。来之前，我做了十五年相关的事。但前两周，我的主要任务是听——你们每个人我都会约半小时，先听你们讲坑在哪，然后我们再看怎么干。"</strong>散会后——好几个人主动来加微信——<strong>老同事不怕新人有本事——怕新人不听他们说话——你把"听"字放进第一句——"空降兵"就变成了"自己人"——</strong>'
+          }
+        ]
+      },
+      {
+        icon: '🎬',
+        title: '场景案例',
+        type: 'case',
+        cases: [
+          {
+            type: 'negative',
+            label: '❌ 反面案例',
+            text: '（新圈子的第一次饭局，一圈人轮流"报家门"）<br>对方："您现在在哪高就？"<br>你："嗨，我之前是某某公司的合伙人，做了十几年了，现在歇一歇。"<br>对方："哦哦，那挺好——"（端起茶，眼神开始投向别处）<br>（你察觉到那一下礼貌的疏远——于是讲得更卖力：当年做过什么、认识谁——可你越讲过去，桌子越安静——你心里发凉：我讲的都是干货，怎么没人接？）<br><br>👉 <strong>你端上桌的是"履历"——别人想找的是"接口"——履历是你一个人的事——接口是你们之间的事——一圈人各自都在找那句"这个人跟我有什么关系"——你的十五年——还没接上他们的明天——</strong>'
+          },
+          {
+            type: 'positive',
+            label: '✅ 正面案例',
+            text: '（同一个饭局，同样一问）<br>对方："您现在在哪高就？"<br>你："<strong>我现在在做一件小事——把这些年带团队的经验，做成一套给年轻管理者用的课。这桌有没有带团队的？我想找几位\'用户\'——我送课，你们负责吐槽。</strong>"<br>对方（眼睛一亮）："我们组正好有个新主管——你那套怎么用？"<br>（第三个人也接上了话："说到新主管——我最近也头疼一个事……"）<br>（十分钟后，你成了这桌的中心——不是因为你厉害——是因为<strong>你的话，接得上每个人的事</strong>）<br><br>👉 <strong>亮相的秘诀不在"我有多好"——在"我的话里有没有你"——头衔是句号，让人客气——"我在做什么、能给你什么"是问号，让人开口——</strong>'
+          }
+        ]
+      },
+      {
+        icon: '✍️',
+        title: '实操方法:亮相四句，30秒让人愿意有下一次',
+        type: 'text',
+        content: [
+          '<strong>① 现在时开头——第一句不许出现"曾经"</strong><br>把"我以前是……"戒掉——换成"我现在在做……"——参考框架:<strong>"我现在在做X——"</strong>——过去时让人客气——现在时让人接话——',
+          '<strong>② 具体到能闻见味道——不做形容词的人</strong><br>不说"我做管理咨询"——说"我帮三十人的小团队梳理流程——最近刚帮一家连锁餐馆把排班时间砍掉三分之一"——<strong>具体＝可信＝可追问</strong>——形容词是墙——细节是门——',
+          '<strong>③ 给一个接口——让别人的手有地方放</strong><br>介绍自己时，故意留一个"按钮":我在找什么人、需要什么、能给什么——"我在找用户""我在带新人""谁认识做零售的，帮我引荐一位"——<strong>没有接口的自我介绍——听完只能"幸会"——有接口的——听完能"加个微信"——</strong>——',
+          '<strong>④ 用提问收尾——把独白变成对话</strong><br>讲完自己，立刻把话筒递出去:"你呢——你最近在忙什么？"——<strong>自我介绍最好的收尾——是让对方开始介绍自己</strong>——你越让对方说——对方越觉得你"会聊天"——',
+          '口诀:<strong>现在时——具体事——留接口——问回去</strong>——三十秒——四句话——你的过去一个字没提——可全场都想知道你的下一步——<strong>新场子的入场券——不是你的履历——是你的接口——</strong>——',
+          '一句要记住:<strong>别用履历敲门——用事情敲门——履历敲开的是客气——事情敲开的是关系——</strong>——',
+        ]
+      },
+      {
+        icon: '📝',
+        title: '今日练习',
+        type: 'practice',
+        content: [
+          '<strong>练习一（今天——"三十秒亮相稿"）</strong><br>写下三十秒新版自我介绍——<strong>第一句必须是"我现在在做……"——全稿不许出现任何头衔、任何"曾经"</strong>——写完读三遍——每读一遍问自己:如果我是桌上的人——听完想不想追问一句——不想——就重写——',
+          '<strong>练习二（本周——"配三个接口"）</strong><br>给你的亮相稿配三个接口:①我在找什么（用户/伙伴/老师）②我能给什么（经验/资源/时间）③请谁帮你接线（"您认识带团队的人吗——帮我引荐一位"）——<strong>亮相不是独白——是把别人拉进来的钩子</strong>——',
+          '<strong>练习三（本月——"第一杯咖啡"）</strong><br>在新场子里主动约三个人喝咖啡——开场白只用一句话:"<strong>我刚来——想听听你的版本——这里的水深在哪？</strong>"——新人最大的特权——就是可以光明正大地不懂——<strong>你把"不懂"说出口——对方反而会把你当自己人——因为没有人会拒绝一个真心想听懂的人</strong>——',
+        ]
+      },
+      {
+        icon: '💎',
+        title: '今日金句',
+        type: 'quote',
+        quote: 'The first time I introduced myself without my title, my voice did something embarrassing on the third word. I had spent eleven years being announced. Somebody else always said the company first, then my name, and the room knew how to hold me before I opened my mouth. Now I stood at a Tuesday-night meetup with a crooked name tag, and the only currency I had brought was a sentence I had practiced in the car: I am working on a small thing, teaching new managers what took me fifteen years to learn. The man next to me sold industrial ovens for a living. He did not ask what I used to do. He did not ask how big my old team was. He asked one question: does it work for a restaurant. And I remember the exact feeling, like a window going up in a stuffy room. For eleven years people had been impressed at me, which is a lonely thing, a kind of weather you stand in alone. This was different. This was useful, which is a thing two people can hold at the same time. We talked for forty minutes about shift schedules and the particular misery of training someone who quits in three months. I walked to my car afterward and sat there a while, not because it had gone badly, but because it had gone so differently. My old title had introduced me to rooms. It had never once introduced me to a person. All those years I thought I was being known. I was being described. Here is what nobody tells you about starting over: you do not lose your past. It comes with you, in the calluses on your hands, in the questions you know to ask. What you lose is the shortcut past the first sentence. You have to earn the room now, one question at a time, the way everybody else does. And I will tell you the secret I learned that Tuesday, from a man who sells ovens: the room was never waiting for my resume. It was waiting for my sentence. The one with a door in it, so somebody else could walk through.',
+        author: '—— 原创:写给所有"第一次不带头衔开口"的人'
+      }
+    ]
   }
 }
