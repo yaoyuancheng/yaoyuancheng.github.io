@@ -11957,5 +11957,99 @@ const lessons = {
         author: '—— 原创:写给所有"第一次不带头衔开口"的人'
       }
     ]
+  },
+  146: {
+    title: '连接的艺术——把"加了个微信"，变成"这根线，接得上事"',
+    icon: '🧵',
+    subtitle: '昨天你亮相了——一句"我现在在做X"——满桌人都接得上话——临走扫了一圈码——微信加了五六个——都说"回头约"——一周过去——列表安静得像什么都没发生——你盯着那个新名字——聊天记录停在系统那行"我通过了你的朋友验证"——你忽然懂了:加微信不是连接——只是各自留下一根线头——线头不接——风一吹就散了——今天学:连接——认识一个人只要三十秒——让这个人真正走进你的生活——靠的是你亲手把线头接上三样东西:事、人、下一次——网络不是攒出来的——是一根一根接出来的——',
+    sections: [
+      {
+        icon: '🎯',
+        title: '核心概念',
+        type: 'text',
+        content: [
+          '先看一个正在你手机里发生的场面:亮相那晚——你扫了一圈码——加了五六个微信——有人说"你那套课发我看看"——有人说"改天约咖啡"——你心满意足地回家——一周后你翻列表——六个新名字——聊天记录齐刷刷停在"我通过了你的朋友验证"——你没发第二条——他们也没发——<strong>不是谁没礼貌——是你们各自攥着一根线头——谁都没接——</strong>——',
+          '什么是<strong>连接</strong>——加微信是留下一个"可能"——连接是让这个可能长出"下一次"——线头要接上三处才算接住:<strong>接上事</strong>(以后有事，彼此想得到对方)——<strong>接上人</strong>(你的难题，我认识能解的人)——<strong>接上下一次</strong>(有具体的时间、由头、交付)——<strong>微信是通讯录——连接是"他下一次开口，第一个想到你"——</strong>——',
+          '连接分三层:<strong>第一层，记得住</strong>——对方的名字后面，要挂着一件具体的事——没有细节的名字，活不过七天——<strong>第二层，给得出</strong>——你能给什么:一句提醒、一份资料、一个引荐——给不出资源的时候，先给"具体"——<strong>第三层，有节奏</strong>——关系的活性不靠一次深聊——靠规律地露面——像浇花，一次浇透不如每天一点点——',
+          '连接之前，先拆掉三个误会:<strong>误会一:"人脉是攒出来的"</strong>——攒是收集——接才是连接——抽屉里一千张名片，不如手上十根接上了的线——<strong>误会二:"主动联系=打扰别人"</strong>——带着东西的联系不是打扰——是礼物——真正打扰人的，是干巴巴一句"在吗"——<strong>误会三:"我现在没什么能给"</strong>——你永远有东西能给:<strong>你刚看到的信息、你踩过的坑、你认识的人</strong>——人脉的新手靠资源——人脉的高手靠用心——用心不要本钱——',
+          '所以连接的动作是:<strong>别让线头躺在列表里——当天接一条——月月露一次面</strong>——新场子不会自动变成你的圈子——<strong>圈子是你亲手织的——</strong>——',
+        ]
+      },
+      {
+        icon: '🧠',
+        title: '为什么"加了好友"却等于没认识?',
+        type: 'tip',
+        tipType: 'gold',
+        label: '社会网络学',
+        content: [
+          '社会学里有个著名的<strong>弱连接理论</strong>:真正给你带来新机会的——往往不是天天见面的老朋友——而是"偶尔联系"的弱连接——因为强连接和你信息同源——你知道的他也知道——<strong>弱连接才跨圈</strong>——新场子里的每个人，天然都是你的弱连接——但弱连接有一个前提:<strong>它得是"活"的</strong>——躺在列表里三年不动的弱连接——价值等于零——弱连接要靠"接"来激活——激活过一次——它才从名单上的名字——变成你人生里的可能——',
+          '<strong>记忆的机制也站在"接"这一边</strong>:名字是索引——细节才是文件——没有细节附着的名字——在对方脑子里活不过一周——他下次想不起你——不是势利——是你留在他记忆里的线索——太少了——所以你发出的每一条"具体回执"——表面是联络——<strong>实际是在对方的记忆里——给你自己建文件夹——</strong>——',
+          '还有一层<strong>接触效应</strong>:人对熟悉的东西，天然有好感——一年一度的深度长谈——浓度再高——也敌不过每季度一次的"带信息的露面"——关系的活性不靠强度——靠<strong>节奏</strong>——像浇花:一次浇透会烂根——每天一点点——花才活——',
+          '一句要记住:<strong>加微信是登记——连接是接线——登记的名字会过期——接上了的线，才有电流——</strong>——',
+        ]
+      },
+      {
+        icon: '📊',
+        title: '经典案例对比',
+        type: 'comparison',
+        rows: [
+          {
+            before: '行业交流会上认识了一位潜在客户——加了微信——回家就躺进了列表——半年后想联系——翻开聊天记录，只有系统那行"我通过了你的朋友验证"——他只好发:"在吗？上次活动见过的。"对方回:"哪位？"——他解释了半天——对方"哦哦，记得记得"——然后没有然后了——他感慨"现在的人真势利"——不是势利——是那根线从没被接过——<strong>你不是被拒绝——你是从没被记住。</strong>',
+            after: '同一个人——当晚做了三件事:<strong>把对方说的"排班难题"记进备忘录——搜到一篇相关案例转过去——末尾加一句"你说的那个周五班次问题，这篇第3段有个做法，你看看能不能用"。</strong>两周后——他随口问一句"排班那事定了吗"——对方回了一长段——三个月后——对方主动约他见面——还介绍了一个客户给他——<strong>他没有"经营人脉"——他只是把每根线头——随手接上了事——</strong>'
+          },
+          {
+            before: '一位空降的管理者——亮相后加了一圈微信——之后每次见面都点头——但永远停在"点头"——半年后他要跨部门协调——翻开列表——十几个名字——每一个点进去都不知道怎么开口——"不好意思打扰"——他最后绕过所有人，自己硬扛——一个新场子，一个新朋友都没留下。',
+            after: '另一位——每周固定约一个人喝半小时咖啡——开场只问一句:<strong>"你的版本里，这里的水深在哪？"</strong>——回来后在本子上记三行:他关心什么/我能帮什么/下次什么时候问一句——三个月后——他成了新场子里"信息最通"的人——<strong>不是因为他聪明——是因为他手里有十几根接上了的线——每根线，都能传回一个消息——</strong>'
+          }
+        ]
+      },
+      {
+        icon: '🎬',
+        title: '场景案例',
+        type: 'case',
+        cases: [
+          {
+            type: 'negative',
+            label: '❌ 反面案例',
+            text: '（亮相之后第三天，你在活动现场又碰到他）<br>你："哎——我们加过微信吧？"<br>他："哦——对对对，幸会幸会。"（点头，眼神开始找别处）<br>你："你那天说的那个课——"<br>他："啊，回头聊回头聊。"（笑着走开）<br>（你回家翻聊天记录——只有一行系统提示:"我通过了你的朋友验证"）<br><br>👉 <strong>你的线头还捏在自己手里——他连你的名字都在努力回忆——"加过微信"是你们唯一的共同记忆——而这么薄的记忆——撑不起第二次对话——你不是没机会——你是在机会递到手上的那天——把它收进了抽屉——</strong>'
+          },
+          {
+            type: 'positive',
+            label: '✅ 正面案例',
+            text: '（同一场景，同一句"我们加过微信吧"）<br>你："<strong>上次你说在找给新主管的方法——我整理了一份，晚上发你。对了，你店里排班那事最后怎么解决的？</strong>"<br>他："你还记着？——哎，说到这个……"（站定，讲了五分钟）<br>你："<strong>这个坑我们也踩过——改天介绍个同行给你认识，他刚解决完一模一样的问题。</strong>"<br>他："那太好了——来，咱们约个具体时间？"<br>（这次分开——聊天记录里有了内容——下周三也约好了）<br><br>👉 <strong>第二次见面，接的是第一次的线头——记住他说过的一个细节——你就从"加过微信的人"——变成"记得我的人"——连接就是这么朴素:你多记一句——他多走一步——</strong>'
+          }
+        ]
+      },
+      {
+        icon: '✍️',
+        title: '实操方法:连接四步，让线头接得上',
+        type: 'text',
+        content: [
+          '<strong>① 二十四小时回执——见面当天的消息，决定这条线的走向</strong><br>公式:<strong>具体细节＋一个小交付</strong>——"你说的X，我想到/查到Y，发你"——绝不发"很高兴认识你"——那是客套——不是回执——客套让人礼貌回复——回执让人真正记住——',
+          '<strong>② 建一本"连接账"——把记忆外包给纸</strong><br>每认识一个值得往下走的人，记三行:<strong>他关心什么——我能给什么——下次什么时候问一句</strong>——脑子记不住一千个人——备忘录可以——不用复杂工具——三行就够——',
+          '<strong>③ 先给后要——第一次主动联系，带东西，不带请求</strong><br>一句提醒、一份资料、一个转介绍——<strong>第一次就开口要的人，是在取钱——第一次先给的人，是在开户</strong>——账户里有了余额——将来的"开口"才不烫嘴——',
+          '<strong>④ 有节奏地露面——不刷存在感，但按季节出现</strong><br>看到对方关心的行业消息、读到一篇对他有用的文章——转过去，加一句"想起你"——<strong>不打扰的规律——是最舒服的惦记</strong>——',
+          '口诀:<strong>当天回执——记在账上——先给后要——定时露面</strong>——四步都不难——难的是承认一件事:关系不是"碰到了就有"的运气——是"接住了才算"的手艺——',
+          '一句要记住:<strong>微信里躺一千个名字——不如手上接住十根线——名字是别人给的——线，是你自己接的——</strong>——',
+        ]
+      },
+      {
+        icon: '📝',
+        title: '今日练习',
+        type: 'practice',
+        content: [
+          '<strong>练习一（今天——"翻列表，发回执"）</strong><br>翻出最近一个月新加的三个人——给每个人发一条"具体回执":写清见面时他提到的一个细节——外加一个你顺手能给的交付（一条信息/一篇文章/一个名字）——<strong>不要群发式问候——每一条都要点名他说过的话</strong>——发完你立刻能感到:线，接上了——',
+          '<strong>练习二（本周——"连接账本"）</strong><br>建一个简单的备忘录——给这三位各写三行:<strong>他关心什么/我能给什么/下次什么时候联系</strong>——然后做一件反直觉的事:挑其中一位——本周先给一次——只给，不要——<strong>浇花要在花没蔫的时候——关系要在没事求人的时候养</strong>——',
+          '<strong>练习三（本月——"织第一个结"）</strong><br>介绍两个互相需要的人认识——你当那个"结":A有难题——B有答案——拉个小群——说一句"A在忙X，B刚做过X，你们聊聊"——然后退到一边——<strong>网络里最值钱的位置不是中心——是"结"——每打一个结——你都被两条线记住——</strong>——',
+        ]
+      },
+      {
+        icon: '💎',
+        title: '今日金句',
+        type: 'quote',
+        quote: 'Three weeks after that meetup, I texted the man who sells ovens. Not to ask for anything. I sent him the shift-schedule template I had promised in the last five minutes of the evening, when both of us had one arm in our coats and I was already half out the door. He replied in eleven minutes. Not thank you. A photo of his whiteboard, and one question: what about the Friday crew. I have come to believe this is the entire secret, and it is so simple that writing it down feels almost embarrassing: a network is not a collection. My father collected. He kept a wooden box of business cards on his desk, hundreds of them, each one a hand he had shaken once, and after he died I opened the box and could not have told you who half of them were, and neither could he, at the end. Forty years of gathering. Not one Tuesday evening of following up. I used to think I was different because my cards were digital and my box was a phone. I was not different. I had four thousand contacts and a quiet phone. Here is the difference between collecting and connecting, and it took me until fifty to see it. Collecting is additive. Connecting is reciprocal. One is arithmetic. The other is a conversation. That template, that whiteboard, that question about the Friday crew, that is what a line looks like when somebody ties the other end to something. You cannot build a net by holding rope. You build it by handing the end to someone and letting them pull. I am not a natural at this. I am, by temperament, a man who finishes his coffee and leaves. But I have learned to stay eight minutes longer, to write the note that same night, to send the article that made me think of their exact problem. And I want to tell you what those eight minutes and those small notes did over five years. They got me work when I was too old to apply. They got me a doctor at midnight when my wife was scared. They got me, at the lowest financial point of my life, four people who showed up without being asked. Not because I am impressive. Because I had tied my lines to theirs while the weather was fine. Nobody ties rope in a storm. You tie it on ordinary Tuesdays, in small knots, with nothing to gain that day. That is the whole practice. It is not networking. It is knot-work.',
+        author: '—— 原创:写给所有"通讯录很长、接得上的线很短"的人'
+      }
+    ]
   }
 }
