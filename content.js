@@ -12619,5 +12619,104 @@ const lessons = {
         author: '—— 原创:写给所有"希望自己的名字，被说出口时是重的"的人'
       }
     ]
+  },
+  153: {
+    title: '走动的艺术——把"改天聚聚"，变成"常来常往"',
+    icon: '👣',
+    subtitle: '昨天你学的是立信——把名字变重——让别人敢介绍你——你大概已经开始在心里盘点了:哪笔账还欠着——哪句"你放心"还撑不起来——很好——但今天，把镜头拉远一点——站到三年后回头看看:那些你已经接上的线、那些替你说了话的人——还在走动的，还剩几条——今天学:走动——人情里有一条最慢、也最不留情的规律:不走的近路，会变成远路——不走的关系，会变成一个安静的名字——线接上了不算数——线的另一头，得一直有人——',
+    sections: [
+      {
+        icon: '🎯',
+        title: '核心概念',
+        type: 'text',
+        content: [
+          '先做一件事——打开你的通讯录，往下滑——滑到某个名字时，你停住了:你们以前一起熬夜改过方案，他结婚你随过份子，你最低落那阵子，是他陪你喝了一场——再点开聊天记录——最后一条消息停在两年前——你那句"改天聚聚"——他没有回——你也没有再提——<strong>你们之间什么都没发生——没吵架，没翻脸，没有过节——就是——不走动了</strong>——',
+          '再数一数——你手机里存着多少句"改天聚聚"——有你说的，也有别人对你说的——<strong>这句话在社交场里其实有个潜台词:"我们大概不会再聚了——但我想把这一句，说得体面一点"</strong>——它不是约定——是礼貌的散场词——最让人难受的是:说这句话的时候，双方都是真心的——只是那份真心——没有配上动作——',
+          '什么是<strong>走动</strong>——不是求人、不是应酬、不是攒局——是<strong>没事的时候，也在</strong>——一条"看到这个想起你"的消息——一次路过时顺上楼的一杯咖啡——一句"你上回说的那件事，后来怎么样了"——它不图什么——它的全部意义就是:<strong>让对方在你的世界里，一直保持"活人"的状态——而不是通讯录里一个静止的条目</strong>——',
+          '不走动的人，通常是三种病之一——<strong>第一种，功利眼:"没事联系人家干嘛"——这句话的潜台词是:关系必须"有用"才值得维持——可等到有事那天才出现——对方一眼就看得出来:他不是想起我了——是需要我了</strong>——<strong>第二种，怕打扰:"他现在那么忙"——用体贴包装的拖延——真相是:打扰一个人的最小成本，就是一条几秒钟的消息——你不是怕打扰他——你是不知道怎么开口</strong>——<strong>第三种，空头党:"改天"是他的口头禅——说了三年——他的"改天"，就是永远不到的那一天</strong>——',
+          '所以走动的底层逻辑是:<strong>关系不是资产，是会过期的活物——它的保鲜不靠"当年有多好"——靠"最近有没有来往"</strong>——每个人心里都有一本分类账——他把你放在"随时可以打电话"那一栏，还是"以前认识"那一栏——不取决于你们从前的交情有多深——取决于你们最近——有没有互相露过面——<strong>人情的残酷就在这里:不是谁忘了你——是你在不在场的日子里——被慢慢地，从"常来常往"——挪进了"以前认识"——</strong>——'
+        ]
+      },
+      {
+        icon: '🧠',
+        title: '为什么"不走的近路"，会越走越远？',
+        type: 'tip',
+        tipType: 'gold',
+        label: '关系动力学',
+        content: [
+          '走动不是勤快不勤快的事——它背后站着三条硬规律——',
+          '<strong>第一条:关系衰减定律</strong>——关系学里有一条朴素的观察:任何关系，只要停止互动，就会自然降温——不是谁变心了——是因为<strong>人天生把注意力，分配给"最近见过面、说过话"的人</strong>——你的名字在对方生活里是死是活，靠的是一次次微小互动在续期——停了，就在冷却——只是这过程太慢——慢到你以为什么都没发生——',
+          '<strong>第二条:熟悉感效应</strong>——心理学里有个"曝光效应":人对反复出现在眼前的人或事，好感会自动上升——人际上同理:<strong>决定对方把不把你当"自己人"的，常常不是你有多好——是你们露面的频率</strong>——所以真正会走关系的人，讲究"轻量高频"——不追求一次深谈三小时——追求每隔一阵子，在对方的世界里，轻轻露个面——',
+          '<strong>第三条:邓巴数</strong>——人类学家邓巴算过:一个人能维持稳定关系的上限，大约是150人——<strong>超过这个数，关系必然碎片化——所以走动的正确姿势不是"平均用力"——是分层:核心圈常走，中间圈轻触，外圈一年一次具体的问候</strong>——你不可能和所有人深交——但你可以让每一层的人，都记得你的声音——',
+          '但必须划清一条边界:<strong>走动 ≠ 骚扰，更不等于群发祝福</strong>——每天转发链接、逢年过节群发"新年快乐"——那不是走动，是社交噪音——真正的走动有个能被认出来的标志:<strong>对方收到的不是"你在群发"——而是"你想到了我"</strong>——一条消息里有没有具体细节——就是那条分界线——'
+        ]
+      },
+      {
+        icon: '📊',
+        title: '经典案例对比',
+        type: 'comparison',
+        rows: [
+          {
+            before: '三年没联系的老同事，突然发来一句:"在吗？有个事想麻烦你。"——你盯着那两个字看了很久——往上翻，上一条消息停在三年半前他离职那天，你回的"以后常联系"——事你帮了——但心里有个声音轻轻说了一句:"哦——原来是这样啊"——<strong>不是你不想帮——是那个"在吗"里——只有事——没有人——</strong>',
+            after: '同样的两个人——但他没有消失:你转发过一次他行业的资料，配一句"看到这个想起你"；他回过一次"你上次说的那本书我看完了"；三年里吃了两顿饭，都是顺路——这次他来找你，第一句是:"好久没聊了，最近怎么样——另外有件事想请教你"——你还是帮了——但这回心里很顺——<strong>因为你帮的，是一个一直活在你视野里的人——帮忙是顺手——不是凿开一扇六年没开的门——</strong>'
+          },
+          {
+            before: '"改天聚聚"说了三年——每次都是"最近太忙，过一阵一定约"——三年后终于见了——坐在对面，聊完孩子聊房价——中间隔着一片说不清的空白——你忽然意识到:<strong>交情还在——但话题没了——两个人之间的那条路——荒了——</strong>',
+            after: '同样的两个人——不攒大饭局——改用"碎片走动":路过他公司楼下，喊他下来喝十分钟咖啡；刷到一条行业新闻，转给他配一句"想起你两年前的判断"——一年见面不到五次——可每次坐下来，都像昨天刚聊过——<strong>关系要的从来不是一场隆重的重逢——是很多次轻量的在场——</strong>'
+          }
+        ]
+      },
+      {
+        icon: '🎬',
+        title: '场景案例',
+        type: 'case',
+        cases: [
+          {
+            type: 'negative',
+            label: '❌ 反面案例',
+            text: '（母亲住院，你需要一位专家——你想起一个名字:六年前婚礼上来过的老同学，如今恰好是这家医院最好的医生）<br>（你翻到他的对话框——上一条消息停在六年前:"新婚快乐！改天聚！"）<br>（你打字、删掉、又打字——最后发出去的是一句:"在吗？有个事想麻烦你……"）<br>（他两小时后回复:"在，你说。"——事办成了——但整个过程，你手心一直是汗）<br>（事后你请他吃饭——饭桌上你客气了一整晚——你们都在礼貌地假装——那六年不存在）<br><br>👉 <strong>真正让你手心出汗的，不是"求人"这两个字——是你们之间那六年的空白——走动够不够，平时看不出来——一到用的时候——每一年的空白——都会回来收利息——</strong>'
+          },
+          {
+            type: 'negative',
+            label: '❌ 反面案例（第二种崩法）',
+            text: '（你自认为"很讲究"——逢年过节一条不落）<br>（除夕那天你复制了一段漂亮的祝福，给通讯录里268个人群发）<br>（一位你很敬重的前辈，回了一个字:"谢"——你知道，那个"谢"翻译过来是"收到了，别发了"）<br>（更扎心的是你后来听说——他给别人回的是三行字——因为那个人发的是:"想起您去年会上的那句判断，今年真应验了，受教。"）<br><br>👉 <strong>群发祝福不是走动——是社交账单上的"已缴费"凭证——你付了钱——但没送到人——真正被记住的消息，都长着一副"只对你可见"的样子——</strong>'
+          },
+          {
+            type: 'positive',
+            label: '✅ 正面案例',
+            text: '（同一年除夕——你没群发——你挑了十个人，一人一条）<br>（给前辈:"想起您去年说的那句判断，今年真应验了，受教。"）<br>（给老同学:"路过咱们以前学校了，门口那家小面馆还在。"）<br>（给前同事:"你孩子今年是不是该上初中了——时间真快。"）<br>（十个人，当晚七个回了长消息——前辈回的是:"你倒是有心——改天来坐坐。"）<br>（年后你真去了——带了一盒他爱喝的茶——聊了一个下午——临走他说了一句:"以后有事，直接说。"）<br><br>👉 <strong>看清区别:群发把"祝福"当任务完成——单发把"想起你"当真事发生——走动的全部技术含量，就藏在"具体"两个字里——一句"我想起一件和你有关的事"——胜过一百句"万事如意"——</strong>'
+          }
+        ]
+      },
+      {
+        icon: '✍️',
+        title: '实操方法:走动四步——"分好层、带细节、走轻量、在事先"',
+        type: 'text',
+        content: [
+          '<strong>① 分好层——不是所有关系都用同一个频率</strong><br>把重要的人分成三档:<strong>核心圈（常走）</strong>——父母、挚友、常共事的搭档:每月一次真实互动，一通电话、一次见面、一条长消息；<strong>中间圈（轻触）</strong>——共过事、彼此认可的:每季度露一次面，一条消息就够；<strong>外圈（挂号）</strong>——一面之缘的贵人、行业前辈:一年一次，一条"只对他可见"的问候——<strong>分层不是势利——是把有限的精力，用在真实走得动的关系上——</strong>——',
+          '<strong>② 带细节——每条消息里，放一个"只属于你们俩的东西"</strong><br>一个共同经历、一个他的近况、一个他提过的偏好——模板:<strong>"看到XX，想起你上次说的……"</strong>——自检标准:<strong>如果这条消息抹掉称呼、群发给谁都成立——那就别发——</strong>——走动的全部技术含量——就藏在"具体"两个字里——',
+          '<strong>③ 走轻量——把门槛降到脚边</strong><br>很多人不敢走动，是怕"要请客、要攒局、要赔一下午"——<strong>把走动的成本压到最低:一条消息、一杯十分钟的咖啡、一个顺路的电话</strong>——关系的存续靠频率，不靠排场——<strong>一顿三千块的饭——抵不过一年里十二次"我想起你"——</strong>——',
+          '<strong>④ 在事先——别等到有事，才出现在人家门口</strong><br>走动的最高原则:<strong>对方有事之前，你已经在</strong>——他升职时、孩子出生时、家里有变故时——第一时间出现——<strong>"有事时帮忙"是交易——"没事时挂念"才叫人情</strong>——顺序反了，性质就变了——',
+          '口诀:<strong>分好层——带细节——走轻量——在事先</strong>——四步走完你会明白:走动不是社交任务——是给关系交"月租"——<strong>不交月租的关系不是没了——是等你再敲门的时候——门里的人——得重新认识你一遍——</strong>——'
+        ]
+      },
+      {
+        icon: '📝',
+        title: '今日练习',
+        type: 'practice',
+        content: [
+          '<strong>练习一（今天——三个"复活"）</strong><br>打开通讯录，找出三个"曾经很好、但聊天框已空"的名字——每人发一条带细节的消息:<strong>不求助、不邀约、只报告一个"我想起你"的瞬间</strong>——比如"今天路过XX，想起咱们当年……"——发完留意一件事:<strong>大部分人的回复——比你想象的——热情得多——</strong>——',
+          '<strong>练习二（本周——做一次"无目的走动"）</strong><br>这周做一次纯粹的走动:想起谁，就联系谁——<strong>不图任何事——不铺垫、不化缘——就是"想你了"</strong>——可以是一通十分钟的电话、一顿便饭、一次顺路的拜访——体会一下"没关系也要走动"的松弛——<strong>那是关系里——最好看的姿势——</strong>——',
+          '<strong>练习三（本月——建一张"走动地图"）</strong><br>拿出通讯录，把最重要的二三十个人分好层:<strong>核心圈（月度联系）——中间圈（季度轻触）——外圈（年度问候）</strong>——给每一层定一个"最低动作"，写进日历或置顶备忘——月底对着单子复盘一次:<strong>谁到期了——谁已经凉得太久——</strong>——记住:这本账的利息——就是靠一次次"我想起你"——慢慢计出来的——'
+        ]
+      },
+      {
+        icon: '💎',
+        title: '今日金句',
+        type: 'quote',
+        quote: 'For years I kept a phone full of names and called it a network. I was proud of the number. Twelve hundred contacts, and I could tell you something about nearly every one of them — where we met, what they did, some joke we once shared. I believed the list itself was the relationship, that it sat there like money in a vault, earning nothing but always there when I reached for it. Then my father got sick, and I needed a doctor, and the best one I knew was a man I had not spoken to in six years. We had been close once. He had stood at my wedding. And I stood in a hospital hallway with my thumb over his name, and I felt something I had never felt in all my years of collecting people: I was not sure he would pick up. He did pick up — because he was better than what I had given him. But the pause before I pressed call, that pause was the honest summary of six years. Later that month an old farmer I knew said something I have never forgotten. He said, the paths between people are like the paths between villages. Walk them, and they stay roads. Leave them, and in one season they grow over — and you would not believe how fast a road becomes just another strip of field. Since then I keep a smaller list and a shorter calendar. Once a month I walk the near paths — a call, a message with one real detail in it, coffee if I pass by. Once a quarter I touch the middle ones too. And I stopped announcing that we should meet up sometime. The word sometime is where promises go to be forgotten. Now I say Tuesday. When people ask why I spend time on friends I do not currently need anything from, I tell them what the pause in the hallway taught me. A road is not kept open by how good it once was. It is kept open by feet. Mine or theirs — someone has to keep walking it.',
+        author: '—— 原创:写给所有"愿意为老朋友，多走一趟路"的人'
+      }
+    ]
   }
 }
