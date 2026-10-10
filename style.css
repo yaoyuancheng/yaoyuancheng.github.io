@@ -473,6 +473,29 @@ footer {
   color: var(--text-muted);
 }
 
+.pdf-download {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 14px;
+  padding: 11px 22px;
+  border-radius: 24px;
+  background: linear-gradient(135deg, #2f4a8f 0%, #4a6fc4 100%);
+  color: #fff;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-decoration: none;
+  box-shadow: 0 4px 14px rgba(47, 74, 143, 0.28);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.pdf-download:active {
+  transform: scale(0.97);
+  box-shadow: 0 2px 8px rgba(47, 74, 143, 0.22);
+}
+
+.pdf-icon { font-size: 1rem; }
+
 /* ===== Skeleton Loading ===== */
 .skeleton {
   background: linear-gradient(90deg, var(--surface) 25%, var(--surface-light) 50%, var(--surface) 75%);
