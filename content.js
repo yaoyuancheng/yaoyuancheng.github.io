@@ -12917,5 +12917,105 @@ const lessons = {
         author: '—— 原创:写给所有"嘴上说算了、心里记着账"的人'
       }
     ]
+  },
+  156: {
+    title: '修复的艺术——把"对不起，行了吧"，变成"这件事我错在哪，我补什么"',
+    icon: '🩹',
+    subtitle: '昨天你学了冲突——把"算了，不说了"，变成"这件事，我们得说开"——你学会了第三条路:不忍，也不撕——可你也知道，人一开口，就有失手的时候——火头上，你说了一句第二天想起来都想抽自己的话——或者更常见:你早就知道错了，却怎么都开不了那个口——因为道歉在我们心里，一直被当成"认输""低头""矮一头"——于是你选了一条更省事的路:不说了，用行动补偿，等时间来冲——可时间冲不淡——它只是把这件事，腌进了关系里——今天学:修复的艺术——不是教你怎么挤出那三个字——是教你走完整条路:认事、认伤、补救、立规——记住一句话:道歉不是把自己踩低——道歉是把对方，从这件事里抱出来——',
+    sections: [
+      {
+        icon: '🎯',
+        title: '核心概念',
+        type: 'text',
+        content: [
+          '<strong>先承认一个事实:学会了"说开"，也挡不住失手</strong><br>昨天那套方法，是让你在冲突里不伤人——但人不是机器，火气上来的时候，方法会掉线——<strong>你会说出一句你自己都不认的话，而且偏偏说给了最不该听的那个人——</strong>——所以真正的功课有两门:一门叫"怎么说"——一门叫"说错了怎么办"——今天讲第二门——<strong>因为决定一段关系能走多远的，从来不是你们吵不吵架——是吵完之后，有没有人愿意回来修——</strong>——',
+          '<strong>关系不怕裂，怕的是裂了没人修——更怕的是，想修的人不知道怎么开口</strong><br>你留意过没有:小孩子吵架，五分钟就和好了——因为小孩道歉毫无负担:"对不起，我们和好吧"——<strong>可人越长大，道歉越难——因为我们不知不觉，把道歉和"认输"绑在了一起——</strong>——在心里，道歉变成了一场谈判:谁先低头，谁就欠谁一次——于是两个人都站着，谁也不肯先弯腰——<strong>而站着的两个人中间那道缝，就这么一天天长成了沟——</strong>——',
+          '<strong>先把道歉这件事，重新定义一遍</strong><br>道歉有两种:一种叫<strong>索取式道歉</strong>——目的是"你快点原谅我、快点翻篇、快点别难受了"——它真正想解决的，是<strong>你自己的难受</strong>——另一种叫<strong>给予式道歉</strong>——目的是"这件事压在你心里，我来把它拿走"——它要解决的是<strong>对方的难受</strong>——<strong>你要看清楚:同样是三个字，动机不同，听在对方耳朵里就是天壤之别——索取式的道歉，句句都在催账；给予式的道歉，句句都在卸载——</strong>——',
+          '<strong>真道歉的内核，从来不是"我错了"这三个字</strong><br>"我错了"只是一句结论，它不提供任何信息——<strong>真道歉要说清四件事:我做错了什么（具体到那句话、那件事）、它对你造成了什么（我看见了你的难受）、我现在补什么（可验收的动作）、以后怎么办（新的约定）——</strong>——<strong>四件事缺一件，道歉就漏气——最常见的是缺第三件:态度给了一堆，动作一个没有——这样的道歉，对方会收下，但不会相信——</strong>——',
+          '<strong>还有一条，请刻在心里:原谅是对方的自由，不是你道歉的报酬</strong><br>很多人道歉时，眼睛一直盯着一个结果:"她原谅我了没有？"——<strong>只要带着这个眼神，你说出来的每句话，都会偷偷变成索取——而人对索取，本能地反感——</strong>——<strong>正确的姿势是:该说的说清楚，该补的补上，然后把选择权完整地交还给对方——包括"她可以选择暂时不原谅"——</strong>——<strong>恰恰是这一份不催不逼，才是修复真正开始的地方——因为对方终于不用一边受伤，一边还要应付你的焦急——</strong>——',
+          '<strong>最后是时间:道歉有一个黄金窗口，它不会永远开着</strong><br>刚出事那几天，一句具体的对不起，值一百块——拖到三个月后，同一句话，只值十块——<strong>不是因为对方心眼小——是因为拖得越久，"我错了"越像"我有事求你"——</strong>——当然，也有迟到很多年的道歉，仍然有价值——但那个价值，主要是给你的<strong>结账</strong>，不是给关系的<strong>修复</strong>——<strong>所以记住:能今天说的，别留到明天——修复最贵的成本，不是面子——是时间——</strong>——'
+        ]
+      },
+      {
+        icon: '🧠',
+        title: '为什么"对不起，行了吧"，比不道歉还伤人？',
+        type: 'tip',
+        tipType: 'gold',
+        label: '修复心理学',
+        content: [
+          '先认一认假道歉的四种形态——它们长得都像道歉，干的都是别的事:<strong>① 敷衍式:"对不起，行了吧"——道歉里带着刀——它真正想说的是"你快点闭嘴"——② 条件式:"对不起，但你也知道我当时……"——"但是"一出口，前面的对不起当场清零——③ 自毁式:"好了好了都是我的错，你说什么就是什么"——听着像认错，其实是关门:他拒绝谈具体的事，因为他不想谈——④ 催账式:"我都道歉了，你还想怎么样？"——把道歉当成一张收据，逼对方立刻结账——</strong>——这四种，对方全都听得出来——<strong>人对真诚的识别力，比你想象的高得多——你可以骗过一个人的耳朵，骗不过他的直觉——</strong>——',
+          '为什么"但是"这么致命？<strong>因为人脑处理道歉时，会自动忽略"但是"之前，只记住"但是"之后——你说"对不起，但是你也……"，对方接收到的，是一句完整的指责，前面那三个字，只是包装纸——</strong>——<strong>更麻烦的是:这句话会让对方觉得，你不是来修的，你是来翻盘的——你不是来认错的，你是来算账的——一旦这个判断形成，你之后说什么，他都会先审一遍动机——</strong>——',
+          '再说说"道歉了就该翻篇"——<strong>它混淆了两件事:道歉是你的义务，原谅是对方的权利——你的义务做完了，不等于对方的权利到期了——</strong>——<strong>受伤是有物理时间的:那句话在你嘴里三秒钟，在对方心里可能住了三个月——你不能用你的三秒，去要求他的三个月——</strong>——你真正该做的，不是催他快一点——<strong>是用持续的、不索取的稳定，让他自己慢慢走出来——这个过程叫"重建信任"，它按的是对方的时间表，不是你的——</strong>——',
+          '那为什么有人一辈子开不了口？<strong>因为他从小被教的是:道歉=认输=矮一头=被拿捏——于是道歉成了一次"自我价值的损失"——谁愿意主动去做一件让自己贬值的事？</strong>——<strong>所以真正要改的，是这个定义:道歉是唯一一件"你付出了成本，却让自己变大"的事——因为敢于承认的人，才是有力量的人——一个从不说对不起的人，不是强，是脆——他经不起一次"我有错"——</strong>——',
+          '最后一条，是给被道歉的人的——<strong>接住一次真诚的道歉，也是一门功夫:不要在对方说完之后，追加一句"你早干嘛去了"——那等于把刚递过来的手，又推了回去——也不要收下之后，暗地里记一笔"他欠我一次"，留着以后用——</strong>——<strong>你可以说:"我听见了，我还需要一点时间。"——诚实，但不羞辱——这是修复的另一半——修复从来不是一个人的事，它有两个人，各出一半的力——</strong>——'
+        ]
+      },
+      {
+        icon: '📊',
+        title: '经典案例对比',
+        type: 'comparison',
+        rows: [
+          {
+            before: '（吵架时你甩出一句狠话:"跟你过日子真是倒了八辈子霉。"）第二天你后悔了——你端着杯水走过去:"行了行了，对不起，我错了还不行吗？"——她抬眼看了你一下:"你这是道歉，还是嫌我烦？"——你火又上来了:"我都道歉了你还想怎么样？"——（第二轮争吵，从这里开始——这次的题目，变成了"你道歉的态度"）<br><br>👉 <strong>"对不起，我错了还不行吗"——这句话里的每一个字，都在说"你很难搞"——你不是在修复，你是在给对方再补一刀，然后要求她谢谢你不砍第二下——</strong>',
+            after: '同一件事——等你气也消了，坐下来说:"昨天那句"倒了八辈子霉"，是我说过最混的话（认事，指名道姓那一句）——你当时肯定特别难受，而且你会想:原来在他心里，我们的日子是这样的（认伤）——那句话我说错了，根本不是那么回事（不含但是）——这周晚饭我来做，你去歇着（可验收的动作）——还有，以后我们再急，我先闭嘴三分钟，说不出来就先不说（立规）——"——她没马上说话，过了一会儿说:"你昨天那句话，我脑子里转了一晚上。"——<strong>你看:真正的修复，是让那句伤人的话，被"看见"过一次——它不会消失，但它从此有了名字，也就不再是暗处的刺了——</strong>'
+          },
+          {
+            before: '（你答应同事昨晚给他数据，结果忘了，他一个人加班到十一点）第二天你说:"抱歉抱歉，昨天太忙了，我的问题，下次注意。"——他笑笑说"没事"——（可从那以后，凡是要跟你配合的事，他都自己先备一份，再也没等过你）<br><br>👉 <strong>"太忙了"不是道歉，是解释；"下次注意"不是补救，是态度——三样东西一样没给:具体的事、他的代价、可验收的动作——他嘴上说没事，手上已经把你从"可以靠的人"名单里划掉了——信任的流失，从来不是一次大的背叛，是一次次"下次注意"——</strong>',
+            after: '同一件事——你说:"昨天那份数据我没给你（认事）——是我答应过你的，不是临时冒出来的事（认性质:我违背的是承诺）——你昨晚加班到十一点，是我造成的（认代价）——我今天中午前一定给你，而且十点先给你半版，让你上午就能开工（补救，且更具体）——以后这种情况，我头一天晚上八点提醒你一句；我要是又忘了，你直接骂我（立规，并给对方一个制动阀）——"——他说:"行，中午前就行。"——（后来他真的每次都等你——因为一次可靠，比十次道歉管用）<br><br>👉 <strong>职场上的修复，衡量标准只有一个:你有没有给出一个"可以被查收"的动作——因为信任是用"兑现"攒起来的，不是用"态度"攒起来的——</strong>'
+          }
+        ]
+      },
+      {
+        icon: '🎬',
+        title: '场景案例',
+        type: 'case',
+        cases: [
+          {
+            type: 'negative',
+            label: '❌ 反面案例',
+            text: '（部门会上，你当众打断了他，还揪了他一个无关紧要的口误:"这个我们上周就定过了，你怎么还在说这个？"）整个会议室安静了两秒——（会后你心里堵得慌，你知道自己过了）<br>（第二天你买了杯咖啡放他桌上，说了句"昨天辛苦了"——一句没提那件事）<br>（他照常工作，客客气气——但从那以后，开会他再也不先发言了）<br><br>👉 <strong>看清这条路径:你用一杯咖啡，买回了自己的心安，却让对方替你保管了那句话——东西他收了，但那句话还立在那儿——<br>用行动代替道歉，本质上是你在保护自己的面子:你希望事情自己过去，而不必亲口承认——可对方收到的，是另一个信号:"他连说一句都懒得说"——<br>礼物能补气氛，补不了那句话——下次试着说:"昨天会上我打断你那句，是我没分寸，当着那么多人，你肯定下不来台（认事+认伤）——那个方案本来是你先提的，这一点我该说清楚（把功劳还回去，这是最有力的补救）——"——你会发现:你越具体地还回去，你越不丢东西——</strong>'
+          },
+          {
+            type: 'negative',
+            label: '❌ 反面案例（第二种崩法）',
+            text: '（你终于开口道歉了——你准备了一路，坐下就说:"对不起，那天我是有点冲——但是你也知道，我那阵子压力特别大，而且你当时那句话也确实……"）<br>（说到一半，他打断你:"行，都是我的错。"）<br>（然后他再没说什么——你以为这事翻篇了，其实从这句话起，你们之间多了一层新东西:不是旧账，是"以后跟他说话要小心"）<br><br>👉 <strong>注意这个顺序:你先说了"对不起"，紧接着用一个"但是"，把责任原封不动地推了回去——你的道歉只完成了前半句，后半句是把炸药又递给他——<br>"但是"是这个世界上最贵的一个词:它能让一次修复，当场变成第二次伤害——而且第二次更疼——因为他刚刚才把防御放下，你却在那道口子上又划了一下——<br>记住:你想解释的原因，不是不能讲——是必须另约一个时间讲——而且讲之前先说一句:"我上次道歉时，有个原因想跟你解释，你愿意听吗？"——把"但是"从道歉里赶出去，是修复的第一条基本功——</strong>'
+          },
+          {
+            type: 'positive',
+            label: '✅ 正面案例',
+            text: '（三年前你和最好的朋友因为钱的事闹翻——他说了句"你就是这么看我的"，你说"随你怎么想"，两个人再没联系）<br>（你一直记得，一直没开口——直到今年，你给他发了条消息:"我想跟你说件事，不着急回。"）<br>（见面后你说:"三年前那笔钱的事，我那句"随你怎么想"，是我扔出去的（认事）——你当时应该挺寒心的:我连解释都懒得跟你解释（认伤）——我不找理由了，那阵子我状态不好，但那是我的事，不该你受着（不找借口）——这三年我欠你的不是一句对不起，是一个态度（承认缺口）——"）<br>（他沉默了一会儿，说:"其实我也想过给你打电话。"）<br>（那天你们没聊钱，聊了三个小时别的——临走他说了一句:"你这三年，变了。"）<br><br>👉 <strong>看清这条路径:你做对了三件最难的事——第一，没有解释，先认事；第二，说出他的感受，而不是你的委屈；第三，你没有要一个"原谅"的结果，你只是把这件事放下了——<br>而修复最好的证据，不是他说"我原谅你"——是他说"我也想过给你打电话"——你才知道:那道门，从来不是他锁的，是你们两个人各自站在门里，谁都没伸手——<br>所以:有些关系你以为是死的，其实只是在等一个人先伸手——而那个人，为什么不能是你？</strong>'
+          }
+        ]
+      },
+      {
+        icon: '✍️',
+        title: '实操方法:修复四步——"认事、认伤、补救、立规"',
+        type: 'text',
+        content: [
+          '<strong>① 认事——把事说到具体，一个"但是"都不许带</strong><br>不许用:"对不起，我错了""抱歉，是我不对"——太空的道歉，等于没说——<strong>要求:把时间、场合、那句原话/那个动作，复述出来——</strong>——万能句式:<strong>"（什么时候），我（说了哪句话 / 做了哪件事）。"</strong>——例如:"上周三晚上，我说了"倒了八辈子霉"，那句话是我的错。"——<strong>三条铁律:一，不许带"但是/不过/只是"；二，不许接"因为"（原因可以另约时间讲）；三，不许用"如果"——"如果我让你不舒服"里的"如果"，是在否认对方的感受——</strong>——',
+          '<strong>② 认伤——替对方，把难受说出来</strong><br>这是 90% 的人跳过的一步，却恰恰是修复的总开关——<strong>受伤的人最深的痛，不是"你做了那件事"——是"你做了那件事，还好像不知道我疼"——</strong>——所以你要做的，是替他把那句"我疼"说出来:<strong>"你当时一定很难受吧""我猜你那晚翻来覆去想的都是这件事"——</strong>——<strong>允许猜错——猜错也比不提强:猜错了，对方会纠正你（"不是寒心，是觉得可笑"）——而那个纠正的动作本身，就是沟通重新开始的证据——</strong>——',
+          '<strong>③ 补救——给动作，不给态度</strong><br>"以后我注意"是态度，无法验收；"我明天中午前给你"是动作，可以验收——<strong>补救的四条原则:宁可小，必须具体，必须做得到，必须在近期——</strong>——<strong>做得到的补偿，永远胜过慷慨的空话——"我请你去趟日本"，不如"这周末我把那件事办完"——因为前者是想象，后者是证据——</strong>——特别的加分项:<strong>把对方失去的东西还回去——功劳、面子、时间、机会——还回去，比补上去更有力——</strong>——',
+          '<strong>④ 立规——把这一次的学费，变成以后的机制</strong><br>前三步处理的是这件事，第四步处理的是这个人的安全感——<strong>句式:"以后再遇到（这种情况），我们就（这么做）。"</strong>——例如:"以后我要是再忘了答应你的事，你直接问我一句，不用不好意思——这是我该受的。"——<strong>立规最珍贵的地方在于:它是在说"我承认我可能还会犯别的错，但我愿意为我们的以后，先修一条路"——</strong>——',
+          '还有三句关于收尾的话:<strong>第一，说完就给对方留白——不要追问"你能原谅我吗"——把选择权完整地交出去；第二，别急着变轻松——你可以正常相处，但不要第二天就开玩笑说"那事翻篇了啊"——那等于催账；第三，别到处说"我道歉了"——道歉一旦拿去向第三个人报备，就降级成了表演——</strong>——口诀:<strong>认事不辩解——认伤不推责——补救不空谈——立规不重犯——说完就放手——</strong>——最后:<strong>如果你的道歉被拒绝了，不要立刻翻脸——你可以说:"我知道一句对不起，抵不了这么久——我等你想说的时候。"——修复里最有力的姿态，是愿意等——</strong>——'
+        ]
+      },
+      {
+        icon: '📝',
+        title: '今日练习',
+        type: 'practice',
+        content: [
+          '<strong>练习一（今天——把"抱歉"，换成一句具体的）</strong><br>翻一翻最近一个月:有没有一件事，你说过"抱歉/不好意思/下次注意"，但一句具体的都没说？<strong>今天把它补完，用两句话:（时间）+（我做的那件事）+（我猜你当时……）——</strong>——不求原谅，只求说清——<strong>说出口那一刻你会发现:真正难的不是对方怎么反应——是你自己那口气——</strong>——',
+          '<strong>练习二（本周——删掉你所有的"但是"）</strong><br>这一周，凡是要说对不起，先把整句话在心里过一遍:<strong>有没有"但是/不过/只是"？有，就删掉，说完停住——</strong>——<strong>然后留意那个被删掉的"但是"后面是什么——那通常是你真正想争的东西——别扔，把它记下来，另找一个时间，单独谈它——道歉归道歉，立场归立场，两件事分两次谈，这两件才有机会都成——</strong>——',
+          '<strong>练习三（本月——清理一笔旧账）</strong><br>想一件你欠了很久的道歉——可能三年、五年，甚至那个人已经不在你的生活里——<strong>写下来，四步写全:我做了什么、他可能受了什么、我能补什么、以后我会怎么做——</strong>——然后选一个:<strong>能发的，发出去；不能发的，就自己收好——</strong>——<strong>这笔账清了，你才会明白:你这些年不敢联系，怕的不是他生气，是你自己受不了被拒绝——而看清这一条，比得到原谅更值钱——</strong>——'
+        ]
+      },
+      {
+        icon: '💎',
+        title: '今日金句',
+        type: 'quote',
+        quote: 'I was twenty-nine and I thought I was a man who told the truth. What I was, was a man who told the truth about other people. My partner in the shop was named Ray. We had worked side by side for eleven years, and in those eleven years he had covered for me more times than I could count — a delivery I forgot, a client I insulted without knowing it, a week I disappeared because my father was dying and I could not say the words out loud. Ray never mentioned any of it. That is the kind of man he was. Then came the argument about the second location. He did not want it. I did. And at the end of a long evening I said the thing I have regretted for twenty years. I said: without me, this place is nothing, and you know it. He looked at me for a long moment. He did not raise his voice. He said: all right. And he went home. He came back the next morning and worked. He came back every morning for eighteen months and worked. That was the worst part. He did not leave, he did not shout, he did not tell anyone. He simply stopped being my friend, in a way so quiet that it took me a year to understand what I had lost. My wife was the one who finally said it. She said: you are not sorry, you are embarrassed. Those are different things, and only one of them is about him. She was right. Every apology I had composed in my head began with the word I. I was tired. I was under pressure. I did not mean it that way. Every one of those sentences was about me. Not one of them was about the man who had covered for me for eleven years and was told, in one sentence, that none of it counted. So I went to him with nothing prepared. I said: eleven years ago you covered for me when my father was dying, and I never thanked you. Two months ago I told you this place was nothing without me. I know what that said to you. It said that everything you built here was mine. I am not going to explain why I said it. There is no why that is worth your time. I have taken your name off nothing and put it on the door instead. And if I ever speak to you like that again, walk out, and I will not follow you. He was quiet for a while. Then he said the thing I think about more than any compliment I have ever received. He said: I did not need you to be sorry. I needed you to know what you did. And I said: I know now. Here is what nobody tells you about repair. You do not get the old thing back. You get a different thing, with a mark on it, and both of you know the name of the mark. For a long time I thought that was the price. It is not. It is the point. A thing that has been broken and repaired is the only kind of thing that can be trusted with weight, because you have seen it hold after the worst. Ray and I worked together nine more years. He died in March, and at the funeral his daughter told me he used to say that the two of us were like an old boat — patched in four places, and the patches were the reason it floated. I have thought about that every day since. A boat does not sink because it has a hole. It sinks because nobody patches it. And a man who cannot say I was wrong is not strong. He is a boat with a hole in it, still moving, and calling the water a liar. So if there is someone you owe, do not wait for the right words. There are no right words. There is only a specific sentence, said out loud, by a person who has stopped protecting himself. Say the thing you did. Say what it cost them. Say what you will do now. Say what happens next time. Then stop talking, and let them decide. If they say no, wait. If they are gone, then patch earlier, next time, with someone else. The hole is never the story. The patch is the story.',
+        author: '—— 原创:写给所有"欠着一句对不起、又开不了口"的人'
+      }
+    ]
   }
 }
