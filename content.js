@@ -13117,5 +13117,104 @@ const lessons = {
         author: '—— 原创:写给所有"被误会了、憋着一口气却越描越黑"的人'
       }
     ]
+  },
+  158: {
+    title: '说不的艺术——把"我实在不好意思拒绝"，变成"这件事我不做，但我认你这个人"',
+    icon: '🚪',
+    subtitle: '昨天你学了澄清——把"你怎么能这么想我"，变成"来，我们从头捋一遍"——你学会了:接住情绪、收全信息、摆清事实、留门不催——可人生里还有一道更难的关口，几乎没有人在这上面不栽跟头:有人向你开口，要一件你不想给、给不了、或者压根不该给的东西——这时候人只有三种本能，三种都是亏:第一种，硬着头皮答应——"行吧行吧"——事情扛下来了，怨气也埋下了，往后每见一次面，你都在心里替他记着一笔——第二种，硬邦邦地拒绝——"不行""没空"——事是拒掉了，人也得罪了——第三种，含糊地拖着——"我看看啊""再说吧"——你以为你躲过去了，其实你在对方心里，已经成了一个"靠不住的人"——今天学:说不的艺术——不是教你变冷漠——是教你把那个"不"字，说得干净、说得体面、说得让人还愿意跟你做朋友——记住一句话:一个能好好说"不"的人，才守得住自己答应过的每一个"是"——',
+    sections: [
+      {
+        icon: '🎯',
+        title: '核心概念',
+        type: 'text',
+        content: [
+          '<strong>先把一件事掰开:说不，不是关系的敌人——含糊才是</strong><br>我们从小被教的都是"要懂事、要好说话、别给人添麻烦"——<strong>于是很多人长成了一个说不出"不"的人:谁开口都答应，谁求都点头——表面上是人缘好，实际上是把自己活成了一份公共资源——</strong>——可你有没有发现:真正让人记恨的，从来不是你当初拒绝了他——<strong>是你当初答应了他，然后没做到——</strong>——<strong>干脆的"不"，只是一次失望，失望完就过去了；含糊的"行吧"，却是一张空头支票——对方会照着这张支票，去安排他的时间、他的钱、他的期待——等支票兑不出来，你伤的不是一件事，是他的整个计划——</strong>——所以先立一条:说不，是在替关系省麻烦，不是在给关系添麻烦——',
+          '<strong>再说一个反直觉的真相:你越不敢拒绝，你的"答应"越不值钱</strong><br>一个从不说"不"的人，他的"好"是免费的——<strong>免费的东西，没人会珍惜——你说一百次"行"，别人记住的是理所当然；你说一次"这次真不行"，别人才第一次意识到:"原来他也有难处"——</strong>——<strong>"不"不是关系的裂缝，"不"是关系的刻度:它告诉对方，你的时间有成本、你的边界在哪里、你的"是"值多少——</strong>——你回想一下身边那个你最敬重的人:是不是恰恰因为他偶尔会说一句"这个我做不了"——所以当他说"这事我来"的时候，你心里特别踏实？——',
+          '<strong>拒绝其实有两层:拒绝这件事，和拒绝这个人——高手永远只拒第一层</strong><br>这是说不的艺术的全部秘密:<strong>"这件事我不做"和"我不想理你"，在对方听来，是完全不同的两句话——</strong>——<strong>可大部分人的拒绝，输就输在:事拒了，人也拒了——"我没空""你别找我了""这不可能"——这些话里没有"你"，只有一堵墙——</strong>——<strong>而会说不的人，会在拒绝里放一个"你":"谢谢你想到我""你能来问我，我挺高兴""你的事我记着"——</strong>——<strong>同样是拒绝，一个人的门关上了还留着窗，另一个人的门关上了还上了锁——前者，下次还会有人来敲；后者，从此门前长草——</strong>——',
+          '<strong>第三件事:拒绝有"窗口期"，越晚越贵</strong><br><strong>拒绝的最佳时机，永远是"对方刚开口的那一分钟"——因为那一刻，他的计划还是空的:他可以重新找人、可以改方案、可以换时间——你的"不"只是让他转个弯——</strong>——<strong>可如果你拖了三天、一周、一个月再说"不行"——他的计划已经铺开了、已经跟别人说过了、已经把后面的安排都压在这件事上了——这时候你的"不"，不是让他转弯，是让他撞墙——</strong>——<strong>所以记住:拒绝最大的成本不是那个"不"字，是你犹豫的那段时间——你犹豫的每一天，都在替对方累积损失——</strong>——',
+          '<strong>最后，先把"拒绝"和"伤害"分开</strong><br>很多人说不出口，是因为心里装着一个错误的等式:<strong>我拒绝他 = 我在伤害他 = 我是个坏人——</strong>——<strong>可真相是:你只能决定你要不要做这件事，你决定不了他会不会失望——失望是他的功课，不是你的罪——</strong>——<strong>而且，一个成熟的成年人，是有能力接住一个"不"的——你把他当成一个"接不住拒绝的人"，其实是一种轻视——你真正该做的，不是替他承担失望，是把这个"不"说得足够体面，让他失望得体面——</strong>——<strong>记住:你不需要为"不"道歉——你只需要为"怎么说这个不"负责——</strong>——'
+        ]
+      },
+      {
+        icon: '🧠',
+        title: '为什么"先答应、后反悔"，比"当场拒绝"伤人十倍？',
+        type: 'tip',
+        tipType: 'gold',
+        label: '拒绝心理学',
+        content: [
+          '先看一个机制——<strong>拒绝厌恶:人感到"被拒绝"时的痛，和身体的痛，走的是同一套神经通路——所以我们本能地回避拒绝别人，因为我们不想"弄疼"对方——</strong>——<strong>可这里有一个致命的计算错误:你回避掉的，只是"当下这一刻"的痛——你换来的，是"未来某一刻"更大的痛——</strong>——<strong>当场拒绝，痛感是瞬间的、有限的；拖到最后再反悔，痛感是累积的、加倍的——因为你同时给了对方两样东西:一次落空，和一段被白白浪费的时间——</strong>——',
+          '第二个坑——<strong>"我很忙"是最差的拒绝理由之一</strong>——<strong>因为"忙"是一个可以被验证、也可以被推翻的说法——只要对方看见你还有空做别的事，"忙"立刻就变成了"你不重要"——</strong>——<strong>而且"忙"的潜台词是"你不值得我腾时间"，伤的是人；换一个说法，就完全不同:"这两天我手上有个硬截止的事，腾不出完整的时间"——说的是事，不是人——</strong>——<strong>所以拒绝时说什么理由，是有讲究的:说"事"的理由，安全；说"人"的理由，伤人；编造的理由，早晚露馅——</strong>——',
+          '第三个坑——<strong>"我尽量""我看看""再说吧"，是最贵的三个词</strong>——<strong>它们看起来温和，其实是在把痛苦延后并加倍:对方会带着"也许有戏"的期待，一遍遍地等——你每拖一天，他的期待就多长一分，最后崩塌的时候，也砸得更重——</strong>——<strong>更要命的是:对方并不知道你在拒绝——他以为你在考虑——于是他会来问第二次、第三次——每一次询问，都是你们两个人共同的消耗——</strong>——<strong>记住:含糊的善意，比明确的拒绝残忍——因为它拿走的不只是这件事，还有对方重新安排生活的时间——</strong>——',
+          '第四个坑——<strong>过度解释</strong>——<strong>很多人拒绝时怕对方多想，于是讲五分钟的理由——可理由是越多越假:因为真正的理由，一句话就够；五句话的理由，听起来就像在找借口——</strong>——<strong>而且解释得越多，破绽越多，对方越容易从里面找到反驳的入口:"你不就是那天还去了XX吗？"——于是拒绝变成了一场辩论，你越辩越被动——</strong>——<strong>正确姿势:一句话说清理由，说完就停——对方追问，你可以温和地重复:"就是这件事，我确实做不了。"——不解释第二遍，不是冷漠，是给这段对话一个干净的收尾——</strong>——',
+          '最后一条，是给"被拒绝的那一方"的——<strong>当有人对你说"不"，请你也接住那份坦白:不要立刻翻脸，不要追一句"你就是不想帮"，更不要在心里替对方记上一笔——</strong>——<strong>你可以说:"我明白了，谢谢你跟我说实话。"——</strong>——<strong>一个敢直接跟你说"不"的人，比一个满口"行"然后消失的人，珍贵一百倍——前者把你当成能承受真话的人，后者把你当成一个需要哄的人——</strong>——<strong>别为了维持"他必须答应我"的体面，弄丢一个还敢跟你说真话的朋友——因为拒绝不可耻——捂着期待不肯落地，才可耻——</strong>——'
+        ]
+      },
+      {
+        icon: '📊',
+        title: '经典案例对比',
+        type: 'comparison',
+        rows: [
+          {
+            before: '（下班前半小时，领导走过来:"这个材料你今晚弄一下，明早要用。"——可你手上已经压着两个明早要交的活）你嘴上脱口而出:"好的，没问题。"——（晚上十点，你还在改第三版，边改边骂；第二天交上去的东西有明显错漏，领导皱着眉说了句"下次注意"——你心里想:我这是图什么呢？）<br><br>👉 <strong>看清这条路径的 bug:你答应的不是"一份材料"，你答应的是"我能把它做好"——可你做不到，因为时间不允许——于是你的"是"，最后变成了两样损失:一件没做好的事，和一个"不靠谱"的印象——<br>真正的高手，既不硬扛，也不硬顶——他会当场把优先级重排一遍——</strong>',
+            after: '同一件事——你花十秒做了个判断，然后说:"行，我接（先接住，不推）——但我手上现在有两个明早要交的，您帮我排个序:这三个，哪个最急（把选择权交回去，而不是把难题留在自己手上）——"——（领导想了想:"那个材料先放着，你先弄A。"）——（这件事的真实结果:你既没得罪人，也没扛下做不到的事，而且你在领导心里还多了一个标签——"这个人做事有数"）<br><br>👉 <strong>看清差别:before 里你在"讨好"，after 里你在"对齐"——对上级说不的正确姿势，不是"我不做"，是"我做哪一件，您定"——因为你没有拒绝工作，你只是在替他分配资源:你的时间——而排优先级，本来就是他的职责——</strong>'
+          },
+          {
+            before: '（一个多年不见的老同学突然联系你，寒暄三句后开口:"听说你在XX公司，能不能帮我侄子内推一下？"）你不好意思拒绝，含糊地回:"我看看吧，回头给你信。"——（接下来的两个月，他问了三次，你回了三次"还在问"——最后一次，他没再回你消息——后来你从别人那儿听说，他跟人讲:"找他没用，白认识一场。"）——（一件小事，成了一段关系的坟）<br><br>👉 <strong>注意这里的要害:你其实一开始就知道自己做不了——你不是在犹豫，你是在"躲"——而"躲"，是把拒绝的成本分期付给对方:每一次"回头给你信"，都是一次小的失信——三次之后，你在对方账本上的余额，就归零了——</strong>',
+            after: '同一件事——你想了想，直接回了:"老同学，跟你说句实话:我们这边内推的名额特别少，这个岗位去年压根就没开（先把事实给足）——我硬凑上去，反而是耽误孩子的时间（说明我不是不愿意，是不想害他）——但别的我能帮:你把他的简历发我，我帮你看看哪里能改；另外我知道有两家在招，我把链接找给你（把"不能给的"和"能给的分开）——"——（他回了个大拇指:"够意思，比那些答应了没下文的强多了。"）——（后来他侄子真的从别家进去了，他还专门发消息来谢你）<br><br>👉 <strong>关键动作:把"我看看吧"换成"我说句实话"——这四个字一出口，对方立刻知道你没有在敷衍他——拒绝的杀伤力，从来不在于那个"不"字，在于"不"的后面，你还有没有第二个动作——</strong>'
+          }
+        ]
+      },
+      {
+        icon: '🎬',
+        title: '场景案例',
+        type: 'case',
+        cases: [
+          {
+            type: 'negative',
+            label: '❌ 反面案例',
+            text: '（一个关系不错的朋友开口:"能不能先借我五万，周转两个月就还。"——可你手上这笔钱，是有用途的，你开不了口说"不"）你说:"行，我凑凑。"——（你把自己的计划往后推了，钱转过去，心里开始数日子；两个月到了，他一个字没提；你想催又觉得难为情，不催又堵得慌——半年后钱总算拿回来了，可你们俩，再没有从前那种自在了）<br><br>👉 <strong>看清这条路径:你以为你保住了这段关系，其实你把它抵押出去了——从你答应的那一刻起，你们之间就多了一个第三方:这笔钱——它坐在你们中间，谁都不提，可谁都在想——<br>正确的做法，不是"给"或者"不给"，而是"先把它摆到桌面上，再决定":"我可以帮你（先表态，不急着定量）——但有两件事我得先说清楚:一是我这边能拿出来的是X，不是五万；二是我需要你告诉我，大概什么时候能还，最好有个说法（把模糊变清楚）——"——一句话，既没伤面子，也没让自己悬在半空——<br>记住:钱可以借，模糊不能借——</strong>'
+          },
+          {
+            type: 'negative',
+            label: '❌ 反面案例（第二种崩法）',
+            text: '（妈妈打电话来:"这周回来吃饭吧，你爱吃的那个菜我都买好了。"）你正忙，随口一句:"这周不行，我很忙。"——（周日，你在郊区露营，拍了张照片发朋友圈——晚上，你收到妈妈一条微信:"照片拍得真好。"——你盯着那行字看了很久，心里说不出的难受）<br><br>👉 <strong>这条路径的 bug 不在"拒绝"，在"拒绝的方式":"我很忙"是一句没人信的通用理由——它把"我不想""我没安排上"，包装成了"客观不允许"——可亲近的人最不能被糊弄，因为他们掌握着你全部的行程证据——<br>对家人说不，最需要的是"具体"两个字:"妈，这周我去不了，同事约了露营，早就定好了（说真话，不找借口）——下周三晚上我过去，我想吃那个菜，你给我留着（给一个确定的下一次）——"——同样是拒绝，一个让她失落，一个让她开始盼下周三——</strong>'
+          },
+          {
+            type: 'positive',
+            label: '✅ 正面案例',
+            text: '（多年的好兄弟找你:"我有个项目，差一个合伙人，你出来我们一起干吧。"——这是一个很难的拒绝:你拒的不是一件事，是一份信任、一段情谊、和一个"我们一起发大财"的想象）你没有含糊，也没有硬拒——你说:"你第一个想到我，这句话我记下了（先接住这份信任）——但这事我得跟你说真话:一是我手上这件事还没做完，我走了就是烂摊子；二是我既不出钱、也不全职，只出主意，那叫占你便宜，不叫合伙（把真实理由摆出来，不美化也不贬低）——所以这次，我做不了你的合伙人（清楚地说不）——但你要是愿意，我可以做你的第一个“外脑”:商业模式、路演、招人，你随时找我，不收钱、不占股（给一个真实可给的替代）——"——（他的项目后来真做起来了，第一版BP是你改的；几年后他跟我说:"当初你没答应，我反而更信你——你连钱都不贪。"）<br><br>👉 <strong>这个案例最要紧的地方:一个体面的"不"，会让对方更了解你，也更信你——因为拒绝是最没办法伪装的时刻:你答应的每一件事都可能掺水，但你拒绝的样子，暴露的是你的底线——<br>记住:说不的尽头，不是"我们两清"——是"你更知道我是什么人"——</strong>'
+          }
+        ]
+      },
+      {
+        icon: '✍️',
+        title: '实操方法:说不四步——"先谢、给因、划界、留路"',
+        type: 'text',
+        content: [
+          '<strong>① 先谢——开口第一句，先给对方一个肯定</strong><br>别人向你开口，不管这件事你做不做，先记住:<strong>他开口，是冒着被拒绝的风险的——光是这一点，就值得你一句真诚的肯定——</strong>——三句可以直接用:<strong>"谢谢你想到我。""你能来问我，我挺高兴的。""这事你愿意跟我说，我明白它的分量。"</strong>——<strong>特别注意:这句话必须是真的——如果你心里其实在烦他，那句"谢谢你想到我"会透着假，对方一秒就能听出来——所以如果不方便谢，就跳过这一步，直接进第二步——虚假的暖场，比冷淡更伤人——</strong>——',
+          '<strong>② 给因——给一个"关于事"的理由，别给一个"关于人"的评价</strong><br>理由只要一句话，说完就停:<strong>"这两天我手上有个硬截止的事""这个我不在行，怕给你办砸了""我们家有个规矩，不跟朋友做这种事"——</strong>——四条铁律:<strong>不编造（编的理由迟早要圆，圆的成本比拒绝高十倍）；不过度解释（解释越多越像找借口）；不说"我很忙"（能被验证的理由，最容易被推翻）；不评价对方（"你怎么老是这样"——一句话，把拒绝变成了指责）——</strong>——<strong>"这个我不在行，怕给你办砸了"——这句话之所以好用，是因为它把拒绝的立场，从"我不想帮你"，换成了"我不想害你"——对方哪怕失望，也不好意思怪你——</strong>——',
+          '<strong>③ 划界——把"不"说完整，不要只留半截</strong><br>这是最多人栽的一步:<strong>前面铺了半天，最后那句"不"就是说不出口，于是变成了"我尽量吧""我看看""我试试"——</strong>——<strong>记住:没有主句的拒绝，等于没有拒绝——对方接收到的信号是"有戏"，他会照着"有戏"去安排——</strong>——明确句式:<strong>"这件事，我做不了。""这次我不去了。""钱我不能借。"——短句、完整、不留缝——</strong>——<strong>划界的时候，语气要软，词要硬——温和的语气不伤人，含糊的词句才伤人——</strong>——',
+          '<strong>④ 留路——给替代、给时间、给祝福，三选一</strong><br>拒绝的最后一步，决定这段关系是断还是续:<strong>给替代（"我帮不了这个，但XX我可以帮"）；给时间（"这周不行，下周三我可以"）；给祝福（"这事我插不上手，但我是真心希望你好"）——</strong>——<strong>三个里至少给一个——因为"不"字本身是一堵墙，"留路"是在墙上开一扇门——没有门，对方就只剩退回去；有了门，你们之间就还有来往的方向——</strong>——<strong>但留路有一条红线:不要给假的替代——"下次一定""回头我帮你问问"这类空头话，比直接拒绝更让人寒心——你承诺的每一次"下次"，都在透支你的信用——</strong>——',
+          '口诀:<strong>先谢——给因——划界——留路</strong>——最后三条边界，也请一起记住:<strong>第一，拒绝一次就够——对方若反复追问，你可以温和地重复同一句话:"就是这件事，我确实做不了。"——不解释第二遍，不是冷漠，是给对话一个干净的收尾；第二，"不"要一次说完，不要分三次说——今天说"可能不行"，明天说"大概不行"，后天说"真的不行"——这不叫委婉，这叫凌迟，对方那三天，比听一句"不行"更难受；第三，你的"不"会筛掉一些人，这没关系——因为那些因为你说了"不"就走掉的人，本来就不是冲着你来的，是冲着"你能给什么"来的——留下来的，才是真的——</strong>——最后一句:<strong>说不的终极底气，不是"我不在乎你"——是"我在乎我们，所以我不想用一个勉强的“是”，去换一段慢慢变味的关系"——一个敢好好拒绝的人，才配得上别人那句认真的"拜托"——</strong>——'
+        ]
+      },
+      {
+        icon: '📝',
+        title: '今日练习',
+        type: 'practice',
+        content: [
+          '<strong>练习一（今天——清掉一个"悬着的答复"）</strong><br>翻一翻你的聊天记录:<strong>有没有一个"我看看""回头说""再说吧"，还悬在那里，没落地？</strong>——<strong>今天就把它落地——走一遍四步:先谢（"谢谢你想到我"）→ 给因（一句话说清）→ 划界（"这件事，我确实做不了"）→ 留路（给一个替代，或者一个下次）——</strong>——<strong>目标不是拒绝得漂亮——是让你亲身体验一次:说出口之后，对方没有翻脸，你也没有崩塌——原来那个你怕了这么多天的"不"，只有三句话那么长——</strong>——',
+          '<strong>练习二（本周——给你的"自动答应"装一个延迟器）</strong><br>本周留意一个瞬间:<strong>当别人向你开口，你嘴里冒出来的第一句话，是不是"行"？——在"行"出口之前，先停三秒，问自己一句:"我是真的能做，还是只是不敢拒绝？"——</strong>——<strong>这一周不用改得多好，你只需要收集三个例子——能"看见"自己那个自动点头的动作，就够了——因为所有的改变，都从"看见"那一刻开始——</strong>——',
+          '<strong>练习三（本月——对最亲近的人，说一次"高质量的不"）</strong><br>找一个你最容易随口答应、也最容易因此委屈的人（爸妈、伴侣、一个总来找你帮忙的老同事）——<strong>本月，对他好好说一次"不":不搪塞、不含糊、不拖延——说清楚"为什么不行"，再给一个"什么可以"——</strong>——<strong>说完注意观察一件事:关系没有因此变差，反而——因为你终于"具体"了，对方也终于不用猜了——</strong>——<strong>这一次之后你会发现:边界不是墙，是门框——有了它，门才立得住——</strong>——'
+        ]
+      },
+      {
+        icon: '💎',
+        title: '今日金句',
+        type: 'quote',
+        quote: 'I was forty-one the year I opened my own shop — three lathes, a compressor that ran loud, and a lease I could not afford to lose. Before that I had spent nineteen years working for other men, and in nineteen years I had never once said no. Not to a shift swap, not to a Saturday, not to a job I knew had been quoted too low. I told myself that was my character. It was not my character. It was my insurance. The first man through my door after I hung the sign was a fellow named Ray, who ran a landscaping outfit and who had, at the old shop, been the reason I worked eleven Saturdays in one summer. He wanted thirty brackets, he wanted them by Friday, and he wanted them at the price he had paid the shop I used to work for — a price set nine years earlier by a man who was by then dead. I said yes before he finished the sentence. He was my first customer. I was not going to be the kind of man who says no to his first customer. The brackets took me four nights, and two of those nights I slept on the cot by the bandsaw. I made eleven dollars on the job. I want to be clear that eleven dollars was the whole of it — not eleven an hour. Eleven dollars, in total, for a week of my life. And I remember thinking, on the fourth night, that I had won something. That is what a man thinks when he has confused being needed with being paid. Then Ray came back, and this time he wanted forty brackets, and he wanted them at the same price, and he said — and I can still hear exactly how he said it, casual, friendly, like a hand on my shoulder — "You\'re the only one who\'ll do it for me." And I said yes again. And when he left, I stood in my own shop, in my own building, with my own name on the door, and I felt the exact same small warm feeling I had felt for nineteen years, and I understood, standing there, that I had not escaped anything. I had just bought the building I was trapped in. It was my wife, Lena, who said the thing. She came out to the shop that night with a plate covered in foil because I had not come in for dinner, and she looked at the work orders pinned up on the wall — I had them all pinned up, every one, like a schoolboy\'s drawings — and she said: which of these did you want to do. And I said, what do you mean. And she said: which of these did you say yes to because you wanted to, and which did you say yes to because you were afraid of the quiet after you said no. And I stood there with the plate in my hand and could not name one. She did not tell me to say no. She was smarter than that. What she said was this, and I have repeated it to maybe two hundred people since. She said: a door is a door because it closes. A door that never closes is not a door. It is a hole in the wall of your house. And the wind does not care which one it is — the wind comes through both. So the next time Ray called, I did something that took me eleven minutes to prepare and thirty seconds to say. I took a breath and I said: Ray, I want to keep doing your work. Here is what I can do — forty brackets, thirty days, and the price is this. That other number was from another shop, another year, and another man. And then I stopped. I did not explain. I did not apologize. I did not fill the silence, which was the hardest part, because the silence lasted about four seconds and in those four seconds I was certain I had just ended my business and my reputation and probably my marriage. Ray said: huh. Then he said: okay. Then he said: you know, I figured that price was old. I just never had anybody tell me. I want to tell you what did not happen. He did not leave. He did not get angry. He did not tell anyone I was difficult. He brought me work for nine more years, and he brought it at the prices I named, and when he retired he sent me a card and a bottle of bourbon and wrote on the card: you were always straight with me. What happened instead was that I got a reputation, and the reputation was not "cheap." The reputation was "he tells you the truth the first time." Do you know what that is worth in a town where everybody has been burned by somebody who said yes and meant maybe? It is worth more than any price I ever quoted. My father, who was a plumber and who never owned anything, used to say: a man\'s word is only as good as his no. I did not understand it for thirty years. I thought he meant you should be tough. He did not mean that. He meant that your yes has no weight until it costs you something to say — and it costs you something only if you could have said no and did not. I am sixty-three now. I have closed the shop, and I have told a great many people no. Some of them I never saw again, and I have made my peace with that, because I have come to believe that a man who leaves because you told him the truth was never standing on anything you built. He was standing on what he could get. So this is what I would say to anyone who is afraid of the word. Nobody is owed your yes. That word belongs to you, and the day it stops belonging to you is the day you stop being a person and start being a service. Say no clean. Say no early, because a late no is not a no — it is a lie with a delay on it. And then leave the door open, because a door that closes is still a door, and a door is the only thing in the world that both keeps the weather out and lets your friends in.',
+        author: '—— 原创:写给所有"不好意思拒绝、把自己一点点耗空"的人'
+      }
+    ]
   }
 }
