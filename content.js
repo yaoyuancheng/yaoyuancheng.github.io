@@ -13415,4 +13415,104 @@ const lessons = {
       }
     ]
   }
+,
+  161: {
+    title: '还礼的艺术——把"欠着欠着就淡了"，变成"这份情，我还得刚刚好"',
+    icon: '🧾',
+    subtitle: '昨天你学了领受——把"不用不用，这怎么好意思"，变成"这份好，我收下了，也记住了"——你终于学会把手张开，把别人递来的心意稳稳接住——可新的问题，往往要在几天、几个月，甚至几年之后才浮出来:那份好，后来呢？——有人在你最难的时候借过你一笔钱，你当时说"下个月一定还"，如今一年过去，你连他的朋友圈都不敢点赞；有人出差给你带过一份礼，你当场收了，回头却一直没个回音；也有人，你刚送他一样东西，他第二天就回了你一份更贵的，把一段交情，做成了一笔两清的买卖——你发现没有:很多人不是不懂感恩，是不会"还"——还早了，像急着撇清；还晚了，像忘了本；还重了，像在攀比；还轻了，像在敷衍——今天学:还礼的艺术——不是教你算账——是教你把欠下的那份好，还得刚刚好，还得让人舒服，还得让这段关系，因为这一还，更近一步——记住一句话:人情不是用来还清的，是用来还出下一次的——',
+    sections: [
+      {
+        icon: '🎯',
+        title: '核心概念',
+        type: 'text',
+        content: [
+          '（夜里十一点，你翻着通讯录，在一个名字上停了很久——三年前，你交房租还差五千块，是他二话没说就转过来的，你当时拍着胸口说"下个月发工资就还"——可那个"下个月"，后来变成了"下个季度"，再后来，你换工作、搬家、结婚，钱一直没还，话也一直没说——你盯着那个名字，手机拿起又放下，心里想的不是"怎么还钱"，是"怎么开口"——）——<strong>你有没有发现:真正压着你的不是那五千块，是一句始终没发出去的话？——</strong>——',
+          '<strong>我们这代人，几乎没人教过"如何还"——</strong>——学校教我们借东西要还，却没人教我们:还钱的时候怎么不伤感情；还礼的时候怎么不显得比价；还人情的时候，怎么还得让对方觉得——"这个人，值得再帮一次"——<strong>于是"还"这件事，被我们做成了三种最伤人的样子:躲避、凑数、清账——</strong>——',
+          '<strong>先说"躲避"——</strong>——钱拖久了，人就开始躲:不点赞、不聚会、不接电话——你以为你在躲债，其实你在躲的，是那个"当初那么难，他伸手拉了你一把"的自己——<strong>可对方要的，真的是那笔钱吗？——他要的，是你别让那份好意，变成一个不敢提的疙瘩——</strong>——<strong>再说"凑数"——</strong>——他送你一盒两百块的茶叶，你心里一算，赶紧回一盒三百块的——你以为这叫礼尚往来，其实这叫把情分做成了汇率——<strong>礼物的分量，从来不在价签上:他送你的，是"我在外面想起你"；你回的，若只是"我不欠你"，那这一来一回，就只剩两个人在对账——</strong>——',
+          '<strong>最后是"清账"——</strong>——有人帮了你一个大忙，你还了一顿饭，从此见面客客气气，再没有下文——你以为你还清了，其实你只是把一段本该越走越近的关系，做成了一个结案的卷宗——<strong>记住:小账要清，大恩别清——清得太干净的关系，往往也走不到下一步——</strong>——<strong>所以今天这一课，先说一件最要紧的事:人情有三本账，得分开记——第一本，钱账:借的钱、垫的款、代付的费用——这本账要快、要准、要清，一分不少，越快越好，因为钱账拖久了，会变成心账——第二本，物账:借的书、工具、车、伞——这本账要及时，要完好，最好连同一句"用着真顺手"一起还——东西还回去，话也要还回去——第三本，情账:他在你最难的时候伸的手、说的那句话、替你挡的那一下——这本账，不能用钱还，也不能一次还清——它要用"回响"还，用"下一次"还，用"你后来也这样帮了别人"还——</strong>——',
+          '<strong>还礼不是攀比，不是交易，更不是一次性结清——它是你亲手告诉对方:你给我的那份好，我没有当成理所当然——</strong>——<strong>还得刚刚好，是什么样子？——是他帮过你的那件事，你还记得；是他正难的地方，你正好补上；是你还的时候，没有让他觉得"你在跟我算账"，而是让他觉得"这个人，我当初没帮错"——</strong>——<strong>今天这一课，就学一件事:把"欠着欠着就淡了"，变成"这份情，我还得刚刚好"——记住:人情不是用来还清的，是用来还出下一次的——</strong>——'
+        ]
+      },
+      {
+        icon: '🧠',
+        title: '为什么"还"比"欠"更难？',
+        type: 'tip',
+        tipType: 'gold',
+        label: '人情账心理学',
+        content: [
+          '先看第一个真相——<strong>钱账和情账，用的是两套规则——</strong>——<strong>钱账的规则是"清":借多少还多少，拖一天就该说一声，多一分都算见外——你把这套规则用错了地方，就会出问题:他借你五千救急，你非要多还五百算利息，他收也不是，不收也不是——你以为是懂事，他感到的是"你在跟我撇清"——</strong>——<strong>情账的规则是"厚":他帮你的，你还不上等价的；你还的，也不必等价——你可以还一句"那件事我一直记着"，还一次"你家里有事我第一个到"，还一个"你孩子上学的事我来打听"——情账的利息，从来不是钱，是"你在我心里的位置，往后挪了挪"——</strong>——',
+          '第二个真相——<strong>还的时机，比还的金额更重要——</strong>——<strong>救急的钱，要快:你越早还，他越安心；你拖得越久，他越不好意思开口，而"不好意思"攒多了，就是疏远——记住:主动还钱，是这世上最便宜的体面——</strong>——<strong>小惠（一顿饭、一次捎带、一份特产），不必急:你当天就回礼，反而像在划清界限——更好的做法，是把它记在心里，等一个自然的时刻，还到他需要的地方——</strong>——<strong>大恩（救命、关键提携、雪中送炭），不必想着还清:有些人一辈子都在还一个恩，可他们越还越亲，因为他们还的不是债，是"你当年拉我的那一把，我一直没忘，我现在也在拉别人"——</strong>——',
+          '第三个真相——<strong>还礼最怕"错位":用自己觉得贵重的东西，去还对方并不需要的东西——</strong>——<strong>他帮过你，你请他吃一顿两千块的饭——可他真正难的，是孩子转学找不到人、是老母亲住院排不上号、是公司裁员他整夜睡不着——你那顿饭，吃得再贵，也补不到他的缺口——</strong>——<strong>所谓"还得刚刚好"，不是还得贵，是还得准:还到他正在发愁的那件事上——你替他打听了一个人，比十顿饭都重——</strong>——<strong>而这一点，靠的不是记性，是留意:平时多听一句"最近怎么样"，你才知道，该往哪里还——</strong>——',
+          '第四个真相——<strong>还的方式，决定对方收得舒不舒服——</strong>——<strong>能私下还的，别当众还:当着同事的面把钱拍在桌上，你还的是钱，伤的是他的体面——</strong>——<strong>能说"我记得"的，别只说"还你":一句"你当时那一下，我到现在都记得"，比多还两百块更能让人心里一暖——</strong>——<strong>能还成"下次"的，别还成"结清":你说"这次算我的，下次还是你的"，关系就续上了；你说"这下两清了"，关系就结案了——</strong>——<strong>还有一点很要紧:他帮你的时候没让你难堪，你还的时候，也别让他难堪——不要把"当年要不是我帮你"这种话挂在嘴边——还礼，不是讨功——</strong>——',
+          '最后一条，是给"收礼的那一方"的——<strong>当有人来还你的人情，别急着推:"哎呀你这就见外了"——那句推辞，会把他的心意，又一次挡在门外——</strong>——<strong>更好的做法，是收下，并且告诉他:"行，那我就不客气了——不过你这份，我记着了。"——</strong>——<strong>看见没有:这一收一记，关系就转起来了——昨天你学的是"接住别人递来的手"，今天你学的是"当那只手回过来的时候，你也接住"——人情就是这样活的:不是不欠，是欠得起、还得起、也接得住——</strong>——'
+        ]
+      },
+      {
+        icon: '📊',
+        title: '经典案例对比',
+        type: 'comparison',
+        rows: [
+          {
+            before: '（三年前，他借你五千交房租）——你今天转五百，明天转八百，拖拖拉拉还了大半年——最后一次，他忍不住发消息:<strong>"剩下的不急，你先用着。"</strong>——你回:"快了快了，下个月一定。"——（那个"下个月"，又拖了三个月）——（后来他结婚，你是在朋友圈看见的）<br><br>👉 <strong>看清这条路径的 bug:拖垮关系的从来不是"一时还不上"，而是"一直没个说法"——</strong>——<strong>他要的未必是那笔钱，是一句"我记着，我在想办法"——你连这句都没给，他收到的信号就是:我的好意，被当成了理所当然——</strong>——<strong>更沉的一层:你躲着不见，他也不主动提——两个人都在维护体面，最后体面还在，关系没了——</strong>——',
+            after: '同一笔钱——你拿到工资的当天，转过去五千二，附一句话:<strong>"哥，当年那五千，今天终于还上了——多出来的二百，你千万收下，不是利息，是我这三年每次想起来，都想请你吃的那顿饭（把钱和情分开说，钱还清，情留下）——你当时二话没说就转了，这份我一直记着（说出你记得的东西，让好意落地）——"</strong>——（他回:"你小子，还真记着。"——你们又聊了半小时，从房租聊到他家孩子）<br><br>👉 <strong>看清差别:同样是还钱，一个把关系还没了，一个把关系还热了——</strong>——<strong>关键不在多还两百，在那句"我一直记着"——钱账清了，情账反而更深了——这才是还钱的最高境界:账清了，人更近了——</strong>——'
+          },
+          {
+            before: '（同事出差，给你带了一盒当地点心）——你当天下班就去商场，买了一盒更贵的巧克力，第二天放到她桌上:<strong>"上次那个点心，我回你个礼。"</strong>——她愣了一下:"哎呀，就是顺手带的，你这样我下次不敢带了。"——（你笑着说"应该的应该的"）——（她后来确实没再带过）<br><br>👉 <strong>这条路径的 bug 在"比价":你回的不是礼，是汇率——</strong>——<strong>她带那盒点心，成本可能就几十块，但那是她开了一天会、绕了两条街捎回来的——你拿一盒标价更高的巧克力，把"我在外面想着你"，换成了"我们两清了"——</strong>——<strong>而且，你还亲手给她加了一个负担:下次她再想给你带点什么，得先算一算，你会不会又回一份更贵的——带礼，从"想起你"变成了"做生意"，她当然不带了——</strong>——',
+            after: '同一盒点心——你当场打开尝了一块，眼睛亮了:<strong>"这个好吃，你怎么找的这家（先接住，先高兴，别急着还）——"</strong>——（她笑:"路过看见的，想着你爱吃甜的。"）——你把剩下的带回家，周末吃完，拍了张空盒子发给她:<strong>"一盒都没剩，我闺女抢着吃（告诉她，这份好真的被用掉了）——"</strong>——半个月后，她加班赶方案，你顺手把她那份报表数据核了:<strong>"上次你出差那点心，我一直记着——今天正好帮上你一点（还到她正在难的地方）"</strong>——（她回:"你这人，怎么记这么清。"）<br><br>👉 <strong>看清差别:一个当场结账，一个把一盒点心的情分，还成了一段同事交情——</strong>——<strong>还礼的高手，从来不在"礼"上做文章，在"人"上做文章:她给你的是心意，你还她的是"我懂你"——</strong>——'
+          }
+        ]
+      },
+      {
+        icon: '🎬',
+        title: '场景案例',
+        type: 'case',
+        cases: [
+          {
+            type: 'negative',
+            label: '❌ 反面案例',
+            text: '（你父亲去世那年，老邻居张叔天天来帮忙，出殡那天凌晨四点就到了你家门口）——三年后，你提了两瓶好酒上门:<strong>"张叔，当年那事，多亏了你。"</strong>——放下东西，坐了十分钟，你就走了——（张叔送你在门口，看着你上车，站了很久）——（后来你家再有难事，他再没来过）<br><br>👉 <strong>这条路径的 bug:你把一份"过命的交情"，还成了一笔"结清的账"——</strong>——<strong>张叔当年守在你家门口那几天，图的从来不是两瓶酒——他图的是:这个院里，有人跟你一条心——可你提着酒来，坐了十分钟就走，等于告诉他:"这份情，到今天为止。"——</strong>——<strong>更可惜的是:你走之后，他大概会想——是不是我当年帮得太多了，让人家觉得欠得慌——你看，你一次"清账"，让他连自己的好意，都开始怀疑——</strong>——'
+          },
+          {
+            type: 'negative',
+            label: '❌ 反面案例（第二种崩法）',
+            text: '（你们合伙做过一个项目，他多出了力，你一直说要补他）——某天饭桌上，你端起酒杯:<strong>"来，这杯我敬你——上次那个项目你多干了，我心里有数（这句还算好）——不像有些人，干一半就甩手（这句是说给同桌的第三个人听的）——"</strong>——（他夹菜的手顿了一下）——（从那以后，他跟你说话，总留着一半）<br><br>👉 <strong>这条路径的 bug:还礼的时候夹带私货，把一次致谢，变成了一场清算——</strong>——<strong>你想感谢他，结果他听得后背发凉:今天你能当着人这样说别人，明天会不会也这样说我的不还——</strong>——<strong>记住:还礼要"干净"——谢就是谢，指名道姓地谢，别夹枪带棒；账就是账，两个人的账，别拿到酒桌上，说给第三个人听——</strong>——<strong>还有一层:你今天怎么还别人的人情，别人都在看着——你当众奚落跟你翻过脸的人，别的人就会想:哪天我帮了你，是不是也能变成你酒桌上的谈资——</strong>——'
+          },
+          {
+            type: 'positive',
+            label: '✅ 正面案例',
+            text: '（你刚进厂那年，师父把一个关键岗位让给了你，还替你担过两次错——后来你跳槽、创业、越走越远，这份恩，你一直没还上）——你没急着还钱，也没提两瓶酒了事——你做了三件事:<br><strong>回响:</strong>每年除夕，你给师父打个电话，不聊工作，就问一句:"师父，今年身体怎么样？师母的腿还疼不疼？"——十几年，一次没断——<br><strong>还到点上:</strong>你听说师父的儿子毕业找工作，你没吭声，托了三个朋友，最后把孩子推荐进了对口的单位——你只跟师父说:"当年你带我，现在轮到我带孩子。"——<br><strong>传递:</strong>厂里新来的年轻人手忙脚乱，你把他叫到一边，一句一句教——你心里想的是:当年师父怎么教的你，你就怎么教他——<br><br>👉 <strong>看清楚:这份恩，你没还清，也还不清——可你把它还得，越来越重了——</strong>——<strong>师父在儿子的婚礼上跟人说:"我这徒弟，比儿子还亲。"——你看:一段因为"还不清"而悬着的关系，最后成了他后半生的一个念想——</strong>——<strong>这就是人情账最妙的地方:钱账还清，两不相欠；情账还着，越还越亲——</strong>——'
+          }
+        ]
+      },
+      {
+        icon: '✍️',
+        title: '实操方法:三本账 + 四步还——把"欠着欠着就淡了"，还成"这份情，我没忘"',
+        type: 'text',
+        content: [
+          '<strong>第一步:认账——把人记下来，不记数字，记事</strong><br>找一张纸，写下三个人:一个借过你钱的，一个借过你东西的，一个在你最难的时候帮过你的——<strong>不要写"我欠他多少"，要写"他当时做了什么"——</strong>——"他凌晨四点就来了""他把自己的名额让给了我""她替我垫了三个月房租，没跟我提过一句"——<strong>为什么记事不记数:数字会让人焦虑，故事会让人记得——你要还的从来不是一个数目，是那个画面——</strong>——',
+          '<strong>第二步:分账——三本账，三套还法</strong><br><strong>钱账:快、准、清——</strong>——能本月还的，别拖到下月；实在还不上，先发一句"我记着，我在想办法，你别急"——<strong>这句话，比五百块钱更能让对方安心——</strong>——<br><strong>物账:及时、完好、带一句用后感——</strong>——"你那把电钻太好用了，我装修全靠它"——东西还了，话也还了——<br><strong>情账:不许用钱还，不许一次还清——</strong>——他帮你的是"事"，你还他的就该是"事":他孩子上学，你替他去问；他家里有事，你第一个到——<strong>钱还钱，是交易；情还情，才是交情——</strong>——',
+          '<strong>第三步:择时——该快的快，该慢的慢，该还一辈子的，就别急着还完</strong><br><strong>救急的钱:当月还，最迟下月；</strong>——<strong>小恩小惠:别当天回礼，记着，等一个自然的"下次"；</strong>——<strong>大恩:不设期限，用"回响、还到点上、传递"慢慢还——</strong>——<strong>判断标准很简单:还得太急，对方会觉得你在划清界限；永远不还，对方会觉得你忘了——刚刚好，就是让这份"没还完"，变成你们下一次见面的理由——</strong>——',
+          '<strong>第四步:还到点上——还到他正在发愁的地方，而不是你觉得贵重的地方</strong><br>同样是还人情，四种说法，四种效果:<br><strong>小账:</strong>"那本你借我的书我看完了，比我买的都好——这句谢谢，我欠了好久。"<br><strong>钱账:</strong>"钱转你了。多出来那二百不是利息，是我一直想请你吃的那顿饭。"<br><strong>情账:</strong>"你当年那一下，我一直记着——今年你家里这事，你千万别跟我客气。"<br><strong>大恩:</strong>"我还不清，我也不打算还清——我就想让你知道，你当年拉的那一把，我现在还在往前走。"——<br><strong>看出规律没有:每一句都做了两件事——先认这份情，再把它说成一个具体的样子——空着手说"谢谢"是客套；说清"你帮了我什么、我要怎么还"，才是还礼——</strong>——',
+          '<strong>第五步:守住三条边界——别把"还礼"，还成"伤人"</strong><br><strong>一不要当众还:</strong>当着同事的面把钱拍在桌上，你还的是钱，伤的是他的体面——<strong>能私下还的，别让第三个人看见——</strong>——<br><strong>二不要加价还:</strong>多还的那部分，如果你的心思是"不想欠"，对方收到的就是"你在跟我撇清"——<strong>多还的可以是一顿饭、一份心意，但别说"这是利息"——</strong>——<br><strong>三不要还完就断联:</strong>还清不是终点，是下一次来往的起点——<strong>还完账，记得还一句:"这事了了，咱们的交情才刚开始。"</strong>——<strong>最后:当别人来还你的人情，别推——收下，说一句"行，那我就不客气了，不过你这份我记着了"——让关系转起来，比什么都重要——</strong>——'
+        ]
+      },
+      {
+        icon: '📝',
+        title: '今日练习',
+        type: 'practice',
+        content: [
+          '<strong>练习一（今天——把欠下的账，写成三个画面）</strong><br>拿一张纸，写下三个名字:一个借过你钱的人、一个借过你东西的人、一个在你最难的时候帮过你的人——<strong>每个名字后面，只写一句"他当时做了什么"，不写金额，不写时间——</strong>——"他在我产房外面等了一夜""她把自己面试的机会让给了我""他把我妈从五楼背下来，送到医院"——<strong>写完，你会第一次看清:你欠的不是数，是三个具体的画面——而数字会让人躲，画面会让人想还——</strong>——',
+          '<strong>练习二（本周——还掉一件"小的、拖了很久的"账）</strong><br>本周做一件拖了很久的小事:<strong>还那本借了半年的书、还那把伞、还那笔几百块的小钱、补上那句一直没说的谢谢——</strong>——<strong>还的时候，加一句具体的:"这本书我看了两遍，第37页那段我抄下来了""这钱虽然不多，可我一直记着，今天总算踏实了"——</strong>——<strong>还完，观察一下自己的感受:你会发现轻松的不是对方，是你——原来还清一笔小账，是一个人能给自己最便宜的一次解脱——</strong>——',
+          '<strong>练习三（本月——给一个"大恩"一个回响，再传一次）</strong><br>翻通讯录，找一个你"一直记着，却一直没还"的人——<strong>本月，给他发一条消息，只做两件事:告诉他当年那件事后来怎么样了；告诉他你现在过得好不好——</strong>——<strong>"那年你借我的钱，我后来把店开起来了——这几年生意还行，孩子也上初中了——这事我一直记着。"——不发红包，不请吃饭——你要让他知道:你当年帮的那个人，站起来了——</strong>——<strong>然后，做一次传递:在你身边找一个正在难处的人，把你当年收到的帮助，换个方式给出去——不用告诉他缘由，只做那件你当年被做过的事——人情的最佳去处，从来不是还给同一个人，是还给下一个需要的人——</strong>——'
+        ]
+      },
+      {
+        icon: '💎',
+        title: '今日金句',
+        type: 'quote',
+        quote: 'I have fixed clocks in this town for thirty-nine years, in a shop with one window, two wooden benches, and a wall that ticks so loud the neighbors say they can hear it from the sidewalk. My name is Everett. I want to tell you about a debt I have been paying since I was nineteen, and why I hope I never finish paying it. In the winter of 1968 I broke the church clock. Not the little one by the vestibule door — the big one in the tower, the one the whole town looked up at to know when to go home. I had taken the movement apart on a Wednesday afternoon because I was young and certain. By Thursday morning I could not make it tick. The church gave me one month. I had eleven dollars and no idea. It was Walter who saved me. Walter kept a shop three doors down and did not know me from the postman. He climbed the tower stairs with his bag, looked at the pieces I had laid out on a clean cloth, and said: well, you have certainly built a clock that does not tick. Then he sat down on the floor with his coat still on, and he fixed it, all night, and when the sun came up it was running. He would not take a dollar. When the month was up, the church never knew. I said, I will pay you back. I said it every week for two years. He would wave me off the way you wave off a fly. Finally I saved up what I thought a man like that should be paid, and I put it on his counter in an envelope. He did not even count it. He pushed it back across the wood and said: Everett, a kindness is not a loan. A loan has an end. This does not. Then he said the thing I have repeated to every apprentice who ever stood in this shop with his hands full of pieces: you cannot pay me back. You can only pay it on. When somebody walks into your life with something broken, you sit down on the floor with them. That is the payment. It is not made to me. It is made to the next person. I did not understand him for years. I thought he was being generous. He was not being generous. He was being exact. Walter got old. His hands shook, and toward the end he could not hold a screwdriver, so I did his bench work and he sat by the window and told me I was doing it wrong. When he could not climb his own stairs anymore, I carried his groceries up every Friday for six years. One afternoon he said: you have paid it, you know. Many times over. I said: I know. But I am not going to stop. He laughed until he had to wipe his eyes. He died in 1989. I still keep his loupe in the drawer, and I still use it. A young man came in last month with his father’s watch, a cheap thing, not worth the repair. He said he could not afford it. I said: I will fix it. No charge. But you owe me something. He got nervous. He said: what do I owe you? I said: not me. The next person who walks through that door with something broken — you sit down on the floor with them. He looked at me like I had handed him a bill written in a language he did not know. That is all right. Walter looked at me the same way, once. Here is what I know at fifty-six, with three hundred clocks ticking behind me. Money debts end. A kindness debt does not end, and that is the whole point of it. The people who love us do not want to be squared with. They want to be carried. So if there is a name in your phone you have been avoiding, do not call to settle it. Call to carry it. And when somebody tries to settle with you, do not let them close the book. Say thank you, take what they offer, and leave the next page open.',
+        author: '—— 原创:写给所有"心里记着一笔账，却一直不知道怎么还"的人'
+      }
+    ]
+  }
 }
