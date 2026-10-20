@@ -13713,4 +13713,104 @@ const lessons = {
       }
     ]
   }
+,
+  164: {
+    title: '提问的艺术——把"查户口式的盘问"，变成"让对方愿意说下去的问题"',
+    icon: '🔑',
+    subtitle: '昨天你学了沉默——把"我得说点什么"，变成"我在这儿，就够了"——你学会了闭嘴、留白、把那一肚子话按回去——可沉默不等于永远不说:一段对话里，安静到第三分钟，空气会开始发闷，对方会想，他是不是不想理我——这时候，你要递出去一样东西——一个问题——问题，就是沉默之后递出的那杯水:我不催你开口，但我给你一个可以落脚的地方——可偏偏这世上最会杀风景的，也是问题:"一个月挣多少""买房了吗""怎么还不要孩子"——问的人热络，答的人想逃——还有另一种，问得没错，却也把天聊死:"最近咋样？"——"还行。"——然后两个人一起沉默，那沉默不暖，是凉的——今天学:提问的艺术——不是教你盘问，是教你用一句话，把对方心里那扇半掩的门，轻轻推开——记住一句话:好问题不是把话从对方嘴里掏出来，是给对方一个可以放心展开的地方——',
+    sections: [
+      {
+        icon: '🎯',
+        title: '核心概念',
+        type: 'text',
+        content: [
+          '（大年初二，饭桌上一圈人——二舅夹着一筷子鱼，眼睛没离开碗:"现在一个月挣多少？"——你含糊一句:"还行。"——他追:"还行是多少，说个数嘛。"——三姑跟着补上:"谈对象了没？"——你低头扒饭，心里开始算:这顿饭还得吃多久——）——（电梯里碰见前同事，你热情地问:"最近咋样？"——他说:"就那样。"——你们并排站着，看楼层数字一层一层往上跳，谁也没再开口——）——<strong>你有没有发现:同一个动作，有时把人问跑了，有时把天问死了——</strong>——',
+          '<strong>我们从小到大被问惯了，也问惯了——可从来没人教过我们:问题其实分两种——</strong>——<strong>一种叫"取货"，一种叫"邀请"——</strong>——<strong>取货式提问，目的是从对方身上取走一个信息，填自己的好奇，或者确认自己的判断:</strong>——"你一个月多少钱""你家几套房""这事你当初怎么搞砸的"——对方听见的潜台词是:我要核对你的价签——<strong>邀请式提问，目的是给对方造一个可以安放的空间:</strong>——"这几年你最难的时候是怎么熬过来的""你刚才说到那个细节，我特别想知道后来"——对方听见的是:我愿意听，你说多少我都接得住——<strong>判断标准很简单:取货式的问题让人紧一口气，邀请式的问题让人松一口气——好问题出现的时候，对方的肩膀会先落下来，然后话就出来了——</strong>——',
+          '<strong>先说三种最该戒掉的坏问题——</strong>——<strong>第一种:查户口——</strong>——问标签不问人:年龄、收入、婚育、房车——它把一个人压缩成一串数字，然后拿去比价——<strong>第二种:考试题——</strong>——问观点不问人:"你觉得这行业未来三年怎么样""你怎么看这个大势"——这种题，对方要么背一段别人的话，要么说"不知道"——你问的不是他，是新闻——<strong>第三种:审判题——</strong>——问过错不问处境:"你当时为什么不早点说""你怎么会犯这种错"——它一出口，对方就从"聊天"切换到了"受审"——<strong>再说三种最该练的好问题:往细里问（那天具体发生了什么）、往心里问（那一刻你是什么感觉）、往回里问（这事让你想起谁、哪一年的事）——</strong>——<strong>三种方向，一个共同点:它们都不是在要一个结论，是在请一段经历——经历人人都有，结论不是人人都有——你请错了东西，当然只换来一句"还行"——</strong>——',
+          '<strong>还要说清一件事:提问，不是为了显得聪明——</strong>——有人爱问"刁钻"的问题，看对方卡壳，就觉得自己赢了——<strong>那不是提问，是设局——</strong>——<strong>真正的提问，是把注意力那盏灯，往对方身上照:你问什么，对方的注意力就跟到哪里——你把灯往细处照，他就看见细节；你把灯往暖处照，他就看见暖；你只问"为什么"，他就只看见自己哪里不够好——</strong>——<strong>昨天你学会了不说话，那是"接住"；今天你要学会另一种克制:说一句，然后让对方说十句——</strong>——<strong>一句好问题，胜过十句好回答——因为回答是你在表演，提问才是你在给舞台——</strong>——<strong>今天这一课，就学一件事:把"查户口式的盘问"，变成"让对方愿意说下去的问题"——记住:好问题不是把话从对方嘴里掏出来，是给对方一个可以放心展开的地方——</strong>——'
+        ]
+      },
+      {
+        icon: '🧠',
+        title: '为什么一个好问题，能撬开一整段人生？',
+        type: 'tip',
+        tipType: 'gold',
+        label: '提问心理学',
+        content: [
+          '<strong>真相一:问题是话筒的交接——</strong>——<strong>陈述是把话筒拿回来，问题是把话筒递出去，而且递到对方手里——</strong>——<strong>你注意过没有:一个人答完一个真问题，会下意识地看你一眼——那一眼是在确认:你在不在——</strong>——<strong>所以问题不仅是"求信息"，它更是一种表态:这一刻，这间屋子里，你比我重要——</strong>——',
+          '<strong>真相二:"为什么"是个高压词——</strong>——"你为什么没来？""你为什么这么做？"——哪怕你真心只是想问问，对方听到的也常常是:你又有什么借口——<strong>把"为什么"换成"是什么让你……"，同一个疑问，压力立刻降一半:</strong>——"是什么让你决定来这儿工作？""是什么让你那天没打电话？"——<strong>心理学里管这叫"外化":把矛头从人身上，移到处境和事情上——指向处境的问题，人愿意回答；指向人的问题，人先要防御——</strong>——',
+          '<strong>真相三:人不怕说细节，怕下结论——</strong>——<strong>你让他评价"你老板这个人怎么样"，他为难，因为怕站队；你问"你老板上周开会那件事，你还记得吗"，他有画面，就敢说——</strong>——<strong>而说着说着，评价会自己浮出来——你根本不用逼他表态——</strong>——<strong>所以提问的顺序是:先从细节进门，再从感受深入，最后才谈看法——</strong>——<strong>一上来就要结论，等于让人空着手跳远——</strong>——',
+          '<strong>真相四:问题会引导注意力——</strong>——<strong>你问"最近最开心的一件事是什么"，对方真的会在记忆里翻找开心；你问"最近是不是特别难"，他也会去翻找难的部分——同一个人的生活，你问哪一半，他就先给你哪一半——</strong>——<strong>这不是操控，是选择:每个人都同时带着好和坏，你的问题，决定了他先打开哪个抽屉——</strong>——<strong>所以对正在难里的人，别急着问"怎么这么惨"，问一句"这阵子有没有哪怕一件小事，让你缓了一下"——你不是在粉饰，你是在提醒他:抽屉不止一个——</strong>——',
+          '<strong>真相五:最好的问题，是不带答案的问题——</strong>——<strong>有些"问题"，其实是建议穿了件问号的外衣:</strong>——"你有没有想过换个方式？""你为什么不试试……？"——<strong>这不是问，这是说——真问题，是真的允许对方回答"没有""不想""不知道"——</strong>——<strong>检验标准:如果你的问题后面藏着一个标准答案，对方一定听得出来——被"引导"过一次的人，下次就不说了——</strong>——',
+          '<strong>最后，也要防两种反噬——</strong>——<strong>一是把提问当审讯:连环追问、抓住矛盾、非要问出个所以然——那是盘问，不是关心——</strong>——<strong>二是拿提问逃避表态:对方认真问你"你怎么看"，你反问"你觉得呢""你想听真话吗"——那是踢皮球，不是谦逊——</strong>——<strong>提问是给对方空间，不是给自己挡箭牌——什么时候该问，什么时候该答，这跟昨天的沉默一样，考的是判断，不是技巧——</strong>——'
+        ]
+      },
+      {
+        icon: '📊',
+        title: '经典案例对比',
+        type: 'comparison',
+        rows: [
+          {
+            before: '（相亲，你坐下就开了"问卷模式"）——<strong>"你是哪儿人？""家里几口人？""做什么工作，收入大概多少？""买房了吗，打算什么时候买？"</strong>——对方一边答一边看手机——半小时，你们交换了所有信息，谁也没记住谁——结账时你问"要不要再走走"，她说:"回去微信联系吧。"——（那个微信，没再响过）<br><br>👉 <strong>看清这条路径的 bug:你在收集数据，不是在认识一个人——</strong>——<strong>数据能填表，不能填心——每一个"什么"都问完以后，你们之间剩下的只有两个字:无话——</strong>——<strong>更要命的是:查户口的每一问，都在提醒对方"你正在被评估"——人一觉得自己在被评估，就会开始表演，而表演出来的人，你永远认识不到真的——</strong>——',
+            after: '同一场相亲——你注意到她手机壳里夹着一张很旧的小照片:<strong>"这张照片好像有年头了？"</strong>——她愣了一下:"我奶奶。"——<strong>"她是个什么样的人？"</strong>——她讲了四十分钟，从奶奶的菜园讲到自己小时候被寄养在乡下——（那顿饭吃了两个小时，走的时候，是她先问:"你下次什么时候有空？"）<br><br>👉 <strong>看清差别:一个标签，换不来一句真话；一个具体的入口，能带出半段人生——</strong>——<strong>你问的不是她奶奶，是她的来路——而一个愿意问你"从哪来"的人，比一百个问你"挣多少"的人更懂人——</strong>——'
+          },
+          {
+            before: '（朋友说"最近好累"）——你立刻进入"解决方案模式":<strong>"那你打算怎么办？""要不要考虑换个工作？""为什么不跟你们领导谈谈？"</strong>——他说"嗯，再说吧"，然后低头看手机——（你在关心，他觉得你在催他交作业）<br><br>👉 <strong>这条路径的 bug:"怎么办"这个问法，是把人从"说"直接推到"做"——</strong>——<strong>可大部分人此刻只想先"说"完——你一催，他就闭嘴，因为他在你这儿，连"累"的权利都要打折——</strong>——<strong>还有一层:连环的"你为什么不"，听起来像问责——他本来是来诉苦的，结果变成来述职——</strong>——',
+            after: '同一句"最近好累"——你说:<strong>"是哪一件事最耗你？"</strong>——他沉默了两秒:"我们组那个新来的，事事都要我去兜底。"——你只追问:<strong>"兜底到什么程度？"</strong>——他讲了四十分钟，从新同事讲到老板，讲到这个月连轴转了二十天——讲完他自己笑了:"说出来好多了，其实也没那么糟。"<br><br>👉 <strong>看清差别:一个在要方案，一个在要过程——</strong>——<strong>你没有替他解决任何事，可他走的时候，肩膀是松的——好问题的价值，往往不在答案，在于它容许一个人，把憋着的那口气，好好吐完——</strong>——'
+          }
+        ]
+      },
+      {
+        icon: '🎬',
+        title: '场景案例',
+        type: 'case',
+        cases: [
+          {
+            type: 'negative',
+            label: '❌ 反面案例',
+            text: '（孩子放学进门，书包往沙发上一放）——你头也不抬:<strong>"今天考多少分？""作业写完没？""老师没批评你吧？"</strong>——孩子三个字三个字地回:<strong>"九十。""写了。""没有。"</strong>——然后钻进房间，关门——（你站在门外想:这孩子怎么什么都不跟我说）<br><br>👉 <strong>这条路径的 bug:你的三个问题，全是"查"和"验"——</strong>——分数对不对、作业有没有、有没有惹事——<strong>在孩子听来，这三问是一场每日例行的安检——</strong>——<strong>他不是不想说，是知道你只想听"好消息"和"没问题"——人只有在说错话不会挨批的地方，才会说真话——</strong>——<strong>想听真话，先问一个"不打分"的问题:</strong>——"今天学校里，哪一刻你最想笑？"——或者"今天有没有什么事，让你觉得奇怪？"——<strong>这类问题，答案不对也没关系——而关系，就是从"没关系"里长出来的——</strong>——'
+          },
+          {
+            type: 'negative',
+            label: '❌ 反面案例（第二种崩法）',
+            text: '（同事刚离婚，午休时你端着盘子坐到他对面）:<strong>"哎，到底为啥离的？是不是她外面有人？""你们不是挺好的吗，怎么就过不下去了？""财产怎么分，孩子归谁？"</strong>——他扒了两口饭，说"都过去了"——（从此，你成了他午餐时间要避开的人之一）<br><br>👉 <strong>这条路径的 bug:你把关心，问成了案情分析——</strong>——<strong>刚受伤的人，最不需要的就是被人拿着放大镜看伤口——</strong>——<strong>有些事他不提，不是不信任你，是他自己还没准备好面对——</strong>——<strong>真正的关心，是"你不说我也在"，不是"你说清楚我才安心"——</strong>——<strong>记住:问别人痛处之前，先问自己一句:我问这个，是为了他，还是为了我的好奇？——如果答案是后者，就把那个问题咽下去——</strong>——'
+          },
+          {
+            type: 'positive',
+            label: '✅ 正面案例',
+            text: '（你奶奶八十三岁，你一直觉得她没什么可说的——每次回家，你就问"身体还好吧""吃饭怎么样"，她答"好""吃得下"，再无下文）——那天你坐在她旁边，看她择菜，忽然问:<strong>"奶奶，你第一次见到我爷爷，是哪一年？"</strong>——她择菜的手停了一下，笑了:<strong>"一九五八年，公社食堂——他那时候瘦，一顿吃三个窝头。"</strong>——（她说着，眼睛看向很远的地方）——那天下午，她讲了她的一辈子:怎么逃荒、怎么嫁人、怎么把三个孩子养大——<strong>你第一次知道，她年轻时，会唱一整本的山歌</strong>——<br><br>👉 <strong>看清楚:这个下午，你什么都没做，只问了一个"往回里"的问题——</strong>——<strong>然后你才明白:不是老人没有故事，是从来没人问过——</strong>——<strong>每个人心里都存着一整段人生，等着有人来敲一次门——而敲门的方式，往往只是:"那时候，是什么样子的？"——</strong>——'
+          }
+        ]
+      },
+      {
+        icon: '✍️',
+        title: '实操方法:五步提问法——把"查户口"，换成"请进门"',
+        type: 'text',
+        content: [
+          '<strong>第一步:换句式——把"是非题"，换成"展开题"——</strong>——<strong>公式一句话:问"什么"，不问"是否"；问"哪一刻"，不问"为什么"——</strong>——<strong>三个例句换给你看:</strong>——"你喜欢这份工作吗？"→<strong>"这份工作里，你最舍不得的是哪一部分？"</strong>——"你为什么不辞职？"→<strong>"是什么让你一直做到现在？"</strong>——"你们关系好吗？"→<strong>"你们最近一次好好说话，是什么时候？"</strong>——<strong>看明白没有:封闭题只能换回一个"是"或"不是"，开放题才逼得出一段话——而你想要的，从来不是那句"是"，是那后面的一段路——</strong>——',
+          '<strong>第二步:往细里问——细节是记忆的钥匙</strong><br>对方讲了一件事，你不要急着评价，先抓一个细节追问:<strong>"那天你穿的什么？""当时几点？""你说完那句话，他什么表情？"</strong>——<strong>为什么有效:评价需要立场，细节只需要回忆——而回忆一旦启动，人就自动放松了——</strong>——<strong>更重要的是:细节是唯一能证明"你在认真听"的东西——你连他几点、穿了什么都记得，他就知道，你不是在等自己说话——</strong>——',
+          '<strong>第三步:往心里问——问感受，不问对错</strong><br><strong>三个模板，直接能用:</strong>——"那一刻，你是什么感觉？"——"这件事里，你最在意的是哪一点？"——"你说到这儿，好像停了一下——"——<strong>注意:问感受不是逼供，是给一个允许——后面记得跟一句:"不想说也没关系。"</strong>——<strong>很多人不是没有感受，是从来没有一个地方，让他觉得说了不会被评价——</strong>——<strong>你给的这个位置，比你说的一百句安慰都值钱——</strong>——',
+          '<strong>第四步:把"为什么"改成"是什么"——去掉那层审判感</strong><br>同一个疑问，两种问法:<br><strong>"你为什么这么决定？"→"当时是什么让你做了这个决定？"</strong>——<strong>"你为什么没回我？"→"我没收到你的回复——是最近太忙，还是我哪句话让你不舒服了？"</strong>——<strong>区别在哪:前者问的是"你哪里有问题"，后者问的是"事情怎么发生的"——</strong>——<strong>还有个实用变体:"如果重来一次，你会留下哪一部分？"——这种问法比"你后悔吗"更容易让人开口，因为它不逼人认错，只请人回忆——</strong>——',
+          '<strong>第五步:问完，等——以及三条边界</strong><br><strong>接昨天的功课:问题出口，先等三秒——很多人不是不愿答，是在组织语言，你一抢，他就说"算了"——</strong>——<strong>三条边界，一条都不能破:</strong>——<strong>一，不打听对方没主动提的隐私:收入、病、婚变、生育——这些事，等他自己开口——二，人多时问公事，私下才问私事——当众问"你怎么还不结婚"，这不是关心，是施压——三，对方绕开的问题，不追第二遍——绕开，就是回答——</strong>——<strong>最后记住:一次对话里，好问题不用多，三句就够——一句开场:"是什么让你……"；一句深入:"那一刻你……"；一句收束:"今天聊这些，你感觉怎么样？"——</strong>——<strong>问题是路标，不是路障——你立在那儿，让对方自己走——</strong>——'
+        ]
+      },
+      {
+        icon: '📝',
+        title: '今日练习',
+        type: 'practice',
+        content: [
+          '<strong>练习一（今天——三次"开放替换"）</strong><br>今天，把三次习惯性的封闭问题，换成开放问题——比如把"吃了吗"换成"今天有什么开心的事吗"，把"今天忙不忙"换成"今天哪件事最费劲"——<strong>每一次，都在心里数一数对方的回答长度——</strong>——<strong>你会发现一个几乎不会落空的现象:回答从三个字，变成三句话——不是别人不想说，是问题没给他地方——</strong>——<strong>今天的考核标准只有一个:三次里，至少有两次，对方的回答超出了你的预期——</strong>——',
+          '<strong>练习二（本周——一次"只问不答"的对话）</strong><br>本周挑一个朋友，做一次全程"只问不答"的对话:<strong>不讲自己的事、不评价、不插自己的经历、不抢话——只用"然后呢""那是什么感觉""是哪一刻"接住——</strong>——<strong>对话结束，问对方一句:"今天聊得怎么样？"——十有八九，他会说"好久没这么聊过了"——而你一句自己的事都没说——</strong>——<strong>然后记下自己的感受:你会惊讶地发现，闭嘴比说话累，也比说话值——</strong>——',
+          '<strong>练习三（本月——采一次访:问一位长辈的年轻时代）</strong><br>本月，找一位长辈——父母、祖辈、老师、老邻居——<strong>准备五个具体问题，从一件实物或一句闲谈起头:</strong>——"你第一次离开家，是哪一年？"——"那时候，你一天是怎么过的？"——"你这辈子做过最勇敢的一件事，是什么？"——<strong>不用录音笔，就坐在那儿听——你可能会第一次发现:你认识了几十年的人，你其实一点都不知道——</strong>——<strong>这也是本月最值钱的一份礼物:你把一个下午，还给了一个人的人生——</strong>——'
+        ]
+      },
+      {
+        icon: '💎',
+        title: '今日金句',
+        type: 'quote',
+        quote: 'I have kept a photography studio on this street for thirty-eight years — one room with a north window, a darkroom in what used to be a pantry, and a velvet curtain the color of old wine that I have never replaced, because every person in this town who has ever sat for me has stood in front of it, and I like to believe they left something of themselves in the weave. My name is Iris. For the first ten years I was a bad photographer, and I did not know it. I could light a face. I could pose a shoulder. I could say: chin down, look at the lens, say cheese. And I got exactly what I asked for — a face with the chin down and a mouth saying cheese. The man would pick up his print and say: good, that is me. It was not. It was a picture of a man holding his face still. Then Mrs. Pearl came in to have her portrait made for the wall, for after, as she put it. She was eighty-one and she had buried a husband and a son and she still walked to the market every morning. I said: how would you like to be remembered? She said: just make me look like myself. I said: look at the camera and try to look peaceful. She tried. The print came back looking like a woman trying. That night I sat in the darkroom with her negative under the lamp and I understood something that cost me a decade to learn. I had been asking people to do things. I had never once asked them a question. A demand produces a pose. A question produces a person. So I made a new rule for myself, and I have kept it for twenty-eight years. Before I ever touch the shutter, I ask exactly one thing: tell me about one day you would like to stand inside of again. Not the best day. Not the happiest day. The day you would go back to if the door opened. And then I close my mouth. That is the whole trick, and it took me ten years to learn the second half of it. I did not ask Mrs. Pearl to come back until the spring. She sat down and I asked her the question, and she was quiet for a long time, and I let the quiet sit there, and then she said: 1944, the station, the blue dress, my husband coming down off the train and not seeing me at first, and then seeing me. She talked for eleven minutes. Her shoulders came down. Her chin came up on its own. Her mouth did something a mouth does when it is not being told what to do. The shutter is fast. A person cannot hold a lie in their face for a second. When she saw the print she put her hand over her mouth and said: that is me. That is the girl. After that the whole town started coming, not for passports, but to be sent somewhere. A man who had lost his brother wanted to go back to a Tuesday when they were eleven and fixing a bicycle in the yard. A woman who had left her country at nineteen wanted to go back to the morning she was packing, and she wanted me to know what her mother put in her coat pocket — a key to a house that no longer stands. Nobody had ever asked her about that key. She had been carrying it, and nobody had ever asked. A young man came in last month and asked me what camera I use. I told him it does not matter. He did not believe me, so I showed him the camera, and then I told him the truth. A question is not a demand. It is a room you build and then step out of, so the other person can walk in. Most of us ask questions the way we throw nets — we want to see what we catch. The good question is a door, not a net. You build it, you hold it open, and then you are quiet. My apprentice — my granddaughter, actually, she is nineteen and thinks she knows everything, which is the correct age for that — asked me what the secret is. I gave her three rules. Ask a question that puts them back inside a day. Then close your mouth. Then wait longer than is comfortable. And one more, I said: only ask if you actually want to know the answer. People can hear the difference. A question asked to fill a silence smells like a question asked to fill a silence. Mr. Hale came in last October, ninety years old, in the chair his daughter pushed. He said he wanted a picture, any picture, he did not care. I asked him the question. He sat with it so long I thought he had fallen asleep. Then he said: the first time I drove the train alone. 1943. And he sat up straight, all by himself, ninety years old, and he told me about the coal and the grade and the way the whole thing shook like it was alive, and his hands came up off his knees like he was holding the throttle. When the print was ready he held it at arm’s length and said: you did not take my picture. You let me be somewhere. I said: the picture is only the receipt. Here is what I know at sixty-six, with a wall of faces behind me. Nobody is a closed book. We are all books with our covers turned to the wall. Ask the right question and the book turns around by itself. You do not have to grab it. You do not have to pull. You only have to stand there, with your hands open, and wait. The best question I know is not clever. It is only sincere, and it comes with a chair.',
+        author: '—— 原创:写给所有"很想了解一个人，张嘴却只会问"在吗""吃了吗""的人'
+      }
+    ]
+  }
 }
