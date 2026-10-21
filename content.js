@@ -13812,5 +13812,104 @@ const lessons = {
         author: '—— 原创:写给所有"很想了解一个人，张嘴却只会问"在吗""吃了吗""的人'
       }
     ]
+  },
+  165: {
+    title: '回答的艺术——把"被问住的慌张"，变成"有分寸的回应"',
+    icon: '💬',
+    subtitle: '昨天你学了提问——把话筒递出去，让对方开口——可同一个动作反过来，就轮到你了：有人问你一句，你得接住——这时候很多人才发现，回答比提问更难——问错了，顶多冷场；答错了，可能得罪人、露了底、还把自己绕进去——"一个月挣多少""怎么还不结婚""你觉得我这人怎么样""你俩是不是吵架了"——每一句都是递过来的球，有的轻，有的烫手——接不住，掉地上；接得太实，砸自己脸上——今天学：回答的艺术——不是教你话术，是教你接球的分寸：哪些球该接、接几分力、怎么轻轻放回去——记住一句话：回答不是答题，不是"答对得分"，而是让对方拿到他要的那一点，同时守住你自己的边界——',
+    sections: [
+      {
+        icon: '🎯',
+        title: '核心概念',
+        type: 'text',
+        content: [
+          '（过年饭桌上，二舅又开口了："现在一个月挣多少？"——你心里咯噔一下：说少了没面子，说多了怕被借钱，含糊过去又显得生分——最后你挤出一句"还行吧"，低头夹菜，这顿饭从此刻开始变得难熬——）——（领导把方案往桌上一放："你觉得怎么样？"——你说"挺好的"，他没表情；你照实挑了五个毛病，他脸色沉了——你到现在都没想明白，自己错在哪一步——）——（朋友半夜发消息："我和他，到底该不该分？"——你答"分"，他们第二天和好；你答"再处处"，她半年后哭着说"当初都怪你"——）——<strong>你有没有发现：有些问题，答什么都像错——</strong>——',
+          '<strong>因为回答从来不是"答题"——答题只有一个目的：答对；回答有三个目的同时发生：回应对方的关心、给出恰当的信息、守住自己的边界——</strong>——<strong>只答信息，叫交底；只守边界，叫冷漠；只顾着让对方满意，叫讨好——三种都不算会回答——</strong>——<strong>会回答的人，先看这道题是哪一类：</strong>——<strong>闲聊题（吃了吗、最近忙不忙）——他要的不是信息，是一句接得上的话；事实题（几点发车、文件在哪）——他要准确性，你给准确就行，别加戏；评价题（我怎么样、这方案行不行、我该不该分）——他要的是被认真对待，不是被你判分；送命题（工资、婚育、隐私、站队）——他要的可能是谈资，你必须给的是分寸——</strong>——<strong>题分错了类，答得再真诚也是错的——</strong>——',
+          '<strong>再说三种最该戒掉的坏答法——</strong>——<strong>第一种：敷衍式——</strong>——"还行""都挺好""随便""不知道"——你以为是在保护自己，对方收到的是"你不想跟我说"——<strong>第二种：交底式——</strong>——问一句，你把家底、委屈、对第三个人的看法全倒出来——说完不到十分钟就后悔，因为有些话一出口，就收不回来了——<strong>第三种：防御式——</strong>——"你问这个干嘛""关你什么事""你是不是有病"——<strong>把一句可能只是关心的问话，当成了攻击来还击——你守住了边界，也拆掉了门——</strong>——<strong>三种坏答法的共同点：都只处理了"问题"，没有处理"问问题的人"——</strong>——',
+          '<strong>好回答的三层，记住这个顺序——</strong>——<strong>第一层：先接住——</strong>——"这个问题问得好""你这么一问，我还真得想想""谢谢你还惦记着"——<strong>缓冲三秒，让对方知道"我听见了"，也给自己争到思考的时间——</strong>——<strong>第二层：给分量——</strong>——<strong>短答（一句带过）、详答（讲一段）、边界答（一句边界加一句转移）——三档，按关系的远近和问题的分量选——</strong>——<strong>第三层：递回去——</strong>——"你呢？""你们那边怎么样？"——<strong>回答完把话筒递回去，对话才不是审问，而是来往——</strong>——<strong>最后记住一句话：真话可以说一半，假话一句都不能说——分寸不是撒谎，是选择说多少、说到哪——</strong>——'
+        ]
+      },
+      {
+        icon: '🧠',
+        title: '为什么回答比提问更难？',
+        type: 'tip',
+        tipType: 'gold',
+        label: '回应心理学',
+        content: [
+          '<strong>真相一：大多数问题，问的不是信息，是关系——</strong>——<strong>"吃了吗"不是营养学调查，是"我想跟你说句话"；"最近忙不忙"不是日程核实，是"我有点想你了，但不好意思直说"——</strong>——<strong>你只答"吃了""忙"，字面上没错，关系上却把门关上了——</strong>——<strong>接住这类问题的方法很简单：答一句事实，再加一句反问——"刚吃完，你呢？""忙疯了，你那边呢？"——</strong>——<strong>关系就是这么一句一句接出来的——</strong>——',
+          '<strong>真相二：回答的长度，就是关系的刻度——</strong>——<strong>同样问"周末干嘛"，对同事答"在家躺着"就够了；对好朋友，你可以讲半小时——</strong>——<strong>答得太长，是越界：对方只是客气一句，你却掏心掏肺，他会尴尬，你也会后悔——答得太短，是拒人：对方想靠近，你递过去一堵墙——</strong>——<strong>所以回答前先估一件事：我们熟到哪一步？这个问题，配几分长度？——</strong>——<strong>这不是世故，是体贴——你给的长度，正好是对方想要的，才叫舒服——</strong>——',
+          '<strong>真相三：人记不住你的答案，记得你答的时候的态度——</strong>——<strong>你回想一下，三年前朋友怎么回答你的求助，你还记得原话吗？记不住——但你记得他当时是认真听完，还是敷衍了两句——</strong>——<strong>所以回答的第一要务不是"答得漂亮"，是"让对方感到被认真对待"——</strong>——<strong>一句"我想想再回你"，胜过一句随口而出的"没问题"——因为前者是尊重，后者是打发——</strong>——<strong>而随口答应又做不到，是最伤关系的回答——它比拒绝更像欺骗——</strong>——',
+          '<strong>真相四："我不知道"是一种能力，"我想想"是一种诚意——</strong>——<strong>很多人不敢说不知道，怕显得无能——于是硬答、乱答、猜着答——</strong>——<strong>可乱答的代价，比不答大得多：你答错了，对方照着做，出了问题，责任在你——</strong>——<strong>体面的三句不答，背下来：</strong>——"这个我真不太清楚，别耽误你——我帮你问问？"——"这个我得想想，想清楚了回你。"——"这个我不太方便说，不是不信你，是这事牵扯到别人。"——<strong>三句都不伤人，也都守住了自己——</strong>——',
+          '<strong>真相五：边界不是墙，是门——</strong>——<strong>"这个我不能说"是一堵墙；"这个我不太方便说，但……"是一扇门——</strong>——<strong>后面那半句，就是门缝：你可以换一个能说的话题，把气氛接上——</strong>——<strong>比如同事问年终奖："这个公司要求保密——不过说实话，今年确实比去年紧，你们那边呢？"——</strong>——<strong>你没交底，也没冷场，还顺手把球递了回去——这就是分寸：不撒谎、不交底、不关门——</strong>——',
+          '<strong>最后，防两种反噬——</strong>——<strong>一种是"有问必答"：别人问什么你答什么，问多深你答多深——久了，你在别人眼里没有边界，也没有分量——</strong>——<strong>另一种是"答完就后悔"：一激动全说了，回家路上反复回放——这不是真诚，是没想清楚——</strong>——<strong>回答和昨天的提问一样，考的不是口才，是判断：这一句，该不该答；该答几分；答完，门是开着还是关着——</strong>——'
+        ]
+      },
+      {
+        icon: '📊',
+        title: '经典案例对比',
+        type: 'comparison',
+        rows: [
+          {
+            before: '（亲戚围坐，二舅问："现在一个月挣多少？"）——你老实交代：<strong>"到手七千多，扣完房租没剩多少，我们这行涨薪慢……"</strong>——他点点头，转头对表弟说："听见没，读书还是有用。"——（一顿饭，你成了全桌的反面教材，还后悔把底牌亮了）<br><br>👉 <strong>看清这条路径的 bug：你把"闲聊题"当成了"事实题"——</strong>——<strong>亲戚问收入，多半不是要核算你的账，是找个话头，顺便在心里排个座次——你一交底，就等于把自己的价签递过去，任人评说——</strong>——<strong>更麻烦的是：数字一旦说出口，从此每年都要被追问"今年涨了没"——</strong>——',
+            after: '同一桌子，同一句问话——你笑着接住：<strong>"够花，主要是这活儿挺有意思——对了二舅，听说表弟今年考研？准备得怎么样？"</strong>——他立刻转向表弟，话头顺顺当当接了过去——（你没撒谎，也没交底，桌上是热的）<br><br>👉 <strong>看清差别：先接关心，再给模糊真话，最后把球递回去——</strong>——<strong>"够花"是真话，"挺有意思"也是真话，只是没给数字——这不叫滑头，叫分寸——</strong>——<strong>记住这个三步模板：一句诚意（够花/还过得去）+ 一句转移（对了……）+ 一个问句（你呢/他呢）——</strong>——<strong>回答的目的，从来不是满足对方的好奇，是让这顿饭能好好吃完——</strong>——'
+          },
+          {
+            before: '（朋友深夜发来："我是不是特别失败？"）——你吓一跳，赶紧安慰：<strong>"没有没有，你挺好的，别瞎想。"</strong>——她沉默了一会儿，回了个"哦"——（你觉得自己安慰了，她却觉得你在敷衍）<br><br>👉 <strong>这条路径的 bug：你用"否定"回答了一个"求助"——</strong>——<strong>"你挺好的"是结论，不是回应——她要的不是判分，是有人认真看看她的处境——</strong>——<strong>另一个极端更糟：你照实说"你确实有点问题，你太敏感了"——真话是说全了，可她在最难的时候，被你补了一刀——</strong>——',
+            after: '同一句"我是不是特别失败"——你先停了三秒，问：<strong>"你想听真话，还是想先听我说说，我看到的你？"</strong>——她说"都听"——你说：<strong>"我看到的是，一个半夜还在反思自己的人——真失败的人，早睡了。"</strong>——她笑了一下，然后讲了四十分钟——<br><br>👉 <strong>看清差别：一个在贴标签，一个在给位置——</strong>——<strong>你没有否认她的感受，也没有顺着她骂自己——你只是把她从"失败"这个标签里，轻轻拉出来一点——</strong>——<strong>这就是评价题的正确答法：不判分，给视角；不站队，陪着看——</strong>——'
+          }
+        ]
+      },
+      {
+        icon: '🎬',
+        title: '场景案例',
+        type: 'case',
+        cases: [
+          {
+            type: 'negative',
+            label: '❌ 反面案例',
+            text: '（面试官问："你最大的缺点是什么？"）——你背出准备了三天的模板：<strong>"我最大的缺点就是太追求完美，有时候会让同事觉得我要求太高。"</strong>——面试官笑了一下，低头在纸上写了两个字——（那两个字不是"完美"，是"套路"）<br><br>👉 <strong>这条路径的 bug：你把"回答"当成了"表演标准答案"——</strong>——<strong>面试官听完，不会觉得你完美，只会觉得你不真诚——因为你连缺点都不敢真给一个——</strong>——<strong>这类问题，他要的不是你的缺点清单，是你的自我认知和改法——</strong>——<strong>正确答法：给一个真实的、不致命的缺点，加一个正在做的动作——</strong>——"我以前开会容易抢话，最近在练一件事：别人说完，我先停三秒再开口——上个月我们组的会，我少说了大概三分之一。"——<strong>真话+动作，比任何模板都有分量——</strong>——'
+          },
+          {
+            type: 'negative',
+            label: '❌ 反面案例（第二种崩法）',
+            text: '（同事凑过来，压低声音："你俩最近是不是吵架了？我看你老公都没来接你。"）——你心里一紧，嘴上却全交代了：<strong>"唉，别提了，他妈又来住，昨天还为钱的事吵了一架，我都想离了……"</strong>——第二天，整个办公室都知道你"想离婚"——（你成了茶水间的话题，而那个同事，只是问了句"怎么了"）<br><br>👉 <strong>这条路径的 bug：你把一句试探，当成了一次倾诉邀请——</strong>——<strong>不是所有问你隐私的人，都配听你的真话——你答得越深，传得越远——</strong>——<strong>更难受的是：这些话从你嘴里出去，你再也没法控制它变成什么样——</strong>——<strong>记住：涉及伴侣、家庭、身体的细节，默认不说——不是不真诚，是有些真话，只该说给配得上的人听——</strong>——<strong>对方真关心你，不会在茶水间问；真关心你的人，会等你自己开口——</strong>——'
+          },
+          {
+            type: 'positive',
+            label: '✅ 正面案例',
+            text: '（年终聚餐，隔壁组同事端着杯子过来："哎，你们今年年终奖发了多少？"）——你笑了笑：<strong>"公司要求保密，我可不敢说——不过今年确实比去年紧，我们都做好心理准备了。你们那边呢？"</strong>——他叹口气："我们也是，听说要打折。"——两个人碰了碰杯，聊到了别处——<br><br>👉 <strong>看清楚：你没撒谎，没交底，也没冷场——</strong>——<strong>先一句边界（公司要求保密），再一句能说的真话（今年确实紧），最后把球递回去（你们那边呢）——</strong>——<strong>三步走完，对方既没觉得你藏着掖着，也没从你这儿拿到可以传的数字——</strong>——<strong>这就是边界答的全部秘密：门关上，但窗开着——</strong>——<strong>真诚不是把心掏出来给人看，是让人知道，你心里有门，也有窗——</strong>——'
+          }
+        ]
+      },
+      {
+        icon: '✍️',
+        title: '实操方法：五步应答法——把"被问住"，变成"接得稳"',
+        type: 'text',
+        content: [
+          '<strong>第一步：缓冲三秒——先接住，再回答</strong><br><strong>三句万能缓冲，背下来：</strong>——"这个问题问得好。"——"你这么一问，我还真得想想。"——"你说的"怎么样"，是指哪一方面？"——<strong>最后一句尤其有用：澄清问题，本身就是回答的一部分——很多问题之所以难答，是因为它太笼统——你把它拆小，难度就降了一半——</strong>——<strong>缓冲这三秒，不是拖延，是让对方感到被认真对待，也让你自己从"条件反射"切换到"想清楚再说"——</strong>——',
+          '<strong>第二步：分辨题型——四类题，四种给法</strong><br><strong>闲聊题：给情绪不给报告——"吃了吗"→"吃了，你呢？"——</strong>——<strong>事实题：给准确不给发挥——对方问路，你就说路，别讲你当年在这条路上的爱情故事——</strong>——<strong>评价题：给视角不给判分——"你觉得我这人怎么样"→"我看到的你，是……"——用"我看到"开头，比"你就是"安全一百倍——</strong>——<strong>送命题：给边界不给底牌——工资、婚育、隐私、站队——先用"这个我不太方便说"，再用一句转移接住气氛——</strong>——<strong>题分对了，答案就出来了——</strong>——',
+          '<strong>第三步：三档回答——短答、详答、边界答</strong><br><strong>短答：一句，用于不熟的人、公开场合、无关紧要的问题——</strong>——"还行，够花，挺好的。"——<strong>详答：一段，用于信任的人、私下场合、对方明显想听——</strong>——讲事实、讲感受、讲你怎么想——<strong>边界答：一句边界+一句转移，用于任何让你不舒服、或牵扯他人的问题——</strong>——"这个我不太方便说——不过你可以问问……""这事我不好评价——对了，你刚才说的那个……"——<strong>三档在心里排好，临场就不用现想——</strong>——',
+          '<strong>第四步：三句体面的"不答"——不伤人，也不伤己</strong><br><strong>不确定的："这个我真不太清楚，别耽误你——我帮你问问，问到了回你。"</strong>——<strong>需要时间的："这个我得想想，想清楚了我回你。"——注意：说了要回，就一定要回；回一句"我想过了，还是觉得……"，比消失强一万倍——</strong>——<strong>不想说的："这个我不太方便说，不是不信你，是这事牵扯到别人。"——把原因放在"别人"身上，比"我不想告诉你"体面得多——</strong>——<strong>三句话的共同点：给对方一个交代，给自己一条退路——</strong>——',
+          '<strong>第五步：答完递回去，被追问时守住——</strong>——<strong>回答的最后一句，尽量是个问句："你呢？""你们那边呢？""你怎么看？"——对话是来回，不是单口——</strong>——<strong>被追问怎么办？三步：</strong>——<strong>一，重复边界，不加新解释——解释越多，越像心虚——"这个我确实不方便说。"二，给一个替代："能说的我都说了，剩下的真不行。"三，转场："咱们聊点别的吧，这事我说不好。"——</strong>——<strong>如果对方还追，那不是好奇，是不尊重——你可以笑着结束这段对话，不必为它负责——</strong>——<strong>最后记住：回答的最高境界，不是滴水不漏，是答完之后，你舒服，对方也不难堪——</strong>——'
+        ]
+      },
+      {
+        icon: '📝',
+        title: '今日练习',
+        type: 'practice',
+        content: [
+          '<strong>练习一（今天——三次"缓冲三秒"）</strong><br>今天，每次被问到需要想一下的问题，先在心里数三秒，用一句缓冲开口：<strong>"这个问题问得好""你这么一问我还真得想想""你是指哪方面？"</strong>——<strong>数完再答——你会发现两件事：一，你的回答比平时短，也比平时准；二，那三秒的安静，对方不但不尴尬，反而会更认真听——</strong>——<strong>晚上记下三次里，哪一次你差点脱口而出、后来庆幸自己停住了——</strong>——',
+          '<strong>练习二（本周——一次"边界回答"）</strong><br>本周，挑一个你不想答、但以前会硬着头皮答的问题——工资、婚育、八卦、站队——<strong>用这个模板回答一次：</strong>——"这个我不太方便说——不过……"——<strong>后面接一句你能说的真话，或者一个别的话题——</strong>——<strong>说完注意观察对方的反应：十有八九，他不会再追——因为大多数人问，只是随口，你一认真设边界，他反而松了口气——</strong>——<strong>记下你当时的感受：有没有内疚？有没有轻松？这份轻松，就是你长出来的分寸——</strong>——',
+          '<strong>练习三（本月——复盘一次"答完就后悔"）</strong><br><strong>本月，回想一次你说完就后悔的回答——</strong>——<strong>把它写下来，三行：当时对方问了什么；你答了什么；你后悔哪一句——</strong>——<strong>然后，重写一遍答案，用今天学的三层：先接住、给分量、递回去——</strong>——<strong>写完之后问自己：我当时是怕什么，才答成那样？——是怕冷场，怕得罪，还是怕显得不好？——</strong>——<strong>看清那个"怕"，比背一百句模板都有用——因为下一次，你不是在背答案，是在做一个清醒的选择——</strong>——'
+        ]
+      },
+      {
+        icon: '💎',
+        title: '今日金句',
+        type: 'quote',
+        quote: 'My name is Ruth. I have worked the information booth at the depot on Canal Street for thirty-one years — a window the size of a church donation box, a stool with one short leg, a timetable I know better than my own birthday, and a microphone I have never once used. People come to this window with questions the way they come to a doctor with symptoms: they hand me the small thing, and hope I will find the large thing. In my first year I thought the job was to be fast and right. Somebody asks: what time is the four-forty to Albany. I say: four-forty, gate six. Next. I was proud of my speed. I could answer a hundred people before lunch and remember none of them. Then an old man began coming in every morning at ten past nine, always the same question: what time is the four-forty to Albany. Always the same answer: four-forty, gate six. He would nod, thank me, and sit on the bench by the window for twenty minutes, watching the buses come in, and then leave. This went on for months. One morning the woman who cleans the depot said to me: you know his wife took that bus every day for thirty years. She died in the spring. He comes to hear the time. I said: he comes to hear the time. She said: no, honey. He comes to be somewhere she still is. I have thought about that every day since. I had been answering the question. I had not been answering the man. After that I learned to look at the face before I looked at the timetable. A young woman came to the window with a ticket to the airport in her hand and her eyes red, and she asked: what is the fastest way to get there. I could have said: express, gate two, twelve minutes. But I looked at her a moment and asked: are you going, or seeing someone off. She said: seeing someone off. I said: then take the four-fifteen, it is slower, it goes around the river, it takes thirty-four minutes. She said: why would I take the slow one. I said: because you might change your mind on the way, and the slow one gives you time to do it. She came back three days later and stood at my window and said: I did not go to the airport. I went home and wrote him a letter. She said: thank you for the extra twenty-two minutes. I have never been sure I did the right thing. I am sure it was not the fast answer. People ask me things I have no business answering. A man asked me once: do you think I should forgive my brother. I said: I cannot answer that for you. He said: everybody else already has an opinion. I said: that is because it is not their brother. He laughed, and then he sat on the bench by my window for a long while, and after that he came back most weeks, and we talked about the weather and the buses and never once about his brother. One day he said: you know, you are the only person in this city who did not tell me what to do. I said: I did not know the answer. He said: that is why I could sit here. A young man who worked the night window asked me once how I remember all the times. I said: I do not remember them. He said: then what do you do when somebody asks a time you do not know. I said: I say, I do not know that one, let me find out, and I go and find out, and I come back. He looked disappointed. He thought there was a trick. There is no trick. There is only this: do not pretend to know, and do not leave the person standing there alone. An answer is not a wall of facts. A wall of facts keeps people out. An answer is a hand held out at the right height — not so high that they have to stretch, not so low that they have to kneel. You give them what they can carry, and you keep what is yours, and you leave the window open. That is the whole trade. Thirty-one years at a window the size of a donation box, and here is what I know: people do not remember what you told them. They remember whether you looked up. They remember whether you made them feel like a question, or like a person with a question. The ones who come back are not the ones you gave the best information to. They are the ones you did not rush. And if you ask me what time the four-forty leaves, I will tell you: four-forty, gate six. And then I will look up, and ask you where you are going.',
+        author: '—— 原创:写给所有"被问一句就慌、答完又后悔"的人'
+      }
+    ]
   }
 }
