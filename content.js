@@ -14010,5 +14010,104 @@ const lessons = {
         author: '—— 原创:写给所有"聊着聊着就断了""站在门口散不了场"的人'
       }
     ]
+  },
+  167: {
+    title: '续场的艺术——把"改天聚"，变成"周六见"',
+    icon: '🧵',
+    subtitle: '昨天你学了收尾——把门轻轻带上，留一条回来的路——可你有没有发现，门留了，真正走回去的人却很少——饭局上说的"改天聚"，微信里说的"回头聊"，会议上说的"资料我回头发你"——"改天"成了没有那天的代词，"回头"成了不回头的同义词——不是不想见，是没人先伸手去推那扇门——今天学：续场的艺术——不是催人，不是纠缠，是把一句轻飘飘的"改天"，兑换成日历上一个实实在在的格子——记住一句话：续场不是再聊一次，是把"改天"变成"那天"——',
+    sections: [
+      {
+        icon: '🎯',
+        title: '核心概念',
+        type: 'text',
+        content: [
+          '（上个月的饭局，你和一个聊得很投缘的人互加了微信，散场时你们说"改天必须约"——你回"一定一定"——然后，就没有然后了——）——（微信里，一位老同学说"下次回来聚聚"，你说"好啊好啊"——三个月过去，你们的对话框还停在那两个"好"字上——）——（部门会上，你答应同事"资料我回头发你"——"回头"过了三天、一周、两周，你自己都忘了，对方也不好意思催，只在心里悄悄给你记了一笔——）——<strong>你有没有发现：我们不是没有说过"改天"，是"改天"从来没有变成"那天"——</strong>——',
+          '续场为什么总是断？因为它同时撞上三堵墙——<strong>第一堵：模糊——"改天"没有日期，而没有日期的事，永远不会发生——大脑对没有截止时间的事，默认处理方式是"以后再排"，可"以后"是一个不存在的日子——</strong>——<strong>第二堵：成本——很多人在心里给"下一次"定了一个很高的门槛：要大餐、要一整天、要准备话题、要状态好——门槛越高，越凑不齐；越凑不齐，越不敢约；最后干脆不约——</strong>——<strong>第三堵：怕——怕打扰对方，怕显得热脸贴冷屁股，怕约了被拒绝——于是两个人都在等对方先开口，等来等去，把热情等凉了——</strong>——<strong>三堵墙合起来，就是"改天"的死因：不是不想，是不敢；不是不敢，是没定——</strong>——',
+          '好的续场，其实就三个动作——<strong>第一个动作：锚定——把"改天"钉在具体的一天上——</strong>——不是"哪天有空"，而是"周三或周六，中午，那家馄饨店"——<strong>时间、地点、由头，至少占两样——锚定了，这件事才从"愿望"变成"事件"——</strong>——<strong>第二个动作：降门槛——第一次见面，往小里约——</strong>——一杯咖啡、半小时、顺路——<strong>小的局容易成，成了才有下一次；你越想一次就把关系处到位，越容易一次都约不出来——</strong>——<strong>第三个动作：先伸手——别等对方——</strong>——<strong>续场不是谁求谁，是有人愿意当那个先发消息的人——先伸手的人不是掉价，是在替这段关系续费——</strong>——',
+          '续场和收尾，是一对——<strong>昨天的收尾，是留门；今天的续场，是走进去——</strong>——<strong>门留了没人推，就成了墙上一道画出来的门；而续场，就是真的握住把手，推那一下——</strong>——<strong>一个负责让这场对话好好结束，一个负责让下一场真的开始——</strong>——<strong>记住这句话：续场不是再聊一次，是把"改天"变成"那天"——</strong>——'
+        ]
+      },
+      {
+        icon: '🧠',
+        title: '为什么"见得多"，比"聊得深"更能处成关系？',
+        type: 'tip',
+        tipType: 'gold',
+        label: '单纯曝光效应',
+        content: [
+          '<strong>真相一：人对反复出现的人，更容易产生好感——</strong>——<strong>心理学把这叫单纯曝光效应：同一张脸，见得次数越多，评价越高，哪怕一句话都没说过——</strong>——<strong>所以关系的深浅，更多来自"见过多少次"，而不是"一次聊得多深"——一次通宵夜谈，抵不过五次顺路的照面——</strong>——<strong>这就是续场的底层逻辑：不必一次聊到位，只要让彼此一直"在"——</strong>——',
+          '<strong>真相二：未完成的事，最占大脑内存——</strong>——<strong>心理学把这叫蔡格尼克效应：没做完的事，会在脑子里反复冒头——</strong>——一句没兑现的"改天"，就像一条永远挂起的下载任务，平时看不见，却一直偷偷耗电——<strong>每想起一次"我是不是该约他"，就耗一次心力——</strong>——<strong>而解决它只有两个办法：兑现它，或者明确取消它——悬着的承诺，比没有承诺更累人——</strong>——',
+          '<strong>真相三：大多数"改天"不是客套，是真的想——</strong>——<strong>说的人当时都动了心，只是这句话缺了一个"降维"的过程——</strong>——从"想见你"降到"哪天"，从"哪天"降到"周三还是周六"，从"周三还是周六"降到"中午十二点"——<strong>愿意把话说到最后一个层级的人，才有下一次——</strong>——<strong>感情不是死在客气里，是死在这句话永远停在第一层——</strong>——',
+          '<strong>真相四：续场最怕的不是被拒绝，是被遗忘——</strong>——<strong>被拒绝，至少说明对方还在意自己的边界；被遗忘，说明你已经从他的世界里悄悄下线——</strong>——<strong>所以主动发第一条消息的人，不是掉价，是在做一件体面的事：告诉对方，这个位置还给你留着——</strong>——<strong>成年人之间的关系，消失往往不是因为吵架，是因为没人搭理——</strong>——',
+          '<strong>真相五：由头，是续场的通行证——</strong>——凭空约人尴尬："有空吗"三个字，对方就得先猜你想干什么——带着由头约人自然："你说的那家面馆我路过了""这个展就剩最后一周""你推荐的书我读完了，有两个地方想问你"——<strong>由头让"我想见你"不必说出口，也给了对方一个舒服的台阶——</strong>——<strong>关系里最珍贵的东西，往往藏在一个具体的小事里——</strong>——',
+          '<strong>最后，防两种反噬——</strong>——<strong>一种是"连环催"：一条没回，十分钟后又发"在吗""怎么不回我"——你不是在续场，你是在砸门，砸到对方不敢开门——</strong>——<strong>另一种是"画大饼"：每次都"下次一定""改天我请"，从不兑现——说三遍之后，"改天"在你嘴里就贬值成了语气词，对方也就不再当真——</strong>——<strong>续场的最高标准：你发得轻，对方接得住，两边都不觉得累，然后真的有一天见了面——</strong>——'
+        ]
+      },
+      {
+        icon: '📊',
+        title: '经典案例对比',
+        type: 'comparison',
+        rows: [
+          {
+            before: '（和老同学在微信上聊到深夜，收尾时你留了门：）——"下个月我回市里，找个周六中午，就咱俩，去吃那家你念叨的馄饨，日子你挑。"——她回了一串"好好好"——（然后两周过去了，你每天点开对话框，又关掉——怕显得刻意，怕她其实只是客气——最后那句"日子你挑"，静静躺在聊天记录里，像一张没人来取的票）<br><br>👉 <strong>看清这条路径的 bug：你把"日子你挑"，连同开口的责任，一起扔给了对方——</strong>——<strong>"你挑"听起来体贴，其实是把球递给了一个同样怕打扰的人——两个人在电话两端等对方先拨号，号码明明就在各自手里——</strong>——<strong>续场最大的敌人不是距离，是"等"——</strong>——',
+            after: '同一场聊天，第二天中午你就把选择题递过去：<strong>"周三或周六，中午十二点，那家馄饨店——我订位，你挑一个数字回我就行。"</strong>——她秒回："周六！"——还补了一句："我就等你这句呢，怕你只是说说。"<br><br>👉 <strong>看清差别：你把"改天"兑换成了"那天"——</strong>——<strong>锚定（周几、几点、哪家店）、降门槛（一顿馄饨，不是一整天的安排）、先伸手（第一条消息由你发）——三步做全，一句"挑个数字"，把回答的成本降到最低——</strong>——<strong>她不是不想见，她是需要一个人替她把门推开——</strong>——'
+          },
+          {
+            before: '（部门会上，同事帮你顶了一个锅，散会时你拍着胸口：）——"这份资料我回头整理好发你，今天真帮大忙了！"——（"回头"变成了三天后、一周后——你自己忙忘了，他也不好意思要——直到下次合作，你才发现他的客气里多了一层距离）<br><br>👉 <strong>看清这条路径的 bug：你把"回头"当成了"已经完成"——</strong>——<strong>"回头发你"说出口的瞬间，你在心理上就结了账，可对方那里的账还挂着——承诺的利息，只有按时兑现才免——</strong>——<strong>工作里的"改天"，代价比生活里更贵：生活里只是错过一顿饭，工作里是悄悄扣掉的信任分——</strong>——',
+            after: '同一场会，散会后十分钟，你把整理好的资料发了过去：<strong>"第3页标黄的是你要的那部分，另外我加了一页常见问题——有问题随时戳我。"</strong>——他回了个大拇指——（下次合作，他主动点名要跟你一组）<br><br>👉 <strong>看清差别：你把"回头"兑现成了"当下"——</strong>——<strong>续场不只发生在饭局，也发生在办公室——每一次"回头发你""稍后同步""改天聊"，都是一次小小的续场邀约——兑现一次，信任加一格——</strong>——<strong>靠谱不是能力，是"说到的事，有下文"——</strong>——'
+          }
+        ]
+      },
+      {
+        icon: '🎬',
+        title: '场景案例',
+        type: 'case',
+        cases: [
+          {
+            type: 'negative',
+            label: '❌ 反面案例',
+            text: '（饭局上加了一位很聊得来的朋友，微信加了，朋友圈也点了赞——你想找他说说话，又觉得干聊太突兀——于是只在逢年过节发一句"节日快乐"——）——（半年后你刷到他的动态，换了城市，换了工作——你才发现，你们的关系永远停在了那顿饭）<br><br>👉 <strong>这条路径的 bug：你把续场当成了"重新开场"——</strong>——<strong>其实续场根本不需要郑重其事，只需要一个由头——</strong>——<strong>正确做法：带着具体的事去找他——"你上次说的那家面馆，我昨天路过了，果然排长队"——一句话，把半年前的线接上——</strong>——<strong>沉默不是体面，沉默是让关系自然到期——</strong>——'
+          },
+          {
+            type: 'negative',
+            label: '❌ 反面案例（第二种崩法）',
+            text: '（你约一位朋友，第一条消息没回，你慌了——十分钟后又发"在吗"，一小时后发"周末有空吗"，晚上又发"怎么不回我"——）——（第二天他回了："这两天在忙，抱歉。"——语气客气得像陌生人——从此他回你的速度越来越慢）<br><br>👉 <strong>这条路径的 bug：续场被你做成了追击——</strong>——<strong>一条消息递出去，要给它留出回音的时间——没回应，换一个由头，隔几天再试一次；两次没回应，就轻轻把门带上，把主动权还给对方——</strong>——<strong>真正的体面，是不把自己的"想见你"，变成对方的负担——</strong>——<strong>落空的邀约，不必追问，更不必赌气——安静，是给彼此都留的余地——</strong>——'
+          },
+          {
+            type: 'positive',
+            label: '✅ 正面案例',
+            text: '（你参加一场活动，听一位前辈讲得很好，散场时你说："改天请您喝咖啡，有几个问题想请教。"——回到家，你没有等"改天"——）——第二天上午，你发去消息：<strong>"张老师，您那天推荐的书我读完了，有两个地方没想明白——下周二或周四下午，您公司楼下那家咖啡馆，半小时就够——您看哪天方便？"</strong>——他很快回复："周四吧，我请你。"——见面结束，他说了句让你记很久的话："年轻人里，你是少数把"改天"当真的人。"<br><br>👉 <strong>看清楚：一场高质量的关系，往往就始于一次"把话说到具体"——</strong>——<strong>由头（书读完了、有问题）、锚定（周二或周四、下午、楼下咖啡馆）、降门槛（半小时）、先伸手（第二天就发）——四样做全，前辈很难拒绝，也不觉得被打扰——</strong>——<strong>"改天"谁都会说，把"改天"变成"周四"的人，才会被记住——</strong>——'
+          }
+        ]
+      },
+      {
+        icon: '✍️',
+        title: '实操方法：五步续场法——把"改天"，变成"那天"',
+        type: 'text',
+        content: [
+          '<strong>第一步：收尾当场，就把"下一次的形状"说好——</strong>——<strong>续场最好的时机，不是三天后，是告别的那一秒——</strong>——"今天聊得太好了——下周三或周六，那家馄饨店，我订位，你挑一个"——<strong>不是"改天聚"，而是"下次+由头+大致时间"——昨天学的收尾留门，今天学的续场定门牌——</strong>——<strong>收尾时埋下的那颗种子，决定了下一次有没有芽——</strong>——',
+          '<strong>第二步：48 小时内，发出第一条消息——</strong>——<strong>趁热打铁的道理，在人际关系里同样成立——热情是有半衰期的：三天之内发，对方心里还热着；拖过一周，开口的成本翻倍；拖过一个月，你连开场白都写不出来——</strong>——<strong>第一条要轻：不寒暄半天，不铺垫，直接把由头递过去——"你上次说的那家店，我昨天路过了"——一句话就够——</strong>——<strong>轻，才有回音；郑重，反而尴尬——</strong>——',
+          '<strong>第三步：给选择题，不给问答题——</strong>——<strong>"你什么时候有空？"是一道问答题，对方要思考、要翻日历、还要鼓一次勇气——"周三还是周六？"是一道选择题，对方只需要回一个数字——</strong>——<strong>"这家还是那家？""中午还是晚上？"同理——每多给一个选项，就少一次拖延——</strong>——<strong>把开口的力气，从对方身上拿回来，这是续场最体贴的技术——</strong>——',
+          '<strong>第四步：第一次见面，往小里约——</strong>——<strong>很多人约不出来，不是不想见，是被自己定的排场吓退了——</strong>——<strong>大餐、一整天、精心准备的话题——这些是"第二次""第三次"的事——第一次见面，越像"顺路"，越容易成：一杯咖啡、半小时、下班后楼下——</strong>——<strong>小场面成了，才有大场面；别用一场"必须完美"的见面，赌掉所有"可以先见一面"的机会——</strong>——',
+          '<strong>第五步：见完面，当场约下一次——</strong>——<strong>一次见面的结束，是下一次续场的开始——</strong>——<strong>散场时说一句："那下次等 XX 的时候，我们再约"——把这条线明确地续上——</strong>——<strong>如果这次不想再见，也请说清楚："这次到这儿，我下个月要出差，回来再联系你。"——明确的"待续"或"暂停"，都好过含糊的"改天"——</strong>——<strong>续场的五步，核心只有一个：把模糊的"以后"，变成可以握在手里的"那天"——</strong>——'
+        ]
+      },
+      {
+        icon: '📝',
+        title: '今日练习',
+        type: 'practice',
+        content: [
+          '<strong>练习一（今天——发一条"续场消息"）</strong><br>今天，翻聊天记录，找一个说过"改天"或"下次"但再没下文的人——<strong>用今天的公式发一条：由头 + 选择题——</strong>——"你上次说的那家店我路过了，周三还是周六，一起去试试？"——<strong>发完观察：他多久回？回得热不热？如果没回，先别追——把它当成一次投递，而不是一次考试——</strong>——<strong>晚上记下：发消息前你犹豫了什么？按发送的那一下，心里是轻了，还是更重了？——</strong>——',
+          '<strong>练习二（本周——把每一次"回头"当场兑现）</strong><br>本周，每次想说"我回头发你""我回头弄""回头聊"——<strong>停一下，把它换成具体的时间——"我今晚八点前发你""明天上午给你答复""周四下班前约你"——</strong>——<strong>能在当场做完的，就当场做完——十分钟能发出去的资料，不要留到"回头"——</strong>——<strong>周末复盘：这一周，你有没有一次"回头"，变成了"不回"？——</strong>——',
+          '<strong>练习三（本月——救活一个"死在改天里的关系"）</strong><br><strong>写下三个"改天"之后再没下文的人，圈出你最想续的那一个——</strong>——<strong>用五步法走一遍：定一个由头、给两个时间选项、约一个小场面、当场发出——</strong>——<strong>然后写下：你当时为什么没开口？——怕打扰？怕被拒绝？还是其实没那么想见？——</strong>——<strong>看清那个"怕"，比续上任何一段关系都重要——因为下一次，你就不再是被"改天"推着走，而是自己决定，哪扇门值得推——</strong>——'
+        ]
+      },
+      {
+        icon: '💎',
+        title: '今日金句',
+        type: 'quote',
+        quote: 'My name is Sal. I have run a tailor shop on Mott Street for thirty-six years — two sewing machines, one of them older than my marriage, a wall of thread in every color a street can wear, and a drawer I do not open in front of customers. The drawer is full of unfinished work. A jacket with one sleeve basted. A wedding dress taken in at the waist and never picked up. A coat for a boy, hem let down, waiting for a growth spurt that came and went. Every one of them has a ticket, and every ticket has a name, and most of the tickets say the same thing in my handwriting: back soon. That is the phrase I used to write. Back soon. Not a day, not an hour — a feeling. I wrote it for years, and for years the drawer filled. There was a man named Vincent who brought me the overcoat of his father in November. Good wool, moth holes at the elbow, a lining like a map of somewhere. He said: can you save it. I said: I can save it. He said: I will be back for it. I said: when. He laughed and said: soon. I wrote back soon on the ticket and put the coat on the shelf. He came back in March, four months later. He stood at the counter and did not recognize the shop, because I had moved the counter. He said: I am Vincent. The overcoat. I said: I know. He said: I am sorry it took so long. I said: the coat did not mind. He said: no, but I did. Every week I thought about this coat, and every week I did not come. I said: why not. He said: because I never picked a day. When you say soon, every day is the wrong day. When you say Thursday, Thursday is the only day, and you can miss it, and then it is over, and you come. I have thought about that for thirty years. Soon is not a date. Soon is a door with no handle. There was a woman named Alma who came in to have a dress altered for the wedding of her daughter. She was in the shop eleven minutes. She said: I need it by the fourteenth. I said: come on the tenth. She said: the tenth is a Tuesday. I said: yes. She said: I will come on the tenth. And she did. Ten o clock, on the tenth, with her daughter, and they stood in the mirror and cried a little, and she paid me and said: you know why I came on the tenth. I said: because I told you to. She said: because you told me a day. My whole life, she said, people tell me soon. You are the first tailor who told me a Tuesday. I keep the chalk in my pocket now. When a customer says I will be back, I take out the chalk and hold it up and say: which day. Some of them laugh. Some of them look at me like I have asked for their hand in marriage. But most of them take the chalk, and they write a day on the ticket, and maybe one in three actually comes on that day, and that is a better rate than soon ever got. People think coming back takes courage. It does not take courage. It takes a date. Courage is what you need when the door has no handle. A date is a handle. You put your hand on it and the door opens by itself. My father was a tailor too, in a village where everyone knew everyone, and he told me once: the word of a man is his coat. I did not understand him then. Now I do. A word without a date is a coat with no buttons. It looks fine on the hanger. You cannot wear it anywhere. So here is what I tell the young people who come in with their phones and their plans and their someday. I tell them: do not say someday. Say Thursday. If Thursday is wrong, say Saturday. If Saturday is wrong, say the eleventh of next month. Say a day, any day, and then say it out loud so the other person can hold it. Because a friendship does not die of distance. It dies of soon. The drawer is still there. I do not open it in front of customers. But sometimes, late, when the machines are off and the street is quiet, I open it and look at the tickets, and I read the names, and I think: all of you were going to come back. You meant it. You just never picked a day. And then I close the drawer, and I sharpen my chalk, and I wait for the next person who says soon. This time, I will ask them: which day. And I will put the chalk in their hand.',
+        author: '—— 原创:写给所有"说了改天就再没下文""想约又怕打扰"的人'
+      }
+    ]
   }
 }
