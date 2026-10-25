@@ -14208,5 +14208,96 @@ const lessons = {
         author: '—— 原创:写给所有"一见面就没话""想认识又不敢开口"的人'
       }
     ]
+  },
+  169: {
+    title: '让人记住的艺术——把"见过一面"，变成"我一直记得你"',
+    icon: '🧲',
+    subtitle: '昨天你学了破冰——三句话把陌生人变成"能聊的人"——可你有没有发现，破冰之后，大多数人还是走着走着就散了——微信加了一堆，名字对不上脸，下次见面只剩一句"好久不见"——不是你不够好，是你没在对方心里留下一个钩子——今天学：让人记住的艺术——不是让人印象深刻，是让人有理由想起你——记住一句话：人记不住你说过的话，只记得你让他感觉自己被看见过——',
+    sections: [
+      {
+        icon: '🎯',
+        title: '核心概念',
+        type: 'text',
+        content: [
+          '（上个月的行业活动，你和一个姑娘聊得不错，从工作聊到旅行，散场时加了微信——今天在电梯里撞见，她热情地挥手："哎！好久不见！"——你笑着说"是啊是啊"，脑子里却在飞速搜索：她叫什么？做什么的？那天聊了什么？——电梯到了，你们各自出门，你松了一口气，也有一点惭愧——）',
+          '（这不是你记性差——是那天的对话，两个人都没有往对方的记忆里放钩子——聊得开心，是因为当下舒服；被记住，是因为某个具体的东西留了下来——开心会挥发，具体不会——）',
+          '<strong>什么叫记忆钩子？</strong>——<strong>人脑记不住一个模糊的印象，只记得住具体的东西和当时的情绪——"那个人挺健谈的"三天就忘了；"那个说每天早上五点起来烤面包的人"能记三年——</strong>——<strong>钩子越具体，越容易被想起；越和对方有关，越容易在想起钩子的时候想起你——</strong>——',
+          '让人记住，有三个钩子：<strong>名字</strong>——最基础，也最少人做到；<strong>细节</strong>——一个只有你们俩知道的点；<strong>后续</strong>——下次见面之前，你还记得——<strong>三个钩子里，最牢固的不是你说过什么金句，而是你记得对方说过什么——</strong>——'
+        ]
+      },
+      {
+        icon: '🧠',
+        title: '为什么"被记住"这么稀有？',
+        type: 'tip',
+        tipType: 'gold',
+        label: '记忆的规律',
+        content: [
+          '<strong>规律一：名字是耳朵最敏感的词——</strong>——<strong>心理学上叫"鸡尾酒会效应"：嘈杂的人群里，隔得很远，只要有人叫你的名字，你也会立刻听见——名字是一个人最短的"被看见"——可我们太常把它当成客套：见面点个头，转头就忘；下次再见，只敢说"你好"——</strong>——<strong>能叫对名字的人，在对方心里，天然比别人近一步——</strong>——',
+          '<strong>规律二：具体，是注意力的证据——</strong>——<strong>一句"你很厉害"，对方听完就忘；一句"你说你每天五点起来烤面包，我回家路上一直在想那个画面"，对方会记很久——为什么？因为空泛的赞美证明不了你在听，具体的细节证明了你当时真的在场——</strong>——<strong>人不会记住你夸了他什么，只会记住你居然记得——</strong>——',
+          '<strong>规律三：记忆由"峰值"和"结尾"决定——</strong>——<strong>诺贝尔奖得主卡尼曼发现，人对一段经历的记忆，主要取决于最强烈的那一刻和结束时的感觉——放在社交里：整场聊得平平没关系，散场前那句具体的话，才是对方会带走的版本——</strong>——<strong>所以别在结尾说"改天聊"，说一句"你说的那家店，我下周真去"——</strong>——',
+          '<strong>但记住：钩子不是技巧，是注意力——</strong>——<strong>表演出来的记得，第二次就会穿帮；真的听进去的细节，隔三年都还在——</strong>——<strong>让人记住的最高境界，不是你记住了多少，是对方感觉到：刚才那一个小时，你是真的在——</strong>——'
+        ]
+      },
+      {
+        icon: '✍️',
+        title: '实操方法：三钩记忆法——把"见过一面"，变成"我一直记得你"',
+        type: 'text',
+        content: [
+          '<strong>第一钩：钩住名字——当场用一次，当晚记一次——</strong>——<strong>听到名字的当下，立刻重复一遍："XX，你好"——不是客套，是让这个名字过一遍你的耳朵——然后，在聊天里找一个画面和名字绑在一起：她叫小满，你就想"小满那天穿了一件麦色的外套"——</strong>——<strong>当晚，把名字和三个关键词写进手机备注："小满-做面包-五点起床-麦色外套"——下次见面前，看一眼备注，比临场硬想体面一百倍——</strong>——<strong>记不住不可耻，装作记得才可耻——真的想不起来，就坦白："对不起，我记名字特别差，你再告诉我一次？"——这句话本身，也是一种真诚——</strong>——',
+          '<strong>第二钩：钩住细节——挑"小"的，不挑"大"的——</strong>——<strong>职位、公司、头衔，是名片上的信息，谁都能记住；"她女儿在学大提琴""他说他怕坐飞机""他老家在潮汕，每年冬至要拜祖"——这些才是活人的细节——</strong>——<strong>听到之后，当场复述一遍确认："你说你每天早上五点起来烤面包？"——复述有两个作用：帮自己钉牢，也让对方知道"你在听"——</strong>——<strong>人对"被复述"的记忆，比"被赞美"深得多——</strong>——',
+          '<strong>第三钩：钩住后续——24小时内，给一个回声——</strong>——<strong>分开后第二天，发一条带细节的消息——不是"很高兴认识你，常联系"，而是"你说的那家可颂店，我今天路过了，队排得真像你说的那样"——</strong>——<strong>下次见面，第一句不是"最近怎么样"，是"上次你说的那个考试，过了吗"——前者是重新开始，后者是接着上次——</strong>——<strong>关系的温度，就藏在这句"接着上次"里——</strong>——'
+        ]
+      },
+      {
+        icon: '📊',
+        title: '经典案例对比',
+        type: 'comparison',
+        rows: [
+          {
+            before: '（行业活动散场，你和一位聊得不错的同行加了微信——你发了句："今天很高兴认识你，以后常联系！"——他回了个"好的👍"——然后就没有然后了——）——（三个月后，你在电梯里遇见他——你们同时说"哎，好久不见"——然后同时低头看手机——电梯到了，各自松了一口气）<br><br>👉 <strong>看清这条路径的 bug：你发的是"消息"，不是"钩子"——</strong>——<strong>"很高兴认识你"没有名字，没有细节，没有下一次——"常联系"是一句谁都不会执行的话——三个月后他记不住你，不是他薄情，是你没给他任何可以抓的东西——</strong>——<strong>没有钩子的告别，等于没有发生过——</strong>——',
+            after: '同一场活动，散场后当晚，你发了一条消息：<strong>"XX，今天听你说每天早上五点起来烤面包，我回家路上一直在想那个画面——你说的那家店我记下了，下周真去试试。"</strong>——他回了很长一段，还发了一张店里的照片——三个月后电梯里，他先开口："哎！你就是那个说要来试可颂的！试了吗？"——你们站在电梯口聊了十分钟，然后约了下次一起去。<br><br>👉 <strong>看清差别：你给了他一个"具体的、和你有关的"记忆点——</strong>——<strong>名字、细节、后续，三样都在——他想起你的时候，脑子里有画面，有事情，有一句没说完的话——</strong>——<strong>被记住，从来不是因为你多优秀，是因为你在他心里留下了一个可以继续的线头——</strong>——'
+          }
+        ]
+      },
+      {
+        icon: '🎬',
+        title: '场景案例',
+        type: 'case',
+        cases: [
+          {
+            type: 'negative',
+            label: '❌ 反面案例',
+            text: '（你学了几招记忆法，第二次见面就想露一手——"我记得你说过，你家养了一只金毛！"——对方愣了一下："我说的是猫。"——空气僵了两秒，你赶紧补："哦对对对，是猫，白色的对吧？"——她笑了笑，没再往下说）<br><br>👉 <strong>这条路径的 bug：你记的是"技巧"，不是"她"——</strong>——<strong>记错比不记更伤人，因为它当面证明了：你当时根本没在听——钩子的前提是真的听见；听见了才记，记不清就承认——</strong>——<strong>正确做法：把"我记得你说过……"换成"上次你提过那个事，我记不太清了，后来怎么样了？"——前者是表演，后者是在意——</strong>——'
+          },
+          {
+            type: 'negative',
+            label: '❌ 反面案例（第二种崩法）',
+            text: '（一场饭局，你脑子里有一张"价值表"：谁是老板，谁能介绍资源，谁只是来凑数的——你和老板碰了三次杯，把他的头衔记得清清楚楚；旁边那位说自己在做社区合唱团，你"嗯嗯"两声，转头去加别人的微信——）——（半年后，老板早忘了你是谁；倒是那位合唱团的，在一次活动上遇见你，客气地点了点头，没多说话）<br><br>👉 <strong>这条路径的 bug：你记的是"用处"，不是"人"——</strong>——<strong>功利性的记忆，对方是能感觉到的：你的眼睛在他身上，心在别处——这种"被记住"，留下的是被利用感，不是被看见感——</strong>——<strong>正确做法：记住那些"对你没用"的细节——他养什么花、他女儿几岁、他最近在愁什么——这些才是一个人真正的样子——</strong>——'
+          },
+          {
+            type: 'positive',
+            label: '✅ 正面案例',
+            text: '（十年后的同学会，你见到高中同桌——你脱口而出："你还是喝枸杞茶吗？高中的时候你每天带一个蓝色的保温杯。"）——（他愣住了，然后笑得眼睛都红了："你还记得这个？"——你说："当然记得，你那时候老分我喝。"——那天晚上，你们从保温杯聊到班主任，从班主任聊到各自这些年的难处，聊到饭店打烊）<br><br>👉 <strong>看清这条路径为什么成立：你记住的不是"事件"，是"他在你生命里存在过的证据"——</strong>——<strong>一个蓝色的保温杯，比"我很珍惜我们的友谊"重一万倍——细节不是细节，细节是"你被我认真看过"——</strong>——<strong>十年没见的人，被一个保温杯重新接上了——</strong>——'
+          }
+        ]
+      },
+      {
+        icon: '📝',
+        title: '今日练习',
+        type: 'practice',
+        content: [
+          '<strong>练习一（今天——三个名字）</strong><br>今天新认识的每一个人，当场叫一次他的名字，当晚写进手机备忘录，后面带一个特征和一句他说过的话——<strong>不用追求全记住，只练"当场接住"这个动作：听到名字，重复一遍；聊到一半，再叫一次——</strong>——<strong>睡前默念三遍——记不住也没关系，你已经在做一件大多数人不会做的事——</strong>——',
+          '<strong>练习二（本周——三次"细节回访"）</strong><br>从最近认识的人里挑三个，各发一条带具体细节的消息——不是"最近好吗"，是"你上次说的那个项目，后来成了吗""你说的那家店我去了，真的排队"——<strong>发完记录：谁回得长？谁回得短？谁的回复里带了反问？——</strong>——<strong>你会发现：关系的温度，往往就是一条"接着上次"的消息点起来的——</strong>——',
+          '<strong>练习三（本月——做一次"关系记忆复盘"）</strong><br><strong>翻一遍微信，找出五个"加了但再没说过话"的人——每个写一句你记得的细节；写不出来的，就写"我当时为什么加他"——</strong>——<strong>然后挑一个，把细节发出去——不用长，一句就够——</strong>——<strong>最后问自己：我希望别人记住我的什么？——是头衔、成绩，还是"那个人当时真的在听我说话"？——</strong>——<strong>你想被怎样记住，就先去那样记住别人——这是记忆唯一公平的地方——</strong>——'
+        ]
+      },
+      {
+        icon: '💎',
+        title: '今日金句',
+        type: 'quote',
+        quote: 'My name is Cora. I have taught the beginner pottery class at the community center for thirty-one years, and in that time I have learned that people do not remember the best potter in the room. They remember the one who remembered them. There was a man named Peter who took my class for a single semester, twelve years ago. He was not talented. His bowls leaned to one side like they were listening to something far away. But every week he asked the person beside him what they were making, and the week after he asked how it turned out. He remembered. Not in a showy way — he just kept the thread. Years later a woman came back to the studio and the first thing she said was, is Peter still here. I said he moved away. She said, he was the only one who ever asked about my daughter and her piano recital. I never forgot that. I have thought about Peter a great deal since. People imagine that being memorable is a matter of charisma, of saying something brilliant, of being the loudest or the funniest or the most impressive person at the table. It is not. I have watched a thousand students come through that door, and the ones who stay in our memory are almost never the ones who performed. They are the ones who paid attention. Attention is quiet. It does not announce itself. But it leaves a mark the way a thumb leaves a mark in soft clay — small, specific, and impossible to fake. Most of us listen with half an ear, waiting for our turn. We ask how are you and do not wait for the answer. We collect names the way we collect receipts, and then we wonder why no one remembers us. But a name is not a receipt. A name is the shortest sentence in the language of being seen. Say it once when you meet someone. Say it again before you part. Write it down that night with one small true thing attached to it, the thing they told you while looking somewhere else — the dog, the daughter, the bread at five in the morning. And then, the next time, do not begin again. Begin where they left off. Ask about the exam, the mother, the sourdough starter that would not rise. That is all a relationship is — a series of places where someone left off, and someone else came back to. The world is full of people who will remember your name because they want something. Be the one who remembers because you were actually there. That is the whole trick, and it is not a trick at all.',
+        author: '—— 原创:写给所有"见过就忘""加了微信却不知从何聊起"的人'
+      }
+    ]
   }
 }
