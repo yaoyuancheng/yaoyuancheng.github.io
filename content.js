@@ -14299,5 +14299,97 @@ const lessons = {
         author: '—— 原创:写给所有"见过就忘""加了微信却不知从何聊起"的人'
       }
     ]
+  },
+  170: {
+    title: '重逢的艺术——把"好久不见"，变成"好像昨天才见"',
+    icon: '🕰️',
+    subtitle: '昨天你学了让人记住——你在对方心里留了一个钩子——可钩子最常被派上用场的时刻，不是下周的例会，是多年后的重逢——老同学、老同事、老朋友——"好久不见"之后，三句话就冷场——不是感情淡了，是你们之间只剩"过去"可聊——今天学：重逢的艺术——重逢不是考古，是更新——不翻旧账、不复读青春、不拍卖现在——而是让对方看见：这些年，你变成了谁——记住一句话：一场好的重逢，不是"我们还是我们"，是"你变了，而我想听听"——',
+    sections: [
+      {
+        icon: '🎯',
+        title: '核心概念',
+        type: 'text',
+        content: [
+          '（高铁站候车，你听见有人喊你的名字——回头，一张既熟悉又叫不出名字的脸："不认识了？高中坐你后排的！"——你赶紧笑："哎呀！好久不见！"——接下来三分钟，你们把能想起的同学名字报了个遍，然后同时看表："那个……我先检票了，常联系啊。"——转身那一刻，两个人都松了一口气，也都有一点失落）',
+          '（不怪你们——是重逢这件事，大多数人只用了一种打法：考古——挖过去——可过去是有限的：一件糗事笑三次就不好笑了，一段青春聊两回就见底了——考古挖完，关系再次入土——）',
+          '<strong>重逢有两条路：一条往回走，叫考古；一条往前走，叫更新——</strong>——<strong>考古的人问"还记得吗"，更新的人问"这些年你怎么样"——考古用过去换笑声，用完就没了；更新用现在换未来，越聊越多——</strong>——<strong>真正走得远的关系，重逢时都在做同一件事：确认"我们都变了"，然后对彼此的新版本产生好奇——</strong>——',
+          '一场好的重逢，分三步：<strong>接住过去</strong>——用一个具体细节，证明你记得；<strong>更新现在</strong>——问一句让对方愿意展开的近况；<strong>留下未来</strong>——约一件具体的、下次能做的事——<strong>三步里，最常被跳过的是第三步——所以大多数重逢，都停在"常联系"里，再也没有然后——</strong>——'
+        ]
+      },
+      {
+        icon: '🧠',
+        title: '为什么"好久不见"这么容易冷场？',
+        type: 'tip',
+        tipType: 'gold',
+        label: '重逢的心理规律',
+        content: [
+          '<strong>规律一：记忆会美化，也会固化——</strong>——<strong>心理学上叫"怀旧滤镜"：人回忆过去时，会自动调亮颜色、过滤狼狈——重逢时你说"你一点没变"，其实是在用二十年前的旧照片看她——而一个活生生的人，最怕被当成旧照片——</strong>——<strong>所以比"你还是老样子"更动人的是："你变了，但笑起来还是那个劲儿。"——前者是考古，后者是看见——</strong>——',
+          '<strong>规律二：共同回忆是有限库存——</strong>——<strong>两个人的过去是固定的：就那么几次旅行、那么几个同学、那么几件糗事——一次聊完，第二次见面就没存货了——关系如果只靠回忆供能，注定只能见一次面——</strong>——<strong>而"现在"是无限续杯的：新工作、新爱好、新的难处——每更新一次，就多出一段可以继续聊的将来——</strong>——',
+          '<strong>规律三：重逢的峰值在开头，锚点在结尾——</strong>——<strong>刚认出彼此的那两分钟，情绪最高；散场前的那句话，记忆最深——开头失误还能补救，结尾说砸了就是全部——</strong>——<strong>所以别在结尾说"以后常联系"，说一件具体的事："你说的那个展，我下月去看，一起去？"——"常联系"是客套，具体是约定——</strong>——',
+          '<strong>但记住：重逢不是检阅，是叙旧——</strong>——<strong>同学会最大的暗流，是有人把重逢开成了业绩发布会——房子、孩子、位子——说的人得了三秒优越感，听的人在心里默默划了一道线——</strong>——<strong>成年人的重逢，最好的姿态不是"我过得比你好"，是"我过得还行，你呢？真的呢？"——</strong>——'
+        ]
+      },
+      {
+        icon: '✍️',
+        title: '实操方法：重逢三步法——接住过去，更新现在，留下未来',
+        type: 'text',
+        content: [
+          '<strong>第一步：接住过去——别考记忆力，给记忆力——</strong>——<strong>"还记得我吗"是给对方出题，答不上来，两个人都尴尬——改成自报家门加一个具体坐标："我是老周，坐你后排那个，总借你橡皮。"——如果记得对方的一个细节，就用它开场："你还是喝枸杞茶吗？"——</strong>——<strong>一个具体细节的分量，抵过十句"好久不见"——它证明的不是你记性好，是"那段日子在我这儿，从未归档"——</strong>——',
+          '<strong>第二步：更新现在——问"变化"，不问"进度"——</strong>——<strong>"现在在哪高就？结婚了吗？孩子几岁？"——这是查户口，问的是社会进度条；换成"这些年，你最大的变化是什么？""你现在最投入的一件事是什么？"——问的是人——</strong>——<strong>对方回答时，别急着接自己的版本，先追问一句"怎么走到这条路上的？"——追问，是成年人之间最贵的认真——</strong>——',
+          '<strong>第三步：留下未来——把"改天"换成"哪天、干什么"——</strong>——<strong>散场前五分钟，从刚才的对话里捞一件具体的事："你提到在学陶艺——下月有个市集，周六去逛逛？"——现场定下时间，比"有空约"强一百倍——</strong>——<strong>回家后第二天，发一条消息补上句号："今天见到你真好，你说的那本书我下单了。"——重逢不是终点，是续集的第一集——</strong>——',
+          '<strong>最后一条，给有旧账的人：如果上次见面有没说完的感谢、没送出的道歉、没解开的疙瘩——重逢是最好的窗口——但只提一次，说清就停："那年那件事，我一直想跟你说声谢谢/对不起，说完我就踏实了。"——</strong>——<strong>对方接不接，是他的自由；你把该说的说了，重逢才算真正翻了篇——</strong>——'
+        ]
+      },
+      {
+        icon: '📊',
+        title: '经典案例对比',
+        type: 'comparison',
+        rows: [
+          {
+            before: '（同学会，包间里——"你现在在哪高就？""哦，我去年升总监了，管三十多号人。"——"孩子上国际学校了吧？我们家那个也是……"——三杯酒下肚，包间里分出三个圈子：混得好的、听着的、刷手机的——散场时，大家在群里发"常联系"，然后这个群一年没有再响过）——（回家路上，你觉得有点累，却说不上哪里不对劲）<br><br>👉 <strong>看清这条路径的 bug：这顿酒喝的不是重逢，是排位赛——</strong>——<strong>每个人都急着把二十年的成绩单摊在桌上，没人有空问一句"你这二十年，难不难"——排位赛的结局永远是：赢的人收获嫉妒，输的人收获沉默，所有人都不再想见第二次——</strong>——<strong>重逢最贵的不是信息，是那个"你不用证明什么"的场——你把场子弄丢了——</strong>——',
+            after: '同一场同学会，你坐在角落，先跟当年的同桌说话："你还是先笑再说话，一点没变。"——他愣了一下，笑了："你这张嘴。"——同学轮番敬酒，你没接"混得怎么样"这个话头，只问他："听说你回去当老师了？怎么会想回县城？"——他讲起班里一个留守的孩子，讲了二十分钟，眼睛是亮的——散场前你问："你说你们缺旧书，我家里有一箱，下周给你寄？"——他认真地和你加了好友——三个月后，他寄来一袋家乡的茶，附了张纸条："那天聊得最像个人。"<br><br>👉 <strong>看清差别：你没有赢下这场酒，你赢下了这个人——</strong>——<strong>一处细节的认出，一个往深处走的追问，一件具体能落地的约定——三样东西，把"老同学"重新接成了"朋友"——</strong>——<strong>重逢不是把过去重播一遍，是在旧地基上，盖一间新屋——</strong>——'
+          }
+        ]
+      },
+      {
+        icon: '🎬',
+        title: '场景案例',
+        type: 'case',
+        cases: [
+          {
+            type: 'negative',
+            label: '❌ 反面案例',
+            text: '（和前同事在商场撞见，你热情地拉住他："哎呀！好久不见！还记得我吗？"——他眼神飘了两秒："呃……你是……"——你心里凉了半截："我是小陈啊！当年一起做项目的！"——"哦哦哦！小陈！"——他表情热情起来，但你俩都清楚，他其实没想起来——接下来你们聊了三句天气，就互相说着"改天喝茶"散了）<br><br>👉 <strong>这条路径的 bug：你用"考记忆力"开场，等于让对方在第一时间就欠你一个尴尬——</strong>——<strong>"还记得我吗"这套开场，默认了"你应该记得我"，一旦对方没想起来，两个人接下来的每句话都踩在不好意思上——</strong>——<strong>正确做法：自报家门加一个坐标——"我是小陈，以前跟你在A项目共事，你教过我做排期表。"——给对方台阶，就是给自己机会——</strong>——'
+          },
+          {
+            type: 'negative',
+            label: '❌ 反面案例（第二种崩法）',
+            text: '（家庭聚会，你和十几年没见的表哥坐在一桌——你问："现在做什么工作？""结婚了没？""房子买在哪儿？"——每个问题他都答得很短："打工。""没。""租的。"——你觉得气氛不对，又补了一句"我跟你说，现在不买房，以后更买不起"——他笑了笑，起身去阳台抽烟，一顿饭没再回来）<br><br>👉 <strong>这条路径的 bug：你把"关心"问成了"审计"——</strong>——<strong>工作、婚育、房子——这三问是成年人的体面雷区：你不知道他刚被裁员、刚离婚、刚被房东涨租——每个问题都可能踩在伤口上，而他得笑着解释——</strong>——<strong>正确做法：问"这些年你最大的变化是什么"，让权在他手里——他愿意说的，自然会说到工作、说到生活；他不愿意说的，一句"都不容易"也接得住——</strong>——'
+          },
+          {
+            type: 'positive',
+            label: '✅ 正面案例',
+            text: '（你在父亲的老同学聚会上，见到一位三十年没见的叔叔——你端着茶过去："我小时候见过您，您那年给我爸送过一箱苹果，红富士，我记得特别甜。"）——（叔叔眼睛一下亮了："你是老李家的小子！"——你们没聊"现在谁混得好"，你问他："听我爸说您后来去西北了？那边怎么样？"——他讲了半个小时的戈壁、风沙、还有他种的枣树——临走你问："您说的枣，明年熟了给我寄一箱？我拿我爸的茶换。"——他哈哈大笑，当场记下你的地址）<br><br>👉 <strong>看清这条路径为什么成立：你用"过去的一个具体物证"敲开门，用"现在的好奇"坐进去，用"未来的一个小约定"把门留着——</strong>——<strong>一箱苹果的记得，比"您一点没变"真诚；一句"那边怎么样"的追问，比三十句客套有分量——</strong>——<strong>重逢的重量，从来不在"当年"，在"后来"——你问了他的后来，他就成了你后来还会联系的人——</strong>——'
+          }
+        ]
+      },
+      {
+        icon: '📝',
+        title: '今日练习',
+        type: 'practice',
+        content: [
+          '<strong>练习一（今天——一条带细节的"久别消息"）</strong><br>翻通讯录，找一个三年以上没联系、但你偶尔会想起的人——发一条消息，不催见面，只放一个细节："上次一起吃饭，你说你妈做的腊肠特别香，我到现在还记得那个味道。最近怎么样？"——<strong>发完观察：他是只回"哈哈"、还是回了一段话、还是直接约你？——</strong>——<strong>细节是会自己走路的——你只管把它放出去——</strong>——',
+          '<strong>练习二（本周——一次一对一的"更新式重逢"）</strong><br>约一个老朋友单独见一面，别搞群聚——见面前提早想好三个问题：你现在最投入的一件事是什么？这些年你最大的变化是什么？最近有没有什么难处？——<strong>全程记住一个原则：他说的部分，要比你说的长——</strong>——<strong>散场前，从对话里捞一件具体的事，定下"下一次"——不见得马上约，但要有名有姓：一次展览、一顿饭、一本书——</strong>——',
+          '<strong>练习三（本月——一次"了结式重逢"）</strong><br><strong>想一个人——那个你们之间有过没说完的谢谢、道歉或误会的人——给他发一条消息，约一次见面或打一次电话——</strong>——<strong>开场就说清来意："不是为了翻旧账，是有一句话，我一直想当面跟你说。"——说完就停，不要求回应，不做解释，不追加委屈——</strong>——<strong>做完写下此刻的感觉——你会发现：重逢最难的部分不是对方接不接，是你敢不敢开口——开口那一刻，重逢就已经完成了一半——</strong>——'
+        ]
+      },
+      {
+        icon: '💎',
+        title: '今日金句',
+        type: 'quote',
+        quote: 'My name is Walter. I have run the same barbershop on the corner of Ninth Street for forty-two years, and in that time I have watched a great many people come back. They leave for the city, they leave for the war, they leave for a marriage or a job or a reason they cannot name, and one day the bell over my door rings and there they are, older, quieter, holding their hat the way they did when they were seventeen. I have learned something about that moment. The ones who come in saying remember me, remember me, are almost always disappointed, because memory is a poor host — it keeps one chair and forgets the rest. But the ones who come in and say, I was just thinking about the summer you cut my hair before my father died, and I wondered how you were — those are the ones who stay for an hour. They do not ask me to remember them. They remember me first, and in that remembering, the whole room grows warm. People think a reunion is about the past. It is not. The past is a small town; you can walk it in ten minutes and there is nothing left to buy. A reunion is about the present — the strange, brave, tired person standing in front of you now, wanting to know if the thread is still there. So when someone you have not seen in years walks in, do not say you have not changed. They have changed. You have changed. That is the whole miracle — that two people can be remade by twenty years and still recognize each other by the way they laugh. Ask them about the road, not the map. Ask them what they are building now, and what broke along the way. Do not perform your life for them; open it like a door. And before they leave, put one small thing on the calendar — a book, a coffee, a box of dates in the autumn — not because you need an appointment, but because a reunion without a future is only a visit to a museum. I am seventy-one years old. I have seen a thousand men come back to this chair. The ones who say, let us do this again next year, are the ones I see again next year. It is that simple, and it is that rare.',
+        author: '—— 原创:写给所有"好久不见，却不知从何说起"的人'
+      }
+    ]
   }
 }
