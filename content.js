@@ -14392,4 +14392,98 @@ const lessons = {
       }
     ]
   }
+,
+  171: {
+    title: '安慰的艺术——把"别难过了"，变成"我在，你慢慢说"',
+    icon: '🫖',
+    subtitle: '昨天你学了重逢，把离散多年的人重新接回生命里——可关系真正的分水岭，不在重逢时的热络，而在他跌了一跤、你站在旁边的这一刻——朋友失业、亲人病倒、深夜他打来电话，说"没事"——你想安慰，一开口却是"想开点""都会过去的""至少你还有工作"——他的脸一点点暗下去——不是你不关心，是你用了"修理"的方式，去对一颗"只想被陪一会儿"的心——今天学：安慰的艺术——先接住情绪，再谈事情——不评判、不比惨、不急着给方案——记住一句话：他不需要你把他拉出坑，他需要你下到坑里，陪他站一会儿——',
+    sections: [
+      {
+        icon: '🎯',
+        title: '核心概念',
+        type: 'text',
+        content: [
+          '（深夜十一点，朋友打来电话，声音是压着的："我被裁了。"——你脑子飞快地转，想当一个合格的成年人——"怎么这么突然？是不是你得罪谁了？"——"不会的，你能力这么强，明天就有人来挖你。"——"我想想，我认识一个做HR的朋友，我把你推过去。"——电话那头沉默了几秒，说："嗯，谢谢你，我先睡了。"——挂了电话你才想起来：整通电话，他没说完过一句话——）',
+          '（这是安慰最常见的失败：我们以为安慰是"修"，对方要的其实是"填"——不是帮他把问题解决掉，是别让他一个人待在那个洞里——你一开口就递工具，等于告诉他：你的情绪是一个需要被处理的故障——于是他把情绪收回去，把你也一起收回去——）',
+          '<strong>安慰有两条路：一条叫修理，一条叫在场——</strong>——<strong>修理的人讲道理、比惨、给方案、打鸡血；在场的人先坐下来，说一句"这事儿搁谁身上都难受"——</strong>——<strong>修理想让情绪快点结束，在场允许情绪待一会儿——前者是灭火，后者是陪着看火——</strong>——<strong>而情绪这个东西很奇怪：你越赶它走，它越要证明自己该留下；你说"你可以待着"，它反而慢慢就小了——</strong>',
+          '一次完整的安慰，分三层：<strong>在场</strong>（我在）→ <strong>命名</strong>（这确实很难）→ <strong>托底</strong>（具体的一件小事）——<strong>三层里，最少人做到的是第一层——大多数人从第一句就跳到了第三层，甚至直接跳到了"解决问题"——可人只有先被接住，才有余力去解决事情——</strong>——<strong>顺序错了，再好的建议都是噪音——</strong>'
+        ]
+      },
+      {
+        icon: '🧠',
+        title: '为什么"想开点"是最没用的一句？',
+        type: 'tip',
+        tipType: 'gold',
+        label: '安慰的心理规律',
+        content: [
+          '<strong>规律一：情绪要先被命名，才会降温——</strong>——<strong>心理学上叫"情绪标注"：当一个人能准确说出"我现在是委屈，不完全是生气"，大脑的警报就会降一级——</strong>——<strong>所以"你这不是小事，这是真的难过"这句话，比"别难过"有效一百倍——前者是给情绪发一张身份证，后者是给情绪下逐客令——</strong>——<strong>被赶走的情绪不会消失，它只会换个你不注意的时间再来一次——</strong>',
+          '<strong>规律二：人在痛苦时，听不懂道理——</strong>——<strong>不是不愿听，是处理器被占满了——大脑的威胁系统一启动，讲道理会被自动翻译成三句话："你不懂我""你嫌我烦""你想赶紧结束这场对话"——</strong>——<strong>道理要等情绪退潮之后再讲，甚至要等他自己讲——他讲出来的道理才叫道理，你讲出来的，只叫说教——</strong>',
+          '<strong>规律三：比惨是隐形的抢戏——</strong>——<strong>"我当年比你更惨"这套开场，本意是"我懂你"，效果却是"你的痛苦不算什么，听听我的"——主角当场从对方换成了你——</strong>——<strong>真正的共情不用比，一句"这真的很难"就够——你不需要比他更痛，你需要让他觉得"我的痛有人看见"——</strong>',
+          '<strong>规律四：每一个"至少"，都是在否定——</strong>——"至少你还有工作""至少孩子还小""至少人没伤着"——<strong>"至少"的潜台词是"你不该这么难过"——而情绪一经否定，只会更用力地证明自己——</strong>——<strong>还有一句藏着刀的话："我早就说过了。"——这句一出口，你就不再是来安慰的人，是来对答案的人——</strong>',
+          '<strong>最后：沉默是合法的回应——</strong>——<strong>你不必填满每一秒——有些时候，最好的安慰就是一句"我在"，然后安静地陪他坐着，让他知道哭出来也没人催——</strong>——<strong>安慰的门槛从来不是口才，是耐心——</strong>'
+        ]
+      },
+      {
+        icon: '✍️',
+        title: '实操方法：安慰四步法——接住、留在、托底、回访',
+        type: 'text',
+        content: [
+          '<strong>第一步：接住——先说情绪，不说事情——</strong>——<strong>无论他说什么，你的第一句既不要是问题，也不要是指令，而是一句认可："这事儿搁谁身上都难受。""你撑到现在，已经很不容易了。"——</strong>——<strong>如果他说"我没事"，别拆穿，只回一句："嗯，我在。"——这四个字，是他不必强撑的许可证——</strong>',
+          '<strong>第二步：留在——问一个可以让他说下去的问题——</strong>——<strong>不要问"那你打算怎么办"——那是催他复工，不是陪他难过——问："最难的是哪一块？""这几天你一个人待着，还是有人陪？"——</strong>——<strong>他说的时候，不打断、不纠正、不接自己的版本——他只说三句就停了，你也别急着补——停顿不是冷场，是他在决定要不要把更里面的东西拿出来——</strong>',
+          '<strong>第三步：托底——把"有事找我"，换成一件具体的事——</strong>——<strong>"有事找我"是礼貌，不是安慰——具体的是："明天我开车送你去医院。""这周我每天给你带一份饭。""周三晚上我来，陪你把简历过一遍。"——</strong>——<strong>然后补一句留门的话："不想说就不说，我就在这儿。"——这句话的分量在于：你允许他不领情——</strong>',
+          '<strong>第四步，也是最容易被漏掉的一步：三天后再出现一次——</strong>——<strong>安慰不是一次性事件——事发那几天，人人都来；真正的难关，在人群散了之后——第三天发一条消息："今天怎么样？"——不用长，这一条，比当天十句"保重"都重——</strong>——<strong>记住：热闹处的是人情，冷清处的才是情分——</strong>'
+        ]
+      },
+      {
+        icon: '📊',
+        title: '经典案例对比',
+        type: 'comparison',
+        rows: [
+          {
+            before: '（朋友被裁员，晚上给你打电话——你张口就是："怎么这么突然？你是不是哪里没做好？"——"现在大环境就这样，想开点。"——"你这能力还怕没人要？我认识一个做HR的，回头把你推过去。"——然后你开始讲自己当年被裁的经历，讲得眉飞色舞——他"嗯嗯"了两声，说"我先睡了"——你以为这次通话很成功，还发了条朋友圈："成年人的崩溃，都在深夜。"——此后一个月，他没再联系过你）<br><br>👉 <strong>看清这条路径的 bug：你把安慰开成了工作经验分享会——</strong>——<strong>"怎么这么突然"是追责，"想开点"是催促，"我认识一个HR"是把他变成待办事项——他一晚上收到的不是陪伴，是三个任务加一场讲座——</strong>——<strong>最要命的是最后那段"我当年"——他鼓起勇气打这通电话，是想当一次主角，结果话筒被你拿走了——</strong>',
+            after: '（第二天早上，你没打电话，直接拎着两瓶啤酒去了他家——门开了，他头发乱着，说"家里乱"——你说"乱就乱吧"，把酒放桌上，坐下，没说话——十几分钟后他自己开口："房贷还有二十年。"——你说："嗯。"——"孩子下个月要交学费。"——"嗯。"——"我今年四十二了。"——你说："这真的很难。"——他忽然就哭了——哭完你说："这周我陪你把简历过一遍，周三晚上，我带饭过来。"——周三你去了；周六他投了第一份；三个月后他入职，喝酒时他说："那天你没劝我，我记着。"）<br><br>👉 <strong>看清差别：你没有让他好起来，你让他敢不好——</strong>——<strong>两瓶啤酒、几声响亮的"嗯"、一件具体的事——安慰的全部技术含量，就在这里——</strong>——<strong>他不是被你的道理救回来的，是被"有人陪我待在谷底"这件事，一点一点缓过来的——</strong>'
+          }
+        ]
+      },
+      {
+        icon: '🎬',
+        title: '场景案例',
+        type: 'case',
+        cases: [
+          {
+            type: 'negative',
+            label: '❌ 反面案例',
+            text: '（朋友失恋，哭着给你打电话——你说："我早就觉得他不合适。"——"下一个更好，你值得更好的。"——"别哭了，为这种人不值当。"——然后你开始讲自己分手时怎么三天就走出来了——她慢慢不哭了，说"嗯，你说得对"——挂了电话，她再也没在难过的时候打给过你）<br><br>👉 <strong>这条路径的 bug：你在帮她"赶紧不哭"，而不是陪她"好好哭一场"——</strong>——<strong>"我早就觉得"是事后诸葛亮，"下一个更好"是提前发车，"别哭了"是给情绪下禁令——她需要的不是被说服，是被允许——</strong>——<strong>正确做法："你们在一起四年，这个难受，不是一句算了就能打发的。"——然后闭嘴，听——</strong>'
+          },
+          {
+            type: 'negative',
+            label: '❌ 反面案例（第二种崩法）',
+            text: '（同事的父亲住院，你在办公室当众问："你爸怎么样了？确诊什么了？要化疗吗？得花多少钱？"——他脸僵了一下，说"还在查"——你继续说："我跟你说，这病得抓紧，我二舅就是拖久了……"——下午你发现他换了工位，从那以后，部门里谁家有事，都不太跟你说）<br><br>👉 <strong>这条路径的 bug：你在用"关心"的名义，审问一个人最脆弱的私事——</strong>——<strong>病、钱、家里的难堪——这三样，除非对方主动开口，否则一句都不该问——在公开场合问，更是把他架在所有人面前——</strong>——<strong>正确做法：私信一句"听说家里有点事，不用回复，需要跑腿或者换班，随时说"——把主动权给他，把帮助变成待命，而不是盘问——</strong>'
+          },
+          {
+            type: 'positive',
+            label: '✅ 正面案例',
+            text: '（朋友的母亲去世，追悼会结束，人都散了——你没说"节哀顺变"，也没说"阿姨也算解脱了"——你走到他旁边，说："我留下来，陪你收东西。"——你帮他把花圈上的挽联一张张叠好，把他母亲的照片装进盒子——全程没提一句"你要坚强"——送他回家的路上，你说："下周三我再来一趟，陪你把阿姨的衣服理出来，你一个人弄，太难。"——他点点头，隔了很久说："你是今天唯一一个没劝我的人，也是唯一一个，让我觉得我妈真的走了的人。"）<br><br>👉 <strong>这条路径为什么成立：丧事里的安慰，靠手不靠嘴——</strong>——<strong>"节哀"是社交礼仪，"我留下来收东西"才是陪伴——在一个人最没力气的时候，替他把具体的事做掉，就是最高级的安慰——</strong>——<strong>还有那句"下周三我再来"——它给了他一个可以喘气的、确定的将来了——</strong>'
+          }
+        ]
+      },
+      {
+        icon: '📝',
+        title: '今日练习',
+        type: 'practice',
+        content: [
+          '<strong>练习一（今天——一条不带建议的消息）</strong><br>想一个最近在难处里的人——失业的、生病的、分手的、家里出事的——给他发一条消息，不许出现"会好的""加油""想开点"这些词——只允许三句话："想到你了。""这件事真的很难。""需要的时候，我在。"——<strong>发完留意他的回复长度——你会发现，不劝，反而让人愿意多说——</strong>',
+          '<strong>练习二（本周——一次二十分钟的"只听不说"）</strong><br>约一个正在难处的人喝杯东西，或者打个电话——规则：前二十分钟，你只做三件事：听、点头、说"嗯"——不打断、不纠正、不分享自己的经历，哪怕你已经想到了特别好的办法——<strong>二十分钟后再问一句："你想听我的想法吗？"——如果他摇头，就继续听——</strong>——<strong>做完记下：他有没有在某个地方停顿、又继续？那个停顿，就是信任长出来的地方——</strong>',
+          '<strong>练习三（本月——清点你的"至少"）</strong><br><strong>拿张纸，写下你对别人说过的所有"至少"："至少你还有工作""至少人没事""至少你还年轻"——然后逐句改写成"这件事真的很难"的句式——</strong>——<strong>再写下三件你愿意为某个具体的人做的、具体的事：送一次饭、陪一次医院、接一次孩子——找机会，真的做掉一件——</strong>——<strong>做完写下感受：安慰这件事，从来不靠说得多好，靠的是"你真的在"——</strong>'
+        ]
+      },
+      {
+        icon: '💎',
+        title: '今日金句',
+        type: 'quote',
+        quote: 'My name is Miriam. I have been the night nurse on the fourth floor of St. Anne\'s for twenty-nine years — twelve beds, one hallway that hums after midnight, a kettle I keep filled for the families, and a chair by the window that I have never once seen empty for long. In that time I have learned that people do not come to a hospital to be fixed. They come to be accompanied. The ones who arrive with advice, with statistics, with stories of their own uncle who had the same thing and died or did not — they mean well, and they leave in ten minutes, because there is nothing for them to do here. But the ones who sit down, who take off their coat, who say nothing for a while and then say, that sounds very hard — those are the ones the patients ask about months later. They do not remember what was said. They remember that someone stayed. Here is what I have learned about comfort. It is not a speech. It is a body in a chair. It is a hand that does not flinch when you cry. It is a person who does not look at the clock. Grief and fear are not problems to be solved; they are weather, and you cannot argue a storm out of the sky. You can only stand in it with someone until it passes. And it will pass — not because you said the right thing, but because you did not leave. So when someone you love is in the dark, do not bring a flashlight and a map. Bring a chair. Sit down. Say little. Stay long. Tomorrow, come back. The second visit is the one that counts. Anybody can show up for the fire; the ones who come back when the smoke has settled are the ones who become family. I have held a thousand hands at three in the morning. Not one of them ever asked me for an explanation. They asked me to stay. So stay. It is that small, and it is that everything.',
+        author: '—— 原创:写给所有"想安慰却不知道怎么开口""一开口就把人劝远了"的人'
+      }
+    ]
+  }
 }
